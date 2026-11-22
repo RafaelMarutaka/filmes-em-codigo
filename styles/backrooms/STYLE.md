@@ -1,4 +1,4 @@
-# Liminal Found Footage — Style Prompt
+# Fita Perdida (Found Footage) — Style Prompt
 
 > Camcorder tapes recovered from empty, endless, fluorescent-lit spaces. Rules instead of monsters.
 > Genre reference (grammar only): "the Backrooms" internet folklore and new-weird / rule-horror; 1990s consumer camcorder footage. **Never** use the word "Backrooms", wiki "Level" numbers, community entity names, or any existing organisation or logo inside the film. Everything on screen (rules, forms, company voice, any presence) is original.

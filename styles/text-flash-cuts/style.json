@@ -1,7 +1,7 @@
 {
  "slug": "text-flash-cuts",
  "num": "42",
- "en": "Text Flash Cuts",
+ "en": "Cortes Rápidos de Texto",
  "cn": "文字闪切",
  "category_en": "Graphic & Type",
  "category_cn": "平面排版",
@@ -18,5 +18,7 @@
   "image-generation"
  ],
  "frame_sec": 38.3,
- "dur": 46.2
+ "dur": 46.2,
+ "en_original": "Text Flash Cuts",
+ "pt": "Cortes Rápidos de Texto"
 }

@@ -1,7 +1,7 @@
 {
  "slug": "security-xray",
  "num": "91",
- "en": "Security X-ray",
+ "en": "Raio-X de Segurança",
  "cn": "安检 X 光",
  "category_en": "Instruments & Evidence",
  "category_cn": "仪器实证",
@@ -15,5 +15,7 @@
   "Product internals"
  ],
  "frame_sec": 16.6,
- "dur": 51.9
+ "dur": 51.9,
+ "en_original": "Security X-ray",
+ "pt": "Raio-X de Segurança"
 }

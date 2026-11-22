@@ -1,7 +1,7 @@
 {
  "slug": "blueprint",
  "num": "44",
- "en": "Blueprint",
+ "en": "Planta Técnica (Blueprint)",
  "cn": "工程蓝图",
  "aka": [
   "蓝图 / 工程制图"
@@ -18,5 +18,7 @@
   "Tech explainers"
  ],
  "frame_sec": 33.3,
- "dur": 46.7
+ "dur": 46.7,
+ "en_original": "Blueprint",
+ "pt": "Planta Técnica (Blueprint)"
 }

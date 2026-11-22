@@ -1,7 +1,7 @@
 {
  "slug": "one-bit-dither",
  "num": "72",
- "en": "1-bit Dither",
+ "en": "Pontilhado 1-bit",
  "cn": "1-bit 点阵",
  "category_en": "Screens & Interfaces",
  "category_cn": "屏幕界面",
@@ -15,5 +15,7 @@
   "Night scenes and space"
  ],
  "frame_sec": 25.5,
- "dur": 50.0
+ "dur": 50.0,
+ "en_original": "1-bit Dither",
+ "pt": "Pontilhado 1-bit"
 }

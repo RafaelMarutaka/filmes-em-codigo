@@ -1,6 +1,6 @@
 # Briefing Board kit
 
-A small, data-driven kit for the Engineering Briefing Board look: one real whiteboard wall, filmed,
+A small, data-driven kit for the Quadro de Engenharia look: one real whiteboard wall, filmed,
 with cut-out photographs mounted on it, magnetic tags, magnets, a steel ruler, rubber stamps, and
 marker ink that draws itself. One renderer makes the film, stills, thumbnails and social cards.
 Everything is 2D layers composited with depth (parallax, shadows, depth of field, motion blur).

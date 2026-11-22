@@ -1,4 +1,4 @@
-# Glass Product Render — Style Prompt
+# Produto em Vidro 3D — Style Prompt
 
 > Launch-film product rendering in transparent and frosted glass: a dark-field studio, strip-light sweeps, dispersion, caustics, light travelling inside the object, slow exploded views that snap shut on a downbeat.
 > References (grammar only): premium launch films (a sweep drawing a contour in the dark, slow orbits, macro rack focus, cuts on the beat, ultra-thin wide type); transparent-hardware adverts (internals as ornament, exploded views, black and white plus one accent); dark-field glass photography. Copy none of their silhouettes, typefaces, sounds or colour templates, and never name them in the film.

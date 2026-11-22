@@ -1,11 +1,11 @@
-# Woodcut Print — our demo
+# Xilogravura — our demo
 
 One example among many. Don't reuse its story, arc, shots, props or timings.
 
 Demo: *The Bell Founder* (58.5 s) · `woodcut.mp4` · source in [`demo/`](demo/)
 
 
-A 40–60 second film in the Woodcut Print style.
+A 40–60 second film in the Xilogravura style.
 
 ## Story & structure
 
@@ -63,7 +63,7 @@ Demo action timings: hammer lean-back 4 frames → strike 2 frames → settle + 
 
 ## End card
 
-Title carved *mirrored* into the block (IM Fell English SC), readable only once the first print is pulled. End card: a fresh print: title carved out of a black panel, a small bell keeping the film's last copper highlight, then *A Woodcut Print*, Filmes em Código, Rafael Marutaka × Claude Opus 5.5 and credits in letterpress. The final knife cut under the title echoes the first sound of the film. The "Rafael Marutaka × Claude Opus 5.5" sign-off belongs to this library's demo only; a user's film carries no Rafael Marutaka credit and no copy of this card.
+Title carved *mirrored* into the block (IM Fell English SC), readable only once the first print is pulled. End card: a fresh print: title carved out of a black panel, a small bell keeping the film's last copper highlight, then *A Xilogravura*, Filmes em Código, Rafael Marutaka × Claude Opus 5.5 and credits in letterpress. The final knife cut under the title echoes the first sound of the film. The "Rafael Marutaka × Claude Opus 5.5" sign-off belongs to this library's demo only; a user's film carries no Rafael Marutaka credit and no copy of this card.
 
 ## Build notes
 

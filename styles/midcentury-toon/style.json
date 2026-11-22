@@ -1,7 +1,7 @@
 {
  "slug": "midcentury-toon",
  "num": "55",
- "en": "Mid-century Cartoon",
+ "en": "Desenho Retrô Anos 50",
  "cn": "50s 扁平卡通",
  "category_en": "Cartoons",
  "category_cn": "卡通动画",
@@ -15,5 +15,7 @@
   "How-to"
  ],
  "frame_sec": 3.2,
- "dur": 40.0
+ "dur": 40.0,
+ "en_original": "Mid-century Cartoon",
+ "pt": "Desenho Retrô Anos 50"
 }

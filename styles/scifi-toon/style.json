@@ -1,7 +1,7 @@
 {
  "slug": "scifi-toon",
  "num": "54",
- "en": "Sci-Fi Sitcom Toon",
+ "en": "Desenho de Sitcom Sci-Fi",
  "cn": "科幻情景喜剧卡通",
  "category_en": "Cartoons",
  "category_cn": "卡通动画",
@@ -15,5 +15,7 @@
   "Social shorts"
  ],
  "frame_sec": 11.5,
- "dur": 57.5
+ "dur": 57.5,
+ "en_original": "Sci-Fi Sitcom Toon",
+ "pt": "Desenho de Sitcom Sci-Fi"
 }

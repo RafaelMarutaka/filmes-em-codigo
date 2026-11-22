@@ -1,7 +1,7 @@
 {
  "slug": "ink-wash",
  "num": "21",
- "en": "Chinese Ink Wash",
+ "en": "Pintura Chinesa a Nanquim",
  "cn": "中国水墨",
  "category_en": "Traditional Crafts",
  "category_cn": "传统工艺",
@@ -15,5 +15,7 @@
   "Poetry"
  ],
  "frame_sec": 34.56,
- "dur": 48.0
+ "dur": 48.0,
+ "en_original": "Chinese Ink Wash",
+ "pt": "Pintura Chinesa a Nanquim"
 }

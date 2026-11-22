@@ -1,7 +1,7 @@
 {
  "slug": "ascii-crt",
  "num": "62",
- "en": "CRT ASCII Terminal",
+ "en": "Terminal ASCII de Tubo",
  "cn": "CRT 字符终端",
  "aka": [
   "ASCII / CRT Terminal",
@@ -19,5 +19,7 @@
   "Tech brands"
  ],
  "frame_sec": 50.23,
- "dur": 59.8
+ "dur": 59.8,
+ "en_original": "CRT ASCII Terminal",
+ "pt": "Terminal ASCII de Tubo"
 }

@@ -1,4 +1,4 @@
-# Chinese Ink Wash — our demo
+# Pintura Chinesa a Nanquim — our demo
 
 One example among many. Don't reuse its story, arc, shots, props or timings.
 

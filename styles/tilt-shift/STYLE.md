@@ -1,4 +1,4 @@
-# Tilt-Shift Miniature — Style Prompt
+# Miniatura Tilt-Shift — Style Prompt
 
 > A real-looking place photographed from high above with a tilted lens and a time-lapse camera, so the whole world reads as a tabletop model.
 > References (grammar only): Sam O'Hare's *The Sandpit* (2010) and tilt-shift time-lapse photography in general: high vantage points, the blur band, time-lapse rhythm, cloud shadows sweeping over streets. Copy none of its places or music; show no real landmarks, brands or logos.

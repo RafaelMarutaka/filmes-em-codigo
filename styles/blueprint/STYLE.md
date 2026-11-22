@@ -1,4 +1,4 @@
-# Blueprint — Style Prompt
+# Planta Técnica (Blueprint) — Style Prompt
 
 > Engineering drawings that come alive on a sheet of cyanotype paper: white technical line work on Prussian blue, drawn in drafting order, with annotations that move.
 > References (grammar only, never copy): the moving technical drawings in Prologue Films' *Iron Man* (2008) end credits, Leonardo's *Codex Atlanticus* pages, 19th-century US patent drawings (Fig. 1 / Fig. 2, part balloons, fine-line shading), the automaton drawings in *Hugo* (2011). No Marvel elements, no real patents, no real inventor's machine or signature.
@@ -13,7 +13,7 @@ Suits films of 30–60 s.
 - **Rigorous convention carries the tone**: the drawing is dry and exact; the notes can carry wit, warmth or gravity.
 - **The designed thing is the character.** A machine, object, building or plan acts through its parts; people appear only as a hand shadow with a pen, or a signature.
 
-Not Hologram HUD (no glowing wireframe, no 3D orbit), not Whiteboard (no marker on white), not Copperplate Engraving (no burin tonal hatching as the whole look).
+Not Hologram HUD (no glowing wireframe, no 3D orbit), not Whiteboard (no marker on white), not Gravura em Metal (no burin tonal hatching as the whole look).
 
 ## 2. Materials & rendering
 

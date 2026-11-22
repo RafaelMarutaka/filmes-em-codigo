@@ -1,7 +1,7 @@
 {
  "slug": "oscilloscope-math",
  "num": "76",
- "en": "Oscilloscope Math",
+ "en": "Matemática no Osciloscópio",
  "cn": "示波器数学",
  "category_en": "Light & Lines",
  "category_cn": "发光线条",
@@ -15,5 +15,7 @@
   "Science explainers"
  ],
  "frame_sec": 28.6,
- "dur": 51.1
+ "dur": 51.1,
+ "en_original": "Oscilloscope Math",
+ "pt": "Matemática no Osciloscópio"
 }

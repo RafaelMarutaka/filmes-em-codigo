@@ -1,4 +1,4 @@
-# Marker on Paper — Style Prompt
+# Canetão no Papel — Style Prompt
 
 > A pad of matte white paper and one bullet-tip permanent marker in black, with a red and a blue marker for meaning only: blue is what we know, red is what we want. A problem is drawn, reasoned out and answered one sheet at a time, stroke by stroke, with no hand and no pen in sight. When a sheet is done it is pushed through or peeled away and the next one begins.
 > References (grammar only): one-idea-per-drawing science explainers made with a marker on paper, and a maths teacher working a problem on a pad. Take the economy (one question per sheet, the simplest geometry that carries it, hand lettering) and the colour discipline, never anyone's drawings, characters or layouts.
@@ -13,7 +13,7 @@ Suits worked problems, derivations, "how big / how far / how much" questions and
 - **One question per sheet**, written top-left in hand lettering as it is asked, the page number circled top-right.
 - **Ink behaves like ink.** Same-colour crossings, corners and arrowheads over shafts are visibly darker; a stroke never darkens itself; nothing bleeds outside a stroke.
 
-Not Whiteboard Explainer: that is a glossy board with ghost marks, floating markers and magnets, and a camera travelling over one big knowledge map. Not Chalkboard: dark slate, chalk grain, wipe-and-rewrite. Not a sketchnote: no dot grid, no fineliner, no grey or yellow marker fills, no page-wide poster to pull back to. Here: white matte paper, one thick marker, red/blue semantics, one sheet per step, changed by a push through a drawn shape or a peel.
+Not Explicação no Quadro Branco: that is a glossy board with ghost marks, floating markers and magnets, and a camera travelling over one big knowledge map. Not Chalkboard: dark slate, chalk grain, wipe-and-rewrite. Not a sketchnote: no dot grid, no fineliner, no grey or yellow marker fills, no page-wide poster to pull back to. Here: white matte paper, one thick marker, red/blue semantics, one sheet per step, changed by a push through a drawn shape or a peel.
 
 ## 2. Materials & rendering
 

@@ -1,4 +1,4 @@
-# Comic History Cartoon — Style Prompt
+# História em Desenho Cômico — Style Prompt
 
 > Countries are paper puppets joined with brass split pins, standing on a map printed on paper; whoever takes a piece of land cuts a scrap of paper and slaps it onto the map. The whole film is one comic page on a table, a panel per moment, and the camera travels between the panels.
 > References (grammar only): fast comic history explainers on video platforms (personified countries bickering over a map); cut-out paper animation (pinned joints, stepped poses, real shadows); nineteenth-century printed atlases (engraved coastlines, small-caps place names, scale bars). Copy none of their characters, layouts, typefaces or music, and never name them in a film.
@@ -11,7 +11,7 @@
 - **A comic page holds the film.** Panels with ink frames and cream gutters on a table; one panel is one moment or one place, and narrow panels change the tone.
 - **Comedy, with one serious register.** Slapstick for the squabbles; a darker panel without jokes when the history is violent.
 
-Not Paper Pop-up Book (no folds that stand up from a spread), not Isometric Infographic or Data Storytelling (no charts, no clean vector map), not Shadow Puppetry (opaque colour, not silhouettes), not Mid-century Cartoon (cut paper with texture and pins, not cel lines).
+Not Livro Pop-up de Papel (no folds that stand up from a spread), not Infográfico Isométrico or História com Dados (no charts, no clean vector map), not Teatro de Sombras (opaque colour, not silhouettes), not Desenho Retrô Anos 50 (cut paper with texture and pins, not cel lines).
 
 ## 2. Materials & rendering
 

@@ -1,4 +1,4 @@
-# Neon Tubes — Style Prompt
+# Letreiro de Neon — Style Prompt
 
 > Real neon signs on a rainy night street: bent glass tubes filled with gas on painted boards, striking with a flicker, lighting the wet walls and doubling in every puddle. The figures on the signs are alive: an animal or a mascot made of one bent tube per pose moves from sign to sign by switching, frame by frame, like an animated sign, and the street answers on the beat.
 > References (grammar only): night street photography of old shopping streets in the rain; neon shop practice (bent glass, blacked-out double-backs, electrodes, transformers); animated neon signs that run a figure through a few switched frames; wordless cartoon shorts for how a body pose tells a story. Copy no real shop names, signs or characters; never name them in the film.
@@ -11,7 +11,7 @@
 - **Light does the work.** Signs are the only strong light. They tint brick, tile and plaster, catch the rain and double in wet asphalt and puddles.
 - **Figures are tubes too.** A character is one outline tube per pose plus a few thin tubes (eye, whiskers, tail). It never morphs: it switches.
 
-Not a vector glow line on black (no bore, no board, no wet street); not LED "neon flex" (uniform, no electrodes); not Sci-fi Hologram HUD (screen light); not a cartoon drawn in glowing strokes (no in-betweens, no squash).
+Not a vector glow line on black (no bore, no board, no wet street); not LED "neon flex" (uniform, no electrodes); not Holograma Sci-Fi (screen light); not a cartoon drawn in glowing strokes (no in-betweens, no squash).
 
 ## 2. Materials & rendering
 

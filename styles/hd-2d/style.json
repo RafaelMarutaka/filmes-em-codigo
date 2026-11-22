@@ -1,7 +1,7 @@
 {
  "slug": "hd-2d",
  "num": "59",
- "en": "2.5D Pixel Art",
+ "en": "Pixel Art 2.5D",
  "cn": "2.5D 像素",
  "aka": [
   "HD-2D"
@@ -18,5 +18,7 @@
   "Story films"
  ],
  "frame_sec": 55.08,
- "dur": 76.5
+ "dur": 76.5,
+ "en_original": "2.5D Pixel Art",
+ "pt": "Pixel Art 2.5D"
 }

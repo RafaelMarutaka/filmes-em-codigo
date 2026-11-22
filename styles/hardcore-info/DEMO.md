@@ -1,4 +1,4 @@
-# Line-Art Cutaway — our demo
+# Corte em Traço — our demo
 
 One example among many. Don't reuse its story, arc, shots, props or timings.
 

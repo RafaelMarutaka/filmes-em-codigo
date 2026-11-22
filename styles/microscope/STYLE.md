@@ -1,4 +1,4 @@
-# Under the Microscope — Style Prompt
+# No Microscópio — Style Prompt
 
 > Real, licence-clean microscopy of a real specimen, seen as it is, and one continuous change of scale that carries the viewer from the glass slide in the hand to a single cell. Focus breathes when the magnification changes, a focal plane sweeps when the camera lands, and every scale bar, field of view and reading comes from the image's own metadata.
 > References (grammar only): Charles and Ray Eames' *Powers of Ten* (one continuous change of scale with a readout riding along); premium microscope launch films (dark bench, glass catching light, restrained marks, clean instrument sound); digital-pathology viewers' instruments (scale bar, field of view, magnification). Copy none of their layouts, interfaces, typefaces or music; never name them in the film.
@@ -11,7 +11,7 @@
 - **Readings are measured**: every number is computed from the file (pixel size × pixels) and the screen says how it was measured. Describe what was measured; never diagnose. Keep a `FACTS.md` in the project folder (claim, source URL, quoted wording, or the measurement method) and deliver it with the film.
 - **One reading per screen**, in the single accent colour.
 
-Not Satellite Briefing (no grey grade; the stain keeps its colour), not Sci-fi HUD (no glowing wireframes or crosshairs), not Data Storytelling (no chart paper), not a keynote (no slides or header bars).
+Not Relatório por Satélite (no grey grade; the stain keeps its colour), not Sci-fi HUD (no glowing wireframes or crosshairs), not História com Dados (no chart paper), not a keynote (no slides or header bars).
 
 ## 2. Materials & rendering
 

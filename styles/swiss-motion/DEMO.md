@@ -1,4 +1,4 @@
-# Swiss Motion Graphics — our demo
+# Motion Design Suíço — our demo
 
 One example among many. Don't reuse its story, arc, shots, props or timings.
 

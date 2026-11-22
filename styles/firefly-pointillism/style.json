@@ -1,7 +1,7 @@
 {
  "slug": "firefly-pointillism",
  "num": "74",
- "en": "Firefly Pointillism",
+ "en": "Pontilhismo de Vaga-lumes",
  "cn": "萤火光点",
  "category_en": "Light & Lines",
  "category_cn": "发光线条",
@@ -15,5 +15,7 @@
   "Night and nature lyric"
  ],
  "frame_sec": 49.8,
- "dur": 50.6
+ "dur": 50.6,
+ "en_original": "Firefly Pointillism",
+ "pt": "Pontilhismo de Vaga-lumes"
 }

@@ -1,4 +1,4 @@
-# Pen Plotter — Style Prompt
+# Plotter de Caneta — Style Prompt
 
 > A pen plotter on a desk draws the subject one stroke at a time: real pens, real ink on paper, real machine motion. Maps, charts and lettering appear as polylines a gantry lays down, with pen changes at a rack, pen-up travel and pen-down ink, and the camera lives on the desk with the machine.
 > References (grammar only): flatbed plotters of survey and drafting offices (HP-GL era pen carousels, multi-pen drafting plots); hand-drafted topographic maps (contours, hachures, single-line lettering, index contours traced heavier); generative plotter art (hatching as tone, line as the only mark). Copy none of their sheets, typefaces, logos or machines; never name them in the film.
@@ -11,7 +11,7 @@
 - **Information design made by hand.** The sheet is a real document (a map, a chart, a comparison, a number), drawn in plotting order, so the order of drawing is the order of the argument.
 - **Few inks, each with a job**, on cream paper under one warm lamp.
 
-Not Blueprint (no white-on-blue, no CAD chrome), not Data Storytelling (no screen-space charts that grow by tweening), not Whiteboard Explainer or One-line Drawing (no hand, no marker; the line is mechanical, not gestural), not Engineering Briefing Board (the sheet is being made, not presented).
+Not Blueprint (no white-on-blue, no CAD chrome), not História com Dados (no screen-space charts that grow by tweening), not Explicação no Quadro Branco or Desenho de Uma Linha Só (no hand, no marker; the line is mechanical, not gestural), not Quadro de Engenharia (the sheet is being made, not presented).
 
 ## 2. Materials & rendering
 

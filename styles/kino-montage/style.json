@@ -1,7 +1,7 @@
 {
  "slug": "kino-montage",
  "num": "06",
- "en": "Constructivist Montage",
+ "en": "Montagem Construtivista",
  "cn": "构成主义蒙太奇",
  "category_en": "Edit & Documentary",
  "category_cn": "剪辑纪实",
@@ -15,5 +15,7 @@
   "Collective effort"
  ],
  "frame_sec": 2.5,
- "dur": 60.0
+ "dur": 60.0,
+ "en_original": "Constructivist Montage",
+ "pt": "Montagem Construtivista"
 }

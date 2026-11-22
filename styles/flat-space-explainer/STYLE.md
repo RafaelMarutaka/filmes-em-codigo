@@ -1,4 +1,4 @@
-# Scale Zoom Explainer — Style Prompt
+# Explicação com Zoom de Escala — Style Prompt
 
 > Solid flat shapes on a deep night-blue ground, each with one shade step and hard-edged ring "glows", drawn to true scale inside each frame, guided by a small character who is the camera's own lens. A continuous change of scale carries the viewer through orders of magnitude while a scale ribbon in the corner reads the field of view.
 > References (grammar only): mid-century educational posters and flat vector science illustration (solid fills, two values per object, geometric forms); the Eameses' *Powers of Ten* (one continuous change of scale with a readout); children's science picture books (a guide who points). Copy none of their characters, layouts, typefaces or music; never name them in the film.
@@ -11,7 +11,7 @@
 - **A guide with a lens for an eye**: a round, friendly character whose single eye is a zoom lens. Where it looks, the camera goes; its signature is a dotted sight line fired from the lens to a "next stop" ring.
 - **Next-stop ring**: a sun-yellow circle, a dashed outer ring, a leader and a two-line label mark the point the camera dives into.
 
-Not Isometric Infographic (no isometric projection, no dioramas), not Data Storytelling (no charts on paper), not a 3D soft-body render (no rim light, bloom or depth of field), not Sci-fi Hologram HUD (no glowing wireframes), not a keynote (no header bars, centred stacks or page turns).
+Not Infográfico Isométrico (no isometric projection, no dioramas), not História com Dados (no charts on paper), not a 3D soft-body render (no rim light, bloom or depth of field), not Holograma Sci-Fi (no glowing wireframes), not a keynote (no header bars, centred stacks or page turns).
 
 ## 2. Materials & rendering
 

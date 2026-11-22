@@ -1,4 +1,4 @@
-# Spreadsheet Film — our demo
+# Filme em Planilha — our demo
 
 One example among many. Don't reuse its story, arc, shots, props or timings.
 
@@ -63,7 +63,7 @@ Narration: Kokoro `af_bella`, speed 0.86, 13 lines in 20 phrases with 0.3 s brea
 
 ## End card
 
-A 26 × 14 merged range in the sheet: "The Hidden Column" typed in 76 px, "藏起来的那一列", a rule of nine coloured cells, and at the right "Spreadsheet Film · 表格动画" and "Rafael Marutaka × Claude Opus 5.5". It opens at 47.75 s, is typed from 48.6 s and holds to 52.0 s. The sign-off belongs to this library's demo only; a user's film carries no Rafael Marutaka credit and no copy of this card.
+A 26 × 14 merged range in the sheet: "The Hidden Column" typed in 76 px, "藏起来的那一列", a rule of nine coloured cells, and at the right "Filme em Planilha · 表格动画" and "Rafael Marutaka × Claude Opus 5.5". It opens at 47.75 s, is typed from 48.6 s and holds to 52.0 s. The sign-off belongs to this library's demo only; a user's film carries no Rafael Marutaka credit and no copy of this card.
 
 ## Build notes
 

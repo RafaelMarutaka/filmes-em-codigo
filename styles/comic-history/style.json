@@ -1,7 +1,7 @@
 {
  "slug": "comic-history",
  "num": "56",
- "en": "Comic History Cartoon",
+ "en": "História em Desenho Cômico",
  "cn": "搞笑历史卡通",
  "category_en": "Cartoons",
  "category_cn": "卡通动画",
@@ -18,5 +18,7 @@
   "image-generation"
  ],
  "frame_sec": 9.9,
- "dur": 51.0
+ "dur": 51.0,
+ "en_original": "Comic History Cartoon",
+ "pt": "História em Desenho Cômico"
 }

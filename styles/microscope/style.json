@@ -1,7 +1,7 @@
 {
  "slug": "microscope",
  "num": "89",
- "en": "Under the Microscope",
+ "en": "No Microscópio",
  "cn": "显微镜下",
  "aka": [
   "Microscope Story",
@@ -19,5 +19,7 @@
   "Skincare science"
  ],
  "frame_sec": 6.5,
- "dur": 39.5
+ "dur": 39.5,
+ "en_original": "Under the Microscope",
+ "pt": "No Microscópio"
 }

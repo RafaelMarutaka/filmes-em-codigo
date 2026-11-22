@@ -1,7 +1,7 @@
 {
  "slug": "microgame",
  "num": "60",
- "en": "Microgame Frenzy",
+ "en": "Maratona de Minigames",
  "cn": "微游戏快闪",
  "category_en": "Games",
  "category_cn": "电子游戏",
@@ -15,5 +15,7 @@
   "Social shorts"
  ],
  "frame_sec": 23.92,
- "dur": 59.8
+ "dur": 59.8,
+ "en_original": "Microgame Frenzy",
+ "pt": "Maratona de Minigames"
 }

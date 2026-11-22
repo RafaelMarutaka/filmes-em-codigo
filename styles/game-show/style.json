@@ -1,7 +1,7 @@
 {
  "slug": "game-show",
  "num": "61",
- "en": "Rhythm Game Show",
+ "en": "Game Show de Ritmo",
  "cn": "节奏综艺",
  "aka": [
   "Game Show Flat",
@@ -19,5 +19,7 @@
   "Variety shows"
  ],
  "frame_sec": 74.4,
- "dur": 148.8
+ "dur": 148.8,
+ "en_original": "Rhythm Game Show",
+ "pt": "Game Show de Ritmo"
 }

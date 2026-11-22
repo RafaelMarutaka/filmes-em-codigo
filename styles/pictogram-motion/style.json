@@ -1,7 +1,7 @@
 {
  "slug": "pictogram-motion",
  "num": "39",
- "en": "Pictogram Motion",
+ "en": "Pictogramas Animados",
  "cn": "象形运动图形",
  "category_en": "Graphic & Type",
  "category_cn": "平面排版",
@@ -15,5 +15,7 @@
   "Explainers told through signs and objects"
  ],
  "frame_sec": 9.2,
- "dur": 50.0
+ "dur": 50.0,
+ "en_original": "Pictogram Motion",
+ "pt": "Pictogramas Animados"
 }

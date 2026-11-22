@@ -1,4 +1,4 @@
-# Live Countdown Split-screen — Style Prompt
+# Contagem Regressiva em Tela Dividida — Style Prompt
 
 > An edit style, not a look. Real footage of one event with a known zero (a launch, a verdict, a final whistle, polls closing), shown in real time: screen time equals event time, a clock ticks every second, and the screen splits into more and more cells as the moment nears, every cell showing the same second. At zero the cells merge into one picture and the clock flips.
 > References (grammar only): the real-time clock and splitting screens of the TV series *24*; the multi-camera archive panels and mission-time codes of the documentary *Apollo 11* (2019). Never copy their type, colours, sounds, graphics or shots, and never name them in the film.

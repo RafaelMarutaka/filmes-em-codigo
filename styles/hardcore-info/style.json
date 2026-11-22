@@ -1,7 +1,7 @@
 {
  "slug": "hardcore-info",
  "num": "47",
- "en": "Line-Art Cutaway",
+ "en": "Corte em Traço",
  "cn": "线稿剖面图解",
  "category_en": "Line Diagrams",
  "category_cn": "线稿图解",
@@ -15,5 +15,7 @@
   "Science education"
  ],
  "frame_sec": 14.5,
- "dur": 52.0
+ "dur": 52.0,
+ "en_original": "Line-Art Cutaway",
+ "pt": "Corte em Traço"
 }

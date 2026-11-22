@@ -1,4 +1,4 @@
-# Memphis Diorama — Style Prompt
+# Diorama Memphis — Style Prompt
 
 > A place built as a tabletop model: on warm white paper an organic, grainy frame grows open, and inside it a small world in flat Memphis colours, ink outlines, hard purple shadows and tiny patterns, full of small motions under a slow camera. Calm, bright and warm; a place you watch, not a story you follow.
 > References (grammar only): the Memphis Group, Ettore Sottsass, Nathalie Du Pasquier (saturated primaries next to pastels, dots, zigzags and terrazzo flecks on every surface); architectural and railway-layout models (a whole place seen from above, at once); children's picture-book towns (every window has a flower box, every corner has something going on); risograph halftone (shadow as a field of dots). Use none of their objects, layouts, palettes or music.

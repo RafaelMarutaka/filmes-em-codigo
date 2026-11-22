@@ -1,7 +1,7 @@
 {
  "slug": "transit-map",
  "num": "97",
- "en": "Transit Map",
+ "en": "Mapa de Metrô",
  "cn": "地铁线路图",
  "category_en": "Data & Maps",
  "category_cn": "数据地图",
@@ -15,5 +15,7 @@
   "Networks"
  ],
  "frame_sec": 36.2,
- "dur": 47.0
+ "dur": 47.0,
+ "en_original": "Transit Map",
+ "pt": "Mapa de Metrô"
 }

@@ -1,7 +1,7 @@
 {
  "slug": "sketchnote",
  "num": "17",
- "en": "Sketchnote",
+ "en": "Anotação Visual (Sketchnote)",
  "cn": "视觉笔记",
  "category_en": "Sketch & Board",
  "category_cn": "速写板书",
@@ -15,5 +15,7 @@
   "One-page summaries"
  ],
  "frame_sec": 48.7,
- "dur": 51.0
+ "dur": 51.0,
+ "en_original": "Sketchnote",
+ "pt": "Anotação Visual (Sketchnote)"
 }

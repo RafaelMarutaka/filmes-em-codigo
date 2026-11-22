@@ -1,7 +1,7 @@
 {
  "slug": "whiteboard",
  "num": "15",
- "en": "Whiteboard Explainer",
+ "en": "Explicação no Quadro Branco",
  "cn": "白板讲解",
  "category_en": "Sketch & Board",
  "category_cn": "速写板书",
@@ -15,5 +15,7 @@
   "Science"
  ],
  "frame_sec": 55.5,
- "dur": 111.0
+ "dur": 111.0,
+ "en_original": "Whiteboard Explainer",
+ "pt": "Explicação no Quadro Branco"
 }

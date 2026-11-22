@@ -1,4 +1,4 @@
-# Paper Pop-up Book — our demo
+# Livro Pop-up de Papel — our demo
 
 One example among many. Don't reuse its story, arc, shots, props or timings.
 

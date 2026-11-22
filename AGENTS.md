@@ -37,7 +37,7 @@ This repository is a library of film styles. Each style has a `styles/<slug>/STY
 
 ## Finding the style
 
-Users name a style by its gallery name in English or Chinese ("Impasto Oil Painting", "油画厚涂") or by its folder (`impasto`). Look it up in [`styles/README.md`](styles/README.md). If nothing matches clearly, show the closest two or three and ask.
+Users name a style by its gallery name in English or Chinese ("Pintura a Óleo com Textura", "油画厚涂") or by its folder (`impasto`). Look it up in [`styles/README.md`](styles/README.md). If nothing matches clearly, show the closest two or three and ask.
 
 If the user hasn't picked a style:
 - Suggest two or three that fit their topic.
@@ -49,21 +49,21 @@ If the user hasn't picked a style:
 <!-- style-list:start -->
 All 99 styles · 全部风格:
 
-- **剪辑纪实 Edit & Documentary** (8): 字幕新闻 Caption News, 1920s 新闻影片 1920s Newsreel, 实时倒计时分屏 Live Countdown Split-screen, 城市交响曲 City Symphony, 视觉调查 Visual Investigation, 构成主义蒙太奇 Constructivist Montage, 体育战术板 Sports Telestrator, 电视新闻包装 Broadcast News Package
-- **绘画插画 Painting & Illustration** (5): 蜡笔儿童绘本 Crayon Picture Book, 水彩笔刷 Watercolor Brush, 油画厚涂 Impasto Oil Painting, 钢笔淡彩 Urban Sketch · Pen & Wash, 彩铅科普插画 Colored-Pencil Science Illustration
-- **速写板书 Sketch & Board** (7): 一笔画 One-line Drawing, 白板讲解 Whiteboard Explainer, 黑板粉笔 Chalkboard, 视觉笔记 Sketchnote, 火柴人讲解 Stick-figure Explainer, 平板速写讲解 Tablet Sketch Explainer, 马克笔白纸速写 Marker on Paper
-- **传统工艺 Traditional Crafts** (7): 中国水墨 Chinese Ink Wash, 皮影戏 Shadow Puppetry, 浮世绘 Ukiyo-e, 红色窗花剪纸 Red Paper-cut, 纸雕灯影 Paper-cut Lightbox, 彩色玻璃窗 Stained Glass, 金箔彩绘 Gilded Illumination
-- **印刷版画 Print & Printmaking** (8): 孔版印刷 Risograph Print, 网点档案 Halftone Dossier, 木刻版画 Woodcut Print, 铜版画 Copperplate Engraving, 丝印旅行海报 Silkscreen Travel Poster, 刮版画长镜头 Scratchboard Long Take, 波普艺术 Pop Art, 复古版画拼贴 Vintage Engraving Collage
-- **平面排版 Graphic & Type** (8): 瑞士动态排版 Swiss Motion Graphics, 60s 间谍片头 60s Spy Title Sequence, 装饰艺术 Art Deco, 象形运动图形 Pictogram Motion, 包豪斯几何 Bauhaus Shapes, 扁平尺度漫游 Scale Zoom Explainer, 文字闪切 Text Flash Cuts ✦, 剪影律动 Silhouette Rhythm
-- **线稿图解 Line Diagrams** (8): 工程蓝图 Blueprint, 等距信息图 Isometric Infographic, 产品拆解 Exploded Teardown, 线稿剖面图解 Line-Art Cutaway, 分色机械图解 Color-Coded Mechanism, 说明书插画 Instruction Manual Art, 笔式绘图仪 Pen Plotter, 流水线图解 Assembly-Line Diagram
-- **卡通动画 Cartoons** (6): 1930s 橡皮管卡通 1930s Rubber Hose Cartoon, 80 年代赛璐璐动画 80s Cel Anime, 科幻情景喜剧卡通 Sci-Fi Sitcom Toon, 50s 扁平卡通 Mid-century Cartoon, 搞笑历史卡通 Comic History Cartoon ✦, 黑白漫画分格 Manga Panels ✦
-- **电子游戏 Games** (4): 16-bit 像素 RPG 16-bit Pixel RPG, 2.5D 像素 2.5D Pixel Art, 微游戏快闪 Microgame Frenzy, 节奏综艺 Rhythm Game Show
-- **胶片录像 Film & Tape** (5): CRT 字符终端 CRT ASCII Terminal, 1920s 默片 1920s Silent Film, 后室录像带 Liminal Found Footage, 胶片直刻 Scratch Film, 双重曝光 Double Exposure
-- **屏幕界面 Screens & Interfaces** (6): 暗色科技发布 Dark Tech Keynote, 像素小人录屏 Mascot Screencast, 科幻全息界面 Sci-fi Hologram HUD, 桌面卡片穿梭 Tabletop App Flythrough, 表格动画 Spreadsheet Film, 1-bit 点阵 1-bit Dither
-- **发光线条 Light & Lines** (5): 电路板 Circuit Board, 萤火光点 Firefly Pointillism, 流场风线 Flow-field Wind Lines, 示波器数学 Oscilloscope Math, 霓虹灯管 Neon Tubes
-- **立体微缩 3D & Miniature** (8): 积木玩具 Brick Toy, 纸片立体书 Paper Pop-up Book, 移轴微缩 Tilt-Shift Miniature, 低多边形等距 Low-poly Isometric Island, 玻璃质感产品 Glass Product Render, 孟菲斯微缩景观 Memphis Diorama, 等距小人场景 Isometric People Scene, 蜡笔立体世界 Crayon World 3D
-- **仪器实证 Instruments & Evidence** (8): 卫星简报 Satellite Briefing, 工程简报板 Engineering Briefing Board, 点云测绘 LiDAR Survey, 显微镜下 Under the Microscope, 档案看片台 Archive Light Table, 安检 X 光 Security X-ray, 雷达扫描纪录片 Radar Sweep Documentary, 热成像 Thermal Camera
-- **数据地图 Data & Maps** (6): 数据叙事 Data Storytelling, 白模投影 Projection-Mapped Model, 数据实物化 Data Physicalization, 地铁线路图 Transit Map, 立体地图解说 3D Map Explainer, 小人模拟实验 Blob Simulation
+- **Edição e documentário** (8): Notícia com Legendas, Cinejornal Anos 20, Contagem Regressiva em Tela Dividida, Sinfonia da Cidade, Investigação Visual, Montagem Construtivista, Lousa Tática Esportiva, Telejornal
+- **Pintura e ilustração** (5): Livro Infantil de Giz de Cera, Pincel de Aquarela, Pintura a Óleo com Textura, Croqui Urbano a Nanquim e Aguada, Ilustração Científica em Lápis de Cor
+- **Desenho e lousa** (7): Desenho de Uma Linha Só, Explicação no Quadro Branco, Lousa de Giz, Anotação Visual (Sketchnote), Explicação com Bonecos de Palito, Explicação Desenhada no Tablet, Canetão no Papel
+- **Artesanato tradicional** (7): Pintura Chinesa a Nanquim, Teatro de Sombras, Ukiyo-e (Gravura Japonesa), Recorte de Papel Vermelho, Luminária de Papel Recortado, Vitral, Iluminura Dourada
+- **Gravura e impressão** (8): Impressão Risograph, Dossiê em Retícula, Xilogravura, Gravura em Metal, Pôster de Viagem em Serigrafia, Plano-Sequência em Raspagem, Pop Art, Colagem de Gravuras Antigas
+- **Design gráfico e tipografia** (8): Motion Design Suíço, Abertura de Filme de Espião Anos 60, Art Déco, Pictogramas Animados, Formas Bauhaus, Explicação com Zoom de Escala, Cortes Rápidos de Texto ✦, Ritmo de Silhuetas
+- **Diagramas em linha** (8): Planta Técnica (Blueprint), Infográfico Isométrico, Desmontagem em Vista Explodida, Corte em Traço, Mecanismo com Cores por Peça, Manual de Instruções, Plotter de Caneta, Diagrama de Linha de Montagem
+- **Desenho animado** (6): Desenho Animado Anos 30, Anime Anos 80, Desenho de Sitcom Sci-Fi, Desenho Retrô Anos 50, História em Desenho Cômico ✦, Quadrinhos de Mangá ✦
+- **Videogame** (4): RPG em Pixel 16-bit, Pixel Art 2.5D, Maratona de Minigames, Game Show de Ritmo
+- **Película e fita** (5): Terminal ASCII de Tubo, Cinema Mudo Anos 20, Fita Perdida (Found Footage), Película Riscada, Dupla Exposição
+- **Telas e interfaces** (6): Apresentação Tech Escura, Gravação de Tela com Mascote, Holograma Sci-Fi, Tour de App na Mesa, Filme em Planilha, Pontilhado 1-bit
+- **Luz e linhas** (5): Placa de Circuito, Pontilhismo de Vaga-lumes, Linhas de Vento, Matemática no Osciloscópio, Letreiro de Neon
+- **3D e miniatura** (8): Blocos de Montar, Livro Pop-up de Papel, Miniatura Tilt-Shift, Ilha Low-poly Isométrica, Produto em Vidro 3D, Diorama Memphis, Cena Isométrica com Pessoas, Mundo 3D de Giz de Cera
+- **Instrumentos e evidências** (8): Relatório por Satélite, Quadro de Engenharia, Mapeamento LiDAR, No Microscópio, Mesa de Luz de Arquivo, Raio-X de Segurança, Documentário de Radar, Câmera Térmica
+- **Dados e mapas** (6): História com Dados, Maquete com Projeção, Dados em Objetos Físicos, Mapa de Metrô, Explicação em Mapa 3D, Simulação com Bonequinhos
 
 ✦ draws with an image generator: the user's Codex CLI, or another image tool they have. Without one the film cannot start (core/README.md, "Image generation"). Say so when you suggest the style.
 <!-- style-list:end -->

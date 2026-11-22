@@ -1,7 +1,7 @@
 {
  "slug": "iso-infographic",
  "num": "45",
- "en": "Isometric Infographic",
+ "en": "Infográfico Isométrico",
  "cn": "等距信息图",
  "category_en": "Line Diagrams",
  "category_cn": "线稿图解",
@@ -15,5 +15,7 @@
   "Annual reports"
  ],
  "frame_sec": 35.28,
- "dur": 58.8
+ "dur": 58.8,
+ "en_original": "Isometric Infographic",
+ "pt": "Infográfico Isométrico"
 }

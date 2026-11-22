@@ -1,7 +1,7 @@
 {
  "slug": "dataviz",
  "num": "94",
- "en": "Data Storytelling",
+ "en": "História com Dados",
  "cn": "数据叙事",
  "category_en": "Data & Maps",
  "category_cn": "数据地图",
@@ -15,5 +15,7 @@
   "Climate & science"
  ],
  "frame_sec": 42.0,
- "dur": 50.0
+ "dur": 50.0,
+ "en_original": "Data Storytelling",
+ "pt": "História com Dados"
 }

@@ -1,4 +1,4 @@
-# Microgame Frenzy — Style Prompt
+# Maratona de Minigames — Style Prompt
 
 > A rapid-fire party-game film: one command word, a few seconds, one action. Every microgame is drawn in a completely different art style, and the film keeps getting faster.
 > Genre reference (grammar only): the WarioWare series. Never use its name, characters, UI, microgames or music.
@@ -13,7 +13,7 @@ The format suits short films; once the frenzy stops building, end it.
 - **It keeps accelerating**: every few games tempo, game length, dwell, command hold and animation frame rate step up together.
 - **The hero survives every medium** by keeping two or three silhouette marks.
 
-Not Rhythm Game Show (one art style, rounds of bars, call-and-response), not a style sampler reel (every game has stakes; lives connect them), not a montage (each game has a rule grasped in under a second).
+Not Game Show de Ritmo (one art style, rounds of bars, call-and-response), not a style sampler reel (every game has stakes; lives connect them), not a montage (each game has a rule grasped in under a second).
 
 ## 2. Materials & rendering
 

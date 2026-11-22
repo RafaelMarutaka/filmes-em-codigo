@@ -1,4 +1,4 @@
-# Engineering Briefing Board — Style Prompt
+# Quadro de Engenharia — Style Prompt
 
 > One real whiteboard wall, filmed: window light on enamel, ghosts of erased marker, frame and tray. Cut-out photographs of real things land on it with weight; tags, magnets, a ruler and stamps are pinned to it; marker ink draws itself in three colours with fixed meanings. The camera rides the lines from fact to fact and only at the end pulls back to show the whole briefing.
 > References (grammar only): explainers filmed on a map wall; the long pull-back over a wall covered in work; drafting conventions (plan above elevation, dimension lines, hatching). Never copy them or name them in the film.
@@ -11,7 +11,7 @@
 4. **One continuous wall**: no pages; the camera travels along lines, projections and leaders.
 5. **The whole wall, once**: every shot is a crop of the final briefing, seen whole only in the last pull-back, as a poster.
 
-Not **Whiteboard Explainer** (a hand drawing line art on a flat page): the board is a filmed object, subjects are photographs. Not **Data Storytelling**: comparisons are dimension lines in real units beside real objects. Not a keynote: no headers, centred bullets, page turns.
+Not **Explicação no Quadro Branco** (a hand drawing line art on a flat page): the board is a filmed object, subjects are photographs. Not **História com Dados**: comparisons are dimension lines in real units beside real objects. Not a keynote: no headers, centred bullets, page turns.
 
 ## 2. Materials & rendering
 

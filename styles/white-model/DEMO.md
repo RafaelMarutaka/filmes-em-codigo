@@ -1,4 +1,4 @@
-# Projection-Mapped Model — our demo
+# Maquete com Projeção — our demo
 
 One example among many. Don't reuse its story, arc, shots, props or timings.
 

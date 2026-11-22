@@ -1,7 +1,7 @@
 {
  "slug": "risograph",
  "num": "28",
- "en": "Risograph Print",
+ "en": "Impressão Risograph",
  "cn": "孔版印刷",
  "aka": [
   "Risograph 孔版印刷"
@@ -18,5 +18,7 @@
   "Lifestyle"
  ],
  "frame_sec": 28.8,
- "dur": 40.0
+ "dur": 40.0,
+ "en_original": "Risograph Print",
+ "pt": "Impressão Risograph"
 }

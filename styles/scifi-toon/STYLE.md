@@ -1,4 +1,4 @@
-# Sci-Fi Sitcom Toon — Style Prompt
+# Desenho de Sitcom Sci-Fi — Style Prompt
 
 > Adult-animation sci-fi sitcom: thick boiling outlines, flat colour, a duo whose reactions don't match, a glowing portal, and one palette per world.
 > References (grammar only): adult-swim-era sci-fi sitcom cartoons (dialogue-driven comedy, reaction close-ups, boiling line, sci-fi hardware as household junk). Borrow the *grammar*, never the characters.

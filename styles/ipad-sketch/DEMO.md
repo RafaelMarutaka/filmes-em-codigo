@@ -1,4 +1,4 @@
-# Tablet Sketch Explainer — our demo
+# Explicação Desenhada no Tablet — our demo
 
 One example among many. Don't reuse its story, arc, shots, props or timings.
 
@@ -62,7 +62,7 @@ Voice: Kokoro `af_heart`, speed 0.70–0.82, ten lines (`demo/voice/lines.json`)
 
 ## End card
 
-At 46.50 s the stylus draws a note card in the empty top right of the finished page (pencil frame, offset sage block) and writes "Tablet Sketch Explainer", "平板速写讲解" and "Rafael Marutaka × Claude Opus 5.5" (Caveat 36 px); complete at 47.46 s and held to 51.0 s. The film's title is the page title, top left. The "Rafael Marutaka × Claude Opus 5.5" sign-off belongs to this library's demo only; a user's film carries no Rafael Marutaka credit and no copy of this card.
+At 46.50 s the stylus draws a note card in the empty top right of the finished page (pencil frame, offset sage block) and writes "Explicação Desenhada no Tablet", "平板速写讲解" and "Rafael Marutaka × Claude Opus 5.5" (Caveat 36 px); complete at 47.46 s and held to 51.0 s. The film's title is the page title, top left. The "Rafael Marutaka × Claude Opus 5.5" sign-off belongs to this library's demo only; a user's film carries no Rafael Marutaka credit and no copy of this card.
 
 ## Build notes
 

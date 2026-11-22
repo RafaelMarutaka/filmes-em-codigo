@@ -1,4 +1,4 @@
-# Vintage Engraving Collage — our demo
+# Colagem de Gravuras Antigas — our demo
 
 One example among many. Don't reuse its story, arc, shots, props or timings.
 
@@ -83,7 +83,7 @@ Mix (`demo/mix.py`): the voice is compressed and set by RMS about 10 dB over the
 
 ## End card
 
-The last shot's collage: *The Inverted Jenny* (IM FELL English italic on a black slip) and 倒置的珍妮 (Noto Serif SC Black on a cream slip) top left from 47.15 s; from 49.55 s three slips at the bottom right: *Vintage Engraving Collage* in small caps on newsprint, 复古版画拼贴 on mustard, and `Rafael Marutaka × Claude Opus 5.5` in Courier Prime Bold on a black slip (about 36 px). The inverted plane flies out of frame; held to 52.0 s. The "Rafael Marutaka × Claude Opus 5.5" sign-off belongs to this library's demo only; a user's film carries no Rafael Marutaka credit and no copy of this card.
+The last shot's collage: *The Inverted Jenny* (IM FELL English italic on a black slip) and 倒置的珍妮 (Noto Serif SC Black on a cream slip) top left from 47.15 s; from 49.55 s three slips at the bottom right: *Colagem de Gravuras Antigas* in small caps on newsprint, 复古版画拼贴 on mustard, and `Rafael Marutaka × Claude Opus 5.5` in Courier Prime Bold on a black slip (about 36 px). The inverted plane flies out of frame; held to 52.0 s. The "Rafael Marutaka × Claude Opus 5.5" sign-off belongs to this library's demo only; a user's film carries no Rafael Marutaka credit and no copy of this card.
 
 ## Build notes
 
@@ -108,5 +108,5 @@ demo/
 - Fonts: after changing a Chinese string or a subtitle, delete `demo/fonts/NotoSerifSC-*.woff2` (the subsets) and run with `PARTS=1`.
 - Speed: the parts bake in about 15 s; 1080p frames take a few ms each in Canvas 2D (1,248 frames in about a minute with two workers); the master with grain is the slow step.
 - `?from=A&to=B` renders a span of the film (`window.DUR = B − A`), for re-rendering a few seconds.
-- Readcheck: every on-screen text passes except the three end-card slips, which are on screen 2.1–2.4 s where readcheck asks 2.8–3.0 s: `sig_style_en` (Vintage Engraving Collage, 2.44 s), `sig_style_zh` (复古版画拼贴, 2.28 s), `sig_line` (Rafael Marutaka × Claude Opus 5.5, 2.12 s). The whole end card (title from 47.15 s) holds 4.85 s. Subtitles are checked against the `.srt` (every cue ≥ 2.26 s).
+- Readcheck: every on-screen text passes except the three end-card slips, which are on screen 2.1–2.4 s where readcheck asks 2.8–3.0 s: `sig_style_en` (Colagem de Gravuras Antigas, 2.44 s), `sig_style_zh` (复古版画拼贴, 2.28 s), `sig_line` (Rafael Marutaka × Claude Opus 5.5, 2.12 s). The whole end card (title from 47.15 s) holds 4.85 s. Subtitles are checked against the `.srt` (every cue ≥ 2.26 s).
 - Demo-specific pitfalls: the inverted stamp has to be made by turning the blue plate about the oval's centre, not by flipping the image; the camera may not leave the paper (clamp or tile the table); the bottom-left subtitle corner pushed the comparison's baseline up.

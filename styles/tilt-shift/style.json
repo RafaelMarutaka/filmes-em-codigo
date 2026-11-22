@@ -1,7 +1,7 @@
 {
  "slug": "tilt-shift",
  "num": "80",
- "en": "Tilt-Shift Miniature",
+ "en": "Miniatura Tilt-Shift",
  "cn": "移轴微缩",
  "category_en": "3D & Miniature",
  "category_cn": "立体微缩",
@@ -15,5 +15,7 @@
   "Transport"
  ],
  "frame_sec": 22.8,
- "dur": 38.0
+ "dur": 38.0,
+ "en_original": "Tilt-Shift Miniature",
+ "pt": "Miniatura Tilt-Shift"
 }

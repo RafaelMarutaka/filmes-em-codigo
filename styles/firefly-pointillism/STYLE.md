@@ -1,4 +1,4 @@
-# Firefly Pointillism — Style Prompt
+# Pontilhismo de Vaga-lumes — Style Prompt
 
 > Thousands of soft, breathing points of light on black make up the people, animals, grass, moon, rain and words. The points are never created or destroyed: they scatter, fly off and gather somewhere else as something new, and that is how this style tells a story. A moving pointillist painting, or a summer night of fireflies.
 > References (grammar only): pointillism (Seurat: form out of discrete dots); Johansson's point-light walkers (1973: a few dots read as a person when the motion is right); photographic bokeh (out-of-focus points grow large and faint); the synchronous fireflies of the Great Smoky Mountains (a field flashing together). Copy no existing character design; a glowing deer or forest spirit is a common motif, keep it generic.

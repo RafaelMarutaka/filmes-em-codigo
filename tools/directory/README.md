@@ -15,13 +15,13 @@ Open Claude Code in a folder for your film, and ask:
 
 > Make a 45-second watercolor film about my family's coffee farm. Warm female narrator.
 
-> Make a 40-second LiDAR Survey film about the old quarry behind our town, from public laser-scan data.
+> Make a 40-second Mapeamento LiDAR film about the old quarry behind our town, from public laser-scan data.
 
 > Make a 30-second whiteboard explainer about how vaccines train the immune system.
 
 > Which film styles are there? I want something for a product launch.
 
-> I want to change the Ukiyo-e style into my own version.
+> I want to change the Ukiyo-e (Gravura Japonesa) style into my own version.
 
 > I want to make my own style from scratch: chalk on a blackboard, warm and slow.
 
@@ -51,7 +51,7 @@ The library ships inside the plugin. On first use it is copied to `~/.filmes-em-
 | numba, for plucked strings | PyPI | only if the score uses them | ~140 MB |
 | Instrument sample libraries (VSCO 2 CE, VCSL, FreePats, Karoryfer, Salamander) | this project's GitHub Releases | only the libraries the score uses | 70–400 MB each |
 | HDRIs for 3D styles (Poly Haven, CC0) | this project's GitHub Releases | only for 3D styles | 12 MB |
-| Walnut veneer textures (Poly Haven, CC0) | this project's GitHub Releases | only for the Data Physicalization style | 7 MB |
+| Walnut veneer textures (Poly Haven, CC0) | this project's GitHub Releases | only for the Dados em Objetos Físicos style | 7 MB |
 | Fonts named by a style (Google Fonts, OFL) | Google Fonts | when the style needs them | small |
 | Packages a style lists in its `STYLE.md` (e.g. a LiDAR reader) | npm or PyPI, into your project folder | only for that style | varies |
 | Public data for the styles built from real data or scans (satellite imagery, laser scans, open city data) | the open-data sources Claude finds for your topic; it tells you each source and licence | only when you ask for such a film | varies |
@@ -60,7 +60,7 @@ The library ships inside the plugin. On first use it is copied to `~/.filmes-em-
 
 - Your topic, your files and the film stay on your computer. The plugin collects nothing and sends nothing to us.
 - **Chinese narration:** offline Kokoro voices by default. Better Chinese voices come from Microsoft's online speech service (edge-tts), which receives the narration text; Claude asks before using it and uses it only if you agree. English narration is always offline (Kokoro).
-- **Image generation:** three styles (Manga Panels, Text Flash Cuts, Comic History Cartoon) draw with an image generator you provide (the Codex CLI or another image tool), which receives the image prompts and any reference images. Claude tells you before generating; other styles use none.
+- **Image generation:** three styles (Quadrinhos de Mangá, Cortes Rápidos de Texto, História em Desenho Cômico) draw with an image generator you provide (the Codex CLI or another image tool), which receives the image prompts and any reference images. Claude tells you before generating; other styles use none.
 - The downloads above request files only; they don't send your content. Every third-party asset in a film (fonts, samples, data) is listed with its licence in the film's `CREDITS`.
 
 ## Licence

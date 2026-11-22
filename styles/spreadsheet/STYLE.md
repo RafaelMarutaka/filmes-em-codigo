@@ -1,4 +1,4 @@
-# Spreadsheet Film — Style Prompt
+# Filme em Planilha — Style Prompt
 
 > A whole film inside one spreadsheet window. Cells are the pixels, conditional formatting paints the pictures, the formula bar speaks the lines, and the camera is the sheet's own zoom and scroll. Every picture is made of numbers, and the picture turns out to be the answer.
 > References (grammar only): music videos and campaigns built inside a real spreadsheet file (rectangular cell pixels, conditional-format colour bands, a selected cell as the hero), and the plain grey office-software look of the 1990s–2000s. Take the grammar of cells, never a product's interface, name, logo or brand colours.

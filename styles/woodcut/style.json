@@ -1,7 +1,7 @@
 {
  "slug": "woodcut",
  "num": "30",
- "en": "Woodcut Print",
+ "en": "Xilogravura",
  "cn": "木刻版画",
  "category_en": "Print & Printmaking",
  "category_cn": "印刷版画",
@@ -15,5 +15,7 @@
   "Book trailers"
  ],
  "frame_sec": 49.14,
- "dur": 58.5
+ "dur": 58.5,
+ "en_original": "Woodcut Print",
+ "pt": "Xilogravura"
 }

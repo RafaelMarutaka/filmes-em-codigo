@@ -1,4 +1,4 @@
-# Swiss Motion Graphics — Style Prompt
+# Motion Design Suíço — Style Prompt
 
 > International Typographic Style in motion: a modular grid, one typeface, one signal colour, and movement as exact as a printing press.
 > References (grammar only): 1950s–70s Zurich posters (Müller-Brockmann, Hofmann, Gerstner, Crouwel) for the grid, flush-left type, scale contrast and "designing programmes"; modern identity systems in motion (Experimental Jetset, Pentagram) for snaps on the beat. Never copy a specific historical poster's composition (no concentric-circle or fan layouts lifted from Müller-Brockmann), never use Helvetica or Akzidenz font files, never name a real institution on a poster.

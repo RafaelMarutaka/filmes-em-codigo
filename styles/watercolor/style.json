@@ -1,7 +1,7 @@
 {
  "slug": "watercolor",
  "num": "10",
- "en": "Watercolor Brush",
+ "en": "Pincel de Aquarela",
  "cn": "水彩笔刷",
  "category_en": "Painting & Illustration",
  "category_cn": "绘画插画",
@@ -15,5 +15,7 @@
   "Science explainers"
  ],
  "frame_sec": 68.0,
- "dur": 113.6
+ "dur": 113.6,
+ "en_original": "Watercolor Brush",
+ "pt": "Pincel de Aquarela"
 }

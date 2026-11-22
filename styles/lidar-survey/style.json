@@ -1,7 +1,7 @@
 {
  "slug": "lidar-survey",
  "num": "88",
- "en": "LiDAR Survey",
+ "en": "Mapeamento LiDAR",
  "cn": "点云测绘",
  "category_en": "Instruments & Evidence",
  "category_cn": "仪器实证",
@@ -15,5 +15,7 @@
   "Site surveys"
  ],
  "frame_sec": 10.9,
- "dur": 40.0
+ "dur": 40.0,
+ "en_original": "LiDAR Survey",
+ "pt": "Mapeamento LiDAR"
 }

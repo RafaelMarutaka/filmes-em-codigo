@@ -1,4 +1,4 @@
-# Firefly Pointillism — our demo
+# Pontilhismo de Vaga-lumes — our demo
 
 One example among many. Don't reuse its story, arc, shots, props or timings.
 
@@ -59,12 +59,12 @@ Voice: Kokoro `af_bella`, speed 0.72–0.84, nine lines split at commas into fif
 
 ## End card
 
-In the sky at the top left, diagonal to the walking deer constellation, made of points: 「你亮，我就亮」 (138 px), "SHINE BACK" (40 px, wide tracking), then "Firefly Pointillism · 萤火光点" and "Rafael Marutaka × Claude Opus 5.5" (30–32 px). The title lands at about 46.5 s, the two small lines at about 47.45 s, all held to 50.6 s. The "Rafael Marutaka × Claude Opus 5.5" sign-off belongs to this library's demo only; a user's film carries no Rafael Marutaka credit and no copy of this card.
+In the sky at the top left, diagonal to the walking deer constellation, made of points: 「你亮，我就亮」 (138 px), "SHINE BACK" (40 px, wide tracking), then "Pontilhismo de Vaga-lumes · 萤火光点" and "Rafael Marutaka × Claude Opus 5.5" (30–32 px). The title lands at about 46.5 s, the two small lines at about 47.45 s, all held to 50.6 s. The "Rafael Marutaka × Claude Opus 5.5" sign-off belongs to this library's demo only; a user's film carries no Rafael Marutaka credit and no copy of this card.
 
 ## Build notes
 
 - `sh styles/firefly-pointillism/demo/build.sh` (from anywhere; `WORKERS=2` by default): the font if missing (LXGW WenKai v1.245.1, pinned), the voice if missing (Kokoro) and the speech check, `timeline.py` (phrase starts, subtitle cues, `timeline.json`, the `.srt`), the picture at 60 fps (Python, about 12–20 min with two workers), `mix.py`, `mux.sh`, readcheck, poster and gallery frame (39.8 s, the giant deer's touch: no subtitle, no text).
 - A fresh clone first needs `sh plugin/skills/filmes-em-codigo/scripts/setup.sh deps voice` and `sh tools/fetch.sh voice`, `sh tools/fetch.sh instruments vsco2ce`, `… vcsl`, `… freepats`. Python packages: only the core and voice tiers (numpy, scipy, pillow, soundfile, soxr; kokoro-onnx, faster-whisper).
 - `demo/timeline.py`: every story time, the narration starts and the subtitle text (the single source for picture, sound and subtitles). `demo/film.py`: the state functions per group and scene, `blend()`, the rigs' poses, the camera, the burned-in subtitles, `render(t)`; `python film.py still 39.8` renders test frames to `demo/out/stills/`, `python film.py render a b out.mp4` any slice (frames are independent, so a slice joins a full render frame-exactly). `demo/engine.py`: rig and occlusion, text sampling, the five-level splatting pyramid. `demo/mix.py`: score, ambience, foley, voice.
-- `demo/readcheck/index.html` lists the end-card text with the times and boxes `film.py` uses, so `core/render/readcheck.mjs` can time it (the film itself is not a web page). It flags one line: "Firefly Pointillism · 萤火光点" is fully formed for 3.12 s and the rule asks for 3.66 s; the title, "SHINE BACK" and the sign-off pass.
+- `demo/readcheck/index.html` lists the end-card text with the times and boxes `film.py` uses, so `core/render/readcheck.mjs` can time it (the film itself is not a web page). It flags one line: "Pontilhismo de Vaga-lumes · 萤火光点" is fully formed for 3.12 s and the rule asks for 3.66 s; the title, "SHINE BACK" and the sign-off pass.
 - Pitfalls of this demo's props: the giant deer's bow is shallow (neck 1.59 rad) and the light rises 95 px from her hand to meet it, so the back line never collapses; the leap moves the whole rig along an arc instead of scattering it.

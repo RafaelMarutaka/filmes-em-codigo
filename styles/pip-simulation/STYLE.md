@@ -1,4 +1,4 @@
-# Blob Simulation — Style Prompt
+# Simulação com Bonequinhos — Style Prompt
 
 > A crowd of small flocked characters, the Pips, runs a real simulation on a warm paper lab board: evolution, games, epidemics, queues, markets. The rules are written in code, the outcome is computed, and the result is shown with the Pips themselves: they are the data points, and at the end they line up into the chart.
 > References (grammar only): agent-based simulation explainers on video (one character = one individual, rules then outcome); vinyl designer toys and flocked figurines (the touch of the material); tabletop board games (a printed board seen from above). Copy no channel's characters, colours or layouts.
@@ -10,7 +10,7 @@
 - **A character you can follow.** The camera can always drop to one Pip, see its face and its state, and rise again to the whole board. The story of a rule is told through one or two individuals, then proven by the crowd.
 - **A lab bench, not a screen.** Everything lives on one physical board: the grid, the printed bars, labels and marks are printed on its paper. Type that is not printed sits in clean margins of the frame.
 
-Not Isometric Infographic (no icon people, no isometric diagram, real perspective and depth of field), not Data Storytelling (charts are never floating panels), not Brick Toy or Low-poly Island (soft flocked bodies, not plastic or facets), not a game HUD.
+Not Infográfico Isométrico (no icon people, no isometric diagram, real perspective and depth of field), not História com Dados (charts are never floating panels), not Blocos de Montar or Low-poly Island (soft flocked bodies, not plastic or facets), not a game HUD.
 
 ## 2. Materials & rendering
 

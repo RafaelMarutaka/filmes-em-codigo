@@ -1,4 +1,4 @@
-# Stick-figure Explainer — Style Prompt
+# Explicação com Bonecos de Palito — Style Prompt
 
 > Plain stick people on warm paper, one accent colour, and a logic you can watch: people stand on a "system line", react to each other, and hold hands. A held hand is not two arms touching but one continuous curve from one shoulder to the next, so a crowd can join into a line, a ring or a shape, and a red pulse can run through all of them.
 > References (grammar only): explainer channels that argue with stick people and one accent colour (one idea per screen, generous white space, the script carries the logic); Eames-style "powers of ten" changes of scale; Swiss editorial type. Copy none of their characters, layouts, typefaces or music; never name them in the film.
@@ -11,7 +11,7 @@
 - **One accent, one meaning.** Ink figures on paper; the accent marks the one thing that matters on this screen (the source of a change, a path that connects, a number that crosses a limit).
 - **Logic as motion.** Change travels: a pulse runs along the ground line or through joined arms, and each person reacts as it reaches them.
 
-Not Whiteboard Explainer (no hand drawing the frame, no marker texture), not Pictogram Motion (figures are drawn lines, not filled ISO-style pictograms), not Data Storytelling (the people are the chart), not Mid-century Cartoon (no character design, no faces, no props).
+Not Explicação no Quadro Branco (no hand drawing the frame, no marker texture), not Pictogramas Animados (figures are drawn lines, not filled ISO-style pictograms), not História com Dados (the people are the chart), not Desenho Retrô Anos 50 (no character design, no faces, no props).
 
 ## 2. Materials & rendering
 

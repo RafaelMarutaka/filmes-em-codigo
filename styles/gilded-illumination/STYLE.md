@@ -1,4 +1,4 @@
-# Gilded Illumination — Style Prompt
+# Iluminura Dourada — Style Prompt
 
 > The whole frame is one gilded miniature painting, and the story happens inside it: flat mineral pigments inside firm ink outlines, white-lead highlights and dots, and real gold leaf (laid in squares, with seams, burnished) that only shines when a light inside the picture moves across it. No book, no page, no desk: the picture fills the screen edge to edge, and at the end it can be revealed as one whole painting inside its own border.
 > References (picture grammar only): Gothic and late-medieval miniatures (blue grounds with gold stars, gold grounds with punched diapers, foliate and quatrefoil frames, stepped leaning rock spires, scalloped clouds, continuous narration with one figure shown several times). Copy no specific painting, figure, layout or border; never name a manuscript or painter in the film.
@@ -15,7 +15,7 @@ Rules below are what make the style; everything marked *Reference* is one good w
 - **Night is deep ultramarine.** The dark of the picture is the blue ground sinking toward a deep lapis, never black and never grey. When light returns, the sky stays a deep blue: the world gets brighter because its gold lights up, not because the blue turns pale or the whole frame is lifted.
 - **Medieval pictorial logic.** Mountains are clusters of stepped, leaning spires; skies are blue grounds with gold stars and scalloped clouds; distance is shown by size, overlap and paler pigment, not by atmosphere.
 
-Not Stained Glass (no lead cames, no transmitted light), not Art Deco (no streamlined geometry, no metallic gradients as decoration), not Ukiyo-e (no woodblock bleed, no bokashi), not Paper-cut Lightbox, not a fantasy game map, not a flat vector illustration with yellow circles.
+Not Vitral (no lead cames, no transmitted light), not Art Déco (no streamlined geometry, no metallic gradients as decoration), not Ukiyo-e (Gravura Japonesa) (no woodblock bleed, no bokashi), not Luminária de Papel Recortado, not a fantasy game map, not a flat vector illustration with yellow circles.
 
 ## 2. Materials & rendering
 

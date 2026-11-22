@@ -1,7 +1,7 @@
 {
  "slug": "bauhaus-shapes",
  "num": "40",
- "en": "Bauhaus Shapes",
+ "en": "Formas Bauhaus",
  "cn": "包豪斯几何",
  "category_en": "Graphic & Type",
  "category_cn": "平面排版",
@@ -15,5 +15,7 @@
   "Titles and chapter cards"
  ],
  "frame_sec": 9.4,
- "dur": 52.0
+ "dur": 52.0,
+ "en_original": "Bauhaus Shapes",
+ "pt": "Formas Bauhaus"
 }

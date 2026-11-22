@@ -1,4 +1,4 @@
-# SOURCES · Broadcast News Package demo
+# SOURCES · Telejornal demo
 
 This film uses no third-party footage or photographs. Everything on screen is drawn in code, except two illustrative background plates made with an image generator. Facts and their sources, with quoted wording, are in [`FACTS.md`](FACTS.md).
 

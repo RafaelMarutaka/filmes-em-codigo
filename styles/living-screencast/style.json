@@ -1,7 +1,7 @@
 {
  "slug": "living-screencast",
  "num": "68",
- "en": "Mascot Screencast",
+ "en": "Gravação de Tela com Mascote",
  "cn": "像素小人录屏",
  "aka": [
   "Living Screencast",
@@ -19,5 +19,7 @@
   "Onboarding"
  ],
  "frame_sec": 5.94,
- "dur": 59.4
+ "dur": 59.4,
+ "en_original": "Mascot Screencast",
+ "pt": "Gravação de Tela com Mascote"
 }

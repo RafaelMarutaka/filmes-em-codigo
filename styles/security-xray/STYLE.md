@@ -1,4 +1,4 @@
-# Security X-ray — Style Prompt
+# Raio-X de Segurança — Style Prompt
 
 > The film is seen through a baggage-screening console: objects are never shown, only their dual-energy X-ray image, where every material has its colour (organic orange, mixed green, metal blue, impenetrable black) and every outline comes from thickness, not from a drawing. The operator exists only as actions on the screen: a box dragged around an object, a zoom, a measurement, a material filter, a verdict.
 > References (grammar only): real checkpoint and cargo screening imagery (the colour convention, the scrolling line-scan, the operator's function keys); CT baggage scanners (rotatable 3D volumes in the same colours); medical radiography (thickness as light). Copy no manufacturer's interface, logo, layout or typeface, and never name one.
@@ -11,7 +11,7 @@
 - **Things are understood by their insides**: the coil in a hair dryer, the strings of a guitar, the gears in a toy car, the spine of a book.
 - **Real rules.** When the image is judged, the rule on screen is a real, sourced regulation.
 
-Not Sci-fi Hologram HUD (no invented glowing chrome: the console is plain, functional, dark), not Exploded Teardown (objects are never taken apart or lit as solids), not Under the Microscope, not a medical scan film (luggage, belts, trays, a checkpoint), not a keynote (no slides, no centred title pages).
+Not Holograma Sci-Fi (no invented glowing chrome: the console is plain, functional, dark), not Desmontagem em Vista Explodida (objects are never taken apart or lit as solids), not No Microscópio, not a medical scan film (luggage, belts, trays, a checkpoint), not a keynote (no slides, no centred title pages).
 
 ## 2. Materials & rendering
 

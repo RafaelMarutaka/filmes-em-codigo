@@ -1,4 +1,4 @@
-# Chalkboard — Style Prompt
+# Lousa de Giz — Style Prompt
 
 > A real classroom blackboard on which chalk writes itself, stroke by stroke in true stroke order, with no hand, no chalk stick and no eraser in sight. One idea is taught the way a teacher does it: write what people think, wipe it with one pass, write what is true in the same place.
 > References (grammar only): a primary-school literacy lesson on a sliding double blackboard; the way a teacher underlines the parts of a character, circles one component and wipes a wrong line. Take the order of a lesson, not any teacher's handwriting.
@@ -13,7 +13,7 @@ Suits short lessons on one idea: where a word or a character comes from, a misco
 - **A real object in a real room.** Wooden frame, a tray with sticks of chalk, painted tian-zi grids, sliding panels, a wall and a clock around it.
 - **Few words, large letters.** The board holds keywords; the explanation is spoken.
 
-Not Whiteboard Explainer: that style is a bright glossy board, coloured markers, floating marker props and magnets, ghost marks of old lessons, and a camera travelling across a knowledge map of many regions to explain how something works. Chalkboard is a dark matte slate with nothing floating in front of it, kept clean, one question per board, the camera facing it flat; it advances by writing a claim, wiping it and rewriting in place, and it lives in a classroom (panels that slide, grids painted on, a tray, a wall). Not a slide either: nothing is typeset, nothing fades in.
+Not Explicação no Quadro Branco: that style is a bright glossy board, coloured markers, floating marker props and magnets, ghost marks of old lessons, and a camera travelling across a knowledge map of many regions to explain how something works. Chalkboard is a dark matte slate with nothing floating in front of it, kept clean, one question per board, the camera facing it flat; it advances by writing a claim, wiping it and rewriting in place, and it lives in a classroom (panels that slide, grids painted on, a tray, a wall). Not a slide either: nothing is typeset, nothing fades in.
 
 ## 2. Materials & rendering
 

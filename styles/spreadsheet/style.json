@@ -1,7 +1,7 @@
 {
  "slug": "spreadsheet",
  "num": "71",
- "en": "Spreadsheet Film",
+ "en": "Filme em Planilha",
  "cn": "表格动画",
  "category_en": "Screens & Interfaces",
  "category_cn": "屏幕界面",
@@ -15,5 +15,7 @@
   "Analytics explainers"
  ],
  "frame_sec": 47.3,
- "dur": 52.0
+ "dur": 52.0,
+ "en_original": "Spreadsheet Film",
+ "pt": "Filme em Planilha"
 }

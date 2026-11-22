@@ -1,4 +1,4 @@
-# Colored-Pencil Science Illustration — Style Prompt
+# Ilustração Científica em Lápis de Cor — Style Prompt
 
 > A real 3D cutaway world (ground, soil horizons, stones, buried structures, living things) redrawn every frame as a colored-pencil plate on toothed paper: four layers of pencil, a wobbling graphite contour, labels pencilled on cream paper tags. The camera can sink below the ground, and the drawing can be *drawn in* while you watch: horizons coloured in stroke by stroke, growing things drawn out from their base, fine lines spreading white over dark soil.
 > References (grammar only): natural-history picture books and textbook cutaways (soil profiles, root systems, burrows), colored-pencil illustration on cold-press paper, the multiplane camera of hand-drawn animation. Copy none of their plates, characters, layouts or typefaces.
@@ -11,7 +11,7 @@
 - **Drawing is an event.** Every surface has a moment it is drawn; after that its four pencil layers arrive one after another, stroke by stroke.
 - **Restraint.** One idea per shot, one visual focus, few labels. A science plate earns its clarity by leaving things out.
 
-Not Watercolor (no washes, blooms or wet edges: every tone is built from strokes), not Urban Sketch (no ink line plus wash; the line is graphite and coloured pencil), not Crayon Picture Book (fine, controlled hatching, not waxy scribbles), not Isometric People Scene (perspective camera, a real cut face, depth).
+Not Watercolor (no washes, blooms or wet edges: every tone is built from strokes), not Urban Sketch (no ink line plus wash; the line is graphite and coloured pencil), not Livro Infantil de Giz de Cera (fine, controlled hatching, not waxy scribbles), not Cena Isométrica com Pessoas (perspective camera, a real cut face, depth).
 
 ## 2. Materials & rendering
 

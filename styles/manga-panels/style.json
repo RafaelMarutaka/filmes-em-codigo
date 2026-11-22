@@ -1,7 +1,7 @@
 {
  "slug": "manga-panels",
  "num": "57",
- "en": "Manga Panels",
+ "en": "Quadrinhos de Mangá",
  "cn": "黑白漫画分格",
  "category_en": "Cartoons",
  "category_cn": "卡通动画",
@@ -18,5 +18,7 @@
   "image-generation"
  ],
  "frame_sec": 40.2,
- "dur": 48.0
+ "dur": 48.0,
+ "en_original": "Manga Panels",
+ "pt": "Quadrinhos de Mangá"
 }

@@ -1,4 +1,4 @@
-# Tablet Sketch Explainer — Style Prompt
+# Explicação Desenhada no Tablet — Style Prompt
 
 > The whole frame is a cream drawing canvas on a tablet, seen while someone draws and explains: grainy pencil lines go down first, flat colour blocks come after, shifted off the line and not quite filled, and the canvas itself is pinched, panned and turned between ideas.
 > References (grammar only): draw-along explainers and time-lapse recordings of tablet sketching; pencil-and-marker recipe and craft illustration; off-register risograph colour. Never copy their drawings, layouts or lettering.

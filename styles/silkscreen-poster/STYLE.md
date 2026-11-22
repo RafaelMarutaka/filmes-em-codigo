@@ -1,4 +1,4 @@
-# Silkscreen Travel Poster — Style Prompt
+# Pôster de Viagem em Serigrafia — Style Prompt
 
 > Opaque, hard-edged flat inks pulled one colour at a time through a screen: 4–6 inks per poster, stepped colour bands instead of gradients, thin paper-white gaps where the registration slips. Information is revealed the way the print is made: one layer, one beat.
 > References (grammar only):

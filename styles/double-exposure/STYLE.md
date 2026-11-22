@@ -1,4 +1,4 @@
-# Double Exposure — Style Prompt
+# Dupla Exposição — Style Prompt
 
 > A silhouette is a window. A dark animal shape from the first exposure holds a second photograph, the place that animal carries with it, while the world outside the shape is where it is now. Monochrome photographs, warm lamps as the only colour, and a camera that moves the outline and the world inside it at different speeds, so the window and the place slide past each other.
 > References (grammar only): in-camera multiple exposure on black-and-white film (the backlit profile first, the landscape printed only into its dark parts); darkroom sandwich printing of two negatives; title sequences that merge a figure and a place into one image; wildlife film for how animals really move. Copy none of their compositions, typefaces or music; never name them in the film.
@@ -11,7 +11,7 @@
 - **Monochrome photographs, warm lamps.** Licence-clean photographs (the user's own, or CC0 / public-domain files from Wikimedia Commons; check the licence on each file page) printed in black and white with a faint cool shadow / warm highlight split; the only saturated colour is the warm light of lamps, windows and city lights inside the windows.
 - **Two images become one.** The medium's strongest moment is register: the place inside and the place outside slide into alignment and become a single photograph.
 
-Not Vintage Collage (no paper cut-outs, no mixed print processes), not Ukiyo-e or Paper-cut (no flat graphic fills: the fill is always a photograph), not Shadow Puppetry (the silhouette is a window, not a lit cut-out), not a keynote (no header bars, no centred title cards, no slide transitions).
+Not Vintage Collage (no paper cut-outs, no mixed print processes), not Ukiyo-e (Gravura Japonesa) or Paper-cut (no flat graphic fills: the fill is always a photograph), not Teatro de Sombras (the silhouette is a window, not a lit cut-out), not a keynote (no header bars, no centred title cards, no slide transitions).
 
 ## 2. Materials & rendering
 

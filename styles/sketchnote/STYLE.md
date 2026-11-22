@@ -1,4 +1,4 @@
-# Sketchnote — Style Prompt
+# Anotação Visual (Sketchnote) — Style Prompt
 
 > One page of visual notes on dot-grid paper, drawn while you watch: a black fineliner writes and draws, a grey marker gives volume and shadow, one yellow marker carries the single thing that matters. Banners, rounded boxes, fat arrows, icons and hand lettering grow stroke by stroke; the camera rides the pen across the page and ends by pulling back until the whole page reads as a poster.
 > References (grammar only): live sketchnoting and graphic recording of talks (banners, numbered steps, fat arrows, one accent colour); whiteboard animation's "the hand is the camera" pacing. Copy none of their layouts, icons, lettering or music, and never name them in the film.
@@ -11,7 +11,7 @@
 - **Hand lettering is the typography**: titles on banners, keywords in a bold hand, notes in a thin hand, all written stroke by stroke.
 - **The page is planned as a poster.** Every note has its place in the final page; the film is the page being made.
 
-Not Whiteboard Explainer (no hand, no wipe, a page that is kept, not erased; tone and volume from marker, not a bare marker line), not Urban Sketch · Pen & Wash (no watercolour, no perspective scene), not Chalkboard, not Data Storytelling (charts are hand-drawn notes on the page, not a chart engine), not a keynote (no slides, header bars or page turns).
+Not Explicação no Quadro Branco (no hand, no wipe, a page that is kept, not erased; tone and volume from marker, not a bare marker line), not Croqui Urbano a Nanquim e Aguada (no watercolour, no perspective scene), not Chalkboard, not História com Dados (charts are hand-drawn notes on the page, not a chart engine), not a keynote (no slides, header bars or page turns).
 
 ## 2. Materials & rendering
 

@@ -1,7 +1,7 @@
 {
  "slug": "brick-toy",
  "num": "78",
- "en": "Brick Toy",
+ "en": "Blocos de Montar",
  "cn": "积木玩具",
  "category_en": "3D & Miniature",
  "category_cn": "立体微缩",
@@ -15,5 +15,7 @@
   "Space"
  ],
  "frame_sec": 38.88,
- "dur": 54.0
+ "dur": 54.0,
+ "en_original": "Brick Toy",
+ "pt": "Blocos de Montar"
 }

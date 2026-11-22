@@ -1,4 +1,4 @@
-# Satellite Briefing — Style Prompt
+# Relatório por Satélite — Style Prompt
 
 > Real satellite imagery of a real place, graded down to an analyst's grey, with thin white measurement lines drawn on the ground: a lock-on reticle, outlines, a range line, one reading. One continuous zoom built from stacked imagery plates carries the viewer from orbit to the ground and back, and time can run inside one locked frame.
 > References (grammar only): open-source investigation films that annotate satellite pictures (thin lines on imagery, one claim per screen, measuring as the plot); the Eameses' *Powers of Ten* (one continuous change of scale with a readout); NASA Earth Observatory's *World of Change* (one place, time running). Copy none of their layouts, typefaces, icons or music; never name them in the film.
@@ -11,7 +11,7 @@
 - **Scale is the camera**: one zoom from orbit to the ground built from nested plates, with an altitude readout and a scale bar from the same camera.
 - **One finding per screen**, in the single accent colour.
 
-Not Data Storytelling (a chart on paper), not Sci-fi Hologram HUD (no glowing wireframes or invented chrome), not Blueprint, not Isometric Infographic (real nadir or oblique views, no diorama), not a keynote (no slides, header bars or chapter numbers).
+Not História com Dados (a chart on paper), not Holograma Sci-Fi (no glowing wireframes or invented chrome), not Blueprint, not Infográfico Isométrico (real nadir or oblique views, no diorama), not a keynote (no slides, header bars or chapter numbers).
 
 ## 2. Materials & rendering
 

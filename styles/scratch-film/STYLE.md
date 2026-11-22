@@ -1,4 +1,4 @@
-# Scratch Film — Style Prompt
+# Película Riscada — Style Prompt
 
 > Direct animation: every picture looks scratched through black emulsion with a needle and tinted with transparent dye, redrawn by hand fifteen times a second and projected. Black is the ground; everything bright is a cut. Lines boil from drawing to drawing, light glows through every cut, colour lies in the grooves like dye.
 > References (grammar only): the direct-animation tradition (films scratched and painted straight onto the film stock, without a camera), its boiling line and its light through the cut. Take the look of the marks and the projected glow; never copy a frame, a character or a score from any existing film, and never name one.

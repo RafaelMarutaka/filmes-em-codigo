@@ -1,4 +1,4 @@
-# Comic History Cartoon — our demo
+# História em Desenho Cômico — our demo
 
 One example among many. Don't reuse its story, arc, shots, props or timings.
 
@@ -58,7 +58,7 @@ Mix: the voice is compressed and set by RMS about 10 dB over the music; while it
 
 ## End card
 
-The title card slaps into the last (narrow) panel at 47.0 s: *ONE PIECE OF PAPER* · 一块纸 · *Alsace-Lorraine 1871–1945*; under a thin printed rule, the style name *Comic History Cartoon* / 搞笑历史卡通 and `Rafael Marutaka × Claude Opus 5.5` (IM FELL English, about 29 px on screen). Held to 51.0 s. The "Rafael Marutaka × Claude Opus 5.5" sign-off belongs to this library's demo only; a user's film carries no Rafael Marutaka credit and no copy of this card.
+The title card slaps into the last (narrow) panel at 47.0 s: *ONE PIECE OF PAPER* · 一块纸 · *Alsace-Lorraine 1871–1945*; under a thin printed rule, the style name *História em Desenho Cômico* / 搞笑历史卡通 and `Rafael Marutaka × Claude Opus 5.5` (IM FELL English, about 29 px on screen). Held to 51.0 s. The "Rafael Marutaka × Claude Opus 5.5" sign-off belongs to this library's demo only; a user's film carries no Rafael Marutaka credit and no copy of this card.
 
 ## Build notes
 

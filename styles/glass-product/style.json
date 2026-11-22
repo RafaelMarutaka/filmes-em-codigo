@@ -1,7 +1,7 @@
 {
  "slug": "glass-product",
  "num": "82",
- "en": "Glass Product Render",
+ "en": "Produto em Vidro 3D",
  "cn": "玻璃质感产品",
  "category_en": "3D & Miniature",
  "category_cn": "立体微缩",
@@ -15,5 +15,7 @@
   "Beauty"
  ],
  "frame_sec": 19.2,
- "dur": 32.0
+ "dur": 32.0,
+ "en_original": "Glass Product Render",
+ "pt": "Produto em Vidro 3D"
 }

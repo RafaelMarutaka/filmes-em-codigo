@@ -1,7 +1,7 @@
 {
  "slug": "stick-explainer",
  "num": "18",
- "en": "Stick-figure Explainer",
+ "en": "Explicação com Bonecos de Palito",
  "cn": "火柴人讲解",
  "category_en": "Sketch & Board",
  "category_cn": "速写板书",
@@ -15,5 +15,7 @@
   "Data comparisons"
  ],
  "frame_sec": 9.5,
- "dur": 52.0
+ "dur": 52.0,
+ "en_original": "Stick-figure Explainer",
+ "pt": "Explicação com Bonecos de Palito"
 }

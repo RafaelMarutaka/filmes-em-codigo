@@ -1,7 +1,7 @@
 {
  "slug": "backrooms",
  "num": "64",
- "en": "Liminal Found Footage",
+ "en": "Fita Perdida (Found Footage)",
  "cn": "后室录像带",
  "aka": [
   "后室 / 新怪谈"
@@ -18,5 +18,7 @@
   "Game teasers"
  ],
  "frame_sec": 8.96,
- "dur": 59.7
+ "dur": 59.7,
+ "en_original": "Liminal Found Footage",
+ "pt": "Fita Perdida (Found Footage)"
 }

@@ -1,7 +1,7 @@
 {
  "slug": "desktop-flythrough",
  "num": "70",
- "en": "Tabletop App Flythrough",
+ "en": "Tour de App na Mesa",
  "cn": "桌面卡片穿梭",
  "aka": [
   "Desktop Flythrough",
@@ -19,5 +19,7 @@
   "Products"
  ],
  "frame_sec": 56.85,
- "dur": 60.0
+ "dur": 60.0,
+ "en_original": "Tabletop App Flythrough",
+ "pt": "Tour de App na Mesa"
 }

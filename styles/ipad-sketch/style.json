@@ -1,7 +1,7 @@
 {
  "slug": "ipad-sketch",
  "num": "19",
- "en": "Tablet Sketch Explainer",
+ "en": "Explicação Desenhada no Tablet",
  "cn": "平板速写讲解",
  "category_en": "Sketch & Board",
  "category_cn": "速写板书",
@@ -15,5 +15,7 @@
   "Lifestyle science"
  ],
  "frame_sec": 46.45,
- "dur": 51.0
+ "dur": 51.0,
+ "en_original": "Tablet Sketch Explainer",
+ "pt": "Explicação Desenhada no Tablet"
 }

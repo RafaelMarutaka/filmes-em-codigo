@@ -1,4 +1,4 @@
-# Vintage Engraving Collage — Style Prompt
+# Colagem de Gravuras Antigas — Style Prompt
 
 > A magazine collage made on a paper table: public-domain engravings, stamps, old photographs and printed ephemera are cut out with a white paper margin and laid over torn sheets of flat colour, and the pieces move like cut-out animation, on twos, with paper thickness and real shadows. Numbers are drawn as our own "data engravings": engraved lines that swell with the value.
 > References (grammar only): Terry Gilliam's cut-out animation (hinged moves, pieces that pop out, the stepped rhythm); Saul Bass's paper title sequences (a shape that becomes the next shot); contemporary editorial collage (torn colour fields, halftone clippings, ransom letters, typewriter slips). Copy none of their characters, layouts, typefaces or music, and never name them in a film.
@@ -11,7 +11,7 @@
 - **Cut-out motion.** Pieces slide in, overshoot and settle, drop and bounce, swing on a pin, turn over, get cut and scatter, stepped on twos. Nothing scales or rotates smoothly like software.
 - **Our own addition: the data engraving.** Charts are engraved, not plotted: parallel lines whose width follows the value (the copperplate swelling line), cross-hatching at the peaks, a thin ochre wash, double-rule axes, torn breaks for broken scales.
 
-Not Halftone Dossier (that one is a case file of documents; here the printed matter is cut free and performs), not Woodcut Print or Copperplate Engraving (we never re-engrave the whole frame; engravings arrive as found pieces), not Paper Pop-up Book (no 3D folds or depth stages), not a scrapbook slideshow (pieces move as puppets, the camera moves over a table).
+Not Dossiê em Retícula (that one is a case file of documents; here the printed matter is cut free and performs), not Xilogravura or Gravura em Metal (we never re-engrave the whole frame; engravings arrive as found pieces), not Livro Pop-up de Papel (no 3D folds or depth stages), not a scrapbook slideshow (pieces move as puppets, the camera moves over a table).
 
 ## 2. Materials & rendering
 

@@ -1,7 +1,7 @@
 {
  "slug": "satellite-briefing",
  "num": "86",
- "en": "Satellite Briefing",
+ "en": "Relatório por Satélite",
  "cn": "卫星简报",
  "category_en": "Instruments & Evidence",
  "category_cn": "仪器实证",
@@ -15,5 +15,7 @@
   "Geography"
  ],
  "frame_sec": 37.4,
- "dur": 37.8
+ "dur": 37.8,
+ "en_original": "Satellite Briefing",
+ "pt": "Relatório por Satélite"
 }

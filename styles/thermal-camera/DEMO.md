@@ -1,4 +1,4 @@
-# Thermal Camera — our demo
+# Câmera Térmica — our demo
 
 One example among many. Don't reuse its story, arc, shots, props or timings.
 
@@ -35,7 +35,7 @@ Iron palette as in STYLE.md; ranges −9…+7 °C (facade), −8…+2 °C (veins
 
 ## End card
 
-"冬夜，一栋楼的体温 / A Building on a Winter Night / 热成像 / Thermal Camera / Rafael Marutaka × Claude Opus 5.5", top left over the night sky of the final visible frame, 45.5–49.0 s (3.5 s: the title needs 3.34 s at the library's reading speed). The sign-off belongs to this library's demo only.
+"冬夜，一栋楼的体温 / A Building on a Winter Night / 热成像 / Câmera Térmica / Rafael Marutaka × Claude Opus 5.5", top left over the night sky of the final visible frame, 45.5–49.0 s (3.5 s: the title needs 3.34 s at the library's reading speed). The sign-off belongs to this library's demo only.
 
 ## Build notes
 

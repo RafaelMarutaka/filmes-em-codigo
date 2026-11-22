@@ -1,4 +1,4 @@
-# Radar Sweep Documentary — Style Prompt
+# Documentário de Radar — Style Prompt
 
 > The world is black until a scan passes. A plane of light sweeps across terrain, machines and rooms; what it has touched lights up, then settles into echoes (contour lines, range rings, wireframe edges) that slowly fade. Facts arrive as instrument readings: thin titles, small monospaced type, gauges and timelines written on by the same scan, placed beside the thing they describe.
 > References (grammar only): radar and sonar displays (sweep, return, decay); LiDAR and survey visualisation (echo geometry, range rings); night-time science documentary title design (thin type, quiet data). Copy no programme's graphics package, logo, layout or typeface, and never name one.
@@ -11,7 +11,7 @@
 - **Instrument reading, not presentation.** Every number is a reading next to its object (an angle on an arc, a trace with one threshold line, a source on a timeline), written on by the scan, in small monospaced type. One thin title per film.
 - **One warm accent** for the target or the signal (the thing being looked for). Everything else is cold.
 
-Not LiDAR Survey (no point clouds, no measured scan data; the scan is a light, the echoes are line geometry), not Sci-fi Hologram HUD (no glowing chrome, no floating panels, no invented interfaces), not Satellite Briefing (not a map or overhead imagery), not a keynote (no slides, no centred title pages, no page turns).
+Not Mapeamento LiDAR (no point clouds, no measured scan data; the scan is a light, the echoes are line geometry), not Holograma Sci-Fi (no glowing chrome, no floating panels, no invented interfaces), not Relatório por Satélite (not a map or overhead imagery), not a keynote (no slides, no centred title pages, no page turns).
 
 ## 2. Materials & rendering
 

@@ -1,7 +1,7 @@
 {
  "slug": "vintage-collage",
  "num": "35",
- "en": "Vintage Engraving Collage",
+ "en": "Colagem de Gravuras Antigas",
  "cn": "复古版画拼贴",
  "category_en": "Print & Printmaking",
  "category_cn": "印刷版画",
@@ -15,5 +15,7 @@
   "Archive and collecting stories"
  ],
  "frame_sec": 9.6,
- "dur": 52.0
+ "dur": 52.0,
+ "en_original": "Vintage Engraving Collage",
+ "pt": "Colagem de Gravuras Antigas"
 }

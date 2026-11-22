@@ -1,7 +1,7 @@
 {
  "slug": "rubber-hose",
  "num": "52",
- "en": "1930s Rubber Hose Cartoon",
+ "en": "Desenho Animado Anos 30",
  "cn": "1930s 橡皮管卡通",
  "category_en": "Cartoons",
  "category_cn": "卡通动画",
@@ -15,5 +15,7 @@
   "Kids"
  ],
  "frame_sec": 30.0,
- "dur": 50.0
+ "dur": 50.0,
+ "en_original": "1930s Rubber Hose Cartoon",
+ "pt": "Desenho Animado Anos 30"
 }

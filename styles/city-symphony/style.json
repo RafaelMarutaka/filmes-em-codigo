@@ -1,7 +1,7 @@
 {
  "slug": "city-symphony",
  "num": "04",
- "en": "City Symphony",
+ "en": "Sinfonia da Cidade",
  "cn": "城市交响曲",
  "aka": [
   "Time-lapse Symphony",
@@ -19,5 +19,7 @@
   "Openers"
  ],
  "frame_sec": 11.2,
- "dur": 52.0
+ "dur": 52.0,
+ "en_original": "City Symphony",
+ "pt": "Sinfonia da Cidade"
 }

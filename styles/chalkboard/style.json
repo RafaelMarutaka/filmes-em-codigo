@@ -1,7 +1,7 @@
 {
  "slug": "chalkboard",
  "num": "16",
- "en": "Chalkboard",
+ "en": "Lousa de Giz",
  "cn": "黑板粉笔",
  "category_en": "Sketch & Board",
  "category_cn": "速写板书",
@@ -15,5 +15,7 @@
   "Lessons"
  ],
  "frame_sec": 44.2,
- "dur": 49.3
+ "dur": 49.3,
+ "en_original": "Chalkboard",
+ "pt": "Lousa de Giz"
 }

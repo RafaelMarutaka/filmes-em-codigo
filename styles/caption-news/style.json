@@ -1,7 +1,7 @@
 {
  "slug": "caption-news",
  "num": "01",
- "en": "Caption News",
+ "en": "Notícia com Legendas",
  "cn": "字幕新闻",
  "category_en": "Edit & Documentary",
  "category_cn": "剪辑纪实",
@@ -15,5 +15,7 @@
   "Data shorts"
  ],
  "frame_sec": 22.3,
- "dur": 59.5
+ "dur": 59.5,
+ "en_original": "Caption News",
+ "pt": "Notícia com Legendas"
 }

@@ -1,7 +1,7 @@
 {
  "slug": "engraving",
  "num": "31",
- "en": "Copperplate Engraving",
+ "en": "Gravura em Metal",
  "cn": "铜版画",
  "category_en": "Print & Printmaking",
  "category_cn": "印刷版画",
@@ -15,5 +15,7 @@
   "Brand heritage"
  ],
  "frame_sec": 34.0,
- "dur": 40.0
+ "dur": 40.0,
+ "en_original": "Copperplate Engraving",
+ "pt": "Gravura em Metal"
 }

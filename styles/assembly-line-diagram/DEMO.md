@@ -1,4 +1,4 @@
-# Assembly-Line Diagram — our demo
+# Diagrama de Linha de Montagem — our demo
 
 One example among many. Don't reuse its story, arc, shots, props or timings.
 
@@ -81,7 +81,7 @@ Mix (`demo/tools/mix.py`): the voice is compressed and set about 10 dB over the 
 
 ## End card
 
-At 49.4 a machine nameplate (cream board, ink frame, four rivets, the same drawing as the title sign) drops onto the ground line at the right, on two ochre posts: THE DISASSEMBLY LINE 拆解流水线, a vermilion rule, "Assembly-Line Diagram · 流水线图解", and the sign-off `Rafael Marutaka × Claude Opus 5.5` on a small black label. The frame holds 3.0 s. The sign-off belongs to this library's demo only; a user's film carries no Rafael Marutaka credit and no copy of this card.
+At 49.4 a machine nameplate (cream board, ink frame, four rivets, the same drawing as the title sign) drops onto the ground line at the right, on two ochre posts: THE DISASSEMBLY LINE 拆解流水线, a vermilion rule, "Diagrama de Linha de Montagem · 流水线图解", and the sign-off `Rafael Marutaka × Claude Opus 5.5` on a small black label. The frame holds 3.0 s. The sign-off belongs to this library's demo only; a user's film carries no Rafael Marutaka credit and no copy of this card.
 
 ## Build notes
 
@@ -119,4 +119,4 @@ demo/
 - 7 plaques passing during the tilt down the chute (film 15.2–15.4 s: PUMP 心脏, BELLOWS 肺, WAREHOUSE 肝 and its number), on screen 0.12–0.20 s; they are read properly later in the film.
 - The "ASSEMBLY LINE 装配线" sign at the very start (0.56 / 0.88 s) leaves the frame as the camera trucks with the sandwich.
 - The "Z z" of the dozing worker (1.28 s); the control-room labels CONTROL ROOM and 大脑, which sit just above the top edge during the cut to the control room (film 40.6–40.7 s): only the bottom 1–11 px of their text boxes reach into the frame for a few frames, and the plaques are never meant to be read there. CONTROL ROOM shows up in the count only because the check samples every 0.04 s and the 2.5 s shift moved those samples onto the frames where its box touches the edge; the picture there is the same frame for frame.
-- The nameplate's second line, "Assembly-Line Diagram · 流水线图解", 2.90 s (4.01 s asked); its title and the sign-off pass.
+- The nameplate's second line, "Diagrama de Linha de Montagem · 流水线图解", 2.90 s (4.01 s asked); its title and the sign-off pass.

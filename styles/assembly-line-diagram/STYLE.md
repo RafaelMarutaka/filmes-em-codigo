@@ -1,4 +1,4 @@
-# Assembly-Line Diagram — Style Prompt
+# Diagrama de Linha de Montagem — Style Prompt
 
 > A process explained as a factory cut open in elevation: a silhouette (a body, a machine, a building, a city) is sliced like a doll's house into rooms on floors, each room a work station with a machine, a numbered plaque and tiny workers; coloured pipes carry the goods between them, and the colour of a pipe is the legend. The camera rides one piece of cargo through the whole line, and every station starts working the moment it arrives.
 > References (grammar only): Fritz Kahn, *Der Mensch als Industriepalast* (1926: the body as a cut-away factory, rooms with coloured frames on a dark ground, numbered stations, pipes with highlights, workers in white coats); Nigel Holmes's explanation graphics for TIME (thick black outlines, flat colour, a flat offset shadow, the joke said straight, short bold labels with right-angle leaders). Copy neither: no traced plates, no aged paper, no period lettering.
@@ -11,7 +11,7 @@
 - **The cut-away is the frame.** Rooms sit inside a silhouette on a dark ground; the gap of dark between the rooms and the outer wall is what makes the silhouette read (a person, a machine) at every scale.
 - **Workers are scale and action.** Tiny, faceless figures, each doing one legible thing (turning a valve, holding a sign, pushing a cart, dozing). They give the factory its size and the beats their comedy.
 
-Not Isometric Infographic (no isometric or perspective view: everything is a flat front elevation), not Whiteboard Explainer (no hand, no drawing-on), not Exploded Teardown (no 3D parts flying apart), not Blueprint (full colour on paper, not white lines on blue), not a keynote (no slides, no centred title pages, no page headers).
+Not Infográfico Isométrico (no isometric or perspective view: everything is a flat front elevation), not Explicação no Quadro Branco (no hand, no drawing-on), not Desmontagem em Vista Explodida (no 3D parts flying apart), not Blueprint (full colour on paper, not white lines on blue), not a keynote (no slides, no centred title pages, no page headers).
 
 ## 2. Materials & rendering
 

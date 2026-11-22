@@ -1,7 +1,7 @@
 {
  "slug": "scratch-film",
  "num": "65",
- "en": "Scratch Film",
+ "en": "Película Riscada",
  "cn": "胶片直刻",
  "category_en": "Film & Tape",
  "category_cn": "胶片录像",
@@ -15,5 +15,7 @@
   "Small adventures told in light and shadow"
  ],
  "frame_sec": 39.2,
- "dur": 52.0
+ "dur": 52.0,
+ "en_original": "Scratch Film",
+ "pt": "Película Riscada"
 }

@@ -1,4 +1,4 @@
-# LiDAR Survey — Style Prompt
+# Mapeamento LiDAR — Style Prompt
 
 > Real airborne laser points of a real place, floating in the dark as a measured cloud; a scan line or a cutting plane passes through them and the points condense into a solid, raking-lit surface, which is then measured with hairline instruments. One designed camera move carries the whole film: the cloud is something you fly through, not a picture you look at.
 > References (grammar only): survey and archaeology lidar visualisations (colour as height, the canopy removed); architectural section drawings (a cut, dimensioned); museum film cadence (one held reading per screen). Copy none of their layouts, ramps, typefaces or music, and never name them in the film.
@@ -11,7 +11,7 @@
 - **Measurement in hairlines**: one reading at a time, in the accent, attached to what it measures; numbers from the points or an official source.
 - **Dark, quiet, exact**: near-black ground, restrained colour, no glow except at the front.
 
-Not Sci-fi Hologram HUD (no invented interface: the points are real, sparse where the survey was), not Satellite Briefing (photographs from above; here a 3D cloud flown through), not Blueprint, not Low-poly Isometric, not Glass Product Render.
+Not Holograma Sci-Fi (no invented interface: the points are real, sparse where the survey was), not Relatório por Satélite (photographs from above; here a 3D cloud flown through), not Blueprint, not Low-poly Isometric, not Produto em Vidro 3D.
 
 ## 2. Materials & rendering
 

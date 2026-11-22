@@ -1,4 +1,4 @@
-# 1930s Rubber Hose Cartoon — Style Prompt
+# Desenho Animado Anos 30 — Style Prompt
 
 > Black-and-white hand-inked cartoons where every object is alive and swings to a hot jazz band.
 > References (grammar only): early Fleischer Studios shorts (c. 1930–33) for "the whole world dances", surreal transformation, the bouncing-ball singalong and ink-and-pen framing devices; *Cuphead* for how a modern team finishes the look and scores it with a big band. Never use an existing cartoon character, name or silhouette, and never copy designs, melodies or logos. **Avoid the "cup-head on a human body with a straw" design**: if your hero is an object, the *whole object is the body*.

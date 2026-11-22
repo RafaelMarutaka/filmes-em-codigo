@@ -1,4 +1,4 @@
-# Projection-Mapped Model — Style Prompt
+# Maquete com Projeção — Style Prompt
 
 > A pure white massing model of a real place stands on a plinth in a dark room, and a projector paints data onto it as light: one layer at a time, falling on the surfaces that face it, spilling a little past the plate. The model never changes; only the light on it does.
 > References (grammar only): projection-mapped planning models in city galleries (the dark room, the soft throw, colour only on white surfaces); macro model photography (shallow focus at rooftop height); editorial data graphics (one figure, one label, one source per layer). Copy none of their layouts, typefaces, colours or music, and never name them in the film.
@@ -11,7 +11,7 @@
 - **A physical room**: house lights, a projector that strikes and switches, a plinth, darkness around it. Lights out is where the data starts; lights up is where it ends.
 - **Every number on screen is computed from the same buildings** that are on the table.
 
-Not Isometric Infographic (no diorama or icons), not Low-poly Island (no invented terrain), not Sci-fi Hologram HUD (no wireframes; light lands on matter), not Satellite Briefing (no imagery), not a laser-scan or point-cloud film (no scan lines; light is projected, not measured).
+Not Infográfico Isométrico (no diorama or icons), not Low-poly Island (no invented terrain), not Holograma Sci-Fi (no wireframes; light lands on matter), not Relatório por Satélite (no imagery), not a laser-scan or point-cloud film (no scan lines; light is projected, not measured).
 
 ## 2. Materials & rendering
 

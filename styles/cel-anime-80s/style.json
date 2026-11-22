@@ -1,7 +1,7 @@
 {
  "slug": "cel-anime-80s",
  "num": "53",
- "en": "80s Cel Anime",
+ "en": "Anime Anos 80",
  "cn": "80 年代赛璐璐动画",
  "category_en": "Cartoons",
  "category_cn": "卡通动画",
@@ -15,5 +15,7 @@
   "Nostalgia"
  ],
  "frame_sec": 13.2,
- "dur": 59.0
+ "dur": 59.0,
+ "en_original": "80s Cel Anime",
+ "pt": "Anime Anos 80"
 }

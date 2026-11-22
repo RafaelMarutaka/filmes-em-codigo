@@ -1,4 +1,4 @@
-# 3D Map Explainer — Style Prompt
+# Explicação em Mapa 3D — Style Prompt
 
 > Real elevation and real imagery built into a three-dimensional map with the vertical exaggerated, lit by one warm, low sun; a sea coloured by its real depth; and over it a layer of data that glows, flows and lights up along true geography: routes, lanes, measurements, pillars. One camera falls from space into the place, flies over it, cuts it open, and climbs back out.
 > References (grammar only): news organisations' 3D terrain explainers (a dive from the whole region to the point that matters, then back out); documentary aerials in low raking light (relief stood up by its shadows); nautical charts (lanes, separation zones, soundings, title blocks). Copy none of their colours, icons, typefaces or camera paths; never name them in the film.
@@ -11,7 +11,7 @@
 - **The data layer advances.** Each time it appears it does one more thing than before: flow, structure, depth, volume, alternatives, the whole world.
 - **One camera, one world.** Globe, region and close-up are the same place at different heights; moving between them is a camera move or a dissolve through the atmosphere, never a cut to a different map.
 
-Not Satellite Briefing (grey analyst imagery seen straight down, hairline measurements), not Transit Map (an abstract diagram), not Isometric Infographic or Low-poly Island (no stylised diorama), not Sci-fi Hologram HUD (no invented chrome, no wireframe terrain), not a slide deck over a map (no header bars, centred blocks or page turns).
+Not Relatório por Satélite (grey analyst imagery seen straight down, hairline measurements), not Mapa de Metrô (an abstract diagram), not Infográfico Isométrico or Low-poly Island (no stylised diorama), not Holograma Sci-Fi (no invented chrome, no wireframe terrain), not a slide deck over a map (no header bars, centred blocks or page turns).
 
 ## 2. Materials & rendering
 

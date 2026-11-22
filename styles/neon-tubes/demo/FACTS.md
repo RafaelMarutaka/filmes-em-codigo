@@ -1,4 +1,4 @@
-# Neon Tubes demo · sources for the medium
+# Letreiro de Neon demo · sources for the medium
 
 The street, the shop names and the clock times are invented. What is real is how neon signs are made and what colour each
 gas gives; each line below matches something on screen.

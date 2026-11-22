@@ -1,4 +1,4 @@
-# Manga Panels — our demo
+# Quadrinhos de Mangá — our demo
 
 One example among many. Don't reuse its story, arc, shots, props or timings.
 
@@ -57,7 +57,7 @@ Native moves spent: panel = cut, panel ink-in in reading order, the shutter iris
 
 ## End card
 
-The colophon (奥付) on the last page, inked on the last shutter: 《KOMA ONE》一秒三十格 / KOMA ONE · Thirty Frames a Second / rule / 黑白漫画分格 Manga Panels / Rafael Marutaka × Claude Opus 5.5 / credits ("画面 Codex 生图 · 音乐 代码合成", "Images: Codex · Music: made in code") / "Fictional brand, product and character." The "Rafael Marutaka × Claude Opus 5.5" line exists only in this library demo.
+The colophon (奥付) on the last page, inked on the last shutter: 《KOMA ONE》一秒三十格 / KOMA ONE · Thirty Frames a Second / rule / 黑白漫画分格 Quadrinhos de Mangá / Rafael Marutaka × Claude Opus 5.5 / credits ("画面 Codex 生图 · 音乐 代码合成", "Images: Codex · Music: made in code") / "Fictional brand, product and character." The "Rafael Marutaka × Claude Opus 5.5" line exists only in this library demo.
 
 ## Images
 

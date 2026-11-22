@@ -1,4 +1,4 @@
-# Crayon World 3D — Style Prompt
+# Mundo 3D de Giz de Cera — Style Prompt
 
 > A whole world built in 3D and redrawn in wax crayon, by a child's hand, twelve times a second, while a camera moves through it: real depth and parallax, a flight or a walk in first person, and every frame still a crayon drawing on the same sheet of paper.
 > References (grammar only): first-person walking films and long takes (the camera is someone, their gaze is the cut); children's drawings of a village (houses with a gable front and a slanted side, lollipop trees, five-petal flowers). Copy no film's route or shots and no child's drawing, and never name them in the film.
@@ -11,7 +11,7 @@
 - **Hatching sticks to things.** A roof keeps its scribble as the camera passes it.
 - **A camera that is someone.** First person is native: the viewer looks through someone's eyes, and where they look is the shot.
 
-Not **Crayon Picture Book**: that style is a flat page drawn while you watch, the camera moving over the paper, a watercolour wash, narration printed as the book's words. Here the camera moves *inside* a world, the page is only the surface it is drawn on, and there is no wash. Not a toon shader or cel look (no flat fills, no smooth lines, no lighting ramps), not a low-poly render with a paper overlay.
+Not **Livro Infantil de Giz de Cera**: that style is a flat page drawn while you watch, the camera moving over the paper, a watercolour wash, narration printed as the book's words. Here the camera moves *inside* a world, the page is only the surface it is drawn on, and there is no wash. Not a toon shader or cel look (no flat fills, no smooth lines, no lighting ramps), not a low-poly render with a paper overlay.
 
 ## 2. Materials & rendering
 
@@ -95,7 +95,7 @@ Our demo opens riding something that sways in the *wind*, with *the camera as so
 
 ## 10. Engine
 
-In `demo/engine/`: `npr.js` (`region(o)` a drawing recipe, `mesh(geo, reg)` a 3D mesh drawn with it, `makeNPR()`, `snap(N, scene, cam)` the analysis render, `shapes(S)` the traced rings and dark-side rings per region, `silhouette(S, regs, cv)` a knock-out mask), `crayon.js` (`line`, `fill` with `hand` scribble and `anchor`, `dab`, `text`, shape helpers; from Crayon Picture Book, extended to multi-ring regions), `gl.js` (`makeComp`: `begin`, `knock`, `crayon`, `finish`; also `wash` and `wet` passes the demo doesn't use). `demo/film.js` shows the frame loop (`frame(t)`: pose, snap, shapes, draw each region by its recipe, composite by group) and the camera helpers (`cr` time-based Hermite spline, `follow` lagged direction).
+In `demo/engine/`: `npr.js` (`region(o)` a drawing recipe, `mesh(geo, reg)` a 3D mesh drawn with it, `makeNPR()`, `snap(N, scene, cam)` the analysis render, `shapes(S)` the traced rings and dark-side rings per region, `silhouette(S, regs, cv)` a knock-out mask), `crayon.js` (`line`, `fill` with `hand` scribble and `anchor`, `dab`, `text`, shape helpers; from Livro Infantil de Giz de Cera, extended to multi-ring regions), `gl.js` (`makeComp`: `begin`, `knock`, `crayon`, `finish`; also `wash` and `wet` passes the demo doesn't use). `demo/film.js` shows the frame loop (`frame(t)`: pose, snap, shapes, draw each region by its recipe, composite by group) and the camera helpers (`cr` time-based Hermite spline, `follow` lagged direction).
 
 A minimal example the demo never draws (a red kite over a green field, the camera tilting up to it):
 

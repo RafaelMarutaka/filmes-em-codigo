@@ -1,4 +1,4 @@
-# 1-bit Dither — our demo
+# Pontilhado 1-bit — our demo
 
 One example among many. Don't reuse its story, arc, shots, props or timings.
 
@@ -44,7 +44,7 @@ Ink #16161A, paper #E9E6D6. Props built in code: Mark I telescope (A-frame tower
 
 ## End card
 
-Two inks: a dusk gradient, a hedgerow and the small telescope on the horizon, the full Moon sinking behind it; the title 月亮的传真 The Moon's Fax, the style name 1-bit 点阵 1-bit Dither, and "Rafael Marutaka × Claude Opus 5.5". The sign-off belongs to this library's demo only; a user's film carries no Rafael Marutaka credit and no copy of this card.
+Two inks: a dusk gradient, a hedgerow and the small telescope on the horizon, the full Moon sinking behind it; the title 月亮的传真 The Moon's Fax, the style name 1-bit 点阵 Pontilhado 1-bit, and "Rafael Marutaka × Claude Opus 5.5". The sign-off belongs to this library's demo only; a user's film carries no Rafael Marutaka credit and no copy of this card.
 
 ## Build
 

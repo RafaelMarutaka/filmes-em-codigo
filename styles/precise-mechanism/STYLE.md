@@ -1,4 +1,4 @@
-# Color-Coded Mechanism — Style Prompt
+# Mecanismo com Cores por Peça — Style Prompt
 
 > A real mechanism built in 3D and coloured like an anatomy plate: a pale ground, one flat colour per subsystem, the part being explained in a single accent. The machine runs truthfully (true ratios, true rates, true physics), and the camera cuts it open, explodes it by system and follows the force through it.
 > References (grammar only): anatomical atlas plates (one colour per system, colour as the legend); technical drawings and section views (hatched cut faces, title blocks, leader lines); exploded-view assembly diagrams. Copy none of their layouts, typefaces or plates; never name them in the film.
@@ -11,7 +11,7 @@
 - **Cut, explode, follow.** The camera's job is to open the object: section cuts with hatched faces, exploded layers by system, a tracking path along the force.
 - **One thing to read at a time.** A single primary label, everything already explained steps back to mid grey.
 
-Not Exploded Teardown (no product photography, no materials, no real-brand object), not Blueprint (light ground, filled solids, not line-only), not Isometric Infographic (a perspective camera that moves through the object, not a fixed diorama), not Glass Product Render (opaque, matte, no refraction).
+Not Desmontagem em Vista Explodida (no product photography, no materials, no real-brand object), not Blueprint (light ground, filled solids, not line-only), not Infográfico Isométrico (a perspective camera that moves through the object, not a fixed diorama), not Produto em Vidro 3D (opaque, matte, no refraction).
 
 ## 2. Materials & rendering
 

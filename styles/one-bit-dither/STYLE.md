@@ -1,4 +1,4 @@
-# 1-bit Dither — Style Prompt
+# Pontilhado 1-bit — Style Prompt
 
 > A real 3D world shown with exactly two inks: every grey becomes a pattern of dots that is fixed to the surfaces, outlines come from depth and normal breaks, and printed things (fax prints, newspapers, labels) carry their own physical dots. The camera moves freely through it; the pattern never swims.
 > References (grammar only): 1-bit computer games with first-person 3D (the ordered-dither look of *Return of the Obra Dinn*), early Macintosh dithered graphics, wire-photo and facsimile prints, newspaper halftone screens. Copy none of their characters, scenes, fonts or palettes, and never name them in the film.
@@ -11,7 +11,7 @@
 - **Each medium has its own dot.** The world is ordered dither (8×8 Bayer); a fax or photo print is error diffusion (organic Atkinson dots) at a fixed physical pitch; a newspaper photo is a 45° halftone screen whose dot size follows tone. When the camera passes from one medium to another, the kind of dot changes with it.
 - **Low internal resolution, large shapes.** The frame is rendered at 960×540 and scaled up with nearest neighbour; detail is chosen for that grid.
 
-Not Halftone Dossier (that is printed paper and flat collage, not a navigable 3D world), not Woodcut or Copperplate (carved line, not dot density), not CRT ASCII Terminal (no glyph cells, no phosphor), not a greyscale render with a filter on top.
+Not Dossiê em Retícula (that is printed paper and flat collage, not a navigable 3D world), not Woodcut or Copperplate (carved line, not dot density), not Terminal ASCII de Tubo (no glyph cells, no phosphor), not a greyscale render with a filter on top.
 
 ## 2. Materials & rendering
 

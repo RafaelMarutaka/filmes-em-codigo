@@ -1,7 +1,7 @@
 {
  "slug": "halftone-dossier",
  "num": "29",
- "en": "Halftone Dossier",
+ "en": "Dossiê em Retícula",
  "cn": "网点档案",
  "aka": [
   "复古半调案卷"
@@ -18,5 +18,7 @@
   "Social shorts"
  ],
  "frame_sec": 9.0,
- "dur": 30.0
+ "dur": 30.0,
+ "en_original": "Halftone Dossier",
+ "pt": "Dossiê em Retícula"
 }

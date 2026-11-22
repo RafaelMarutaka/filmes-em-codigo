@@ -1,4 +1,4 @@
-# Crayon Picture Book — our demo
+# Livro Infantil de Giz de Cera — our demo
 
 One example among many. Don't reuse its story, arc, shots, props or timings.
 

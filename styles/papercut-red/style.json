@@ -1,7 +1,7 @@
 {
  "slug": "papercut-red",
  "num": "24",
- "en": "Red Paper-cut",
+ "en": "Recorte de Papel Vermelho",
  "cn": "红色窗花剪纸",
  "category_en": "Traditional Crafts",
  "category_cn": "传统工艺",
@@ -15,5 +15,7 @@
   "Folk tales"
  ],
  "frame_sec": 35.28,
- "dur": 49.0
+ "dur": 49.0,
+ "en_original": "Red Paper-cut",
+ "pt": "Recorte de Papel Vermelho"
 }

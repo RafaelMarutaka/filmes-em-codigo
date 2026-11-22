@@ -1,7 +1,7 @@
 {
  "slug": "silent-film",
  "num": "63",
- "en": "1920s Silent Film",
+ "en": "Cinema Mudo Anos 20",
  "cn": "1920s 默片",
  "category_en": "Film & Tape",
  "category_cn": "胶片录像",
@@ -15,5 +15,7 @@
   "Silent storytelling"
  ],
  "frame_sec": 39.02,
- "dur": 54.2
+ "dur": 54.2,
+ "en_original": "1920s Silent Film",
+ "pt": "Cinema Mudo Anos 20"
 }

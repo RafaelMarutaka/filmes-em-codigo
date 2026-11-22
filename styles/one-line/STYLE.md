@@ -1,4 +1,4 @@
-# One-line Drawing — Style Prompt
+# Desenho de Uma Linha Só — Style Prompt
 
 > A single ink line that never leaves the paper. Everything on screen is that one line being drawn; scenes don't cut, they morph.
 > References (grammar only): Osvaldo Cavandoli's *La Linea* (1971) — one line is both the world and the character, and transformations of the line are the jokes and the transitions; Gjon Mili's 1949 photographs of Picasso drawing with light — the confidence and speed of a single gesture; Norman McLaren's *Begone Dull Care* and *Boogie-Doodle* — lines drawn *to* the music. Do not copy La Linea's character, its gibberish voice, or any specific continuous-line illustration.

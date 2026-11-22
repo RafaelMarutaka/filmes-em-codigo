@@ -1,7 +1,7 @@
 {
  "slug": "paper-lantern",
  "num": "25",
- "en": "Paper-cut Lightbox",
+ "en": "Luminária de Papel Recortado",
  "cn": "纸雕灯影",
  "category_en": "Traditional Crafts",
  "category_cn": "传统工艺",
@@ -15,5 +15,7 @@
   "Places and their stories"
  ],
  "frame_sec": 9.6,
- "dur": 51.0
+ "dur": 51.0,
+ "en_original": "Paper-cut Lightbox",
+ "pt": "Luminária de Papel Recortado"
 }

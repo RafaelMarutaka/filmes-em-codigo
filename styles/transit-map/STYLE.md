@@ -1,4 +1,4 @@
-# Transit Map — Style Prompt
+# Mapa de Metrô — Style Prompt
 
 > A metro schematic printed on a physical sheet: lines held to eight directions, white stops, black-outlined interchange capsules, water as a flat blue band. The network is drawn on by glowing pen tips while a real perspective camera moves over the paper: it rides a tip, drops low where a line dives under water, pulls back through levels of detail and sweeps across the densest knot at a low angle with a shallow focus.
 > References (grammar only): the octilinear schematic tradition of metro diagrams (Beck's Underground diagram, Vignelli's New York map), the stamp of a printed cartouche, flatbed and macro photography of maps lying on a table. Copy none of their layouts, typefaces, icons or line bullets; never name them in the film.
@@ -11,7 +11,7 @@
 - **Words are printed.** Station names, callouts and cartouches are ink on the sheet; running numbers live on one small mechanical counter. Every text line holds one language.
 - **One map, many scales.** The same sheet serves a single station and the whole network; detail appears and disappears with scale.
 
-Not Data Storytelling (even a time chart is drawn as two lines with stops), not Blueprint (no white-on-blue linework), not Isometric Infographic (the map is flat; depth comes from the camera), not a 3D city map (no extruded buildings, no terrain), not a keynote (no slides, header bars, centred titles or page turns).
+Not História com Dados (even a time chart is drawn as two lines with stops), not Blueprint (no white-on-blue linework), not Infográfico Isométrico (the map is flat; depth comes from the camera), not a 3D city map (no extruded buildings, no terrain), not a keynote (no slides, header bars, centred titles or page turns).
 
 ## 2. Materials & rendering
 

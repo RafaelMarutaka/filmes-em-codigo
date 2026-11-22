@@ -1,7 +1,7 @@
 {
  "slug": "instruction-manual",
  "num": "49",
- "en": "Instruction Manual Art",
+ "en": "Manual de Instruções",
  "cn": "说明书插画",
  "category_en": "Line Diagrams",
  "category_cn": "线稿图解",
@@ -15,5 +15,7 @@
   "Product onboarding"
  ],
  "frame_sec": 6.1,
- "dur": 50.6
+ "dur": 50.6,
+ "en_original": "Instruction Manual Art",
+ "pt": "Manual de Instruções"
 }

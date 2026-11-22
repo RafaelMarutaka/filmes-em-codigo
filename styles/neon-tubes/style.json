@@ -1,7 +1,7 @@
 {
  "slug": "neon-tubes",
  "num": "77",
- "en": "Neon Tubes",
+ "en": "Letreiro de Neon",
  "cn": "霓虹灯管",
  "category_en": "Light & Lines",
  "category_cn": "发光线条",
@@ -15,5 +15,7 @@
   "City and festival night idents"
  ],
  "frame_sec": 16.75,
- "dur": 48.0
+ "dur": 48.0,
+ "en_original": "Neon Tubes",
+ "pt": "Letreiro de Neon"
 }

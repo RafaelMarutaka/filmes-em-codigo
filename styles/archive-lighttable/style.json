@@ -1,7 +1,7 @@
 {
  "slug": "archive-lighttable",
  "num": "90",
- "en": "Archive Light Table",
+ "en": "Mesa de Luz de Arquivo",
  "cn": "档案看片台",
  "aka": [
   "档案灯台"
@@ -18,5 +18,7 @@
   "Museums"
  ],
  "frame_sec": 22.3,
- "dur": 40.0
+ "dur": 40.0,
+ "en_original": "Archive Light Table",
+ "pt": "Mesa de Luz de Arquivo"
 }

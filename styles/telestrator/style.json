@@ -1,7 +1,7 @@
 {
  "slug": "telestrator",
  "num": "07",
- "en": "Sports Telestrator",
+ "en": "Lousa Tática Esportiva",
  "cn": "体育战术板",
  "category_en": "Edit & Documentary",
  "category_cn": "剪辑纪实",
@@ -15,5 +15,7 @@
   "Coaching"
  ],
  "frame_sec": 13.6,
- "dur": 54.4
+ "dur": 54.4,
+ "en_original": "Sports Telestrator",
+ "pt": "Lousa Tática Esportiva"
 }

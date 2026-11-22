@@ -1,7 +1,7 @@
 {
  "slug": "pip-simulation",
  "num": "99",
- "en": "Blob Simulation",
+ "en": "Simulação com Bonequinhos",
  "cn": "小人模拟实验",
  "category_en": "Data & Maps",
  "category_cn": "数据地图",
@@ -15,5 +15,7 @@
   "Epidemics, queues and markets"
  ],
  "frame_sec": 44.7,
- "dur": 52.0
+ "dur": 52.0,
+ "en_original": "Blob Simulation",
+ "pt": "Simulação com Bonequinhos"
 }

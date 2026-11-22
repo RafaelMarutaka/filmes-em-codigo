@@ -1,7 +1,7 @@
 {
  "slug": "stained-glass",
  "num": "26",
- "en": "Stained Glass",
+ "en": "Vitral",
  "cn": "彩色玻璃窗",
  "category_en": "Traditional Crafts",
  "category_cn": "传统工艺",
@@ -15,5 +15,7 @@
   "Holiday stories"
  ],
  "frame_sec": 40.68,
- "dur": 56.5
+ "dur": 56.5,
+ "en_original": "Stained Glass",
+ "pt": "Vitral"
 }

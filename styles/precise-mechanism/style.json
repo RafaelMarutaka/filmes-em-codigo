@@ -1,7 +1,7 @@
 {
  "slug": "precise-mechanism",
  "num": "48",
- "en": "Color-Coded Mechanism",
+ "en": "Mecanismo com Cores por Peça",
  "cn": "分色机械图解",
  "category_en": "Line Diagrams",
  "category_cn": "线稿图解",
@@ -15,5 +15,7 @@
   "Science teaching"
  ],
  "frame_sec": 21.0,
- "dur": 52.0
+ "dur": 52.0,
+ "en_original": "Color-Coded Mechanism",
+ "pt": "Mecanismo com Cores por Peça"
 }

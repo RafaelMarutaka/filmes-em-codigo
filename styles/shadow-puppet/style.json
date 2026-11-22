@@ -1,7 +1,7 @@
 {
  "slug": "shadow-puppet",
  "num": "22",
- "en": "Shadow Puppetry",
+ "en": "Teatro de Sombras",
  "cn": "皮影戏",
  "category_en": "Traditional Crafts",
  "category_cn": "传统工艺",
@@ -15,5 +15,7 @@
   "Festivals"
  ],
  "frame_sec": 21.76,
- "dur": 54.4
+ "dur": 54.4,
+ "en_original": "Shadow Puppetry",
+ "pt": "Teatro de Sombras"
 }

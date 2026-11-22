@@ -2,7 +2,7 @@
  {
   "slug": "caption-news",
   "num": "01",
-  "en": "Caption News",
+  "en": "Notícia com Legendas",
   "cn": "字幕新闻",
   "cat": "剪辑纪实",
   "cat_en": "Edit & Documentary",
@@ -15,12 +15,14 @@
    "Report explainers",
    "Data shorts"
   ],
-  "dur": 59.5
+  "dur": 59.5,
+  "en_original": "Caption News",
+  "pt": "Notícia com Legendas"
  },
  {
   "slug": "newsreel",
   "num": "02",
-  "en": "1920s Newsreel",
+  "en": "Cinejornal Anos 20",
   "cn": "1920s 新闻影片",
   "cat": "剪辑纪实",
   "cat_en": "Edit & Documentary",
@@ -33,12 +35,14 @@
    "Fads & eras",
    "Anniversaries"
   ],
-  "dur": 54.6
+  "dur": 54.6,
+  "en_original": "1920s Newsreel",
+  "pt": "Cinejornal Anos 20"
  },
  {
   "slug": "countdown",
   "num": "03",
-  "en": "Live Countdown Split-screen",
+  "en": "Contagem Regressiva em Tela Dividida",
   "cn": "实时倒计时分屏",
   "cat": "剪辑纪实",
   "cat_en": "Edit & Documentary",
@@ -51,12 +55,14 @@
    "Countdowns",
    "Live events"
   ],
-  "dur": 59.5
+  "dur": 59.5,
+  "en_original": "Live Countdown Split-screen",
+  "pt": "Contagem Regressiva em Tela Dividida"
  },
  {
   "slug": "city-symphony",
   "num": "04",
-  "en": "City Symphony",
+  "en": "Sinfonia da Cidade",
   "cn": "城市交响曲",
   "cat": "剪辑纪实",
   "cat_en": "Edit & Documentary",
@@ -73,12 +79,14 @@
   "aka": [
    "Time-lapse Symphony",
    "延时交响"
-  ]
+  ],
+  "en_original": "City Symphony",
+  "pt": "Sinfonia da Cidade"
  },
  {
   "slug": "visual-investigation",
   "num": "05",
-  "en": "Visual Investigation",
+  "en": "Investigação Visual",
   "cn": "视觉调查",
   "cat": "剪辑纪实",
   "cat_en": "Edit & Documentary",
@@ -91,12 +99,14 @@
    "Fact-checks",
    "Incident reports"
   ],
-  "dur": 60.0
+  "dur": 60.0,
+  "en_original": "Visual Investigation",
+  "pt": "Investigação Visual"
  },
  {
   "slug": "kino-montage",
   "num": "06",
-  "en": "Constructivist Montage",
+  "en": "Montagem Construtivista",
   "cn": "构成主义蒙太奇",
   "cat": "剪辑纪实",
   "cat_en": "Edit & Documentary",
@@ -109,12 +119,14 @@
    "Milestones",
    "Collective effort"
   ],
-  "dur": 60.0
+  "dur": 60.0,
+  "en_original": "Constructivist Montage",
+  "pt": "Montagem Construtivista"
  },
  {
   "slug": "telestrator",
   "num": "07",
-  "en": "Sports Telestrator",
+  "en": "Lousa Tática Esportiva",
   "cn": "体育战术板",
   "cat": "剪辑纪实",
   "cat_en": "Edit & Documentary",
@@ -127,12 +139,14 @@
    "Match recaps",
    "Coaching"
   ],
-  "dur": 54.4
+  "dur": 54.4,
+  "en_original": "Sports Telestrator",
+  "pt": "Lousa Tática Esportiva"
  },
  {
   "slug": "news-package",
   "num": "08",
-  "en": "Broadcast News Package",
+  "en": "Telejornal",
   "cn": "电视新闻包装",
   "cat": "剪辑纪实",
   "cat_en": "Edit & Documentary",
@@ -145,12 +159,14 @@
    "Bulletins",
    "Market updates"
   ],
-  "dur": 53.5
+  "dur": 53.5,
+  "en_original": "Broadcast News Package",
+  "pt": "Telejornal"
  },
  {
   "slug": "crayon-book",
   "num": "09",
-  "en": "Crayon Picture Book",
+  "en": "Livro Infantil de Giz de Cera",
   "cn": "蜡笔儿童绘本",
   "cat": "绘画插画",
   "cat_en": "Painting & Illustration",
@@ -163,12 +179,14 @@
    "Bedtime stories",
    "Kids' learning"
   ],
-  "dur": 52.0
+  "dur": 52.0,
+  "en_original": "Crayon Picture Book",
+  "pt": "Livro Infantil de Giz de Cera"
  },
  {
   "slug": "watercolor",
   "num": "10",
-  "en": "Watercolor Brush",
+  "en": "Pincel de Aquarela",
   "cn": "水彩笔刷",
   "cat": "绘画插画",
   "cat_en": "Painting & Illustration",
@@ -181,12 +199,14 @@
    "Travel",
    "Science explainers"
   ],
-  "dur": 113.6
+  "dur": 113.6,
+  "en_original": "Watercolor Brush",
+  "pt": "Pincel de Aquarela"
  },
  {
   "slug": "impasto",
   "num": "11",
-  "en": "Impasto Oil Painting",
+  "en": "Pintura a Óleo com Textura",
   "cn": "油画厚涂",
   "cat": "绘画插画",
   "cat_en": "Painting & Illustration",
@@ -199,12 +219,14 @@
    "Art & culture",
    "Emotional ads"
   ],
-  "dur": 39.7
+  "dur": 39.7,
+  "en_original": "Impasto Oil Painting",
+  "pt": "Pintura a Óleo com Textura"
  },
  {
   "slug": "urban-sketch",
   "num": "12",
-  "en": "Urban Sketch · Pen & Wash",
+  "en": "Croqui Urbano a Nanquim e Aguada",
   "cn": "钢笔淡彩",
   "cat": "绘画插画",
   "cat_en": "Painting & Illustration",
@@ -217,12 +239,14 @@
    "Architecture",
    "Lifestyle brands"
   ],
-  "dur": 33.4
+  "dur": 33.4,
+  "en_original": "Urban Sketch · Pen & Wash",
+  "pt": "Croqui Urbano a Nanquim e Aguada"
  },
  {
   "slug": "colored-pencil",
   "num": "13",
-  "en": "Colored-Pencil Science Illustration",
+  "en": "Ilustração Científica em Lápis de Cor",
   "cn": "彩铅科普插画",
   "cat": "绘画插画",
   "cat_en": "Painting & Illustration",
@@ -235,12 +259,14 @@
    "Picture-book explainers",
    "Hidden structures and processes"
   ],
-  "dur": 50.8
+  "dur": 50.8,
+  "en_original": "Colored-Pencil Science Illustration",
+  "pt": "Ilustração Científica em Lápis de Cor"
  },
  {
   "slug": "one-line",
   "num": "14",
-  "en": "One-line Drawing",
+  "en": "Desenho de Uma Linha Só",
   "cn": "一笔画",
   "cat": "速写板书",
   "cat_en": "Sketch & Board",
@@ -253,12 +279,14 @@
    "Life milestones",
    "Minimal ads"
   ],
-  "dur": 47.5
+  "dur": 47.5,
+  "en_original": "One-line Drawing",
+  "pt": "Desenho de Uma Linha Só"
  },
  {
   "slug": "whiteboard",
   "num": "15",
-  "en": "Whiteboard Explainer",
+  "en": "Explicação no Quadro Branco",
   "cn": "白板讲解",
   "cat": "速写板书",
   "cat_en": "Sketch & Board",
@@ -271,12 +299,14 @@
    "Online courses",
    "Science"
   ],
-  "dur": 111.0
+  "dur": 111.0,
+  "en_original": "Whiteboard Explainer",
+  "pt": "Explicação no Quadro Branco"
  },
  {
   "slug": "chalkboard",
   "num": "16",
-  "en": "Chalkboard",
+  "en": "Lousa de Giz",
   "cn": "黑板粉笔",
   "cat": "速写板书",
   "cat_en": "Sketch & Board",
@@ -289,12 +319,14 @@
    "Myth-busting",
    "Lessons"
   ],
-  "dur": 49.3
+  "dur": 49.3,
+  "en_original": "Chalkboard",
+  "pt": "Lousa de Giz"
  },
  {
   "slug": "sketchnote",
   "num": "17",
-  "en": "Sketchnote",
+  "en": "Anotação Visual (Sketchnote)",
   "cn": "视觉笔记",
   "cat": "速写板书",
   "cat_en": "Sketch & Board",
@@ -307,12 +339,14 @@
    "Science explainers",
    "One-page summaries"
   ],
-  "dur": 51.0
+  "dur": 51.0,
+  "en_original": "Sketchnote",
+  "pt": "Anotação Visual (Sketchnote)"
  },
  {
   "slug": "stick-explainer",
   "num": "18",
-  "en": "Stick-figure Explainer",
+  "en": "Explicação com Bonecos de Palito",
   "cn": "火柴人讲解",
   "cat": "速写板书",
   "cat_en": "Sketch & Board",
@@ -325,12 +359,14 @@
    "Networks & social ideas",
    "Data comparisons"
   ],
-  "dur": 52.0
+  "dur": 52.0,
+  "en_original": "Stick-figure Explainer",
+  "pt": "Explicação com Bonecos de Palito"
  },
  {
   "slug": "ipad-sketch",
   "num": "19",
-  "en": "Tablet Sketch Explainer",
+  "en": "Explicação Desenhada no Tablet",
   "cn": "平板速写讲解",
   "cat": "速写板书",
   "cat_en": "Sketch & Board",
@@ -343,12 +379,14 @@
    "Craft and how-to",
    "Lifestyle science"
   ],
-  "dur": 51.0
+  "dur": 51.0,
+  "en_original": "Tablet Sketch Explainer",
+  "pt": "Explicação Desenhada no Tablet"
  },
  {
   "slug": "marker-paper",
   "num": "20",
-  "en": "Marker on Paper",
+  "en": "Canetão no Papel",
   "cn": "马克笔白纸速写",
   "cat": "速写板书",
   "cat_en": "Sketch & Board",
@@ -361,12 +399,14 @@
    "Science explainers",
    "Lessons"
   ],
-  "dur": 52.0
+  "dur": 52.0,
+  "en_original": "Marker on Paper",
+  "pt": "Canetão no Papel"
  },
  {
   "slug": "ink-wash",
   "num": "21",
-  "en": "Chinese Ink Wash",
+  "en": "Pintura Chinesa a Nanquim",
   "cn": "中国水墨",
   "cat": "传统工艺",
   "cat_en": "Traditional Crafts",
@@ -379,12 +419,14 @@
    "Cultural brands",
    "Poetry"
   ],
-  "dur": 48.0
+  "dur": 48.0,
+  "en_original": "Chinese Ink Wash",
+  "pt": "Pintura Chinesa a Nanquim"
  },
  {
   "slug": "shadow-puppet",
   "num": "22",
-  "en": "Shadow Puppetry",
+  "en": "Teatro de Sombras",
   "cn": "皮影戏",
   "cat": "传统工艺",
   "cat_en": "Traditional Crafts",
@@ -397,12 +439,14 @@
    "Heritage",
    "Festivals"
   ],
-  "dur": 54.4
+  "dur": 54.4,
+  "en_original": "Shadow Puppetry",
+  "pt": "Teatro de Sombras"
  },
  {
   "slug": "ukiyoe",
   "num": "23",
-  "en": "Ukiyo-e",
+  "en": "Ukiyo-e (Gravura Japonesa)",
   "cn": "浮世绘",
   "cat": "传统工艺",
   "cat_en": "Traditional Crafts",
@@ -415,12 +459,14 @@
    "Japanese culture",
    "Poetry"
   ],
-  "dur": 44.0
+  "dur": 44.0,
+  "en_original": "Ukiyo-e",
+  "pt": "Ukiyo-e (Gravura Japonesa)"
  },
  {
   "slug": "papercut-red",
   "num": "24",
-  "en": "Red Paper-cut",
+  "en": "Recorte de Papel Vermelho",
   "cn": "红色窗花剪纸",
   "cat": "传统工艺",
   "cat_en": "Traditional Crafts",
@@ -433,12 +479,14 @@
    "Festive greetings",
    "Folk tales"
   ],
-  "dur": 49.0
+  "dur": 49.0,
+  "en_original": "Red Paper-cut",
+  "pt": "Recorte de Papel Vermelho"
  },
  {
   "slug": "paper-lantern",
   "num": "25",
-  "en": "Paper-cut Lightbox",
+  "en": "Luminária de Papel Recortado",
   "cn": "纸雕灯影",
   "cat": "传统工艺",
   "cat_en": "Traditional Crafts",
@@ -451,12 +499,14 @@
    "Farewells and anniversaries",
    "Places and their stories"
   ],
-  "dur": 51.0
+  "dur": 51.0,
+  "en_original": "Paper-cut Lightbox",
+  "pt": "Luminária de Papel Recortado"
  },
  {
   "slug": "stained-glass",
   "num": "26",
-  "en": "Stained Glass",
+  "en": "Vitral",
   "cn": "彩色玻璃窗",
   "cat": "传统工艺",
   "cat_en": "Traditional Crafts",
@@ -469,12 +519,14 @@
    "Heritage",
    "Holiday stories"
   ],
-  "dur": 56.5
+  "dur": 56.5,
+  "en_original": "Stained Glass",
+  "pt": "Vitral"
  },
  {
   "slug": "gilded-illumination",
   "num": "27",
-  "en": "Gilded Illumination",
+  "en": "Iluminura Dourada",
   "cn": "金箔彩绘",
   "cat": "传统工艺",
   "cat_en": "Traditional Crafts",
@@ -487,12 +539,14 @@
    "Holiday and festival shorts",
    "Brand and origin stories"
   ],
-  "dur": 46.8
+  "dur": 46.8,
+  "en_original": "Gilded Illumination",
+  "pt": "Iluminura Dourada"
  },
  {
   "slug": "risograph",
   "num": "28",
-  "en": "Risograph Print",
+  "en": "Impressão Risograph",
   "cn": "孔版印刷",
   "cat": "印刷版画",
   "cat_en": "Print & Printmaking",
@@ -508,12 +562,14 @@
   "dur": 40.0,
   "aka": [
    "Risograph 孔版印刷"
-  ]
+  ],
+  "en_original": "Risograph Print",
+  "pt": "Impressão Risograph"
  },
  {
   "slug": "halftone-dossier",
   "num": "29",
-  "en": "Halftone Dossier",
+  "en": "Dossiê em Retícula",
   "cn": "网点档案",
   "cat": "印刷版画",
   "cat_en": "Print & Printmaking",
@@ -529,12 +585,14 @@
   "dur": 30.0,
   "aka": [
    "复古半调案卷"
-  ]
+  ],
+  "en_original": "Halftone Dossier",
+  "pt": "Dossiê em Retícula"
  },
  {
   "slug": "woodcut",
   "num": "30",
-  "en": "Woodcut Print",
+  "en": "Xilogravura",
   "cn": "木刻版画",
   "cat": "印刷版画",
   "cat_en": "Print & Printmaking",
@@ -547,12 +605,14 @@
    "Craft brands",
    "Book trailers"
   ],
-  "dur": 58.5
+  "dur": 58.5,
+  "en_original": "Woodcut Print",
+  "pt": "Xilogravura"
  },
  {
   "slug": "engraving",
   "num": "31",
-  "en": "Copperplate Engraving",
+  "en": "Gravura em Metal",
   "cn": "铜版画",
   "cat": "印刷版画",
   "cat_en": "Print & Printmaking",
@@ -565,12 +625,14 @@
    "Science explainers",
    "Brand heritage"
   ],
-  "dur": 40.0
+  "dur": 40.0,
+  "en_original": "Copperplate Engraving",
+  "pt": "Gravura em Metal"
  },
  {
   "slug": "silkscreen-poster",
   "num": "32",
-  "en": "Silkscreen Travel Poster",
+  "en": "Pôster de Viagem em Serigrafia",
   "cn": "丝印旅行海报",
   "cat": "印刷版画",
   "cat_en": "Print & Printmaking",
@@ -583,12 +645,14 @@
    "Tourism",
    "Event posters"
   ],
-  "dur": 50.0
+  "dur": 50.0,
+  "en_original": "Silkscreen Travel Poster",
+  "pt": "Pôster de Viagem em Serigrafia"
  },
  {
   "slug": "printed-long-take",
   "num": "33",
-  "en": "Scratchboard Long Take",
+  "en": "Plano-Sequência em Raspagem",
   "cn": "刮版画长镜头",
   "cat": "印刷版画",
   "cat_en": "Print & Printmaking",
@@ -605,7 +669,9 @@
   "aka": [
    "Printed Long Take",
    "印刷长镜头"
-  ]
+  ],
+  "en_original": "Scratchboard Long Take",
+  "pt": "Plano-Sequência em Raspagem"
  },
  {
   "slug": "pop-art",
@@ -623,12 +689,14 @@
    "Brand and product posters",
    "Small data stories"
   ],
-  "dur": 52.0
+  "dur": 52.0,
+  "en_original": "Pop Art",
+  "pt": "Pop Art"
  },
  {
   "slug": "vintage-collage",
   "num": "35",
-  "en": "Vintage Engraving Collage",
+  "en": "Colagem de Gravuras Antigas",
   "cn": "复古版画拼贴",
   "cat": "印刷版画",
   "cat_en": "Print & Printmaking",
@@ -641,12 +709,14 @@
    "Magazine-style explainers on ideas and society",
    "Archive and collecting stories"
   ],
-  "dur": 52.0
+  "dur": 52.0,
+  "en_original": "Vintage Engraving Collage",
+  "pt": "Colagem de Gravuras Antigas"
  },
  {
   "slug": "swiss-motion",
   "num": "36",
-  "en": "Swiss Motion Graphics",
+  "en": "Motion Design Suíço",
   "cn": "瑞士动态排版",
   "cat": "平面排版",
   "cat_en": "Graphic & Type",
@@ -659,12 +729,14 @@
    "Events",
    "Design education"
   ],
-  "dur": 44.0
+  "dur": 44.0,
+  "en_original": "Swiss Motion Graphics",
+  "pt": "Motion Design Suíço"
  },
  {
   "slug": "spy-titles",
   "num": "37",
-  "en": "60s Spy Title Sequence",
+  "en": "Abertura de Filme de Espião Anos 60",
   "cn": "60s 间谍片头",
   "cat": "平面排版",
   "cat_en": "Graphic & Type",
@@ -677,12 +749,14 @@
    "Event openers",
    "Trailers"
   ],
-  "dur": 44.1
+  "dur": 44.1,
+  "en_original": "60s Spy Title Sequence",
+  "pt": "Abertura de Filme de Espião Anos 60"
  },
  {
   "slug": "art-deco",
   "num": "38",
-  "en": "Art Deco",
+  "en": "Art Déco",
   "cn": "装饰艺术",
   "cat": "平面排版",
   "cat_en": "Graphic & Type",
@@ -695,12 +769,14 @@
    "Galas",
    "Invitations"
   ],
-  "dur": 58.4
+  "dur": 58.4,
+  "en_original": "Art Deco",
+  "pt": "Art Déco"
  },
  {
   "slug": "pictogram-motion",
   "num": "39",
-  "en": "Pictogram Motion",
+  "en": "Pictogramas Animados",
   "cn": "象形运动图形",
   "cat": "平面排版",
   "cat_en": "Graphic & Type",
@@ -713,12 +789,14 @@
    "Brand and event identity films",
    "Explainers told through signs and objects"
   ],
-  "dur": 50.0
+  "dur": 50.0,
+  "en_original": "Pictogram Motion",
+  "pt": "Pictogramas Animados"
  },
  {
   "slug": "bauhaus-shapes",
   "num": "40",
-  "en": "Bauhaus Shapes",
+  "en": "Formas Bauhaus",
   "cn": "包豪斯几何",
   "cat": "平面排版",
   "cat_en": "Graphic & Type",
@@ -731,12 +809,14 @@
    "Mechanisms and principles",
    "Titles and chapter cards"
   ],
-  "dur": 52.0
+  "dur": 52.0,
+  "en_original": "Bauhaus Shapes",
+  "pt": "Formas Bauhaus"
  },
  {
   "slug": "flat-space-explainer",
   "num": "41",
-  "en": "Scale Zoom Explainer",
+  "en": "Explicação com Zoom de Escala",
   "cn": "扁平尺度漫游",
   "cat": "平面排版",
   "cat_en": "Graphic & Type",
@@ -749,12 +829,14 @@
    "Scale and size",
    "Classroom"
   ],
-  "dur": 52.0
+  "dur": 52.0,
+  "en_original": "Scale Zoom Explainer",
+  "pt": "Explicação com Zoom de Escala"
  },
  {
   "slug": "text-flash-cuts",
   "num": "42",
-  "en": "Text Flash Cuts",
+  "en": "Cortes Rápidos de Texto",
   "cn": "文字闪切",
   "cat": "平面排版",
   "cat_en": "Graphic & Type",
@@ -770,12 +852,14 @@
   "dur": 46.2,
   "needs": [
    "image-generation"
-  ]
+  ],
+  "en_original": "Text Flash Cuts",
+  "pt": "Cortes Rápidos de Texto"
  },
  {
   "slug": "silhouette-rhythm",
   "num": "43",
-  "en": "Silhouette Rhythm",
+  "en": "Ritmo de Silhuetas",
   "cn": "剪影律动",
   "cat": "平面排版",
   "cat_en": "Graphic & Type",
@@ -788,12 +872,14 @@
    "Sports and team films",
    "Nature and festival openers"
   ],
-  "dur": 49.0
+  "dur": 49.0,
+  "en_original": "Silhouette Rhythm",
+  "pt": "Ritmo de Silhuetas"
  },
  {
   "slug": "blueprint",
   "num": "44",
-  "en": "Blueprint",
+  "en": "Planta Técnica (Blueprint)",
   "cn": "工程蓝图",
   "cat": "线稿图解",
   "cat_en": "Line Diagrams",
@@ -809,12 +895,14 @@
   "dur": 46.7,
   "aka": [
    "蓝图 / 工程制图"
-  ]
+  ],
+  "en_original": "Blueprint",
+  "pt": "Planta Técnica (Blueprint)"
  },
  {
   "slug": "iso-infographic",
   "num": "45",
-  "en": "Isometric Infographic",
+  "en": "Infográfico Isométrico",
   "cn": "等距信息图",
   "cat": "线稿图解",
   "cat_en": "Line Diagrams",
@@ -827,12 +915,14 @@
    "Supply chains",
    "Annual reports"
   ],
-  "dur": 58.8
+  "dur": 58.8,
+  "en_original": "Isometric Infographic",
+  "pt": "Infográfico Isométrico"
  },
  {
   "slug": "teardown",
   "num": "46",
-  "en": "Exploded Teardown",
+  "en": "Desmontagem em Vista Explodida",
   "cn": "产品拆解",
   "cat": "线稿图解",
   "cat_en": "Line Diagrams",
@@ -845,12 +935,14 @@
    "Product pages",
    "Spec explainers"
   ],
-  "dur": 38.8
+  "dur": 38.8,
+  "en_original": "Exploded Teardown",
+  "pt": "Desmontagem em Vista Explodida"
  },
  {
   "slug": "hardcore-info",
   "num": "47",
-  "en": "Line-Art Cutaway",
+  "en": "Corte em Traço",
   "cn": "线稿剖面图解",
   "cat": "线稿图解",
   "cat_en": "Line Diagrams",
@@ -863,12 +955,14 @@
    "Product engineering",
    "Science education"
   ],
-  "dur": 52.0
+  "dur": 52.0,
+  "en_original": "Line-Art Cutaway",
+  "pt": "Corte em Traço"
  },
  {
   "slug": "precise-mechanism",
   "num": "48",
-  "en": "Color-Coded Mechanism",
+  "en": "Mecanismo com Cores por Peça",
   "cn": "分色机械图解",
   "cat": "线稿图解",
   "cat_en": "Line Diagrams",
@@ -881,12 +975,14 @@
    "Product and engineering explainers",
    "Science teaching"
   ],
-  "dur": 52.0
+  "dur": 52.0,
+  "en_original": "Color-Coded Mechanism",
+  "pt": "Mecanismo com Cores por Peça"
  },
  {
   "slug": "instruction-manual",
   "num": "49",
-  "en": "Instruction Manual Art",
+  "en": "Manual de Instruções",
   "cn": "说明书插画",
   "cat": "线稿图解",
   "cat_en": "Line Diagrams",
@@ -899,12 +995,14 @@
    "Safety instructions",
    "Product onboarding"
   ],
-  "dur": 50.6
+  "dur": 50.6,
+  "en_original": "Instruction Manual Art",
+  "pt": "Manual de Instruções"
  },
  {
   "slug": "pen-plotter",
   "num": "50",
-  "en": "Pen Plotter",
+  "en": "Plotter de Caneta",
   "cn": "笔式绘图仪",
   "cat": "线稿图解",
   "cat_en": "Line Diagrams",
@@ -917,12 +1015,14 @@
    "Measurements and records",
    "Generative and data drawings"
   ],
-  "dur": 49.9
+  "dur": 49.9,
+  "en_original": "Pen Plotter",
+  "pt": "Plotter de Caneta"
  },
  {
   "slug": "assembly-line-diagram",
   "num": "51",
-  "en": "Assembly-Line Diagram",
+  "en": "Diagrama de Linha de Montagem",
   "cn": "流水线图解",
   "cat": "线稿图解",
   "cat_en": "Line Diagrams",
@@ -935,12 +1035,14 @@
    "Biology and medicine",
    "Supply chains and pipelines"
   ],
-  "dur": 54.9
+  "dur": 54.9,
+  "en_original": "Assembly-Line Diagram",
+  "pt": "Diagrama de Linha de Montagem"
  },
  {
   "slug": "rubber-hose",
   "num": "52",
-  "en": "1930s Rubber Hose Cartoon",
+  "en": "Desenho Animado Anos 30",
   "cn": "1930s 橡皮管卡通",
   "cat": "卡通动画",
   "cat_en": "Cartoons",
@@ -953,12 +1055,14 @@
    "Retro ads",
    "Kids"
   ],
-  "dur": 50.0
+  "dur": 50.0,
+  "en_original": "1930s Rubber Hose Cartoon",
+  "pt": "Desenho Animado Anos 30"
  },
  {
   "slug": "cel-anime-80s",
   "num": "53",
-  "en": "80s Cel Anime",
+  "en": "Anime Anos 80",
   "cn": "80 年代赛璐璐动画",
   "cat": "卡通动画",
   "cat_en": "Cartoons",
@@ -971,12 +1075,14 @@
    "Game trailers",
    "Nostalgia"
   ],
-  "dur": 59.0
+  "dur": 59.0,
+  "en_original": "80s Cel Anime",
+  "pt": "Anime Anos 80"
  },
  {
   "slug": "scifi-toon",
   "num": "54",
-  "en": "Sci-Fi Sitcom Toon",
+  "en": "Desenho de Sitcom Sci-Fi",
   "cn": "科幻情景喜剧卡通",
   "cat": "卡通动画",
   "cat_en": "Cartoons",
@@ -989,12 +1095,14 @@
    "Tech brands",
    "Social shorts"
   ],
-  "dur": 57.5
+  "dur": 57.5,
+  "en_original": "Sci-Fi Sitcom Toon",
+  "pt": "Desenho de Sitcom Sci-Fi"
  },
  {
   "slug": "midcentury-toon",
   "num": "55",
-  "en": "Mid-century Cartoon",
+  "en": "Desenho Retrô Anos 50",
   "cn": "50s 扁平卡通",
   "cat": "卡通动画",
   "cat_en": "Cartoons",
@@ -1007,12 +1115,14 @@
    "Help centres",
    "How-to"
   ],
-  "dur": 40.0
+  "dur": 40.0,
+  "en_original": "Mid-century Cartoon",
+  "pt": "Desenho Retrô Anos 50"
  },
  {
   "slug": "comic-history",
   "num": "56",
-  "en": "Comic History Cartoon",
+  "en": "História em Desenho Cômico",
   "cn": "搞笑历史卡通",
   "cat": "卡通动画",
   "cat_en": "Cartoons",
@@ -1028,12 +1138,14 @@
   "dur": 51.0,
   "needs": [
    "image-generation"
-  ]
+  ],
+  "en_original": "Comic History Cartoon",
+  "pt": "História em Desenho Cômico"
  },
  {
   "slug": "manga-panels",
   "num": "57",
-  "en": "Manga Panels",
+  "en": "Quadrinhos de Mangá",
   "cn": "黑白漫画分格",
   "cat": "卡通动画",
   "cat_en": "Cartoons",
@@ -1049,12 +1161,14 @@
   "dur": 48.0,
   "needs": [
    "image-generation"
-  ]
+  ],
+  "en_original": "Manga Panels",
+  "pt": "Quadrinhos de Mangá"
  },
  {
   "slug": "pixel-rpg",
   "num": "58",
-  "en": "16-bit Pixel RPG",
+  "en": "RPG em Pixel 16-bit",
   "cn": "16-bit 像素 RPG",
   "cat": "电子游戏",
   "cat_en": "Games",
@@ -1067,12 +1181,14 @@
    "Recaps",
    "Nostalgia"
   ],
-  "dur": 54.5
+  "dur": 54.5,
+  "en_original": "16-bit Pixel RPG",
+  "pt": "RPG em Pixel 16-bit"
  },
  {
   "slug": "hd-2d",
   "num": "59",
-  "en": "2.5D Pixel Art",
+  "en": "Pixel Art 2.5D",
   "cn": "2.5D 像素",
   "cat": "电子游戏",
   "cat_en": "Games",
@@ -1088,12 +1204,14 @@
   "dur": 76.5,
   "aka": [
    "HD-2D"
-  ]
+  ],
+  "en_original": "2.5D Pixel Art",
+  "pt": "Pixel Art 2.5D"
  },
  {
   "slug": "microgame",
   "num": "60",
-  "en": "Microgame Frenzy",
+  "en": "Maratona de Minigames",
   "cn": "微游戏快闪",
   "cat": "电子游戏",
   "cat_en": "Games",
@@ -1106,12 +1224,14 @@
    "Onboarding",
    "Social shorts"
   ],
-  "dur": 59.8
+  "dur": 59.8,
+  "en_original": "Microgame Frenzy",
+  "pt": "Maratona de Minigames"
  },
  {
   "slug": "game-show",
   "num": "61",
-  "en": "Rhythm Game Show",
+  "en": "Game Show de Ritmo",
   "cn": "节奏综艺",
   "cat": "电子游戏",
   "cat_en": "Games",
@@ -1128,12 +1248,14 @@
   "aka": [
    "Game Show Flat",
    "综艺节奏扁平"
-  ]
+  ],
+  "en_original": "Rhythm Game Show",
+  "pt": "Game Show de Ritmo"
  },
  {
   "slug": "ascii-crt",
   "num": "62",
-  "en": "CRT ASCII Terminal",
+  "en": "Terminal ASCII de Tubo",
   "cn": "CRT 字符终端",
   "cat": "胶片录像",
   "cat_en": "Film & Tape",
@@ -1150,12 +1272,14 @@
   "aka": [
    "ASCII / CRT Terminal",
    "ASCII / CRT 终端"
-  ]
+  ],
+  "en_original": "CRT ASCII Terminal",
+  "pt": "Terminal ASCII de Tubo"
  },
  {
   "slug": "silent-film",
   "num": "63",
-  "en": "1920s Silent Film",
+  "en": "Cinema Mudo Anos 20",
   "cn": "1920s 默片",
   "cat": "胶片录像",
   "cat_en": "Film & Tape",
@@ -1168,12 +1292,14 @@
    "Retro brands",
    "Silent storytelling"
   ],
-  "dur": 54.2
+  "dur": 54.2,
+  "en_original": "1920s Silent Film",
+  "pt": "Cinema Mudo Anos 20"
  },
  {
   "slug": "backrooms",
   "num": "64",
-  "en": "Liminal Found Footage",
+  "en": "Fita Perdida (Found Footage)",
   "cn": "后室录像带",
   "cat": "胶片录像",
   "cat_en": "Film & Tape",
@@ -1189,12 +1315,14 @@
   "dur": 59.7,
   "aka": [
    "后室 / 新怪谈"
-  ]
+  ],
+  "en_original": "Liminal Found Footage",
+  "pt": "Fita Perdida (Found Footage)"
  },
  {
   "slug": "scratch-film",
   "num": "65",
-  "en": "Scratch Film",
+  "en": "Película Riscada",
   "cn": "胶片直刻",
   "cat": "胶片录像",
   "cat_en": "Film & Tape",
@@ -1207,12 +1335,14 @@
    "One mark to a whole system",
    "Small adventures told in light and shadow"
   ],
-  "dur": 52.0
+  "dur": 52.0,
+  "en_original": "Scratch Film",
+  "pt": "Película Riscada"
  },
  {
   "slug": "double-exposure",
   "num": "66",
-  "en": "Double Exposure",
+  "en": "Dupla Exposição",
   "cn": "双重曝光",
   "cat": "胶片录像",
   "cat_en": "Film & Tape",
@@ -1225,12 +1355,14 @@
    "Documentary and series openings",
    "Music video intros"
   ],
-  "dur": 50.5
+  "dur": 50.5,
+  "en_original": "Double Exposure",
+  "pt": "Dupla Exposição"
  },
  {
   "slug": "dark-keynote",
   "num": "67",
-  "en": "Dark Tech Keynote",
+  "en": "Apresentação Tech Escura",
   "cn": "暗色科技发布",
   "cat": "屏幕界面",
   "cat_en": "Screens & Interfaces",
@@ -1243,12 +1375,14 @@
    "SaaS",
    "Keynotes"
   ],
-  "dur": 42.0
+  "dur": 42.0,
+  "en_original": "Dark Tech Keynote",
+  "pt": "Apresentação Tech Escura"
  },
  {
   "slug": "living-screencast",
   "num": "68",
-  "en": "Mascot Screencast",
+  "en": "Gravação de Tela com Mascote",
   "cn": "像素小人录屏",
   "cat": "屏幕界面",
   "cat_en": "Screens & Interfaces",
@@ -1265,12 +1399,14 @@
   "aka": [
    "Living Screencast",
    "活体实机录屏"
-  ]
+  ],
+  "en_original": "Mascot Screencast",
+  "pt": "Gravação de Tela com Mascote"
  },
  {
   "slug": "hologram-hud",
   "num": "69",
-  "en": "Sci-fi Hologram HUD",
+  "en": "Holograma Sci-Fi",
   "cn": "科幻全息界面",
   "cat": "屏幕界面",
   "cat_en": "Screens & Interfaces",
@@ -1283,12 +1419,14 @@
    "Launch videos",
    "Trade shows"
   ],
-  "dur": 39.0
+  "dur": 39.0,
+  "en_original": "Sci-fi Hologram HUD",
+  "pt": "Holograma Sci-Fi"
  },
  {
   "slug": "desktop-flythrough",
   "num": "70",
-  "en": "Tabletop App Flythrough",
+  "en": "Tour de App na Mesa",
   "cn": "桌面卡片穿梭",
   "cat": "屏幕界面",
   "cat_en": "Screens & Interfaces",
@@ -1305,12 +1443,14 @@
   "aka": [
    "Desktop Flythrough",
    "桌面穿梭"
-  ]
+  ],
+  "en_original": "Tabletop App Flythrough",
+  "pt": "Tour de App na Mesa"
  },
  {
   "slug": "spreadsheet",
   "num": "71",
-  "en": "Spreadsheet Film",
+  "en": "Filme em Planilha",
   "cn": "表格动画",
   "cat": "屏幕界面",
   "cat_en": "Screens & Interfaces",
@@ -1323,12 +1463,14 @@
    "Finance & costs",
    "Analytics explainers"
   ],
-  "dur": 52.0
+  "dur": 52.0,
+  "en_original": "Spreadsheet Film",
+  "pt": "Filme em Planilha"
  },
  {
   "slug": "one-bit-dither",
   "num": "72",
-  "en": "1-bit Dither",
+  "en": "Pontilhado 1-bit",
   "cn": "1-bit 点阵",
   "cat": "屏幕界面",
   "cat_en": "Screens & Interfaces",
@@ -1341,12 +1483,14 @@
    "Printing, scanning and signals",
    "Night scenes and space"
   ],
-  "dur": 50.0
+  "dur": 50.0,
+  "en_original": "1-bit Dither",
+  "pt": "Pontilhado 1-bit"
  },
  {
   "slug": "circuit-board",
   "num": "73",
-  "en": "Circuit Board",
+  "en": "Placa de Circuito",
   "cn": "电路板",
   "cat": "发光线条",
   "cat_en": "Light & Lines",
@@ -1359,12 +1503,14 @@
    "Supply chains",
    "Devices"
   ],
-  "dur": 60.0
+  "dur": 60.0,
+  "en_original": "Circuit Board",
+  "pt": "Placa de Circuito"
  },
  {
   "slug": "firefly-pointillism",
   "num": "74",
-  "en": "Firefly Pointillism",
+  "en": "Pontilhismo de Vaga-lumes",
   "cn": "萤火光点",
   "cat": "发光线条",
   "cat_en": "Light & Lines",
@@ -1377,12 +1523,14 @@
    "Many becoming one",
    "Night and nature lyric"
   ],
-  "dur": 50.6
+  "dur": 50.6,
+  "en_original": "Firefly Pointillism",
+  "pt": "Pontilhismo de Vaga-lumes"
  },
  {
   "slug": "flow-field",
   "num": "75",
-  "en": "Flow-field Wind Lines",
+  "en": "Linhas de Vento",
   "cn": "流场风线",
   "cat": "发光线条",
   "cat_en": "Light & Lines",
@@ -1395,12 +1543,14 @@
    "Ocean currents and river floods",
    "Any flow measured against a threshold"
   ],
-  "dur": 52.0
+  "dur": 52.0,
+  "en_original": "Flow-field Wind Lines",
+  "pt": "Linhas de Vento"
  },
  {
   "slug": "oscilloscope-math",
   "num": "76",
-  "en": "Oscilloscope Math",
+  "en": "Matemática no Osciloscópio",
   "cn": "示波器数学",
   "cat": "发光线条",
   "cat_en": "Light & Lines",
@@ -1413,12 +1563,14 @@
    "Signals and electronics",
    "Science explainers"
   ],
-  "dur": 51.1
+  "dur": 51.1,
+  "en_original": "Oscilloscope Math",
+  "pt": "Matemática no Osciloscópio"
  },
  {
   "slug": "neon-tubes",
   "num": "77",
-  "en": "Neon Tubes",
+  "en": "Letreiro de Neon",
   "cn": "霓虹灯管",
   "cat": "发光线条",
   "cat_en": "Light & Lines",
@@ -1431,12 +1583,14 @@
    "Nightlife and city-pop music videos",
    "City and festival night idents"
   ],
-  "dur": 48.0
+  "dur": 48.0,
+  "en_original": "Neon Tubes",
+  "pt": "Letreiro de Neon"
  },
  {
   "slug": "brick-toy",
   "num": "78",
-  "en": "Brick Toy",
+  "en": "Blocos de Montar",
   "cn": "积木玩具",
   "cat": "立体微缩",
   "cat_en": "3D & Miniature",
@@ -1449,12 +1603,14 @@
    "Product builds",
    "Space"
   ],
-  "dur": 54.0
+  "dur": 54.0,
+  "en_original": "Brick Toy",
+  "pt": "Blocos de Montar"
  },
  {
   "slug": "paper-popup",
   "num": "79",
-  "en": "Paper Pop-up Book",
+  "en": "Livro Pop-up de Papel",
   "cn": "纸片立体书",
   "cat": "立体微缩",
   "cat_en": "3D & Miniature",
@@ -1467,12 +1623,14 @@
    "Game trailers",
    "Story films"
   ],
-  "dur": 133.0
+  "dur": 133.0,
+  "en_original": "Paper Pop-up Book",
+  "pt": "Livro Pop-up de Papel"
  },
  {
   "slug": "tilt-shift",
   "num": "80",
-  "en": "Tilt-Shift Miniature",
+  "en": "Miniatura Tilt-Shift",
   "cn": "移轴微缩",
   "cat": "立体微缩",
   "cat_en": "3D & Miniature",
@@ -1485,12 +1643,14 @@
    "Real estate",
    "Transport"
   ],
-  "dur": 38.0
+  "dur": 38.0,
+  "en_original": "Tilt-Shift Miniature",
+  "pt": "Miniatura Tilt-Shift"
  },
  {
   "slug": "lowpoly-island",
   "num": "81",
-  "en": "Low-poly Isometric Island",
+  "en": "Ilha Low-poly Isométrica",
   "cn": "低多边形等距",
   "cat": "立体微缩",
   "cat_en": "3D & Miniature",
@@ -1503,12 +1663,14 @@
    "World building",
    "Calm content"
   ],
-  "dur": 53.0
+  "dur": 53.0,
+  "en_original": "Low-poly Isometric Island",
+  "pt": "Ilha Low-poly Isométrica"
  },
  {
   "slug": "glass-product",
   "num": "82",
-  "en": "Glass Product Render",
+  "en": "Produto em Vidro 3D",
   "cn": "玻璃质感产品",
   "cat": "立体微缩",
   "cat_en": "3D & Miniature",
@@ -1521,12 +1683,14 @@
    "Consumer tech",
    "Beauty"
   ],
-  "dur": 32.0
+  "dur": 32.0,
+  "en_original": "Glass Product Render",
+  "pt": "Produto em Vidro 3D"
  },
  {
   "slug": "memphis-diorama",
   "num": "83",
-  "en": "Memphis Diorama",
+  "en": "Diorama Memphis",
   "cn": "孟菲斯微缩景观",
   "cat": "立体微缩",
   "cat_en": "3D & Miniature",
@@ -1543,12 +1707,14 @@
   "by": {
    "name": "EianLu",
    "url": "https://x.com/EianLu"
-  }
+  },
+  "en_original": "Memphis Diorama",
+  "pt": "Diorama Memphis"
  },
  {
   "slug": "isometric-picture-book",
   "num": "84",
-  "en": "Isometric People Scene",
+  "en": "Cena Isométrica com Pessoas",
   "cn": "等距小人场景",
   "cat": "立体微缩",
   "cat_en": "3D & Miniature",
@@ -1565,12 +1731,14 @@
   "aka": [
    "Isometric Picture Book",
    "等距绘本"
-  ]
+  ],
+  "en_original": "Isometric People Scene",
+  "pt": "Cena Isométrica com Pessoas"
  },
  {
   "slug": "crayon-world",
   "num": "85",
-  "en": "Crayon World 3D",
+  "en": "Mundo 3D de Giz de Cera",
   "cn": "蜡笔立体世界",
   "cat": "立体微缩",
   "cat_en": "3D & Miniature",
@@ -1587,12 +1755,14 @@
   "by": {
    "name": "2nd1st",
    "url": "https://github.com/2nd1st"
-  }
+  },
+  "en_original": "Crayon World 3D",
+  "pt": "Mundo 3D de Giz de Cera"
  },
  {
   "slug": "satellite-briefing",
   "num": "86",
-  "en": "Satellite Briefing",
+  "en": "Relatório por Satélite",
   "cn": "卫星简报",
   "cat": "仪器实证",
   "cat_en": "Instruments & Evidence",
@@ -1605,12 +1775,14 @@
    "News explainers",
    "Geography"
   ],
-  "dur": 37.8
+  "dur": 37.8,
+  "en_original": "Satellite Briefing",
+  "pt": "Relatório por Satélite"
  },
  {
   "slug": "briefing-board",
   "num": "87",
-  "en": "Engineering Briefing Board",
+  "en": "Quadro de Engenharia",
   "cn": "工程简报板",
   "cat": "仪器实证",
   "cat_en": "Instruments & Evidence",
@@ -1623,12 +1795,14 @@
    "Option comparisons",
    "Briefings"
   ],
-  "dur": 40.0
+  "dur": 40.0,
+  "en_original": "Engineering Briefing Board",
+  "pt": "Quadro de Engenharia"
  },
  {
   "slug": "lidar-survey",
   "num": "88",
-  "en": "LiDAR Survey",
+  "en": "Mapeamento LiDAR",
   "cn": "点云测绘",
   "cat": "仪器实证",
   "cat_en": "Instruments & Evidence",
@@ -1641,12 +1815,14 @@
    "Environment",
    "Site surveys"
   ],
-  "dur": 40.0
+  "dur": 40.0,
+  "en_original": "LiDAR Survey",
+  "pt": "Mapeamento LiDAR"
  },
  {
   "slug": "microscope",
   "num": "89",
-  "en": "Under the Microscope",
+  "en": "No Microscópio",
   "cn": "显微镜下",
   "cat": "仪器实证",
   "cat_en": "Instruments & Evidence",
@@ -1663,12 +1839,14 @@
   "aka": [
    "Microscope Story",
    "显微叙事"
-  ]
+  ],
+  "en_original": "Under the Microscope",
+  "pt": "No Microscópio"
  },
  {
   "slug": "archive-lighttable",
   "num": "90",
-  "en": "Archive Light Table",
+  "en": "Mesa de Luz de Arquivo",
   "cn": "档案看片台",
   "cat": "仪器实证",
   "cat_en": "Instruments & Evidence",
@@ -1684,12 +1862,14 @@
   "dur": 40.0,
   "aka": [
    "档案灯台"
-  ]
+  ],
+  "en_original": "Archive Light Table",
+  "pt": "Mesa de Luz de Arquivo"
  },
  {
   "slug": "security-xray",
   "num": "91",
-  "en": "Security X-ray",
+  "en": "Raio-X de Segurança",
   "cn": "安检 X 光",
   "cat": "仪器实证",
   "cat_en": "Instruments & Evidence",
@@ -1702,12 +1882,14 @@
    "Parcel and cargo inspection",
    "Product internals"
   ],
-  "dur": 51.9
+  "dur": 51.9,
+  "en_original": "Security X-ray",
+  "pt": "Raio-X de Segurança"
  },
  {
   "slug": "dark-documentary",
   "num": "92",
-  "en": "Radar Sweep Documentary",
+  "en": "Documentário de Radar",
   "cn": "雷达扫描纪录片",
   "cat": "仪器实证",
   "cat_en": "Instruments & Evidence",
@@ -1720,12 +1902,14 @@
    "Archaeology, sites and reconstructions",
    "Astronomy, deep space and survey"
   ],
-  "dur": 52.0
+  "dur": 52.0,
+  "en_original": "Radar Sweep Documentary",
+  "pt": "Documentário de Radar"
  },
  {
   "slug": "thermal-camera",
   "num": "93",
-  "en": "Thermal Camera",
+  "en": "Câmera Térmica",
   "cn": "热成像",
   "cat": "仪器实证",
   "cat_en": "Instruments & Evidence",
@@ -1738,12 +1922,14 @@
    "Wildlife at night",
    "Machines and electrics"
   ],
-  "dur": 49.0
+  "dur": 49.0,
+  "en_original": "Thermal Camera",
+  "pt": "Câmera Térmica"
  },
  {
   "slug": "dataviz",
   "num": "94",
-  "en": "Data Storytelling",
+  "en": "História com Dados",
   "cn": "数据叙事",
   "cat": "数据地图",
   "cat_en": "Data & Maps",
@@ -1756,12 +1942,14 @@
    "Reports",
    "Climate & science"
   ],
-  "dur": 50.0
+  "dur": 50.0,
+  "en_original": "Data Storytelling",
+  "pt": "História com Dados"
  },
  {
   "slug": "white-model",
   "num": "95",
-  "en": "Projection-Mapped Model",
+  "en": "Maquete com Projeção",
   "cn": "白模投影",
   "cat": "数据地图",
   "cat_en": "Data & Maps",
@@ -1777,12 +1965,14 @@
   "dur": 40.0,
   "aka": [
    "Projection on White Model"
-  ]
+  ],
+  "en_original": "Projection-Mapped Model",
+  "pt": "Maquete com Projeção"
  },
  {
   "slug": "data-physical",
   "num": "96",
-  "en": "Data Physicalization",
+  "en": "Dados em Objetos Físicos",
   "cn": "数据实物化",
   "cat": "数据地图",
   "cat_en": "Data & Maps",
@@ -1795,12 +1985,14 @@
    "Investor decks",
    "Energy data"
   ],
-  "dur": 39.4
+  "dur": 39.4,
+  "en_original": "Data Physicalization",
+  "pt": "Dados em Objetos Físicos"
  },
  {
   "slug": "transit-map",
   "num": "97",
-  "en": "Transit Map",
+  "en": "Mapa de Metrô",
   "cn": "地铁线路图",
   "cat": "数据地图",
   "cat_en": "Data & Maps",
@@ -1813,12 +2005,14 @@
    "Growth over time",
    "Networks"
   ],
-  "dur": 47.0
+  "dur": 47.0,
+  "en_original": "Transit Map",
+  "pt": "Mapa de Metrô"
  },
  {
   "slug": "map-explainer",
   "num": "98",
-  "en": "3D Map Explainer",
+  "en": "Explicação em Mapa 3D",
   "cn": "立体地图解说",
   "cat": "数据地图",
   "cat_en": "Data & Maps",
@@ -1831,12 +2025,14 @@
    "Energy, trade and shipping",
    "Rivers, borders and terrain"
   ],
-  "dur": 52.0
+  "dur": 52.0,
+  "en_original": "3D Map Explainer",
+  "pt": "Explicação em Mapa 3D"
  },
  {
   "slug": "pip-simulation",
   "num": "99",
-  "en": "Blob Simulation",
+  "en": "Simulação com Bonequinhos",
   "cn": "小人模拟实验",
   "cat": "数据地图",
   "cat_en": "Data & Maps",
@@ -1849,6 +2045,8 @@
    "Game theory and agent-based models",
    "Epidemics, queues and markets"
   ],
-  "dur": 52.0
+  "dur": 52.0,
+  "en_original": "Blob Simulation",
+  "pt": "Simulação com Bonequinhos"
  }
 ]

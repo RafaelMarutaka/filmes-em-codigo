@@ -1,7 +1,7 @@
 {
  "slug": "data-physical",
  "num": "96",
- "en": "Data Physicalization",
+ "en": "Dados em Objetos Físicos",
  "cn": "数据实物化",
  "category_en": "Data & Maps",
  "category_cn": "数据地图",
@@ -15,5 +15,7 @@
   "Energy data"
  ],
  "frame_sec": 37.8,
- "dur": 39.4
+ "dur": 39.4,
+ "en_original": "Data Physicalization",
+ "pt": "Dados em Objetos Físicos"
 }

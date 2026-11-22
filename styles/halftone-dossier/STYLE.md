@@ -1,4 +1,4 @@
-# Halftone Dossier — Style Prompt
+# Dossiê em Retícula — Style Prompt
 
 > A retro print case file: cream archive paper, overprinted halftone dots in a few flat inks, huge heavy headlines with misregistered shadows, rubber stamps that slam, and thick-outlined characters. The film is a file that is read out one exhibit at a time.
 > References (grammar only, never copy): Ben-Day-dot pop-art printing (Roy Lichtenstein era comics) for dot density as shading; riso/offset overprint zines for multiply layers and misregistration; police mugshot height charts and case-file folders for the framing device; Japanese variety-show telop captions for the keyword-highlight caption bar.
@@ -10,7 +10,7 @@
 - **Bureaucratic apparatus**: case numbers, file chips, numbered exhibits, height charts, name plates, stamps. Their seriousness is the frame; the subject can be grave or trivial.
 - **Loud but readable**: one idea per 2–4 s card, one big headline, one visual gag or exhibit, one caption line.
 
-Not Risograph (no grainy two-ink riso texture as the whole look, no zine collage), not Swiss motion (no grid-driven kinetic type on white), not Rhythm Game Show (no candy sets, no rhythm-game rounds). Dots, paper and stamps must be visible in every frame.
+Not Risograph (no grainy two-ink riso texture as the whole look, no zine collage), not Swiss motion (no grid-driven kinetic type on white), not Game Show de Ritmo (no candy sets, no rhythm-game rounds). Dots, paper and stamps must be visible in every frame.
 
 ## 2. Materials & rendering
 

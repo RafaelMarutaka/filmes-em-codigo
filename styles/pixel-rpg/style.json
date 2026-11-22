@@ -1,7 +1,7 @@
 {
  "slug": "pixel-rpg",
  "num": "58",
- "en": "16-bit Pixel RPG",
+ "en": "RPG em Pixel 16-bit",
  "cn": "16-bit 像素 RPG",
  "category_en": "Games",
  "category_cn": "电子游戏",
@@ -15,5 +15,7 @@
   "Nostalgia"
  ],
  "frame_sec": 27.25,
- "dur": 54.5
+ "dur": 54.5,
+ "en_original": "16-bit Pixel RPG",
+ "pt": "RPG em Pixel 16-bit"
 }

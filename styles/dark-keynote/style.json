@@ -1,7 +1,7 @@
 {
  "slug": "dark-keynote",
  "num": "67",
- "en": "Dark Tech Keynote",
+ "en": "Apresentação Tech Escura",
  "cn": "暗色科技发布",
  "category_en": "Screens & Interfaces",
  "category_cn": "屏幕界面",
@@ -15,5 +15,7 @@
   "Keynotes"
  ],
  "frame_sec": 8.4,
- "dur": 42.0
+ "dur": 42.0,
+ "en_original": "Dark Tech Keynote",
+ "pt": "Apresentação Tech Escura"
 }

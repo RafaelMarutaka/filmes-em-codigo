@@ -1,7 +1,7 @@
 {
  "slug": "briefing-board",
  "num": "87",
- "en": "Engineering Briefing Board",
+ "en": "Quadro de Engenharia",
  "cn": "工程简报板",
  "category_en": "Instruments & Evidence",
  "category_cn": "仪器实证",
@@ -15,5 +15,7 @@
   "Briefings"
  ],
  "frame_sec": 39.9,
- "dur": 40.0
+ "dur": 40.0,
+ "en_original": "Engineering Briefing Board",
+ "pt": "Quadro de Engenharia"
 }

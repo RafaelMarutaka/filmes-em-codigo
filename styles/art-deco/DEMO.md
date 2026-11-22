@@ -1,11 +1,11 @@
-# Art Deco — our demo
+# Art Déco — our demo
 
 One example among many. Don't reuse its story, arc, shots, props or timings.
 
 Demo: *Midnight at the Starlight Hotel* (58.4 s) · `art-deco.mp4` · source in [`demo/`](demo/)
 
 
-The demo's brief: a 40–60 second film in the Art Deco style; the director decides story, shots, score, sound and titles.
+The demo's brief: a 40–60 second film in the Art Déco style; the director decides story, shots, score, sound and titles.
 
 ## Story & structure
 
@@ -126,7 +126,7 @@ All drawing is Canvas2D, deterministic in `t`. Import from `demo/engine/`.
 import * as D from './engine/deco.js';
 import * as B from './engine/bulbs.js';
 
-// a warm-orange four-point light with a short cursor tail, drawn the Art Deco way
+// a warm-orange four-point light with a short cursor tail, drawn the Art Déco way
 D.sunburst(g, 960, 540, { rays: 72, r1: 1400, mode: 'wedges' });
 D.drawShape(g, D.starPts(960, 540, 120, .22), { color: '#D97757', halo: 1, trail: { ang: Math.PI, len: 420, n: 4 } });
 

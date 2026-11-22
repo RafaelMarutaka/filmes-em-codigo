@@ -1,4 +1,4 @@
-# Flow-field Wind Lines 流场风线 — Style Prompt
+# Linhas de Vento 流场风线 — Style Prompt
 
 > An invisible field — wind, current, traffic, any flow — made visible as thousands of thin ink streamlines engraved on warm paper, with darker strokes running along them at the local speed. The lines are computed from data or a physical model, never drawn by hand; they bend round coasts, mountains and objects, change colour as the magnitude crosses meaningful thresholds, and the camera travels over the printed world beneath them.
 > References (grammar only): meteorological streamline charts and wind-flow maps (lines that follow the field, colour by magnitude); 19th-century engraved sea charts (hatching, double coastlines, italic water names, cartouches); line-integral and evenly spaced streamline visualisation in scientific graphics. Copy none of their layouts, colour ramps, typefaces or icons, and never name them in the film.
@@ -11,7 +11,7 @@
 - **The field meets things:** coasts, relief, objects and text push the lines aside. Where lines bend is where the story is.
 - **Measured, then printed:** readings, legends and verdicts are printed on the world or pinned to it with a leader.
 
-Not a particle effect (no glowing dots, no additive light, no bloom), not Data Storytelling (no axes floating on blank paper as the main picture), not Satellite Briefing (no photographs), not a weather app (no rainbow ramp, no neon on black), not a keynote (no slides, header bars, chapter numbers).
+Not a particle effect (no glowing dots, no additive light, no bloom), not História com Dados (no axes floating on blank paper as the main picture), not Relatório por Satélite (no photographs), not a weather app (no rainbow ramp, no neon on black), not a keynote (no slides, header bars, chapter numbers).
 
 ## 2. Materials & rendering
 

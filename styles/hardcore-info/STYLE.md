@@ -1,4 +1,4 @@
-# Line-Art Cutaway — Style Prompt
+# Corte em Traço — Style Prompt
 
 > A real-sized object, modelled in 3D and traced live into a black-line technical drawing on warm white paper: it turns, comes apart, is cut open and is flown into, while numbered leaders, dimension lines and section hatching stay attached to its parts. One single accent colour belongs to the one path the film explains (a signal, a current, an airflow).
 > References (grammar only): textbook and patent drawings (line hierarchy, hatching, leaders), engineering title blocks, Chinese knowledge-channel hardware explainers (dense, exact, fast-cut information), product manuals (the clean diagrammatic hand). Never copy their characters, layouts, typefaces or music, and never name them in the film.

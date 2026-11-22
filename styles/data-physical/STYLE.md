@@ -1,4 +1,4 @@
-# Data Physicalization — Style Prompt
+# Dados em Objetos Físicos — Style Prompt
 
 > Real statistics built as real objects: every unit is a countable piece of material (a plate, a block, a coin, a bar) stacked to exact scale on a crafted base, shot like a product in a studio — soft key, long shadows, shallow depth of field, physically based materials. The camera reads a number at the edge of one plate, follows the data as it grows, and pulls back until the chart is an installation.
 > References (grammar only): data-sculpture and physical-visualisation practice (one unit = one object, the object is the axis); product and still-life photography (a warm key at a low angle, a cool rim, a seamless sweep); annual-report editorial design (one reading per screen, a source line, a quiet grotesk). Copy none of them; never name them in the film.
@@ -12,7 +12,7 @@
 - **The pull-back.** At least once the chart is revealed as a made thing: a dial, a table piece, a landscape of stacks.
 - **Every number has a source on screen**: real published statistics (or the user's own figures), credited in frame.
 
-Not Isometric Infographic (no icons, no flat colour coding), not Glass Product Render (the object is data), not Data Storytelling (no paper chart or inked axes), not Dark Tech Keynote (no black stage or neon), not Brick Toy (no toy proportions, no characters).
+Not Infográfico Isométrico (no icons, no flat colour coding), not Produto em Vidro 3D (the object is data), not História com Dados (no paper chart or inked axes), not Apresentação Tech Escura (no black stage or neon), not Blocos de Montar (no toy proportions, no characters).
 
 ## 2. Materials & rendering
 

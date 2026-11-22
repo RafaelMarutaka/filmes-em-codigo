@@ -1,4 +1,4 @@
-# Oscilloscope Math — Style Prompt
+# Matemática no Osciloscópio — Style Prompt
 
 > Mathematics drawn by an electron beam on a phosphor screen: thin glowing green lines on near-black, a dotted graticule, monospace readouts and TeX formulas, every number on screen computed from the same values that draw the picture. The screen is a window onto a mathematical world larger than the frame, and the camera moves through it: it follows a point, dives into a corner, pulls back over a whole wave. Zooming is turning the instrument's knobs: the graticule refines and the TIME/DIV and V/DIV readouts change with the zoom.
 > References (grammar only): analogue oscilloscopes (P31 phosphor, beam afterglow, graticule, cursors, STOP/RUN), 3Blue1Brown-style mathematical animation (text that turns into shapes, a camera inside the maths), Manim. Copy no instrument's front panel, logo or layout.
@@ -10,7 +10,7 @@
 - **The screen is glass in front of a world.** HUD (formula, readouts, subtitles, credits) is fixed to the glass; the world (curves, circles, axis, graticule) moves behind it.
 - **Text becomes geometry.** Titles are written by the beam, then their letters morph into the next shot's subject (a circle, an axis).
 
-Not Sci-fi Hologram HUD (no fantasy chrome, no cyan-magenta palette), not Data Storytelling (no bars and pies on white), not Blueprint (no paper, no drafting), not ASCII/CRT Terminal (no raster, no scanlines, no character grid).
+Not Holograma Sci-Fi (no fantasy chrome, no cyan-magenta palette), not História com Dados (no bars and pies on white), not Blueprint (no paper, no drafting), not ASCII/CRT Terminal (no raster, no scanlines, no character grid).
 
 ## 2. Materials & rendering
 

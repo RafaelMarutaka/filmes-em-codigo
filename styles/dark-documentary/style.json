@@ -1,7 +1,7 @@
 {
  "slug": "dark-documentary",
  "num": "92",
- "en": "Radar Sweep Documentary",
+ "en": "Documentário de Radar",
  "cn": "雷达扫描纪录片",
  "category_en": "Instruments & Evidence",
  "category_cn": "仪器实证",
@@ -15,5 +15,7 @@
   "Astronomy, deep space and survey"
  ],
  "frame_sec": 16.0,
- "dur": 52.0
+ "dur": 52.0,
+ "en_original": "Radar Sweep Documentary",
+ "pt": "Documentário de Radar"
 }

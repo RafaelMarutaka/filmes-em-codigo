@@ -1,7 +1,7 @@
 {
  "slug": "crayon-world",
  "num": "85",
- "en": "Crayon World 3D",
+ "en": "Mundo 3D de Giz de Cera",
  "cn": "蜡笔立体世界",
  "category_en": "3D & Miniature",
  "category_cn": "立体微缩",
@@ -19,5 +19,7 @@
  "by": {
   "name": "2nd1st",
   "url": "https://github.com/2nd1st"
- }
+ },
+ "en_original": "Crayon World 3D",
+ "pt": "Mundo 3D de Giz de Cera"
 }

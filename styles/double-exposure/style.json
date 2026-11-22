@@ -1,7 +1,7 @@
 {
  "slug": "double-exposure",
  "num": "66",
- "en": "Double Exposure",
+ "en": "Dupla Exposição",
  "cn": "双重曝光",
  "category_en": "Film & Tape",
  "category_cn": "胶片录像",
@@ -15,5 +15,7 @@
   "Music video intros"
  ],
  "frame_sec": 38.5,
- "dur": 50.5
+ "dur": 50.5,
+ "en_original": "Double Exposure",
+ "pt": "Dupla Exposição"
 }

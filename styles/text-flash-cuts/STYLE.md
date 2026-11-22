@@ -1,4 +1,4 @@
-# Text Flash Cuts — Style Prompt
+# Cortes Rápidos de Texto — Style Prompt
 
 > Avant-garde TV anime in the manner of the early-2000s "text frame" school: full-screen heavy Mincho title cards cut in for two to nine frames, architecture reduced to symbolic geometry, a red-black-white palette, characters as silhouettes or extreme close-ups, and the signature over-the-shoulder head tilt. Painted characters come from image generation; everything else (cards, buildings, rain, cuts, inversions) is code.
 > References (grammar only): the early-2000s TV-anime "text frame" school, with its flash title cards, symbolic architecture and over-the-shoulder head tilt. Borrow the editing and design grammar; never a work's characters, lines, card texts, logos or specific shots.

@@ -1,4 +1,4 @@
-# Scratch Film — our demo
+# Película Riscada — our demo
 
 One example among many. Don't reuse its story, arc, shots, props or timings.
 
@@ -59,7 +59,7 @@ Ground `#050403`, cuts `#FFF4DC`; teal `#1FB39A` the lanternfish; blue `#2F86FF`
 
 ## End card
 
-From 48.0 s, cut into the dark water once the lights have sunk: *THE NIGHT CLIMB* (Jost 800 filled with diagonal cuts), 夜里往上游, "Scratch Film · 胶片直刻" and "Rafael Marutaka × Claude Opus 5.5" with a red dye underline; held to 52.0. The sign-off belongs to this library demo only; a user's film carries no Rafael Marutaka credit and no copy of this card.
+From 48.0 s, cut into the dark water once the lights have sunk: *THE NIGHT CLIMB* (Jost 800 filled with diagonal cuts), 夜里往上游, "Película Riscada · 胶片直刻" and "Rafael Marutaka × Claude Opus 5.5" with a red dye underline; held to 52.0. The sign-off belongs to this library demo only; a user's film carries no Rafael Marutaka credit and no copy of this card.
 
 ## Build notes
 

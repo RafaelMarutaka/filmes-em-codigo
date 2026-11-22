@@ -1,4 +1,4 @@
-# 80s Cel Anime — our demo
+# Anime Anos 80 — our demo
 
 One example among many. Don't reuse its story, arc, shots, props or timings.
 
@@ -52,7 +52,7 @@ Voices: an English-dub feel, 8 short lines: the heroine (Kokoro `af_bella`) and 
 
 ## End card
 
-Darkened final dawn background, the title, the style name "80s Cel Anime", "Rafael Marutaka × Claude Opus 5.5", a one-line originality note and credits. The "Rafael Marutaka × Claude Opus 5.5" sign-off belongs to this library's demo only; a user's film carries no Rafael Marutaka credit and no copy of this card.
+Darkened final dawn background, the title, the style name "Anime Anos 80", "Rafael Marutaka × Claude Opus 5.5", a one-line originality note and credits. The "Rafael Marutaka × Claude Opus 5.5" sign-off belongs to this library's demo only; a user's film carries no Rafael Marutaka credit and no copy of this card.
 
 Title card as used: "CITY LIGHTS" in heavy italic chrome with シティ・ライツ above (Dela Gothic One), a red "1987" and a spaced-out tagline. Subtitles: Barlow Semi Condensed 600, 54 px, cream-yellow `#fff0a0`, 9 px dark outline, 96 px above the bottom; radio lines cyan `#8ff4ff` with a boxed "● BASE" tag; each line up for max(duration + 0.6 s, 1.9 s).
 

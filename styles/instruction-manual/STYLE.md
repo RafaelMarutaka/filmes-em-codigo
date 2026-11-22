@@ -1,4 +1,4 @@
-# Instruction Manual Art — Style Prompt
+# Manual de Instruções — Style Prompt
 
 > The film is a printed assembly manual: one sheet of off-white paper, black line art in true isometric (45°), flat white parts, faceless people at real proportions, and the manual's own signs (step numbers, parts call-outs, dotted guide lines, flat arrows, magnifier circles, a do/don't box) telling the story. The view never turns; the camera only travels over the page.
 > References (grammar only): flat-pack furniture and construction-toy building manuals, aircraft safety cards. Borrow the signs (step number, parts box, do/don't, magnifier, arrow), never a brand's name, logo, figure design, colours or product codes.
@@ -14,7 +14,7 @@ Rules (they define the style):
 - **The manual's signs do the explaining**: step numbers, parts boxes with counts, dotted guide lines, arrows lying in the isometric planes, rotation arrows, magnifier circles, a do/don't box, a "click" mark. On-screen words are only numbers and counts.
 - **Faceless people at real proportions** whose hands always do something.
 
-Not Isometric Infographic (no coloured diorama, no data panels), not Isometric People Scene (no painted scene, no faces), not Blueprint (dark ground, technical dimensions), not Exploded Teardown (no rendered product, no photoreal materials), not a slide deck (no header bars, centred titles or page turns).
+Not Infográfico Isométrico (no coloured diorama, no data panels), not Cena Isométrica com Pessoas (no painted scene, no faces), not Blueprint (dark ground, technical dimensions), not Desmontagem em Vista Explodida (no rendered product, no photoreal materials), not a slide deck (no header bars, centred titles or page turns).
 
 ## 2. Materials & rendering
 

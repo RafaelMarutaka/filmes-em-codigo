@@ -11,7 +11,7 @@
 - **Whole-frame posters.** Each shot is a full composition (a poster, a sheet of prints, a wall), not a scene with a poster in it.
 - **Telling, not a comic.** No panels or gutters as a reading order, no speech balloons, no onomatopoeia, no acting characters. Information arrives as printed labels and headlines; a voice tells the story.
 
-Not Halftone Dossier (cream archive paper, soft colours, characters), not Risograph Print (pink/blue/yellow soy inks overprinting into new colours), not Silkscreen Travel Poster (scenic places in flat layered colour, no dot screen), not Swiss Motion Graphics (grid type with no printed image), and not a comic book.
+Not Dossiê em Retícula (cream archive paper, soft colours, characters), not Impressão Risograph (pink/blue/yellow soy inks overprinting into new colours), not Pôster de Viagem em Serigrafia (scenic places in flat layered colour, no dot screen), not Motion Design Suíço (grid type with no printed image), and not a comic book.
 
 ## 2. Materials & rendering
 

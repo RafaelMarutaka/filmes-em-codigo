@@ -1,7 +1,7 @@
 {
  "slug": "hologram-hud",
  "num": "69",
- "en": "Sci-fi Hologram HUD",
+ "en": "Holograma Sci-Fi",
  "cn": "科幻全息界面",
  "category_en": "Screens & Interfaces",
  "category_cn": "屏幕界面",
@@ -15,5 +15,7 @@
   "Trade shows"
  ],
  "frame_sec": 25.5,
- "dur": 39.0
+ "dur": 39.0,
+ "en_original": "Sci-fi Hologram HUD",
+ "pt": "Holograma Sci-Fi"
 }

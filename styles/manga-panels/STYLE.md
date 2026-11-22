@@ -1,4 +1,4 @@
-# Manga Panels — Style Prompt
+# Quadrinhos de Mangá — Style Prompt
 
 > A black-and-white Japanese manga page that moves: G-pen ink, screentone dots, one spot colour, panels that open on the beat, sound effects slammed in letter by letter, and a camera that travels across the paper and through the gutters. The panel is the cut.
 > References (grammar only): Japanese shōnen / seinen manga printing and page grammar in general (screentone, focus lines, speed lines, hand-lettered sound effects, right-to-left reading, chapter title pages, colophons, flip books); TV anime openings that animate manga panels. Borrow the page grammar, never a specific work's characters, layouts, lettering or signature shots.

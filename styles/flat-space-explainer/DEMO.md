@@ -1,4 +1,4 @@
-# Scale Zoom Explainer — our demo
+# Explicação com Zoom de Escala — our demo
 
 One example among many. Don't reuse its story, arc, shots, props or timings.
 
@@ -86,7 +86,7 @@ Mix (in `mix.py`): voice compressed, music ducked ~10 dB under the voice and dip
 
 ## End card
 
-From 49.1 s, bottom right of the final ribbon shot, wiped in line by line and held to the end (2.5 s fully written): `THE LONG WAY DOWN · 一路往下缩`, `Scale Zoom Explainer · 扁平尺度漫游`, `Rafael Marutaka × Claude Opus 5.5` in sun yellow. The "Rafael Marutaka × Claude Opus 5.5" sign-off belongs to this library's demo only; a user's film carries no Rafael Marutaka credit and no copy of this card.
+From 49.1 s, bottom right of the final ribbon shot, wiped in line by line and held to the end (2.5 s fully written): `THE LONG WAY DOWN · 一路往下缩`, `Explicação com Zoom de Escala · 扁平尺度漫游`, `Rafael Marutaka × Claude Opus 5.5` in sun yellow. The "Rafael Marutaka × Claude Opus 5.5" sign-off belongs to this library's demo only; a user's film carries no Rafael Marutaka credit and no copy of this card.
 
 ## Build notes
 

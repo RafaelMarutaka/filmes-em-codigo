@@ -1,7 +1,7 @@
 {
  "slug": "gilded-illumination",
  "num": "27",
- "en": "Gilded Illumination",
+ "en": "Iluminura Dourada",
  "cn": "金箔彩绘",
  "category_en": "Traditional Crafts",
  "category_cn": "传统工艺",
@@ -15,5 +15,7 @@
   "Brand and origin stories"
  ],
  "frame_sec": 41.1,
- "dur": 46.8
+ "dur": 46.8,
+ "en_original": "Gilded Illumination",
+ "pt": "Iluminura Dourada"
 }

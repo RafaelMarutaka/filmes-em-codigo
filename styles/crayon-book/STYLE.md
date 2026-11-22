@@ -1,4 +1,4 @@
-# Crayon Picture Book — Style Prompt
+# Livro Infantil de Giz de Cera — Style Prompt
 
 > A picture-book page drawn live in wax crayon on toothy paper, with a watercolour wash that reveals what the crayon was hiding.
 > References (grammar only): Raymond Briggs' *The Snowman* (1982) (hand-textured frames that breathe, wordless tenderness, a lyrical passage carried by one tune, still backgrounds with living figures). Copy none of its characters, song or imagery, and never name it in the film.

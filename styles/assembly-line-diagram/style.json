@@ -1,7 +1,7 @@
 {
  "slug": "assembly-line-diagram",
  "num": "51",
- "en": "Assembly-Line Diagram",
+ "en": "Diagrama de Linha de Montagem",
  "cn": "流水线图解",
  "category_en": "Line Diagrams",
  "category_cn": "线稿图解",
@@ -15,5 +15,7 @@
   "Supply chains and pipelines"
  ],
  "frame_sec": 8.24,
- "dur": 54.9
+ "dur": 54.9,
+ "en_original": "Assembly-Line Diagram",
+ "pt": "Diagrama de Linha de Montagem"
 }

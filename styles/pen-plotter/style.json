@@ -1,7 +1,7 @@
 {
  "slug": "pen-plotter",
  "num": "50",
- "en": "Pen Plotter",
+ "en": "Plotter de Caneta",
  "cn": "笔式绘图仪",
  "category_en": "Line Diagrams",
  "category_cn": "线稿图解",
@@ -15,5 +15,7 @@
   "Generative and data drawings"
  ],
  "frame_sec": 18.4,
- "dur": 49.9
+ "dur": 49.9,
+ "en_original": "Pen Plotter",
+ "pt": "Plotter de Caneta"
 }

@@ -1,7 +1,7 @@
 {
  "slug": "impasto",
  "num": "11",
- "en": "Impasto Oil Painting",
+ "en": "Pintura a Óleo com Textura",
  "cn": "油画厚涂",
  "category_en": "Painting & Illustration",
  "category_cn": "绘画插画",
@@ -15,5 +15,7 @@
   "Emotional ads"
  ],
  "frame_sec": 28.58,
- "dur": 39.7
+ "dur": 39.7,
+ "en_original": "Impasto Oil Painting",
+ "pt": "Pintura a Óleo com Textura"
 }

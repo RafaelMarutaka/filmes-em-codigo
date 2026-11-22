@@ -1,4 +1,4 @@
-# Exploded Teardown — our demo
+# Desmontagem em Vista Explodida — our demo
 
 One example among many. Don't reuse its story, arc, shots, props or timings.
 

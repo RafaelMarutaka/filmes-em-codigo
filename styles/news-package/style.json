@@ -1,7 +1,7 @@
 {
  "slug": "news-package",
  "num": "08",
- "en": "Broadcast News Package",
+ "en": "Telejornal",
  "cn": "电视新闻包装",
  "category_en": "Edit & Documentary",
  "category_cn": "剪辑纪实",
@@ -15,5 +15,7 @@
   "Market updates"
  ],
  "frame_sec": 4.4,
- "dur": 53.5
+ "dur": 53.5,
+ "en_original": "Broadcast News Package",
+ "pt": "Telejornal"
 }

@@ -1,4 +1,4 @@
-# Silhouette Rhythm — Style Prompt
+# Ritmo de Silhuetas — Style Prompt
 
 > Pure black silhouettes against a saturated sunset, changing pose on every beat; on the key beat everything freezes and only the sky keeps moving. The water is the second canvas: reflections, ripples and back-lit droplets.
 > References (grammar only): beat-locked silhouette commercials of the 2000s (flat black figures, every pose and cut on the beat); Lotte Reiniger's silhouette films (acting in profile, the outline carries everything); telephoto wildlife cinematography at sunset (a sun the size of the frame, animals crossing it). Copy none of their figures, layouts, typefaces or music; never name them in the film.
@@ -11,7 +11,7 @@
 - **The freeze**: on the key beat the figures, droplets, ripples and clouds stop; the sky's colour and the sun keep going.
 - **The sky is the clock**: the colour sinks from gold to magenta to violet as the story moves, and the sun goes down with it.
 
-Not Shadow Puppetry (no visible rods, no paper texture, no lamp behind a screen), not Paper-cut Lightbox (no layered paper, no inner light), not Red Paper-cut (no ornament inside the shape), not a sunset stock photo (the figures act, on a grid).
+Not Teatro de Sombras (no visible rods, no paper texture, no lamp behind a screen), not Luminária de Papel Recortado (no layered paper, no inner light), not Recorte de Papel Vermelho (no ornament inside the shape), not a sunset stock photo (the figures act, on a grid).
 
 ## 2. Materials & rendering
 

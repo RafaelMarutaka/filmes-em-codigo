@@ -1,4 +1,4 @@
-# Thermal Camera — Style Prompt
+# Câmera Térmica — Style Prompt
 
 > The film is seen through a radiometric thermal camera: a low-resolution, slightly noisy picture in an iron palette where brightness means temperature, with the camera's own instruments on screen (colour scale, spot meters, area boxes, isotherm, hot-spot tracker). A scan line or a split turns the ordinary night picture into heat, and every number on screen is read off the temperature image itself.
 > References (grammar only): building-envelope thermography reports (spot, box and isotherm on a facade, the same scale before and after); wildlife thermal footage at night (an animal glowing against cold ground); the visible / infrared split of dual-sensor cameras. Copy no brand's interface, palette table, logo or typeface, and never name a camera maker in the film.
@@ -11,7 +11,7 @@
 - **The instruments are diegetic.** Colour scale with its range, spot meters, boxes with max/avg, isotherm, hot-spot tracker, time stamp: the camera's screen, not a slide.
 - **Two eyes, one place.** The visible picture is the baseline; the thermal picture is the revelation. The switch between them is a native move.
 
-Not Sci-fi Hologram HUD (no glowing wireframes, no invented sci-fi chrome), not Data Storytelling (no charts on paper), not a neon colour grade (no false colour without a scale), not Under the Microscope (no lab optics).
+Not Holograma Sci-Fi (no glowing wireframes, no invented sci-fi chrome), not História com Dados (no charts on paper), not a neon colour grade (no false colour without a scale), not No Microscópio (no lab optics).
 
 ## 2. Materials & rendering
 

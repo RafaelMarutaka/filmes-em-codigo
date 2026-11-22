@@ -1,4 +1,4 @@
-# Bauhaus Shapes — Style Prompt
+# Formas Bauhaus — Style Prompt
 
 > An explainer told only with circles, squares, triangles, arcs and straight lines, set in opaque colour on a light, matte paper. Every shape is a quantity drawn to scale (area is the amount), the shapes are the characters, and type only names them. A thin construction grid lays out each scene before anything lands, and folds away when it is done.
 > References (grammar only): the Bauhaus preliminary course (Itten, Albers, Kandinsky's point–line–plane), Bayer's and Moholy-Nagy's typography, Swiss and mid-century information graphics. Copy no poster, logo or typeface of the period; the look is today's: a light ground and a modern palette, never the aged-paper red–yellow–blue–black.
@@ -11,7 +11,7 @@
 - **The grid is visible.** Construction lines draw first, shapes and letters land on them, then the lines retract. The grid does more each time it returns: a layout, a ruler, a tangent, a scale on a slope, the baseline of a formula.
 - **Few words, large.** One key number, one short English line, at most one short Chinese line per scene.
 
-Not Swiss Motion Graphics (there type is the material; here type is a label and the shapes carry the meaning), not Mid-century Cartoon (no characters, no faces), not Data Storytelling (no axes, ticks and legends as chrome: a ruler appears only when it measures something), not a slide deck (no headers, no centred stacks, no page turns).
+Not Motion Design Suíço (there type is the material; here type is a label and the shapes carry the meaning), not Desenho Retrô Anos 50 (no characters, no faces), not História com Dados (no axes, ticks and legends as chrome: a ruler appears only when it measures something), not a slide deck (no headers, no centred stacks, no page turns).
 
 ## 2. Materials & rendering
 

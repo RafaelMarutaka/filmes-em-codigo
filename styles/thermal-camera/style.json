@@ -1,7 +1,7 @@
 {
  "slug": "thermal-camera",
  "num": "93",
- "en": "Thermal Camera",
+ "en": "Câmera Térmica",
  "cn": "热成像",
  "category_en": "Instruments & Evidence",
  "category_cn": "仪器实证",
@@ -15,5 +15,7 @@
   "Machines and electrics"
  ],
  "frame_sec": 1.3,
- "dur": 49.0
+ "dur": 49.0,
+ "en_original": "Thermal Camera",
+ "pt": "Câmera Térmica"
 }

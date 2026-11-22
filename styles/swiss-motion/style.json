@@ -1,7 +1,7 @@
 {
  "slug": "swiss-motion",
  "num": "36",
- "en": "Swiss Motion Graphics",
+ "en": "Motion Design Suíço",
  "cn": "瑞士动态排版",
  "category_en": "Graphic & Type",
  "category_cn": "平面排版",
@@ -15,5 +15,7 @@
   "Design education"
  ],
  "frame_sec": 31.68,
- "dur": 44.0
+ "dur": 44.0,
+ "en_original": "Swiss Motion Graphics",
+ "pt": "Motion Design Suíço"
 }

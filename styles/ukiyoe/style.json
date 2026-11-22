@@ -1,7 +1,7 @@
 {
  "slug": "ukiyoe",
  "num": "23",
- "en": "Ukiyo-e",
+ "en": "Ukiyo-e (Gravura Japonesa)",
  "cn": "浮世绘",
  "category_en": "Traditional Crafts",
  "category_cn": "传统工艺",
@@ -15,5 +15,7 @@
   "Poetry"
  ],
  "frame_sec": 26.4,
- "dur": 44.0
+ "dur": 44.0,
+ "en_original": "Ukiyo-e",
+ "pt": "Ukiyo-e (Gravura Japonesa)"
 }

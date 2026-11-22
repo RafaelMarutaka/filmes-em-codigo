@@ -14,7 +14,7 @@ Biblioteca privada de **Rafael Marutaka** · usada pela skill `filmes-em-codigo`
 1. **Escolha um estilo** da lista abaixo (ou peça uma sugestão pro tema).
 2. **Chame a skill** `/filmes-em-codigo` e diga em uma frase o que você quer:
 
-> Faz um filme de 45 segundos no estilo **Watercolor Brush** sobre moldes de roupa pra pet, com narração feminina.
+> Faz um filme de 45 segundos no estilo **Pincel de Aquarela** sobre moldes de roupa pra pet, com narração feminina.
 
 3. O Claude escreve o roteiro, monta as cenas, renderiza e entrega o vídeo na pasta do projeto.
 
@@ -22,21 +22,21 @@ A skill baixa esta biblioteca pra `~/filmes-em-codigo` na primeira vez. Cada fil
 
 ## Os estilos (99)
 
-- **Edição e documentário** (8): Caption News, 1920s Newsreel, Live Countdown Split-screen, City Symphony, Visual Investigation, Constructivist Montage, Sports Telestrator, Broadcast News Package
-- **Pintura e ilustração** (5): Crayon Picture Book, Watercolor Brush, Impasto Oil Painting, Urban Sketch · Pen & Wash, Colored-Pencil Science Illustration
-- **Desenho e lousa** (7): One-line Drawing, Whiteboard Explainer, Chalkboard, Sketchnote, Stick-figure Explainer, Tablet Sketch Explainer, Marker on Paper
-- **Artesanato tradicional** (7): Chinese Ink Wash, Shadow Puppetry, Ukiyo-e, Red Paper-cut, Paper-cut Lightbox, Stained Glass, Gilded Illumination
-- **Gravura e impressão** (8): Risograph Print, Halftone Dossier, Woodcut Print, Copperplate Engraving, Silkscreen Travel Poster, Scratchboard Long Take, Pop Art, Vintage Engraving Collage
-- **Design gráfico e tipografia** (8): Swiss Motion Graphics, 60s Spy Title Sequence, Art Deco, Pictogram Motion, Bauhaus Shapes, Scale Zoom Explainer, Text Flash Cuts ✦, Silhouette Rhythm
-- **Diagramas em linha** (8): Blueprint, Isometric Infographic, Exploded Teardown, Line-Art Cutaway, Color-Coded Mechanism, Instruction Manual Art, Pen Plotter, Assembly-Line Diagram
-- **Desenho animado** (6): 1930s Rubber Hose Cartoon, 80s Cel Anime, Sci-Fi Sitcom Toon, Mid-century Cartoon, Comic History Cartoon ✦, Manga Panels ✦
-- **Videogame** (4): 16-bit Pixel RPG, 2.5D Pixel Art, Microgame Frenzy, Rhythm Game Show
-- **Película e fita** (5): CRT ASCII Terminal, 1920s Silent Film, Liminal Found Footage, Scratch Film, Double Exposure
-- **Telas e interfaces** (6): Dark Tech Keynote, Mascot Screencast, Sci-fi Hologram HUD, Tabletop App Flythrough, Spreadsheet Film, 1-bit Dither
-- **Luz e linhas** (5): Circuit Board, Firefly Pointillism, Flow-field Wind Lines, Oscilloscope Math, Neon Tubes
-- **3D e miniatura** (8): Brick Toy, Paper Pop-up Book, Tilt-Shift Miniature, Low-poly Isometric Island, Glass Product Render, Memphis Diorama, Isometric People Scene, Crayon World 3D
-- **Instrumentos e evidências** (8): Satellite Briefing, Engineering Briefing Board, LiDAR Survey, Under the Microscope, Archive Light Table, Security X-ray, Radar Sweep Documentary, Thermal Camera
-- **Dados e mapas** (6): Data Storytelling, Projection-Mapped Model, Data Physicalization, Transit Map, 3D Map Explainer, Blob Simulation
+- **Edição e documentário** (8): Notícia com Legendas, Cinejornal Anos 20, Contagem Regressiva em Tela Dividida, Sinfonia da Cidade, Investigação Visual, Montagem Construtivista, Lousa Tática Esportiva, Telejornal
+- **Pintura e ilustração** (5): Livro Infantil de Giz de Cera, Pincel de Aquarela, Pintura a Óleo com Textura, Croqui Urbano a Nanquim e Aguada, Ilustração Científica em Lápis de Cor
+- **Desenho e lousa** (7): Desenho de Uma Linha Só, Explicação no Quadro Branco, Lousa de Giz, Anotação Visual (Sketchnote), Explicação com Bonecos de Palito, Explicação Desenhada no Tablet, Canetão no Papel
+- **Artesanato tradicional** (7): Pintura Chinesa a Nanquim, Teatro de Sombras, Ukiyo-e (Gravura Japonesa), Recorte de Papel Vermelho, Luminária de Papel Recortado, Vitral, Iluminura Dourada
+- **Gravura e impressão** (8): Impressão Risograph, Dossiê em Retícula, Xilogravura, Gravura em Metal, Pôster de Viagem em Serigrafia, Plano-Sequência em Raspagem, Pop Art, Colagem de Gravuras Antigas
+- **Design gráfico e tipografia** (8): Motion Design Suíço, Abertura de Filme de Espião Anos 60, Art Déco, Pictogramas Animados, Formas Bauhaus, Explicação com Zoom de Escala, Cortes Rápidos de Texto ✦, Ritmo de Silhuetas
+- **Diagramas em linha** (8): Planta Técnica (Blueprint), Infográfico Isométrico, Desmontagem em Vista Explodida, Corte em Traço, Mecanismo com Cores por Peça, Manual de Instruções, Plotter de Caneta, Diagrama de Linha de Montagem
+- **Desenho animado** (6): Desenho Animado Anos 30, Anime Anos 80, Desenho de Sitcom Sci-Fi, Desenho Retrô Anos 50, História em Desenho Cômico ✦, Quadrinhos de Mangá ✦
+- **Videogame** (4): RPG em Pixel 16-bit, Pixel Art 2.5D, Maratona de Minigames, Game Show de Ritmo
+- **Película e fita** (5): Terminal ASCII de Tubo, Cinema Mudo Anos 20, Fita Perdida (Found Footage), Película Riscada, Dupla Exposição
+- **Telas e interfaces** (6): Apresentação Tech Escura, Gravação de Tela com Mascote, Holograma Sci-Fi, Tour de App na Mesa, Filme em Planilha, Pontilhado 1-bit
+- **Luz e linhas** (5): Placa de Circuito, Pontilhismo de Vaga-lumes, Linhas de Vento, Matemática no Osciloscópio, Letreiro de Neon
+- **3D e miniatura** (8): Blocos de Montar, Livro Pop-up de Papel, Miniatura Tilt-Shift, Ilha Low-poly Isométrica, Produto em Vidro 3D, Diorama Memphis, Cena Isométrica com Pessoas, Mundo 3D de Giz de Cera
+- **Instrumentos e evidências** (8): Relatório por Satélite, Quadro de Engenharia, Mapeamento LiDAR, No Microscópio, Mesa de Luz de Arquivo, Raio-X de Segurança, Documentário de Radar, Câmera Térmica
+- **Dados e mapas** (6): História com Dados, Maquete com Projeção, Dados em Objetos Físicos, Mapa de Metrô, Explicação em Mapa 3D, Simulação com Bonequinhos
 
 ✦ precisa de um gerador de imagens (ex.: Codex CLI).
 

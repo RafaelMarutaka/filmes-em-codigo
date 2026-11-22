@@ -1,4 +1,4 @@
-# 16-bit Pixel RPG — Style Prompt
+# RPG em Pixel 16-bit — Style Prompt
 
 > A short film that looks, sounds and *behaves* like a mid-90s console role-playing game: 320×180 pixels, a limited indexed palette, text boxes that type, menus, save files, chip music with echo.
 > References (grammar only): mid-90s console RPGs as a system of dialog boxes, menus, battles, overworlds and save points; the palette tricks of indexed hardware (palette swaps, fades by steps, cycling); the colour-depth history of consoles (4 shades → 8-bit → 16-bit). Never use existing game names, characters, UI frames, fonts, logos, melodies or sound effects. Learn the grammar, not the assets.
@@ -11,7 +11,7 @@
 - **Story told the way a game tells it**: dialog boxes with portraits, menus, status bars, battle messages, save files, item fanfares.
 - It takes the game's systems seriously as a language for feeling.
 
-Not 2.5D Pixel Art (no depth of field, bloom or real-time light), not CRT nostalgia (no scanlines, no grain), not a parody.
+Not Pixel Art 2.5D (no depth of field, bloom or real-time light), not CRT nostalgia (no scanlines, no grain), not a parody.
 
 ## 2. Materials & rendering
 

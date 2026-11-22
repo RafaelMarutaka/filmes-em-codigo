@@ -1,7 +1,7 @@
 {
  "slug": "printed-long-take",
  "num": "33",
- "en": "Scratchboard Long Take",
+ "en": "Plano-Sequência em Raspagem",
  "cn": "刮版画长镜头",
  "aka": [
   "Printed Long Take",
@@ -19,5 +19,7 @@
   "Landscapes"
  ],
  "frame_sec": 16.1,
- "dur": 60.0
+ "dur": 60.0,
+ "en_original": "Scratchboard Long Take",
+ "pt": "Plano-Sequência em Raspagem"
 }

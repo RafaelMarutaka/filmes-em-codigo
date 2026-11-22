@@ -1,4 +1,4 @@
-# Risograph Print — our demo
+# Impressão Risograph — our demo
 
 One example among many. Don't reuse its story, arc, shots, props or timings.
 

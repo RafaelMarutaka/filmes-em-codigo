@@ -1,4 +1,4 @@
-# Flow-field Wind Lines — our demo
+# Linhas de Vento — our demo
 
 One example among many. Don't reuse its story, arc, shots, props or timings.
 
@@ -68,7 +68,7 @@ The wind model and what is approximated are in FACTS.md §7: Holland (1980) prof
 
 ## End card
 
-The chart's title block, printed bottom left of the final map from 48.4 s and fully in place from 48.6 s to 52.0 s: 摩羯过琼州 / *Typhoon Yagi over Qiongzhou*, 流场风线 / *Flow-field Wind Lines*, and "Rafael Marutaka × Claude Opus 5.5". The sign-off belongs to this library's demo only; a user's film carries no Rafael Marutaka credit and no copy of this card.
+The chart's title block, printed bottom left of the final map from 48.4 s and fully in place from 48.6 s to 52.0 s: 摩羯过琼州 / *Typhoon Yagi over Qiongzhou*, 流场风线 / *Linhas de Vento*, and "Rafael Marutaka × Claude Opus 5.5". The sign-off belongs to this library's demo only; a user's film carries no Rafael Marutaka credit and no copy of this card.
 
 ## Build
 
