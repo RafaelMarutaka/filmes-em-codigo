@@ -1166,8 +1166,29 @@
   "pt": "Quadrinhos de Mangá"
  },
  {
-  "slug": "pixel-rpg",
+  "slug": "contos-desenho-2d",
   "num": "58",
+  "en": "Contos em Desenho 2D",
+  "cn": "平面动画小故事",
+  "cat": "卡通动画",
+  "cat_en": "Cartoons",
+  "film": "O mundo do depois",
+  "film_cn": "O mundo do depois",
+  "line": "A flat, thick-outlined cartoon tells a \"neste mundo…\" tale: one wide-eyed character, a night park, and big captions with one yellow word.",
+  "line_cn": "A flat, thick-outlined cartoon tells a \"neste mundo…\" tale: one wide-eyed character, a night park, and big captions with one yellow word.",
+  "uses": [
+   "Contos e curiosidades",
+   "Histórias com moral",
+   "Reels narrados de humor"
+  ],
+  "dur": 20.0,
+  "en_original": "Flat 2D Story Cartoon",
+  "pt": "Contos em Desenho 2D",
+  "aspect": "9:16"
+ },
+ {
+  "slug": "pixel-rpg",
+  "num": "59",
   "en": "RPG em Pixel 16-bit",
   "cn": "16-bit 像素 RPG",
   "cat": "电子游戏",
@@ -1187,7 +1208,7 @@
  },
  {
   "slug": "hd-2d",
-  "num": "59",
+  "num": "60",
   "en": "Pixel Art 2.5D",
   "cn": "2.5D 像素",
   "cat": "电子游戏",
@@ -1210,7 +1231,7 @@
  },
  {
   "slug": "microgame",
-  "num": "60",
+  "num": "61",
   "en": "Maratona de Minigames",
   "cn": "微游戏快闪",
   "cat": "电子游戏",
@@ -1230,7 +1251,7 @@
  },
  {
   "slug": "game-show",
-  "num": "61",
+  "num": "62",
   "en": "Game Show de Ritmo",
   "cn": "节奏综艺",
   "cat": "电子游戏",
@@ -1254,7 +1275,7 @@
  },
  {
   "slug": "ascii-crt",
-  "num": "62",
+  "num": "63",
   "en": "Terminal ASCII de Tubo",
   "cn": "CRT 字符终端",
   "cat": "胶片录像",
@@ -1278,7 +1299,7 @@
  },
  {
   "slug": "silent-film",
-  "num": "63",
+  "num": "64",
   "en": "Cinema Mudo Anos 20",
   "cn": "1920s 默片",
   "cat": "胶片录像",
@@ -1298,7 +1319,7 @@
  },
  {
   "slug": "backrooms",
-  "num": "64",
+  "num": "65",
   "en": "Fita Perdida (Found Footage)",
   "cn": "后室录像带",
   "cat": "胶片录像",
@@ -1321,7 +1342,7 @@
  },
  {
   "slug": "scratch-film",
-  "num": "65",
+  "num": "66",
   "en": "Película Riscada",
   "cn": "胶片直刻",
   "cat": "胶片录像",
@@ -1341,7 +1362,7 @@
  },
  {
   "slug": "double-exposure",
-  "num": "66",
+  "num": "67",
   "en": "Dupla Exposição",
   "cn": "双重曝光",
   "cat": "胶片录像",
@@ -1361,7 +1382,7 @@
  },
  {
   "slug": "dark-keynote",
-  "num": "67",
+  "num": "68",
   "en": "Apresentação Tech Escura",
   "cn": "暗色科技发布",
   "cat": "屏幕界面",
@@ -1381,7 +1402,7 @@
  },
  {
   "slug": "living-screencast",
-  "num": "68",
+  "num": "69",
   "en": "Gravação de Tela com Mascote",
   "cn": "像素小人录屏",
   "cat": "屏幕界面",
@@ -1405,7 +1426,7 @@
  },
  {
   "slug": "hologram-hud",
-  "num": "69",
+  "num": "70",
   "en": "Holograma Sci-Fi",
   "cn": "科幻全息界面",
   "cat": "屏幕界面",
@@ -1425,7 +1446,7 @@
  },
  {
   "slug": "desktop-flythrough",
-  "num": "70",
+  "num": "71",
   "en": "Tour de App na Mesa",
   "cn": "桌面卡片穿梭",
   "cat": "屏幕界面",
@@ -1449,7 +1470,7 @@
  },
  {
   "slug": "spreadsheet",
-  "num": "71",
+  "num": "72",
   "en": "Filme em Planilha",
   "cn": "表格动画",
   "cat": "屏幕界面",
@@ -1469,7 +1490,7 @@
  },
  {
   "slug": "one-bit-dither",
-  "num": "72",
+  "num": "73",
   "en": "Pontilhado 1-bit",
   "cn": "1-bit 点阵",
   "cat": "屏幕界面",
@@ -1489,7 +1510,7 @@
  },
  {
   "slug": "circuit-board",
-  "num": "73",
+  "num": "74",
   "en": "Placa de Circuito",
   "cn": "电路板",
   "cat": "发光线条",
@@ -1509,7 +1530,7 @@
  },
  {
   "slug": "firefly-pointillism",
-  "num": "74",
+  "num": "75",
   "en": "Pontilhismo de Vaga-lumes",
   "cn": "萤火光点",
   "cat": "发光线条",
@@ -1529,7 +1550,7 @@
  },
  {
   "slug": "flow-field",
-  "num": "75",
+  "num": "76",
   "en": "Linhas de Vento",
   "cn": "流场风线",
   "cat": "发光线条",
@@ -1549,7 +1570,7 @@
  },
  {
   "slug": "oscilloscope-math",
-  "num": "76",
+  "num": "77",
   "en": "Matemática no Osciloscópio",
   "cn": "示波器数学",
   "cat": "发光线条",
@@ -1569,7 +1590,7 @@
  },
  {
   "slug": "neon-tubes",
-  "num": "77",
+  "num": "78",
   "en": "Letreiro de Neon",
   "cn": "霓虹灯管",
   "cat": "发光线条",
@@ -1589,7 +1610,7 @@
  },
  {
   "slug": "brick-toy",
-  "num": "78",
+  "num": "79",
   "en": "Blocos de Montar",
   "cn": "积木玩具",
   "cat": "立体微缩",
@@ -1609,7 +1630,7 @@
  },
  {
   "slug": "paper-popup",
-  "num": "79",
+  "num": "80",
   "en": "Livro Pop-up de Papel",
   "cn": "纸片立体书",
   "cat": "立体微缩",
@@ -1629,7 +1650,7 @@
  },
  {
   "slug": "tilt-shift",
-  "num": "80",
+  "num": "81",
   "en": "Miniatura Tilt-Shift",
   "cn": "移轴微缩",
   "cat": "立体微缩",
@@ -1649,7 +1670,7 @@
  },
  {
   "slug": "lowpoly-island",
-  "num": "81",
+  "num": "82",
   "en": "Ilha Low-poly Isométrica",
   "cn": "低多边形等距",
   "cat": "立体微缩",
@@ -1669,7 +1690,7 @@
  },
  {
   "slug": "glass-product",
-  "num": "82",
+  "num": "83",
   "en": "Produto em Vidro 3D",
   "cn": "玻璃质感产品",
   "cat": "立体微缩",
@@ -1689,7 +1710,7 @@
  },
  {
   "slug": "memphis-diorama",
-  "num": "83",
+  "num": "84",
   "en": "Diorama Memphis",
   "cn": "孟菲斯微缩景观",
   "cat": "立体微缩",
@@ -1713,7 +1734,7 @@
  },
  {
   "slug": "isometric-picture-book",
-  "num": "84",
+  "num": "85",
   "en": "Cena Isométrica com Pessoas",
   "cn": "等距小人场景",
   "cat": "立体微缩",
@@ -1737,7 +1758,7 @@
  },
  {
   "slug": "crayon-world",
-  "num": "85",
+  "num": "86",
   "en": "Mundo 3D de Giz de Cera",
   "cn": "蜡笔立体世界",
   "cat": "立体微缩",
@@ -1760,8 +1781,50 @@
   "pt": "Mundo 3D de Giz de Cera"
  },
  {
+  "slug": "objetos-3d-escuro",
+  "num": "87",
+  "en": "Objetos 3D no Escuro",
+  "cn": "暗场3D物件",
+  "cat": "立体微缩",
+  "cat_en": "3D & Miniature",
+  "film": "Do roteiro ao vídeo",
+  "film_cn": "Do roteiro ao vídeo",
+  "line": "Matte 3D objects (script cards, a studio mic, a film projector) under one spotlight in a black studio, with a headline whose key phrase sits in a glowing selection box.",
+  "line_cn": "Matte 3D objects (script cards, a studio mic, a film projector) under one spotlight in a black studio, with a headline whose key phrase sits in a glowing selection box.",
+  "uses": [
+   "Reels de produto digital",
+   "Anúncios de ferramenta e software",
+   "Explicação em passos"
+  ],
+  "dur": 24.0,
+  "en_original": "Dark Studio 3D Objects",
+  "pt": "Objetos 3D no Escuro",
+  "aspect": "9:16"
+ },
+ {
+  "slug": "bonecos-3d-blocos",
+  "num": "88",
+  "en": "Bonecos 3D de Blocos",
+  "cn": "方块3D角色",
+  "cat": "立体微缩",
+  "cat_en": "3D & Miniature",
+  "film": "O cliente do desconto",
+  "film_cn": "O cliente do desconto",
+  "line": "Chunky block-built 3D characters in a dim violet room act out a short comic exchange, captioned one yellow word at a time.",
+  "line_cn": "Chunky block-built 3D characters in a dim violet room act out a short comic exchange, captioned one yellow word at a time.",
+  "uses": [
+   "Esquetes de humor",
+   "Situações do dia a dia do nicho",
+   "Reels de bastidores"
+  ],
+  "dur": 20.0,
+  "en_original": "Blocky 3D Characters",
+  "pt": "Bonecos 3D de Blocos",
+  "aspect": "9:16"
+ },
+ {
   "slug": "satellite-briefing",
-  "num": "86",
+  "num": "89",
   "en": "Relatório por Satélite",
   "cn": "卫星简报",
   "cat": "仪器实证",
@@ -1781,7 +1844,7 @@
  },
  {
   "slug": "briefing-board",
-  "num": "87",
+  "num": "90",
   "en": "Quadro de Engenharia",
   "cn": "工程简报板",
   "cat": "仪器实证",
@@ -1801,7 +1864,7 @@
  },
  {
   "slug": "lidar-survey",
-  "num": "88",
+  "num": "91",
   "en": "Mapeamento LiDAR",
   "cn": "点云测绘",
   "cat": "仪器实证",
@@ -1821,7 +1884,7 @@
  },
  {
   "slug": "microscope",
-  "num": "89",
+  "num": "92",
   "en": "No Microscópio",
   "cn": "显微镜下",
   "cat": "仪器实证",
@@ -1845,7 +1908,7 @@
  },
  {
   "slug": "archive-lighttable",
-  "num": "90",
+  "num": "93",
   "en": "Mesa de Luz de Arquivo",
   "cn": "档案看片台",
   "cat": "仪器实证",
@@ -1868,7 +1931,7 @@
  },
  {
   "slug": "security-xray",
-  "num": "91",
+  "num": "94",
   "en": "Raio-X de Segurança",
   "cn": "安检 X 光",
   "cat": "仪器实证",
@@ -1888,7 +1951,7 @@
  },
  {
   "slug": "dark-documentary",
-  "num": "92",
+  "num": "95",
   "en": "Documentário de Radar",
   "cn": "雷达扫描纪录片",
   "cat": "仪器实证",
@@ -1908,7 +1971,7 @@
  },
  {
   "slug": "thermal-camera",
-  "num": "93",
+  "num": "96",
   "en": "Câmera Térmica",
   "cn": "热成像",
   "cat": "仪器实证",
@@ -1928,7 +1991,7 @@
  },
  {
   "slug": "dataviz",
-  "num": "94",
+  "num": "97",
   "en": "História com Dados",
   "cn": "数据叙事",
   "cat": "数据地图",
@@ -1948,7 +2011,7 @@
  },
  {
   "slug": "white-model",
-  "num": "95",
+  "num": "98",
   "en": "Maquete com Projeção",
   "cn": "白模投影",
   "cat": "数据地图",
@@ -1971,7 +2034,7 @@
  },
  {
   "slug": "data-physical",
-  "num": "96",
+  "num": "99",
   "en": "Dados em Objetos Físicos",
   "cn": "数据实物化",
   "cat": "数据地图",
@@ -1991,7 +2054,7 @@
  },
  {
   "slug": "transit-map",
-  "num": "97",
+  "num": "100",
   "en": "Mapa de Metrô",
   "cn": "地铁线路图",
   "cat": "数据地图",
@@ -2011,7 +2074,7 @@
  },
  {
   "slug": "map-explainer",
-  "num": "98",
+  "num": "101",
   "en": "Explicação em Mapa 3D",
   "cn": "立体地图解说",
   "cat": "数据地图",
@@ -2031,7 +2094,7 @@
  },
  {
   "slug": "pip-simulation",
-  "num": "99",
+  "num": "102",
   "en": "Simulação com Bonequinhos",
   "cn": "小人模拟实验",
   "cat": "数据地图",

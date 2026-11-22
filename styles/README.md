@@ -100,6 +100,7 @@ Users may name a style in English, in Chinese, by a name it had before (Formerly
 | Desenho Retrô Anos 50 | 50s 扁平卡通 | [`midcentury-toon`](midcentury-toon/STYLE.md) | *Meet Pip* | Mid-century Cartoon |
 | História em Desenho Cômico | 搞笑历史卡通 | [`comic-history`](comic-history/STYLE.md) | *One Piece of Paper* | Comic History Cartoon |
 | Quadrinhos de Mangá | 黑白漫画分格 | [`manga-panels`](manga-panels/STYLE.md) | *KOMA ONE: Thirty Frames a Second* | Manga Panels |
+| Contos em Desenho 2D | 平面动画小故事 | [`contos-desenho-2d`](contos-desenho-2d/STYLE.md) | *O mundo do depois* | Flat 2D Story Cartoon |
 
 ## Videogame · Games · 电子游戏
 
@@ -153,6 +154,8 @@ Users may name a style in English, in Chinese, by a name it had before (Formerly
 | Diorama Memphis | 孟菲斯微缩景观 | [`memphis-diorama`](memphis-diorama/STYLE.md) | *Four Seasons in Pomelo Town* | Memphis Diorama |
 | Cena Isométrica com Pessoas | 等距小人场景 | [`isometric-picture-book`](isometric-picture-book/STYLE.md) | *Seventy-Two Seats* | Isometric People Scene · Isometric Picture Book · 等距绘本 |
 | Mundo 3D de Giz de Cera | 蜡笔立体世界 | [`crayon-world`](crayon-world/STYLE.md) | *The Butterfly* | Crayon World 3D |
+| Objetos 3D no Escuro | 暗场3D物件 | [`objetos-3d-escuro`](objetos-3d-escuro/STYLE.md) | *Do roteiro ao vídeo* | Dark Studio 3D Objects |
+| Bonecos 3D de Blocos | 方块3D角色 | [`bonecos-3d-blocos`](bonecos-3d-blocos/STYLE.md) | *O cliente do desconto* | Blocky 3D Characters |
 
 ## Instrumentos e evidências · Instruments & Evidence · 仪器实证
 
