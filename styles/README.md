@@ -156,6 +156,7 @@ Users may name a style in English, in Chinese, by a name it had before (Formerly
 | Mundo 3D de Giz de Cera | 蜡笔立体世界 | [`crayon-world`](crayon-world/STYLE.md) | *The Butterfly* | Crayon World 3D |
 | Objetos 3D no Escuro | 暗场3D物件 | [`objetos-3d-escuro`](objetos-3d-escuro/STYLE.md) | *Do roteiro ao vídeo* | Dark Studio 3D Objects |
 | Bonecos 3D de Blocos | 方块3D角色 | [`bonecos-3d-blocos`](bonecos-3d-blocos/STYLE.md) | *O cliente do desconto* | Blocky 3D Characters |
+| Quintal em Corte 3D | 剖面后院3D | [`quintal-em-corte`](quintal-em-corte/STYLE.md) | *Como um buraco no quintal vira piscina* | Backyard Cutaway 3D |
 
 ## Instrumentos e evidências · Instruments & Evidence · 仪器实证
 

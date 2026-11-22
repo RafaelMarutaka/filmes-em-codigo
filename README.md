@@ -1,11 +1,11 @@
 # 🎬 Filmes em Código
 
-**102 estilos de filme pra fazer vídeos curtos inteiros em código, com o Claude.**
+**103 estilos de filme pra fazer vídeos curtos inteiros em código, com o Claude.**
 Você escolhe o estilo, conta a história e o filme sai pronto: imagem, animação, narração e legenda.
 
 Biblioteca privada de **Rafael Marutaka** · usada pela skill `filmes-em-codigo`.
 
-**▶ [Abrir a galeria com os 102 filmes](https://rafaelmarutaka.github.io/filmes-em-codigo-videos/)**
+**▶ [Abrir a galeria com os 103 filmes](https://rafaelmarutaka.github.io/filmes-em-codigo-videos/)**
 
 ---
 
@@ -20,7 +20,7 @@ Biblioteca privada de **Rafael Marutaka** · usada pela skill `filmes-em-codigo`
 
 A skill baixa esta biblioteca pra `~/filmes-em-codigo` na primeira vez. Cada filme fica numa pasta própria, com o código-fonte e o vídeo final.
 
-## Os estilos (102)
+## Os estilos (103)
 
 - **Edição e documentário** (8): Notícia com Legendas, Cinejornal Anos 20, Contagem Regressiva em Tela Dividida, Sinfonia da Cidade, Investigação Visual, Montagem Construtivista, Lousa Tática Esportiva, Telejornal
 - **Pintura e ilustração** (5): Livro Infantil de Giz de Cera, Pincel de Aquarela, Pintura a Óleo com Textura, Croqui Urbano a Nanquim e Aguada, Ilustração Científica em Lápis de Cor
@@ -34,7 +34,7 @@ A skill baixa esta biblioteca pra `~/filmes-em-codigo` na primeira vez. Cada fil
 - **Película e fita** (5): Terminal ASCII de Tubo, Cinema Mudo Anos 20, Fita Perdida (Found Footage), Película Riscada, Dupla Exposição
 - **Telas e interfaces** (6): Apresentação Tech Escura, Gravação de Tela com Mascote, Holograma Sci-Fi, Tour de App na Mesa, Filme em Planilha, Pontilhado 1-bit
 - **Luz e linhas** (5): Placa de Circuito, Pontilhismo de Vaga-lumes, Linhas de Vento, Matemática no Osciloscópio, Letreiro de Neon
-- **3D e miniatura** (10): Blocos de Montar, Livro Pop-up de Papel, Miniatura Tilt-Shift, Ilha Low-poly Isométrica, Produto em Vidro 3D, Diorama Memphis, Cena Isométrica com Pessoas, Mundo 3D de Giz de Cera, Objetos 3D no Escuro, Bonecos 3D de Blocos
+- **3D e miniatura** (11): Blocos de Montar, Livro Pop-up de Papel, Miniatura Tilt-Shift, Ilha Low-poly Isométrica, Produto em Vidro 3D, Diorama Memphis, Cena Isométrica com Pessoas, Mundo 3D de Giz de Cera, Objetos 3D no Escuro, Bonecos 3D de Blocos, Quintal em Corte 3D
 - **Instrumentos e evidências** (8): Relatório por Satélite, Quadro de Engenharia, Mapeamento LiDAR, No Microscópio, Mesa de Luz de Arquivo, Raio-X de Segurança, Documentário de Radar, Câmera Térmica
 - **Dados e mapas** (6): História com Dados, Maquete com Projeção, Dados em Objetos Físicos, Mapa de Metrô, Explicação em Mapa 3D, Simulação com Bonequinhos
 
@@ -46,7 +46,7 @@ O índice completo, com a pasta de cada estilo, está em [`styles/README.md`](st
 
 | Pasta | O que tem |
 |---|---|
-| `styles/` | os 102 estilos (regras e código de demonstração) |
+| `styles/` | os 103 estilos (regras e código de demonstração) |
 | `core/` | motor de render, legendas, áudio e exportação |
 | `tools/` | ferramentas de apoio |
 | `AGENTS.md`, `DIRECTOR.md`, `TECHNIQUE.md` | guias de produção que o Claude segue |

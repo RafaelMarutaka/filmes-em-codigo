@@ -1823,6 +1823,27 @@
   "aspect": "9:16"
  },
  {
+  "slug": "quintal-em-corte",
+  "num": "103",
+  "en": "Quintal em Corte 3D",
+  "cn": "剖面后院3D",
+  "cat": "立体微缩",
+  "cat_en": "3D & Miniature",
+  "film": "Como um buraco no quintal vira piscina",
+  "film_cn": "Como um buraco no quintal vira piscina",
+  "line": "A backyard block cut open like a cake, a house on top, and an everyday thing built inside the cut one problem at a time, with a calm fast narrator and one caption word at a time.",
+  "line_cn": "A backyard block cut open like a cake, a house on top, and an everyday thing built inside the cut one problem at a time, with a calm fast narrator and one caption word at a time.",
+  "uses": [
+   "Como as coisas são construídas",
+   "Explicação de obra e engenharia do dia a dia",
+   "Shorts e Reels narrados"
+  ],
+  "dur": 47.1,
+  "en_original": "Backyard Cutaway 3D",
+  "pt": "Quintal em Corte 3D",
+  "aspect": "9:16"
+ },
+ {
   "slug": "satellite-briefing",
   "num": "89",
   "en": "Relatório por Satélite",

@@ -138,3 +138,6 @@ styles/*/demo/stills/*_v1*
 
 # isometric-picture-book: the character list its font subset step writes
 styles/isometric-picture-book/demo/tools/chars.txt
+# Quintal em Corte 3D: narration (ElevenLabs) and the assembled voice stay local
+styles/quintal-em-corte/demo/voice/*.mp3
+styles/quintal-em-corte/demo/voice/*.wav
