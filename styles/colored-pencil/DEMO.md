@@ -75,7 +75,7 @@ Mix (`demo/mix.py`): the voice is compressed and set by RMS 10 dB over everythin
 
 ## End card
 
-In the sky of the last wide shot: *The Other Half* / 树的另一半 written top left (from 45.2 s, with a pencil underline); top right, written stroke by stroke from 45.85 s, *Colored-Pencil Science Illustration* / 彩铅科普插画, a short rule, and `LemoLab × Claude Opus 5.5` (30 px), complete at 47.8 s and held to 50.8 s. The "LemoLab × Claude Opus 5.5" sign-off belongs to this library's demo only; a user's film carries no LemoLab credit and no copy of this card.
+In the sky of the last wide shot: *The Other Half* / 树的另一半 written top left (from 45.2 s, with a pencil underline); top right, written stroke by stroke from 45.85 s, *Colored-Pencil Science Illustration* / 彩铅科普插画, a short rule, and `Rafael Marutaka × Claude Opus 5.5` (30 px), complete at 47.8 s and held to 50.8 s. The "Rafael Marutaka × Claude Opus 5.5" sign-off belongs to this library's demo only; a user's film carries no Rafael Marutaka credit and no copy of this card.
 
 ## Build notes
 

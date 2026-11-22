@@ -1,6 +1,6 @@
 node_modules/
 .venv/
-.lemo-deps.lock/
+.filmes-deps.lock/
 __pycache__/
 .DS_Store
 # Models and large assets (the docs say where to download them)

@@ -939,8 +939,8 @@ function titleBlock(c, u, x, y, full) {
   const rows = full ? [
     ['TITLE', "WHERE IS YOUR PHONE'S ANTENNA?", '你手机的天线在哪'],
     ['STYLE', 'LINE-ART CUTAWAY', '线稿剖面图解'],
-    ['BY', 'LemoLab × Claude Opus 5.5', ''],
-  ] : [['BY', 'LemoLab × Claude Opus 5.5', '']];
+    ['BY', 'Rafael Marutaka × Claude Opus 5.5', ''],
+  ] : [['BY', 'Rafael Marutaka × Claude Opus 5.5', '']];
   const RH = 62, LW = 104, WD = full ? 905 : 560, H_ = rows.length * RH;
   c.save(); c.strokeStyle = INK;
   const g = eo(seg(u, 0, 0.45));                           // heavy outer frame, thin inner cells: the same line-weight rules as the line art

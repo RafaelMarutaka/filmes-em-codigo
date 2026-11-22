@@ -1,6 +1,6 @@
 # Builds the site, the Workbench (styleboard/pages.py and home.py), and publishes it to GitHub Pages on every push to main.
 # Films: the styles' 720p demo films load from the films repository's own Pages site (site_config.FILMS_BASE; tools/films_repo.sh
-# fills it); OPUSCAR 98, the thank-you films and the "My style" demo come from the "web" release into the site at films/
+# fills it); FILMES 98, the thank-you films and the "My style" demo come from the "web" release into the site at films/
 # (site_config.SITE_FILMS). Full quality stays on the "films" and "thanks" releases.
 # Media: posters, stills, sprites and the home page's long take are not in git. They come from site-media.tar on the "site-media"
 # release, which tools/site_media.sh packs and uploads. THAT RELEASE HAS TO EXIST BEFORE THIS WORKFLOW CAN RUN
@@ -34,7 +34,7 @@ jobs:
       - run: python3 -m pip install --quiet fonttools brotli
       - uses: actions/cache@v4
         with:
-          path: ~/.cache/lemo-opuscar/fonts
+          path: ~/.cache/filmes-em-codigo/fonts
           key: fonts-${{ hashFiles('styleboard/fonts/fetch.py') }}
       # the films the site serves itself, from the "web" release; Pages serves them as video/mp4 (Safari won't play Release downloads).
       # The style films are not downloaded: they would take the site past the 1 GB GitHub Pages allows, so they have the films repository.
@@ -42,9 +42,9 @@ jobs:
         run: |
           mkdir -p _site/films
           gh release download web --repo "$GITHUB_REPOSITORY" --dir _site/films \
-            --pattern opuscar98.mp4 --pattern "stars*.mp4" --pattern my-style-material-grid.mp4
+            --pattern filmes98.mp4 --pattern "stars*.mp4" --pattern my-style-material-grid.mp4
           cd _site/films
-          for f in opuscar98 stars300 stars800 stars2000 stars3000 stars6000 my-style-material-grid; do
+          for f in filmes98 stars300 stars800 stars2000 stars3000 stars6000 my-style-material-grid; do
             [ -s "$f.mp4" ] || { echo "::error::$f.mp4 is not on the \"web\" release (sh tools/publish.sh)"; exit 1; }
           done
         env:

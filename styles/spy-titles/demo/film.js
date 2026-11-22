@@ -44,8 +44,8 @@ function sOpen(t) {
 function drawGridScene(t) {
   const u = clamp((t - HIT.split) / (BEAT * 2.2));
   SC.gridField(u);
-  // A LEMOLAB PICTURE slides in along family-B lines, landing on the beats
-  const words = [['A', 120, -3, 430], ['LEMOLAB', 230, -1, 560], ['PICTURE', 230, 1, 800]];
+  // A RAFAEL MARUTAKA PICTURE slides in along family-B lines, landing on the beats
+  const words = [['A', 120, -3, 430], ['RAFAEL MARUTAKA', 230, -1, 560], ['PICTURE', 230, 1, 800]];
   words.forEach(([w, size, j, x], i) => {
     const tl = T.words[i], p = eo(seg(t, tl - .22, tl));
     if (t < tl - .22) return;
@@ -401,8 +401,8 @@ function sEnd(t) {
   piece(rough([[0, 640], [1920, 610], [1920, 618], [0, 648]], 1500, .8, 30), C.red, { gap: 0, shadow: false });
   const L1 = layout('60s SPY TITLE SEQUENCE', 96, { track: .08 });
   drawLine(L1, 960 - L1.width / 2 + (1 - p) * 300, 770, { col: C.ink, seed: 91, jit: .8, amp: 1.3 });
-  label('LemoLab × Claude Opus 5.5', 960, 858, '600 44px LSpartan', C.red, 'center', 1);
-  label('a LemoLab picture  ·  music by the sampler  ·  cut from paper', 960, 912, '400 24px LSpartan', C.ink, 'center', 1);
+  label('Rafael Marutaka × Claude Opus 5.5', 960, 858, '600 44px LSpartan', C.red, 'center', 1);
+  label('a Rafael Marutaka picture  ·  music by the sampler  ·  cut from paper', 960, 912, '400 24px LSpartan', C.ink, 'center', 1);
   label('Drums: “MuldjordKit” by Lars Muldjord, CC BY 4.0', 960, 952, '400 22px LSpartan', C.ink, 'center', 1);   // licence credit (fine print)
   agentSide(1610, 940, .36, { ...AGENT_POSE.stand, shF: 2.9, elF: 1.9, eye: 'open' });
 }

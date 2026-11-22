@@ -131,9 +131,9 @@ function endCard(t, cam) {
   fillOnly(R(L, y + 98, w - 96, 4), C.red);
   txt(L, y + 146, 'Assembly-Line Diagram · 流水线图解', 30, { fam: FONT.sans, w: 600 });
   // credit: small black tag
-  const cw = tw('LemoLab × Claude Opus 5.5', 30, 800, FONT.sans) + 36;
+  const cw = tw('Rafael Marutaka × Claude Opus 5.5', 30, 800, FONT.sans) + 36;
   shape(R(L, y + 164, cw, 46, 4), C.ink, 0);
-  txt(L + 18, y + 197, 'LemoLab × Claude Opus 5.5', 30, { fam: FONT.sans, w: 800, fill: C.cream, ls: .5 });
+  txt(L + 18, y + 197, 'Rafael Marutaka × Claude Opus 5.5', 30, { fam: FONT.sans, w: 800, fill: C.cream, ls: .5 });
   out('</g>');
 }
 

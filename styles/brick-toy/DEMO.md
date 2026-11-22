@@ -48,7 +48,7 @@ Voice: warm British storyteller, Kokoro `bm_george`, speed ~0.9, 4–6 short lin
 
 ## End card
 
-The darkened final wide, the title (Fredoka 700), a brick icon, "BRICK TOY · LEMO-OPUSCAR" in yellow, the "LemoLab × Claude Opus 5.5" line and the asset credits. That sign-off belongs to this library's demo only; a user's film carries no LemoLab credit and no copy of this card (remove the line drawn in `main.js` if you adapt it).
+The darkened final wide, the title (Fredoka 700), a brick icon, "BRICK TOY · FILMES EM CÓDIGO" in yellow, the "Rafael Marutaka × Claude Opus 5.5" line and the asset credits. That sign-off belongs to this library's demo only; a user's film carries no Rafael Marutaka credit and no copy of this card (remove the line drawn in `main.js` if you adapt it).
 
 ## Build notes
 

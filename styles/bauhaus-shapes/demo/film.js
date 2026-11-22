@@ -128,8 +128,8 @@ function rampGroup(t, sink=0){
   }
   return b;
 }
-// ---------------- credit: style name + LemoLab × Claude Opus 5.5, set like every other label (a yellow block, a slot reveal) ----------------
-const STYLE_EN = 'BAUHAUS SHAPES', STYLE_ZH = '包豪斯几何', CREDIT = 'LemoLab × Claude Opus 5.5';
+// ---------------- credit: style name + Rafael Marutaka × Claude Opus 5.5, set like every other label (a yellow block, a slot reveal) ----------------
+const STYLE_EN = 'BAUHAUS SHAPES', STYLE_ZH = '包豪斯几何', CREDIT = 'Rafael Marutaka × Claude Opus 5.5';
 let SIGN_T = null;      // short cuts: film second the credit appears (set by the page with ?sign=1)
 function creditBlock(t, t0, x, y){
   const k1=eo(seg(t,t0,t0+0.45)), k2=eo(seg(t,t0+0.2,t0+0.65)), kb=back(seg(t,t0,t0+0.35),1.6);

@@ -1,6 +1,6 @@
 """List Commons category members (with 429 back-off): python3 -I tools/cat.py "Category:X" [file|subcat] """
 import json, sys, time, urllib.request, urllib.parse
-UA = "lemo-opuscar/1.0 (https://github.com/lemomo-ai/lemo-opuscar)"
+UA = "filmes-em-codigo/1.0 (https://github.com/RafaelMarutaka/filmes-em-codigo)"
 def get(params):
     q = urllib.parse.urlencode({**params, "format": "json"})
     for k in range(6):

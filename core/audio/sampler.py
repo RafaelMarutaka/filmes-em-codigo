@@ -521,7 +521,7 @@ def _download(libs):
         mb = _mb(libs)
         print(f'sampler: the score needs sample libraries that are not downloaded yet: {", ".join(libs)}'
               + (f' (about {mb} MB)' if mb else '') + '. Downloading them now into core/audio/instruments/ with '
-              'tools/fetch.sh, from the "assets" release of the library on GitHub (LEMO_FETCH=0 turns this off).',
+              'tools/fetch.sh, from the "assets" release of the library on GitHub (FILMES_FETCH=0 turns this off).',
               file=sys.stderr, flush=True)
         try: out = sys.stderr.fileno()                           # keep the progress off stdout, which a script may pipe
         except (AttributeError, OSError, ValueError): out = None
@@ -535,14 +535,14 @@ def _download(libs):
 
 def ensure(names, fetch=None):
     """Make sure the sample libraries these instruments need are downloaded. The missing ones are named together and,
-    unless fetch=False or LEMO_FETCH=0, downloaded now with tools/fetch.sh, one pack after the other.
+    unless fetch=False or FILMES_FETCH=0, downloaded now with tools/fetch.sh, one pack after the other.
     Raises RuntimeError with the commands to run by hand when a library is still missing. Returns the libraries that were missing."""
     libs = list(OrderedDict.fromkeys(lib_of(n) for n in names))
     with _lock:
         miss = [l for l in libs if not _have(l)]
         if not miss: return []
-        if fetch is None: fetch = os.environ.get('LEMO_FETCH', '1') != '0'
-        why = _download(miss) if fetch else 'automatic download is off: LEMO_FETCH=0'
+        if fetch is None: fetch = os.environ.get('FILMES_FETCH', '1') != '0'
+        why = _download(miss) if fetch else 'automatic download is off: FILMES_FETCH=0'
         still = [l for l in libs if not _have(l)]
         if still:
             raise RuntimeError(f'sample libraries not downloaded: {", ".join(still)}; {why}. Run, from the library root '

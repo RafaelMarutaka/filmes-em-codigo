@@ -80,7 +80,7 @@ How the light was kept in check: the average brightness of the frame stays betwe
 
 ## End card
 
-In the plaque in the lower border, part of the painting: *Borrowed Light* first lettered in red bole, then gilded and flashed (Uncial Antiqua); a line in brown ink "借来的光 · 金箔彩绘 *Gilded Illumination*" (Noto Serif SC, IM Fell italic); `LemoLab × Claude Opus 5.5` in vermilion (IM Fell). The plaque starts at 41.25 and is complete about 4 s before the end; the card then holds still. The "LemoLab × Claude Opus 5.5" sign-off belongs to this library's demo only; a user's film carries no LemoLab credit and no copy of this card.
+In the plaque in the lower border, part of the painting: *Borrowed Light* first lettered in red bole, then gilded and flashed (Uncial Antiqua); a line in brown ink "借来的光 · 金箔彩绘 *Gilded Illumination*" (Noto Serif SC, IM Fell italic); `Rafael Marutaka × Claude Opus 5.5` in vermilion (IM Fell). The plaque starts at 41.25 and is complete about 4 s before the end; the card then holds still. The "Rafael Marutaka × Claude Opus 5.5" sign-off belongs to this library's demo only; a user's film carries no Rafael Marutaka credit and no copy of this card.
 
 ## Build notes
 

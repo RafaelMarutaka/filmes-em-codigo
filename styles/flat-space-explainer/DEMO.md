@@ -86,7 +86,7 @@ Mix (in `mix.py`): voice compressed, music ducked ~10 dB under the voice and dip
 
 ## End card
 
-From 49.1 s, bottom right of the final ribbon shot, wiped in line by line and held to the end (2.5 s fully written): `THE LONG WAY DOWN · 一路往下缩`, `Scale Zoom Explainer · 扁平尺度漫游`, `LemoLab × Claude Opus 5.5` in sun yellow. The "LemoLab × Claude Opus 5.5" sign-off belongs to this library's demo only; a user's film carries no LemoLab credit and no copy of this card.
+From 49.1 s, bottom right of the final ribbon shot, wiped in line by line and held to the end (2.5 s fully written): `THE LONG WAY DOWN · 一路往下缩`, `Scale Zoom Explainer · 扁平尺度漫游`, `Rafael Marutaka × Claude Opus 5.5` in sun yellow. The "Rafael Marutaka × Claude Opus 5.5" sign-off belongs to this library's demo only; a user's film carries no Rafael Marutaka credit and no copy of this card.
 
 ## Build notes
 
@@ -107,7 +107,7 @@ demo/
   FACTS.md, CREDITS, stills/styleframe.jpg
 ```
 
-- `sh demo/build.sh` takes about 4 minutes on Apple silicon with 2 render workers (1,248 frames in under a minute; the rest is the mix). In a fresh clone first run `sh plugin/skills/lemo-opuscar/scripts/setup.sh deps voice`, `sh tools/fetch.sh voice` and `sh tools/fetch.sh instruments vcsl`, `… vsco2ce`, `… freepats`; or set `LIB` to a library folder that already has `.venv` and `core/audio/instruments`.
+- `sh demo/build.sh` takes about 4 minutes on Apple silicon with 2 render workers (1,248 frames in under a minute; the rest is the mix). In a fresh clone first run `sh plugin/skills/filmes-em-codigo/scripts/setup.sh deps voice`, `sh tools/fetch.sh voice` and `sh tools/fetch.sh instruments vcsl`, `… vsco2ce`, `… freepats`; or set `LIB` to a library folder that already has `.venv` and `core/audio/instruments`.
 - Fonts are not in git: `tools/fonts.py` downloads Jost from github.com/google/fonts and the Noto Sans SC Bold subset from the Google Fonts CSS2 API. Delete `fonts/NotoSansSC-Bold-sub.woff2` and rerun after adding Chinese text.
 - `?from=a&to=b` renders a slice of the film; `window.TEXTS` reports every label for `readcheck.mjs` (subtitles and the two counters are left out).
 - `readcheck.mjs` (written to `demo/out/readcheck.txt`) passes 48 labels and flags 7 as shorter than its rule: the next-stop labels "You" (0.8 s), "Into your blood" (0.2 s) and "A virus, 0.1 µm" (1.3 s), which the camera dives through; "on a basketball Earth: < 1 cm" (2.7 s of 3.0 s); and the three end-card lines (2.7–2.9 s against 2.9–4.1 s, because the film stops at 52 s). The build reports them and carries on.

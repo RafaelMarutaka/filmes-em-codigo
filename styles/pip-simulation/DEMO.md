@@ -73,7 +73,7 @@ The style palette (STYLE.md §3) with speed as the ramp: cobalt (slowest, 0.7) �
 
 ## End card
 
-Printed on the board in front of the histogram (lower right of the last shot), from 48.9 s (fully printed at 49.4 s) to 52.0 s: *Is faster better?* / 跑得快，就更好吗？ / BLOB SIMULATION · 小人模拟实验 / **LemoLab × Claude Opus 5.5**. Its rectangle is cast from the screen onto the board and the type is pre-stretched against the perspective so it reads at normal proportions.
+Printed on the board in front of the histogram (lower right of the last shot), from 48.9 s (fully printed at 49.4 s) to 52.0 s: *Is faster better?* / 跑得快，就更好吗？ / BLOB SIMULATION · 小人模拟实验 / **Rafael Marutaka × Claude Opus 5.5**. Its rectangle is cast from the screen onto the board and the type is pre-stretched against the perspective so it reads at normal proportions.
 
 ## Build & code
 

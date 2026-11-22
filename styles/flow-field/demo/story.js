@@ -213,8 +213,8 @@ export function titleBlock(C, x, y, a, full) {
     g.save(); g.setTransform(C.SS, 0, 0, C.SS, 0, 0); g.globalAlpha = r(1); g.strokeStyle = 'rgba(34,30,28,0.5)'; g.lineWidth = 1; g.beginPath(); g.moveTo(x + 30, y + 124); g.lineTo(x + w - 30, y + 124); g.stroke(); g.restore();
     const wz = OV.stext('流场风线', x + 30, y + 170, { font: FONT.zh, size: 34, weight: 600, alpha: r(1), id: 'end-s' });
     OV.stext('Flow-field Wind Lines', x + 30 + wz + 14, y + 168, { font: FONT.it, size: 27, alpha: r(1), id: 'end-se', color: '#3a332c' });
-    OV.stext('LemoLab × Claude Opus 5.5', x + 30, y + 228, { font: FONT.en, size: 34, weight: 500, alpha: r(2), id: 'end-c' });
-  } else OV.stext('LemoLab × Claude Opus 5.5', x + w / 2, y + 58, { font: FONT.en, size: 32, weight: 500, align: 'center', alpha: a, id: 'end-c' });
+    OV.stext('Rafael Marutaka × Claude Opus 5.5', x + 30, y + 228, { font: FONT.en, size: 34, weight: 500, alpha: r(2), id: 'end-c' });
+  } else OV.stext('Rafael Marutaka × Claude Opus 5.5', x + w / 2, y + 58, { font: FONT.en, size: 32, weight: 500, align: 'center', alpha: a, id: 'end-c' });
 }
 function endCard(C, cam, t) {
   const a = sstep(T.card, T.card + 0.2, t); if (a <= 0) return;

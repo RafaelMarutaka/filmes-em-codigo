@@ -580,7 +580,7 @@ def amber(t, c, out):
             out.append(dot(sx, sy, 4.5, TR, b * pulse)); out.append(dot(sx, sy, 13, TR, 0.35 * b * pulse))
 
 # ------------------------------------------------------------------ end card: style name and credit, typed by the beam
-CREDIT = 'LemoLab × Claude Opus 5.5'
+CREDIT = 'Rafael Marutaka × Claude Opus 5.5'
 def typed(t, t0, t1, s, px, font, x, base, out, op=0.9, anchor='right', slant='NORMAL'):
     m = text(s, px, font, UI, op, x, base, anchor, slant=slant); n = len(m.submobjects)
     for i, g in enumerate(m.submobjects):

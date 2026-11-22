@@ -614,7 +614,7 @@ function shotSlate(g, t, lt) {
     text(g, 'Text Flash Cuts', 352, 850, `italic 600 42px ${CORM}`, WHT, 'styleEN');
   }
   if (lt >= .6) {
-    text(g, 'LemoLab × Claude Opus 5.5', 174, 912, `italic 600 38px ${CORM}`, WHT, 'sign');
+    text(g, 'Rafael Marutaka × Claude Opus 5.5', 174, 912, `italic 600 38px ${CORM}`, WHT, 'sign');
     text(g, 'Samples: Versilian Studios (CC0)', 174, 962, `italic 600 30px ${CORM}`, GRY, 'credit');
   }
   g.restore();

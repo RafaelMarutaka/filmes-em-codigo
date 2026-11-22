@@ -14,7 +14,7 @@ from scipy import ndimage
 D = sys.argv[1]; RAW = os.path.join(D, 'raw'); OUT = os.path.join(D, 'assets')
 Z = 4; n = 2 ** Z
 LOG = open(os.path.join(RAW, 'manifest.jsonl'), 'a')
-UA = {'User-Agent': 'lemo-opuscar-demo/1.0 (research)'}
+UA = {'User-Agent': 'filmes-em-codigo-demo/1.0 (research)'}
 
 
 def get(url):

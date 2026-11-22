@@ -13,7 +13,7 @@ from PIL import Image
 D = sys.argv[1]
 RAW = os.path.join(D, 'raw'); os.makedirs(RAW, exist_ok=True)
 W, S, E, N = 35.5, 19.0, 60.0, 31.6
-UA = {'User-Agent': 'lemo-opuscar-demo/1.0 (research)'}
+UA = {'User-Agent': 'filmes-em-codigo-demo/1.0 (research)'}
 LOG = open(os.path.join(RAW, 'manifest.jsonl'), 'a')
 
 

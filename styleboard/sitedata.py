@@ -4,7 +4,7 @@
 #   categories: [{n, id, cn, en, desc_en, desc_cn, styles: [slug, …]}]   the stations, in order; styles by number within each
 #   styles:     [{slug, num, cn, en, cat_cn, cat_en, film, film_cn, line, line_cn, dur, about_en, about_cn, uses, uses_cn, new, aka?, by?, needs?}]
 # The use tags in i18n.json (tags, tag_of) stay for agents choosing a style; the site doesn't show them.
-#   feature:    OPUSCAR 98 (gallery.FEATURE)
+#   feature:    FILMES 98 (gallery.FEATURE)
 import json, os, re
 import gallery
 

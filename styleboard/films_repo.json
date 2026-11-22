@@ -1,4 +1,4 @@
-{"repo": "lemomo-ai/lemo-opuscar-films", "base": "https://lemomo-ai.github.io/lemo-opuscar-films/", "films": {
+{"repo": "RafaelMarutaka/filmes-em-codigo-videos", "base": "https://rafaelmarutaka.github.io/filmes-em-codigo-videos/", "films": {
   "archive-lighttable": {"bytes": 7610029, "sha256": "b12e34579a409913f04990cca88615f244a4e95d9f63b368c063019497a795f4"},
   "art-deco": {"bytes": 9822063, "sha256": "7b55fe51616048dcda50e920ab1e4141c00e009f141015a24c09f25837ca8bc1"},
   "ascii-crt": {"bytes": 5643580, "sha256": "6aca897b500d3d857cf773ea67e60b773e461eafe592f89363a3aede85cdcae5"},

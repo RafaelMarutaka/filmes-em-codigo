@@ -23,7 +23,7 @@ for rel, url in FILES.items():
     if os.path.exists(p) and os.path.getsize(p) > 0: continue
     os.makedirs(os.path.dirname(p), exist_ok=True)
     print('download', rel, file=sys.stderr)
-    req = urllib.request.Request(url, headers={'User-Agent': 'lemo-opuscar-demo/1.0'})
+    req = urllib.request.Request(url, headers={'User-Agent': 'filmes-em-codigo-demo/1.0'})
     with urllib.request.urlopen(req, timeout=300) as r, open(p + '.part', 'wb') as f: f.write(r.read())
     os.replace(p + '.part', p)
 print('data ok')

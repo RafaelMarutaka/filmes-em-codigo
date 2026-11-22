@@ -1,11 +1,11 @@
 #!/bin/sh
 # The films repository (styleboard/site_config.py: FILMS_REPO, served by its own GitHub Pages at FILMS_BASE): the styles' 720p demo
-# films, which the site's pages play. They are too many for the site itself (GitHub Pages documents 1 GB per site); OPUSCAR 98 and
+# films, which the site's pages play. They are too many for the site itself (GitHub Pages documents 1 GB per site); FILMES 98 and
 # the thank-you films stay in the site. Run it after tools/publish.sh, which makes the web cuts (tools/web_cuts.sh, .release/web).
 # It copies the web cut of every style with a film (styleboard/catalog.json) into a local checkout of the repository, removes the
 # films of styles that are gone, writes the repository's README.md, LICENSE, .nojekyll and .gitignore, and writes
 # styleboard/films_repo.json here: what the repository holds, which check_site.py checks the pages against (commit it).
-#   sh tools/films_repo.sh [DIR]          sync into DIR (default ../lemo-opuscar-films beside this repository: a clone of the
+#   sh tools/films_repo.sh [DIR]          sync into DIR (default ../filmes-em-codigo-videos beside this repository: a clone of the
 #                                         repository, or a new folder; a relative DIR is taken from where you run the script)
 #   sh tools/films_repo.sh --push [DIR]   the same, then commit and push DIR (a clone of the repository); it prints what goes first
 # Nothing is pushed without --push. Push the films repository before main, so the site never plays a film that isn't there yet.
@@ -20,7 +20,7 @@ while [ $# -gt 0 ]; do
     *) [ -z "$DIR" ] || { sed -n '2,11p' tools/films_repo.sh; exit 2; }; DIR=$1; shift ;;
   esac
 done
-if [ -z "$DIR" ]; then DIR="$(cd .. && pwd)/lemo-opuscar-films"; else case "$DIR" in /*) ;; *) DIR="$CALLER/$DIR" ;; esac; fi
+if [ -z "$DIR" ]; then DIR="$(cd .. && pwd)/filmes-em-codigo-videos"; else case "$DIR" in /*) ;; *) DIR="$CALLER/$DIR" ;; esac; fi
 command -v python3 >/dev/null || { echo "✗ python3 is needed to run this script"; exit 1; }
 REPO=$(python3 -c 'import sys; sys.dont_write_bytecode = True; sys.path.insert(0, "styleboard"); import site_config; print(site_config.FILMS_REPO)')
 
@@ -96,9 +96,9 @@ cat = {s['slug']: s['en'] for s in catalog}
 VOICE = ['chalkboard', 'circuit-board', 'desktop-flythrough', 'isometric-picture-book', 'printed-long-take', 'news-package']   # LICENSE
 voice = ', '.join(f'{cat[v]} (`{v}.mp4`)' for v in VOICE[:-1]) + f' and {cat[VOICE[-1]]} (`{VOICE[-1]}.mp4`)'
 lic = f'{C.REPO_URL}/blob/main/LICENSE'
-readme = f'''# Lemo-Opuscar films
+readme = f'''# Filmes em Código films
 
-The 720p demo films of the {len(slugs)} styles in [Lemo-Opuscar]({C.REPO_URL}), one per style, named after the style's folder (`<slug>.mp4` for `styles/<slug>/`). GitHub Pages serves them at `{C.FILMS_REPO_URL}<slug>.mp4` for the gallery, {C.SITE_URL}
+The 720p demo films of the {len(slugs)} styles in [Filmes em Código]({C.REPO_URL}), one per style, named after the style's folder (`<slug>.mp4` for `styles/<slug>/`). GitHub Pages serves them at `{C.FILMS_REPO_URL}<slug>.mp4` for the gallery, {C.SITE_URL}
 
 They are made in the main repository and copied here by its `tools/films_repo.sh`: change them there, not here. The films at full quality are on the main repository's [films release]({C.REPO_URL}/releases/tag/films); each film's sources and credits are in `styles/<slug>/demo/CREDITS` there.
 
@@ -110,7 +110,7 @@ The project’s licensable contributions to these films are under [CC BY 4.0](ht
 - The narration of six films, {voice}, requires its own legal basis for reuse, including when it remains embedded in the complete film.
 - Clawd, Anthropic's character (for example in Mascot Screencast), and third-party product interfaces, names, logos and trademarks are not licensed here.
 
-Credit "Lemo-Opuscar by Lemomo (LemoLab)", with a link to {C.REPO_URL} and to the licence, and say if you changed the film. For the two styles contributed from outside, name their author too: "Memphis Diorama by EianLu, in Lemo-Opuscar by Lemomo (LemoLab)" and "Crayon World 3D by 2nd1st, in Lemo-Opuscar by Lemomo (LemoLab)".
+Credit "Filmes em Código by Rafael Marutaka", with a link to {C.REPO_URL} and to the licence, and say if you changed the film. For the two styles contributed from outside, name their author too: "Memphis Diorama by EianLu, in Filmes em Código by Rafael Marutaka" and "Crayon World 3D by 2nd1st, in Filmes em Código by Rafael Marutaka".
 '''
 open(os.path.join(dest, 'README.md'), 'w', encoding='utf-8').write(readme)
 
@@ -136,7 +136,7 @@ branch=$(git -C "$DIR" symbolic-ref --short HEAD)
 git -C "$DIR" add -- README.md LICENSE .nojekyll .gitignore
 git -C "$DIR" add -A -- '*.mp4'
 if ! git -C "$DIR" diff --cached --quiet; then
-  git -C "$DIR" commit -q -m "Films from lemo-opuscar $(git rev-parse --short HEAD)"
+  git -C "$DIR" commit -q -m "Films from filmes-em-codigo $(git rev-parse --short HEAD)"
 fi
 git -C "$DIR" rev-parse -q --verify HEAD >/dev/null || { echo "✓ $DIR has nothing to push"; exit 0; }
 # what origin lacks (also commits left by a push that failed): ahead of origin/<branch>, or everything when it has none yet

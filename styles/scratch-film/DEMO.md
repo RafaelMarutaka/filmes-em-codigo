@@ -59,12 +59,12 @@ Ground `#050403`, cuts `#FFF4DC`; teal `#1FB39A` the lanternfish; blue `#2F86FF`
 
 ## End card
 
-From 48.0 s, cut into the dark water once the lights have sunk: *THE NIGHT CLIMB* (Jost 800 filled with diagonal cuts), 夜里往上游, "Scratch Film · 胶片直刻" and "LemoLab × Claude Opus 5.5" with a red dye underline; held to 52.0. The sign-off belongs to this library demo only; a user's film carries no LemoLab credit and no copy of this card.
+From 48.0 s, cut into the dark water once the lights have sunk: *THE NIGHT CLIMB* (Jost 800 filled with diagonal cuts), 夜里往上游, "Scratch Film · 胶片直刻" and "Rafael Marutaka × Claude Opus 5.5" with a red dye underline; held to 52.0. The sign-off belongs to this library demo only; a user's film carries no Rafael Marutaka credit and no copy of this card.
 
 ## Build notes
 
 - `sh demo/build.sh` (from anywhere) does everything: voice (if missing) and its speech check, `timeline.py`, fonts (if missing), events, the picture (`--workers 2` by default), `mix.py`, master, subtitles, readcheck, poster and `demo/stills/styleframe.jpg` (39.2 s, between two subtitle cues).
-- On a fresh clone, first: `sh plugin/skills/lemo-opuscar/scripts/setup.sh deps voice`, `sh tools/fetch.sh instruments vsco2ce`, `sh tools/fetch.sh instruments vcsl`. `make_fonts.py` downloads the three fonts from github.com/google/fonts.
+- On a fresh clone, first: `sh plugin/skills/filmes-em-codigo/scripts/setup.sh deps voice`, `sh tools/fetch.sh instruments vsco2ce`, `sh tools/fetch.sh instruments vcsl`. `make_fonts.py` downloads the three fonts from github.com/google/fonts.
 - Entry points: `demo/index.html` loads `js/base.js` (marks, emulsion), `js/creatures.js` (fish, silhouette, hunter, plankton, jellyfish), `js/shots.js` (the `T` table and every shot), `js/main.js` (render, light pass, subtitles, `TEXTS`, `EV`). `?from=a&to=b` renders a part of the timeline.
 - Contract: `window.READY`, `render(t)` depends on `t` only, `DUR = 52`; `TEXTS(t)` passes `core/render/readcheck.mjs` (the ruler, depth figure and end card; subtitles follow the subtitle rule above).
 - 1080p: 30–150 ms a frame; page ready in about 1 s.

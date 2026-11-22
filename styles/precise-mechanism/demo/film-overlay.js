@@ -75,7 +75,7 @@ export function makeOverlay({ PAL, GEO: G, scr, CUE, SHOTS, SUBS, STATE }) {
   const TB_ROWS = [
     ['Title', '<span class="v1">Three systems keep the time</span>', 'Three systems keep the time'],
     ['Style', '<span class="v2">Color-Coded Mechanism</span><span class="v2z">分色机械图解</span>', 'Color-Coded Mechanism 分色机械图解'],
-    ['Drawn by', '<span class="v3">LemoLab × Claude Opus 5.5</span>', 'LemoLab × Claude Opus 5.5'],
+    ['Drawn by', '<span class="v3">Rafael Marutaka × Claude Opus 5.5</span>', 'Rafael Marutaka × Claude Opus 5.5'],
   ];
   const tb = div('o tb', TB_ROWS.map(([k, v]) => `<div class="row"><i class="rule"></i><span class="k">${k}</span><span class="v">${v}</span></div>`).join('') + '<i class="rule end"></i>');
   const tbRows = [...tb.querySelectorAll('.row')], tbEnd = tb.querySelector('.rule.end');

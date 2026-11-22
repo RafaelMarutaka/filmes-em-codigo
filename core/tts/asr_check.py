@@ -159,7 +159,7 @@ def compare(want, got, lang, threshold=0.92):
 
 def load_model(name):
     try: from faster_whisper import WhisperModel
-    except ImportError: sys.exit('asr_check.py: faster-whisper is missing: install the voice tier: sh plugin/skills/lemo-opuscar/scripts/setup.sh deps voice')
+    except ImportError: sys.exit('asr_check.py: faster-whisper is missing: install the voice tier: sh plugin/skills/filmes-em-codigo/scripts/setup.sh deps voice')
     try:
         return WhisperModel(name, device='cpu', compute_type='int8')
     except Exception as e:

@@ -683,7 +683,7 @@ function endCard(c, t) {
   c.fillStyle = ORANGE; c.fillRect(x, y + 28, 680, 2);
   text(c, 'end-c', 'ARCHIVE LIGHT TABLE', x, y + 72, '500 22px PM', 'rgba(250,250,247,0.85)');
   text(c, 'end-c2', '档案灯台', x + 290, y + 72, '500 22px SC', 'rgba(250,250,247,0.85)');
-  text(c, 'end-d', 'LemoLab × Claude Opus 5.5', x, y + 116, '400 22px PS', 'rgba(250,250,247,0.75)');
+  text(c, 'end-d', 'Rafael Marutaka × Claude Opus 5.5', x, y + 116, '400 22px PS', 'rgba(250,250,247,0.75)');
   text(c, 'end-e', 'Piano samples: “Salamander Grand Piano V3” by Alexander Holm, CC BY 3.0', x, y + 154, '400 18px PS', 'rgba(250,250,247,0.62)', { pass: true });   // licence credit (fine print)
   c.restore();
 }

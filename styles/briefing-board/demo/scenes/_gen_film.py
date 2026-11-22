@@ -250,7 +250,7 @@ el(type='card', id='endcard', xy=[CARD['x'], CARD['y']], w=CARD['w'], h=CARD['h'
           dict(text='ENGINEERING', font='mono', weight=600, size=72, x=72, y=-40, color='graphite', track=3),
           dict(text='BRIEFING BOARD', font='mono', weight=600, size=72, x=72, y=48, color='graphite', track=3),
           dict(text='工程简报板', font='sc', weight=700, size=78, x=72, y=160, color='graphite', track=10),
-          dict(text='LemoLab × Claude Opus 5.5', font='mono', weight=500, size=60, x=72, y=290, color='grey', track=1)])
+          dict(text='Rafael Marutaka × Claude Opus 5.5', font='mono', weight=500, size=60, x=72, y=290, color='grey', track=1)])
 # licence credits: a card that fades in on the empty middle of the board as the camera pulls back to the whole board
 CL = dict(font='mono', weight=500, size=52, color='graphite', pass_=True)
 el(type='card', id='credits', xy=[3170, 1290], w=1180, h=930, rot=-1.2, z=7, magnetR=18,

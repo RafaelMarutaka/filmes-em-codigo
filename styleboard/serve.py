@@ -1,6 +1,6 @@
 # Local preview of the built site. Use this, not python3 -m http.server: films need byte ranges (http.server answers every request
 # with the whole file, so a browser can't seek into a film it hasn't downloaded), any unknown address gets 404.html as on GitHub Pages,
-# and the site's own path (/lemo-opuscar/…, from site_config.BASE_PATH) works too, which 404.html's <base> needs.
+# and the site's own path (/filmes-em-codigo/…, from site_config.BASE_PATH) works too, which 404.html's <base> needs.
 #   python3 styleboard/serve.py [port] [--dir _site] [--bind 127.0.0.1]      (port 8000 by default)
 import argparse, http.server, io, os, re, sys
 sys.dont_write_bytecode = True

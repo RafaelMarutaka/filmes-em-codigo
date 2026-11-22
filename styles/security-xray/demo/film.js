@@ -616,9 +616,9 @@ function endCard(t) {
   line(x, y + 126, x + 520, y + 126, 'rgba(120,170,255,0.5)', 1.5);
   txt('安检 X 光', x, y + 170, 38, 'rgba(255,170,80,0.95)', 'left', 700, 'SC');
   txt('SECURITY X-RAY', x, y + 210, 22, 'rgba(255,170,80,0.85)', 'left', 500);
-  txt('LemoLab × Claude Opus 5.5', x, y + 278, 32, 'rgba(225,236,255,0.95)', 'left', 500);
+  txt('Rafael Marutaka × Claude Opus 5.5', x, y + 278, 32, 'rgba(225,236,255,0.95)', 'left', 500);
   reg('end1', '安检口的夜班', x, y - 40, x + 460, y + 40); reg('end2', 'Night Shift at Lane 3', x, y + 56, x + 470, y + 96);
-  reg('end3', '安检 X 光', x, y + 148, x + 190, y + 192); reg('end4', 'SECURITY X-RAY', x, y + 198, x + 200, y + 224); reg('end5', 'LemoLab × Claude Opus 5.5', x, y + 258, x + 500, y + 298);
+  reg('end3', '安检 X 光', x, y + 148, x + 190, y + 192); reg('end4', 'SECURITY X-RAY', x, y + 198, x + 200, y + 224); reg('end5', 'Rafael Marutaka × Claude Opus 5.5', x, y + 258, x + 500, y + 298);
   g.globalAlpha = 1;
 }
 

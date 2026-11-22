@@ -5,7 +5,7 @@ Writes out_dir/<id>.wav (24 kHz, leading/trailing silence trimmed) and out_dir/d
 Model: kokoro-v1.0.onnx / voices-v1.0.bin in this folder; download with sh tools/fetch.sh voice (about 350 MB).
 Path limit: the data folder of espeak-ng (which Kokoro uses to turn text into phonemes) must have a real path, after symlinks, shorter than
          160 bytes (a CJK character counts 3), or it is not found and the error names a path on someone else's machine (the one espeak-ng was
-         built on). When the library's own copy is too deep, this script copies that folder once to ~/.cache/lemo-opuscar/espeak-ng-data
+         built on). When the library's own copy is too deep, this script copies that folder once to ~/.cache/filmes-em-codigo/espeak-ng-data
          and uses the copy; only if that path is too long as well does it stop and explain.
 More natural Chinese, Japanese and other voices: core/tts/tts_zh.py (Microsoft edge-tts, online), same interface and output layout.
 """
@@ -25,7 +25,7 @@ if wrong:
              f"  offline: add \"lang\": \"cmn\" and a zf_*/zm_* voice to those lines;  more natural (needs network): python core/tts/tts_zh.py {sys.argv[1]} {out}")
 model, voices = os.path.join(HERE, 'kokoro-v1.0.onnx'), os.path.join(HERE, 'voices-v1.0.bin')
 if not (os.path.exists(model) and os.path.exists(voices)):
-    sys.exit(f'tts.py: the Kokoro model is not in {HERE}.\n  install the voice tier: sh plugin/skills/lemo-opuscar/scripts/setup.sh deps voice   (from the library root; it also fetches the model, about 350 MB)')
+    sys.exit(f'tts.py: the Kokoro model is not in {HERE}.\n  install the voice tier: sh plugin/skills/filmes-em-codigo/scripts/setup.sh deps voice   (from the library root; it also fetches the model, about 350 MB)')
 ESPEAK_LIMIT = 160   # measured: the espeak-ng data directory works when its real path is ≤159 bytes; at ≥160 bytes phontab can't be found (symlinks are resolved first, so the real path is what's measured)
 try:
     import espeakng_loader
@@ -35,7 +35,7 @@ except Exception:
 if espeak_dir and len(espeak_dir.encode('utf-8')) >= ESPEAK_LIMIT:
     # the library sits too deep: use a copy of the data folder under a short path (made once, refreshed when the package changes)
     import shutil
-    short = os.path.realpath(os.path.join(os.path.expanduser('~'), '.cache', 'lemo-opuscar', 'espeak-ng-data'))
+    short = os.path.realpath(os.path.join(os.path.expanduser('~'), '.cache', 'filmes-em-codigo', 'espeak-ng-data'))
     if len(short.encode('utf-8')) < ESPEAK_LIMIT:
         stamp = os.path.join(short, '.source')
         if not (os.path.isdir(short) and os.path.exists(stamp) and open(stamp).read() == espeak_dir):
@@ -47,10 +47,10 @@ if espeak_dir and len(espeak_dir.encode('utf-8')) >= ESPEAK_LIMIT:
     sys.exit(f"tts.py: this library sits under a folder path that is too long for the offline voice engine (espeak-ng),\n"
              f"  and so does the short copy under your home folder ({len(espeak_dir.encode('utf-8'))} bytes, a Chinese character counts as 3; the limit is {ESPEAK_LIMIT - 1}):\n"
              f"    {espeak_dir}\n"
-             f"  Move the library to a shorter path (e.g. LEMO_OPUSCAR_HOME=~/lemo-opuscar, or a shorter folder for the clone) and run\n"
-             f"  `sh plugin/skills/lemo-opuscar/scripts/setup.sh deps` there (a moved .venv does not work). No need to move anything for tts_zh.py.")
+             f"  Move the library to a shorter path (e.g. FILMES_EM_CODIGO_HOME=~/filmes-em-codigo, or a shorter folder for the clone) and run\n"
+             f"  `sh plugin/skills/filmes-em-codigo/scripts/setup.sh deps` there (a moved .venv does not work). No need to move anything for tts_zh.py.")
 try: from kokoro_onnx import Kokoro
-except ImportError: sys.exit('tts.py: kokoro-onnx is missing: install the voice tier: sh plugin/skills/lemo-opuscar/scripts/setup.sh deps voice')
+except ImportError: sys.exit('tts.py: kokoro-onnx is missing: install the voice tier: sh plugin/skills/filmes-em-codigo/scripts/setup.sh deps voice')
 k = Kokoro(model, voices)
 avail = k.get_voices()
 for L in lines:

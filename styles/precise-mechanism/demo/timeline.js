@@ -61,7 +61,7 @@ export const CUE = {
   tick: TICK_ANCHOR,
   descend: 42.5,        // case and dial come back down (already cut open)
   final: 45.2,          // "One tick at a time."
-  credit: 47.75,        // the drawing's title block: title, style, LemoLab × Claude Opus 5.5 (held to 52.0)
+  credit: 47.75,        // the drawing's title block: title, style, Rafael Marutaka × Claude Opus 5.5 (held to 52.0)
 };
 
 // dye: each group of parts takes its system colour from a point, spreading out over `dur` seconds

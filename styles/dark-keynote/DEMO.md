@@ -80,9 +80,9 @@ Every shot change is a UI expand / collapse; no fades, no blank frames.
 
 ## End card
 
-**Title card** = the cursor typing the film title in the close-up, with a small mono overline `TIDY · A LAUNCH FILM`. **End card** = the typed tagline plus, left-aligned beneath it: film title, "a launch film for Tidy, a fictional app", style name, `Lemo-Opuscar`, `LemoLab × Claude Opus 5.5`, credits. Then everything fades except the cursor, which blinks twice and goes out.
+**Title card** = the cursor typing the film title in the close-up, with a small mono overline `TIDY · A LAUNCH FILM`. **End card** = the typed tagline plus, left-aligned beneath it: film title, "a launch film for Tidy, a fictional app", style name, `Filmes em Código`, `Rafael Marutaka × Claude Opus 5.5`, credits. Then everything fades except the cursor, which blinks twice and goes out.
 
-The "LemoLab × Claude Opus 5.5" sign-off belongs to this library's demo only; a user's film carries no LemoLab credit and no copy of this card.
+The "Rafael Marutaka × Claude Opus 5.5" sign-off belongs to this library's demo only; a user's film carries no Rafael Marutaka credit and no copy of this card.
 
 ## Rights
 

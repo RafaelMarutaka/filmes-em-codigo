@@ -75,7 +75,7 @@ Mix (`mix.py`): the voice is compressed and set by RMS about 10 dB over the musi
 
 ## End card
 
-On the last frame, bottom right on the glass, typed by the beam after a hairline: *Oscilloscope Math* 示波器数学 (STIX italic and Noto Serif SC, 28 px), then `LemoLab × Claude Opus 5.5` (JetBrains Mono, 30 px). The film's title is the name written top left in the same frame, "The *Gibbs phenomenon*" / 吉布斯现象. Typed 46.6–47.4 s, held to 50.3 s, then the power-off. The "LemoLab × Claude Opus 5.5" sign-off belongs to this library's demo only; a user's film carries no LemoLab credit and no copy of this card.
+On the last frame, bottom right on the glass, typed by the beam after a hairline: *Oscilloscope Math* 示波器数学 (STIX italic and Noto Serif SC, 28 px), then `Rafael Marutaka × Claude Opus 5.5` (JetBrains Mono, 30 px). The film's title is the name written top left in the same frame, "The *Gibbs phenomenon*" / 吉布斯现象. Typed 46.6–47.4 s, held to 50.3 s, then the power-off. The "Rafael Marutaka × Claude Opus 5.5" sign-off belongs to this library's demo only; a user's film carries no Rafael Marutaka credit and no copy of this card.
 
 ## Build notes
 

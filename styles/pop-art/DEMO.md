@@ -82,7 +82,7 @@ Foley from `events.json`: squeegee and thunk for every printed label, a stamp pe
 
 ## End card
 
-On the final mosaic, top left, a paper slip tilted −1.4°: MANY BANANAS (Anton 132 px, red), 不止一种香蕉 (Noto Sans SC Black 56 px), POP ART · 波普艺术 (38 px, blue), `LemoLab × Claude Opus 5.5` (Archivo Black 34 px). Printed with the slip at 47.4 s and held 4.6 s while the giant banana stays on screen. The "LemoLab × Claude Opus 5.5" sign-off belongs to this library's demo only; a user's film carries no LemoLab credit and no copy of this card.
+On the final mosaic, top left, a paper slip tilted −1.4°: MANY BANANAS (Anton 132 px, red), 不止一种香蕉 (Noto Sans SC Black 56 px), POP ART · 波普艺术 (38 px, blue), `Rafael Marutaka × Claude Opus 5.5` (Archivo Black 34 px). Printed with the slip at 47.4 s and held 4.6 s while the giant banana stays on screen. The "Rafael Marutaka × Claude Opus 5.5" sign-off belongs to this library's demo only; a user's film carries no Rafael Marutaka credit and no copy of this card.
 
 ## Build notes
 

@@ -5,7 +5,7 @@
 import json, os, sys, time, urllib.parse, urllib.request
 HERE = os.path.dirname(os.path.abspath(__file__))
 A = os.path.join(HERE, 'assets'); os.makedirs(A, exist_ok=True)
-UA = {'User-Agent': 'lemo-opuscar double-exposure demo (https://github.com/lemomo-ai/lemo-opuscar)'}
+UA = {'User-Agent': 'filmes-em-codigo double-exposure demo (https://github.com/RafaelMarutaka/filmes-em-codigo)'}
 
 def get(url, out):
     for k in range(4):

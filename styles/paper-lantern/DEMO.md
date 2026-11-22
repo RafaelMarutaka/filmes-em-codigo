@@ -55,7 +55,7 @@ Film time; dissolves are 0.6 s.
 ## Titles, subtitles & end card
 
 - Subtitles: one Chinese line (Noto Serif SC 500, 40 px) over one English line (Cormorant Garamond 600, 42 px), warm off-white, 64 px from the bottom, on the dark front band, with a faint dark band (`#sub .band`). `demo/tools/subcheck.py` measures the ground under every cue: 98 % or more of the non-text pixels are dark in this film. The last line stays to the end.
-- End card: a paper ticket on a thread drops from above at 47.5 s, overshoots and swings to rest. Main panel: a route line `FROM PINE HALT → TO SEA END`, the title (English largest, then 末班夜车), a rule, the style name 纸雕灯影 / Paper-cut Lightbox, and `LemoLab × Claude Opus 5.5` on its own line, with the licence credit for the Salamander piano samples (CC BY 3.0) in fine print under it; notched corners, a punched hole top left, a perforated stub with a red 车 stamp. The sign-off belongs to the library's own demos: a user's film carries no LemoLab credit and no copy of this card.
+- End card: a paper ticket on a thread drops from above at 47.5 s, overshoots and swings to rest. Main panel: a route line `FROM PINE HALT → TO SEA END`, the title (English largest, then 末班夜车), a rule, the style name 纸雕灯影 / Paper-cut Lightbox, and `Rafael Marutaka × Claude Opus 5.5` on its own line, with the licence credit for the Salamander piano samples (CC BY 3.0) in fine print under it; notched corners, a punched hole top left, a perforated stub with a red 车 stamp. The sign-off belongs to the library's own demos: a user's film carries no Rafael Marutaka credit and no copy of this card.
 
 ## Pitfalls
 
@@ -72,7 +72,7 @@ LIB=<library root> sh styles/paper-lantern/demo/build.sh          # fonts, voice
 LIB=<library root> sh styles/paper-lantern/demo/build.sh 40 51    # only a span of the film → demo/out/cut_40-51.mp4
 ```
 
-On a fresh clone, first: `sh plugin/skills/lemo-opuscar/scripts/setup.sh deps voice`, `sh tools/fetch.sh instruments vsco2ce`, `sh tools/fetch.sh instruments vcsl`, `sh tools/fetch.sh instruments salamander`. `demo/tools/fonts.py` downloads the two OFL fonts and subsets Noto Serif SC to the film's characters. The narration WAVs are regenerated from `demo/voices/lines.json` when missing, then checked with `asr_check.py`.
+On a fresh clone, first: `sh plugin/skills/filmes-em-codigo/scripts/setup.sh deps voice`, `sh tools/fetch.sh instruments vsco2ce`, `sh tools/fetch.sh instruments vcsl`, `sh tools/fetch.sh instruments salamander`. `demo/tools/fonts.py` downloads the two OFL fonts and subsets Noto Serif SC to the film's characters. The narration WAVs are regenerated from `demo/voices/lines.json` when missing, then checked with `asr_check.py`.
 
 `demo/tools/timeline.py` is the one timeline: narration starts, subtitle cues, every action's time (`HIT`: the lamp, each window, the departure, the tunnel, the stop, each window going out, the card) and the shot list. The page (`timeline.json`) and `mix.py` read it; it writes `paper-lantern.srt`. Query options: `?from=a&to=b` renders a span, `?nosub=1` hides the subtitles (for stills). About 40 s for 1 530 frames with 2 workers on an M-series Mac.
 

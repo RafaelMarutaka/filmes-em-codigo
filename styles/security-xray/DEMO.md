@@ -87,7 +87,7 @@ Mix (`audio.py`): the voice is compressed and set by RMS 12.7 dB over the music 
 
 ## End card
 
-On the standby screen, left-aligned in the image area: 安检口的夜班 (Noto Sans SC 700, 76 px), *Night Shift at Lane 3*, a rule, 安检 X 光 / SECURITY X-RAY in amber, `LemoLab × Claude Opus 5.5`; the dimmed clock (06:00) and counter (1284) stay in the right column, dawn behind the glass. The camera pushes in slowly so the sign-off line stays above 26 px. 3.0 s. The "LemoLab × Claude Opus 5.5" sign-off belongs to this library's demo only; a user's film carries no LemoLab credit and no copy of this card.
+On the standby screen, left-aligned in the image area: 安检口的夜班 (Noto Sans SC 700, 76 px), *Night Shift at Lane 3*, a rule, 安检 X 光 / SECURITY X-RAY in amber, `Rafael Marutaka × Claude Opus 5.5`; the dimmed clock (06:00) and counter (1284) stay in the right column, dawn behind the glass. The camera pushes in slowly so the sign-off line stays above 26 px. 3.0 s. The "Rafael Marutaka × Claude Opus 5.5" sign-off belongs to this library's demo only; a user's film carries no Rafael Marutaka credit and no copy of this card.
 
 ## Build notes
 

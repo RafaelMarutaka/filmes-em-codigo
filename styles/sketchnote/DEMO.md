@@ -69,7 +69,7 @@ Native moves spent: the page writes itself (throughout), one colour as the threa
 
 ## End card
 
-The footer of the page, written by the pen at 47.6–48.35 s and held to 51.0 s: a dashed rule, "How Bees Make Honey · Sketchnote 视觉笔记" on the left, "LemoLab × Claude Opus 5.5" on the right (Kalam Bold, ≈ 29 px on screen). The final framing (0.84×) leaves the footer above the subtitle slip. The "LemoLab × Claude Opus 5.5" sign-off belongs to this library's demo only; a user's film carries no LemoLab credit and no copy of this card.
+The footer of the page, written by the pen at 47.6–48.35 s and held to 51.0 s: a dashed rule, "How Bees Make Honey · Sketchnote 视觉笔记" on the left, "Rafael Marutaka × Claude Opus 5.5" on the right (Kalam Bold, ≈ 29 px on screen). The final framing (0.84×) leaves the footer above the subtitle slip. The "Rafael Marutaka × Claude Opus 5.5" sign-off belongs to this library's demo only; a user's film carries no Rafael Marutaka credit and no copy of this card.
 
 ## Build notes
 

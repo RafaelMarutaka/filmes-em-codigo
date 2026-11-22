@@ -59,7 +59,7 @@ Mix: the music sits under the foley and ducks by the foley's level; 3rd-order hi
 
 ## End card
 
-The ice café's roller shutter, lit from above by the goblet: 夜宵 (Noto Sans SC 900), MIDNIGHT SNACK, 霓虹灯管 NEON TUBES, `LemoLab × Claude Opus 5.5` (Barlow Condensed Bold, about 32 px), stencilled in the lower left of the shutter, away from the sign. 4.0 s, static; the eye-open gag plays on the sign above, never over the lines. The "LemoLab × Claude Opus 5.5" sign-off belongs to this library's demo only; a user's film carries no LemoLab credit and no copy of this card.
+The ice café's roller shutter, lit from above by the goblet: 夜宵 (Noto Sans SC 900), MIDNIGHT SNACK, 霓虹灯管 NEON TUBES, `Rafael Marutaka × Claude Opus 5.5` (Barlow Condensed Bold, about 32 px), stencilled in the lower left of the shutter, away from the sign. 4.0 s, static; the eye-open gag plays on the sign above, never over the lines. The "Rafael Marutaka × Claude Opus 5.5" sign-off belongs to this library's demo only; a user's film carries no Rafael Marutaka credit and no copy of this card.
 
 ## Build notes
 

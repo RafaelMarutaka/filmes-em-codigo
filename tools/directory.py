@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Build the Claude plugin directory edition of Lemo-Opuscar from main.
+"""Build the Claude plugin directory edition of Filmes em Código from main.
 
     python3 tools/directory.py <version>                 build into .release/directory/
     python3 tools/directory.py <version> --into <dir>    then sync it into <dir> (a worktree of the `directory` branch);
@@ -14,9 +14,9 @@ import hashlib, json, os, re, shutil, subprocess, sys
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 OUT = os.path.join(ROOT, '.release', 'directory')
-LIB = 'skills/lemo-opuscar/library'          # where the bundled library sits inside the plugin
-REPO = 'https://github.com/lemomo-ai/lemo-opuscar'
-GALLERY = 'https://lemomo-ai.github.io/lemo-opuscar/'
+LIB = 'skills/filmes-em-codigo/library'          # where the bundled library sits inside the plugin
+REPO = 'https://github.com/RafaelMarutaka/filmes-em-codigo'
+GALLERY = 'https://rafaelmarutaka.github.io/filmes-em-codigo-videos/'
 
 # what the library keeps (git pathspecs); core/assets/polyhaven models are only used by demo code, which isn't bundled
 KEEP = ['AGENTS.md', 'DIRECTOR.md', 'TECHNIQUE.md', 'MY-STYLES.md', 'LICENSE', 'REUSE.toml', 'package.json', 'package-lock.json',
@@ -28,39 +28,39 @@ DROP = ['core/assets/polyhaven/desk_lamp_arm_01/', 'core/assets/polyhaven/tea_se
         'core/assets/polyhaven/walnut_diff.jpg', 'core/assets/polyhaven/walnut_nor.jpg', 'core/assets/polyhaven/walnut_rough.jpg']
 # the pack on the "assets" release with the three walnut textures, unchanged from main (added to this edition's assets.json)
 TEXTURES = {'file': 'textures.tar', 'size': 7249920, 'sha256': 'a1cc326f704e1cb9ef87c38bc3906a934c432676bd8193a3ed0f33cfc5719ada'}
-ICON = 'opuscar-trophy.png'   # not icon.png: the portal matches a doc's word "icon" to a file called icon.png
+ICON = 'filmes-trophy.png'   # not icon.png: the portal matches a doc's word "icon" to a file called icon.png
 # the licence texts this edition's files use (code, docs, the fonts in core/fonts); it has no films, stills or other
 # third-party files. They go into LICENSES/ at the plugin's root and the library's, each next to a copy of LICENSE, whose
 # opening line is changed to say so and to point to the repository for the other texts it names (LICENSE_EDIT).
 LICENSES = ['MIT', 'CC-BY-NC-4.0', 'OFL-1.1']
 LICENSE_EDIT = ('This file says which licence applies to what. The full licence texts are in '
-                'LICENSES/ (also at https://github.com/lemomo-ai/lemo-opuscar/tree/main/LICENSES).',
+                'LICENSES/ (also at https://github.com/RafaelMarutaka/filmes-em-codigo/tree/main/LICENSES).',
                 'This file says which licence applies to what. This edition carries the texts '
                 'of the licences its files use (MIT, CC BY-NC 4.0, OFL 1.1) in LICENSES/; the '
                 'full texts of all the licences named here are at '
-                'https://github.com/lemomo-ai/lemo-opuscar/tree/main/LICENSES.')
+                'https://github.com/RafaelMarutaka/filmes-em-codigo/tree/main/LICENSES.')
 # the plugin's own files in the REUSE format; the library keeps the repository's REUSE.toml, which covers its files
-REUSE_ROOT = '''# The plugin's own files. The library (skills/lemo-opuscar/library/) has its own REUSE.toml. LICENSE says which
+REUSE_ROOT = '''# The plugin's own files. The library (skills/filmes-em-codigo/library/) has its own REUSE.toml. LICENSE says which
 # licence applies to what.
 version = 1
-SPDX-PackageName = "Lemo-Opuscar"
-SPDX-PackageSupplier = "Lemomo (LemoLab)"
-SPDX-PackageDownloadLocation = "https://github.com/lemomo-ai/lemo-opuscar"
+SPDX-PackageName = "Filmes em Código"
+SPDX-PackageSupplier = "Rafael Marutaka"
+SPDX-PackageDownloadLocation = "https://github.com/RafaelMarutaka/filmes-em-codigo"
 
 [[annotations]]
-path = [".claude-plugin/**", "skills/lemo-opuscar/scripts/**"]
+path = [".claude-plugin/**", "skills/filmes-em-codigo/scripts/**"]
 precedence = "override"
-SPDX-FileCopyrightText = "2026 Lemomo (LemoLab)"
+SPDX-FileCopyrightText = "2026 Rafael Marutaka"
 SPDX-License-Identifier = "MIT"
 
 [[annotations]]
-path = ["*.md", "skills/lemo-opuscar/*.md"]
+path = ["*.md", "skills/filmes-em-codigo/*.md"]
 precedence = "override"
-SPDX-FileCopyrightText = "2026 Lemomo (LemoLab)"
+SPDX-FileCopyrightText = "2026 Rafael Marutaka"
 SPDX-License-Identifier = "CC-BY-NC-4.0"
 '''
 
-SETUP_OLD = 'plugin/skills/lemo-opuscar/scripts/setup.sh'
+SETUP_OLD = 'plugin/skills/filmes-em-codigo/scripts/setup.sh'
 EDGE_CONSENT = ('it sends the narration text to Microsoft, so in this edition use it only when the user asks for it '
                 'and agrees to that')
 
@@ -94,7 +94,7 @@ EDITS = [
     ('core/README.md', '| `… setup.sh demo <slug>` | adds one style\'s demo source and poster (to read, not to render) |\n', ''),
     ('core/README.md', '| edge-tts (Microsoft), online; same outputs as `tts.py`.',
      '| edge-tts (Microsoft), online: sends the text to Microsoft, use it only with the user\'s consent; same outputs as `tts.py`.'),
-    ('core/README.md', '(default `~/lemo-opuscar`)', '(default `~/.lemo-opuscar`)'),
+    ('core/README.md', '(default `~/filmes-em-codigo`)', '(default `~/.filmes-em-codigo`)'),
     # the portal holds a doc that names bundled font files, as a script could run them: say which fonts, not which files
     ('core/fonts/OFL.md', 'The `f0`–`f7.woff2` files are **subsets**', 'The font files in this folder are **subsets**'),
     ('core/fonts/OFL.md', '| `f0.woff2` |', '| one file (see `fonts.css`) |'),
@@ -172,10 +172,10 @@ def build(version):
     # plugin files
     src = os.path.join(ROOT, 'tools', 'directory')
     styles = sum(1 for f in files if f.endswith('/STYLE.md'))
-    for name, rel in [('SKILL.md', 'skills/lemo-opuscar/SKILL.md'), ('README.md', 'README.md')]:
+    for name, rel in [('SKILL.md', 'skills/filmes-em-codigo/SKILL.md'), ('README.md', 'README.md')]:
         write(rel, open(os.path.join(src, name), encoding='utf-8').read().replace('{STYLES}', str(styles)).replace('{VERSION}', version))
-    os.makedirs(os.path.join(OUT, 'skills/lemo-opuscar/scripts'), exist_ok=True)
-    shutil.copy2(os.path.join(src, 'setup.sh'), os.path.join(OUT, 'skills/lemo-opuscar/scripts/setup.sh'))
+    os.makedirs(os.path.join(OUT, 'skills/filmes-em-codigo/scripts'), exist_ok=True)
+    shutil.copy2(os.path.join(src, 'setup.sh'), os.path.join(OUT, 'skills/filmes-em-codigo/scripts/setup.sh'))
     shutil.copy2(os.path.join(src, 'SECURITY.md'), os.path.join(OUT, 'SECURITY.md'))
     lic = open(os.path.join(ROOT, 'LICENSE'), encoding='utf-8').read()
     if lic.count(LICENSE_EDIT[0]) != 1: die('LICENSE: its opening lines changed (update LICENSE_EDIT in tools/directory.py)')
@@ -195,12 +195,12 @@ def build(version):
             p = os.path.join(d, n); h.update(os.path.relpath(p, OUT).encode()); h.update(open(p, 'rb').read())
     write(f'{LIB}/.edition', f'{version}-{h.hexdigest()[:12]}\n')
     plugin = {
-        'name': 'lemo-opuscar',
-        'displayName': 'Lemo-Opuscar',
+        'name': 'filmes-em-codigo',
+        'displayName': 'Filmes em Código',
         'version': version,
         'description': f'{styles} film styles, each with a short film made entirely in code. Pick a style, bring your own story, '
                        'and let Claude direct the film. No video model, no stock footage.',
-        'author': {'name': 'Lemomo', 'url': 'https://github.com/lemomo-ai'},
+        'author': {'name': 'Rafael Marutaka', 'url': 'https://github.com/RafaelMarutaka'},
         'homepage': REPO,
         'repository': REPO,
         'documentationUrl': f'{REPO}#how-to-use',                     # else the portal picks the first link in our README
@@ -241,7 +241,7 @@ def check():
     business address that the README gives for commercial licences)."""
     bad = []
     # the maintainer's home folder is read here at run time, so no name is written into this file
-    pat = re.compile('|'.join([re.escape(os.path.expanduser('~')), r'(?<![\w.+-])(?!lemomo\.studio@gmail\.com\b)[\w.+-]+@gmail\.com',
+    pat = re.compile('|'.join([re.escape(os.path.expanduser('~')), r'(?<![\w.+-])(?!rafaelmarutaka\.studio@gmail\.com\b)[\w.+-]+@gmail\.com',
                                r'/Users/', r'\.DS_Store']))
     # the library's package.json points to its LICENSE, which this edition carries
     pkg = json.load(open(os.path.join(OUT, LIB, 'package.json'), encoding='utf-8'))

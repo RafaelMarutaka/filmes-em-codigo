@@ -54,7 +54,7 @@ Props, all built in code: the Parkes dish (lathe bowl, truss, feed tripod, focus
 
 ## End card
 
-48.0–52.0 s, bottom right of the last shot, written by the scan bar: `Catching the Moon` / `雷达扫描纪录片 RADAR SWEEP DOCUMENTARY` / `LemoLab × Claude Opus 5.5` (28 px). It stays on the black after the picture sinks at 50.6 s.
+48.0–52.0 s, bottom right of the last shot, written by the scan bar: `Catching the Moon` / `雷达扫描纪录片 RADAR SWEEP DOCUMENTARY` / `Rafael Marutaka × Claude Opus 5.5` (28 px). It stays on the black after the picture sinks at 50.6 s.
 
 ## Build notes
 

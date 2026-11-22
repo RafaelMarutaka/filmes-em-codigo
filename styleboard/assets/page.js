@@ -1,4 +1,4 @@
-/* The Workbench · the pages under the bench (a style page; later OPUSCAR 98 and the thank-you films). Uses assets/player.js.
+/* The Workbench · the pages under the bench (a style page; later FILMES 98 and the thank-you films). Uses assets/player.js.
    The language switch, search (the home page's dialog; picking a style opens its page), the sentence to copy, the install tabs,
    stills that start the film where they were cut, "house lights down" while the first screen's film plays, card clips on hover,
    and binds a film and sheet app.js swaps in. Words and paths: <script id="pg">, written by styleboard/pages.py. Rules: styleboard/DESIGN.md §10. */
@@ -18,7 +18,7 @@
 
   /* ---------------------------------------------------------------- language: the switch remembers the choice */
   // (the 404 page carries both languages: its switch goes to the other one's home)
-  for (const a of $$('.top .lang, .top .lang-m')) a.addEventListener('click', () => store('opuscar-lang', a.dataset.lang || (ZH ? 'en' : 'zh')));
+  for (const a of $$('.top .lang, .top .lang-m')) a.addEventListener('click', () => store('filmes-lang', a.dataset.lang || (ZH ? 'en' : 'zh')));
 
   /* the phone's menu closes on a tap outside it, and with Escape */
   for (const d of $$('.top .menu')) {

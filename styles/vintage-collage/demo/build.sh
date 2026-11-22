@@ -27,7 +27,7 @@ here = sys.argv[1]
 for line in open(os.path.join(here, 'SOURCES.jsonl')):
     s = json.loads(line); p = os.path.join(here, s['file'])
     if not os.path.exists(p):
-        req = urllib.request.Request(s['url'], headers={'User-Agent': 'lemo-opuscar-demo/1.0'})
+        req = urllib.request.Request(s['url'], headers={'User-Agent': 'filmes-em-codigo-demo/1.0'})
         open(p, 'wb').write(urllib.request.urlopen(req, timeout=120).read()); print('fetched', s['file'])
 PYEOF
 

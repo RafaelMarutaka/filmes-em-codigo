@@ -26,7 +26,7 @@ done
 [ -f "$HERE/fonts/NotoSansSC-500.ttf" ] && [ -f "$HERE/fonts/NotoSansSC-700.ttf" ] || "$PY" "$HERE/make_fonts.py"
 
 # the one recorded sound (gitignored): a meow by Tsester, CC0 1.0, Wikimedia Commons
-[ -f "$HERE/assets/meow/meow_cc0.flac" ] || curl -sfL -A "lemo-opuscar build" -o "$HERE/assets/meow/meow_cc0.flac" \
+[ -f "$HERE/assets/meow/meow_cc0.flac" ] || curl -sfL -A "filmes-em-codigo build" -o "$HERE/assets/meow/meow_cc0.flac" \
   "https://commons.wikimedia.org/wiki/Special:FilePath/2015-11-24.%CE%BD%CE%B9%CE%B1%CE%BF%CF%8D%CF%81%CE%B9%CF%83%CE%BC%CE%B1.%CE%9D%CE%B9%CE%AC%CE%BF%CF%85.noise_reduced.flac"
 
 # events, reading-time check, score + tones + foley, picture, master (grain 1)

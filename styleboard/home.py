@@ -35,7 +35,7 @@ LATIN = ''.join(chr(c) for c in range(0x20, 0x7f)) + ' ©®°±·×é–—‘�
 # ---------------------------------------------------------------- words
 # (English, 中文). Reused from styleboard/gallery.py where the old site had the same thing; new lines are short and plain.
 T = {
-    'title': ('Lemo-Opuscar · The Workbench: {n} film styles for your coding agent', 'Lemo-Opuscar · 电影工坊：{n} 种影片风格'),
+    'title': ('Filmes em Código · The Workbench: {n} film styles for your coding agent', 'Filmes em Código · 电影工坊：{n} 种影片风格'),
     'desc': ('A library of {n} film styles for Claude Code and other coding agents. Walk the bench: {c} stations, one per category, each with a short film made entirely in code.',
              '{n} 种影片风格，给 Claude Code 等编程 agent 用。沿着工作台走一遍：{c} 个工位，一类一个，每种风格都配一支完全用代码做成的短片。'),
     'house': ('The Workbench', '电影工坊'),
@@ -69,13 +69,13 @@ T = {
     'close': ('Close', '关闭'),
     'nav': ('The site', '本站'), 'nav_thanks': ('Thank-you films', '感谢片'), 'menu': ('Menu', '菜单'),
     'gh_stars': ('GitHub, {n} stars', 'GitHub，{n} 颗星'),
-    'foot_made': ('Made by LemoLab × Claude Opus 5.5', 'LemoLab × Claude Opus 5.5 出品'),
+    'foot_made': ('Made by Rafael Marutaka × Claude Opus 5.5', 'Rafael Marutaka × Claude Opus 5.5 出品'),
     'foot_repo': ('Source', '源码'), 'foot_top': ('Back to the start', '回到开头'),
-    'hero_alt': ('A long workbench at night; in front, a line of wood type set as OPUSCAR', '夜里的长工作台，近处一行木活字排着 OPUSCAR'),
+    'hero_alt': ('A long workbench at night; in front, a line of wood type set as FILMES', '夜里的长工作台，近处一行木活字排着 FILMES'),
     'still_alt': ('Station {nn}, {name}: the bench under its lamp', '工位 {nn} {name}：灯下的台面'),
-    'finale_alt': ('A projector at the end of the bench throws OPUSCAR 98 on the wall', '台子尽头，放映机把 OPUSCAR 98 投在墙上'),
+    'finale_alt': ('A projector at the end of the bench throws FILMES 98 on the wall', '台子尽头，放映机把 FILMES 98 投在墙上'),
     'loading': ('Loading the bench', '正在铺台面'),
-    'o98_watch': ('Play OPUSCAR 98', '播放 OPUSCAR 98'),
+    'o98_watch': ('Play FILMES 98', '播放 FILMES 98'),
 }
 
 # One hairline note per station: `at` is the dot on the thing (CSS px in the 1280x720 stop frame). Every note follows one rule: a 22-px
@@ -106,11 +106,11 @@ FINALE_SCREEN = (566, 92, 1180, 448)
 
 
 def legacy(data):
-    """the old site's anchors → 'sNN' (a station), 'top' (the first screen and its contents), 'opuscar98' or 'style:<slug>' (its station,
+    """the old site's anchors → 'sNN' (a station), 'top' (the first screen and its contents), 'filmes98' or 'style:<slug>' (its station,
     the card lit). Categories and their older names come from styleboard/anchors.json (build.py writes it; the README uses the same table)."""
     out = {k: v for k, v in json.load(open(os.path.join(HERE, 'anchors.json'), encoding='utf-8')).items() if not k.startswith('_')}
     for k in ('styles', 'categories', 'all', 'how', 'install', 'say', 'main', 'top', 'tabs', 'more-h', 'laurel'): out[k] = 'top'
-    out['new'] = 'top'; out['feature'] = out['opuscar98'] = 'opuscar98'   # #new used to show the newest; now the contents at the top
+    out['new'] = 'top'; out['feature'] = out['filmes98'] = 'filmes98'   # #new used to show the newest; now the contents at the top
     for s in data['styles']: out[s['slug']] = 'style:' + s['slug']
     return out
 
@@ -121,13 +121,13 @@ def mmss(d):
 
 
 def nav(t, home, lang, here=''):
-    """the top bar's links, the same on every page: OPUSCAR 98, the thank-you films, the repository with its stars; `home` is this
+    """the top bar's links, the same on every page: FILMES 98, the thank-you films, the repository with its stars; `home` is this
     language's root ('', 'zh/', '../', '../../zh/' …), `lang` the language switch's markup. On phones they fold into a menu with the
     switch (the bar keeps the mark and search)."""
     gh = (f'<a class="gh" href="{REPO_URL}" rel="noopener"' + (f' aria-label="{E(t("gh_stars", n=STARS))}"' if STARS else '')
           + f'>GitHub{f"<span>★ {STARS}</span>" if STARS else ""}</a>')
     cur = lambda k: ' aria-current="page"' if here == k else ''
-    links = (f'<a href="{home}opuscar98/"{cur("o98")}>OPUSCAR 98</a><a href="{home}thanks/"{cur("thanks")}>{E(t("nav_thanks"))}</a>{gh}')
+    links = (f'<a href="{home}filmes98/"{cur("o98")}>FILMES 98</a><a href="{home}thanks/"{cur("thanks")}>{E(t("nav_thanks"))}</a>{gh}')
     mlang = lang.replace(' class="lang"', ' class="lang-m"')   # the switch again, inside the phone's menu
     return (f' <nav class="links" aria-label="{E(t("nav"))}">{links}</nav>\n'
             f' <details class="menu"><summary aria-label="{E(t("menu"))}"><svg viewBox="0 0 18 18" aria-hidden="true"><path d="M2 5h14M2 9h14M2 13h14"/></svg></summary>'
@@ -140,7 +140,7 @@ def credits(t, zh, top='#top'):
     w = lambda k, **kw: G.UI[k][1 if zh else 0].format(**kw)
     repo = f'<a href="{REPO_URL}" rel="noopener">github.com/{C.REPO}</a>'
     return (f'  <p class="foot"><span>{E(t("foot_made"))}</span><span>{w("foot_official", repo=repo)} '
-            f'{"（" if zh else "("}<a href="https://x.com/lemomo_ai" rel="noopener">@lemomo_ai</a>{"）" if zh else ")"}</span>'
+            f'{"（" if zh else "("}<a href="https://x.com/RafaelMarutaka" rel="noopener">@RafaelMarutaka</a>{"）" if zh else ")"}</span>'
             f'<a href="{top}" class="totop">{E(t("foot_top"))}</a></p>\n')
 
 
@@ -184,7 +184,7 @@ class Page:
         # language: a saved choice wins; otherwise a zh* browser on the English page goes to /zh/. Mode: film (scrub the long take) or stack.
         # a README link ends in #gh-dark-mode-only or #gh-light-mode-only (GitHub shows a picture by its theme): dropped first, so #s01 etc. still work
         boot = ("if(/#gh-(dark|light)-mode-only$/.test(location.hash))history.replaceState(null,'',location.href.replace(/#gh-(dark|light)-mode-only$/,''));"
-                + "(function(){var d=document.documentElement,s;try{s=localStorage.getItem('opuscar-lang')}catch(e){}"
+                + "(function(){var d=document.documentElement,s;try{s=localStorage.getItem('filmes-lang')}catch(e){}"
                 + ("if(s==='en'){location.replace('../'+location.search+location.hash);return}" if self.zh else
                    "var l=(navigator.languages&&navigator.languages[0])||navigator.language||'';"
                    "if(s==='zh'||(!s&&/^zh/i.test(l))){location.replace('zh/'+location.search+location.hash);return}")
@@ -209,16 +209,16 @@ class Page:
         import pages as P
         url, img = LIVE + ('zh/' if self.zh else ''), LIVE + 'img/social.jpg'
         title, desc = self.t('title', n=self.n), self.t('desc', n=self.n, c=self.c)
-        ld = [{'@type': 'CollectionPage', '@id': url, 'url': url, 'name': 'Lemo-Opuscar', 'description': desc, 'inLanguage': 'zh-CN' if self.zh else 'en',
+        ld = [{'@type': 'CollectionPage', '@id': url, 'url': url, 'name': 'Filmes em Código', 'description': desc, 'inLanguage': 'zh-CN' if self.zh else 'en',
                'about': {'@id': REPO_URL}, 'author': {'@id': P.G.AUTHOR['@id']},
                'mainEntity': {'@type': 'ItemList', 'numberOfItems': self.n, 'itemListElement': [
                    {'@type': 'ListItem', 'position': i + 1, 'name': self.name(self.S[x]), 'url': f'{url}styles/{x}/'}
                    for i, x in enumerate(x for c in self.d['categories'] for x in c['styles'])]}},
               P.Doc(self.zh, '', self.media).repo_ld(), P.G.AUTHOR]
-        return ('<meta property="og:type" content="website"><meta property="og:site_name" content="Lemo-Opuscar">'
+        return ('<meta property="og:type" content="website"><meta property="og:site_name" content="Filmes em Código">'
                 f'<meta property="og:locale" content="{"zh_CN" if self.zh else "en_US"}"><meta property="og:locale:alternate" content="{"en_US" if self.zh else "zh_CN"}">\n'
                 f'<meta property="og:url" content="{url}"><meta property="og:title" content="{E(title)}"><meta property="og:description" content="{E(desc)}">'
-                f'<meta property="og:image" content="{img}">\n<meta name="twitter:card" content="summary_large_image"><meta name="twitter:site" content="@lemomo_ai">'
+                f'<meta property="og:image" content="{img}">\n<meta name="twitter:card" content="summary_large_image"><meta name="twitter:site" content="@RafaelMarutaka">'
                 f'<meta name="twitter:title" content="{E(title)}"><meta name="twitter:description" content="{E(desc)}"><meta name="twitter:image" content="{img}">\n'
                 '<script type="application/ld+json">\n' + json.dumps({'@context': 'https://schema.org', '@graph': ld}, ensure_ascii=False, indent=1).replace('</', '<\\/') + '\n</script>')
 
@@ -227,7 +227,7 @@ class Page:
         lang = (f'<a class="lang" href="{other}" hreflang="{"en" if self.zh else "zh-CN"}" lang="{"en" if self.zh else "zh-CN"}" '
                 f'data-lang="{"en" if self.zh else "zh"}">{self.t("lang_other")}</a>')
         icon = '<svg viewBox="0 0 16 16" aria-hidden="true"><circle cx="7" cy="7" r="5"/><path d="M11 11l4 4"/></svg>'
-        return (f'<header class="top">\n <a class="mark" href="#top" aria-label="Lemo-Opuscar">OPUSCAR<small>{E(self.t("house"))}</small></a>\n <i class="rule"></i>\n'
+        return (f'<header class="top">\n <a class="mark" href="#top" aria-label="Filmes em Código">FILMES<small>{E(self.t("house"))}</small></a>\n <i class="rule"></i>\n'
                 + nav(self.t, self.R + ('zh/' if self.zh else ''), lang) +
                 f' <div class="tr"><button class="search" type="button" aria-haspopup="dialog" aria-controls="find" aria-keyshortcuts="/">{icon}'
                 f'<span>{E(self.t("search_ph", n=self.n))}</span><kbd>/</kbd></button>\n'
@@ -236,7 +236,7 @@ class Page:
     def hero(self):
         return (f'<section class="stop hero on lit near" id="top" data-stop="0" aria-labelledby="h-top">\n'
                 f' {self.picture("hero", self.t("hero_alt"), eager=True)}\n'
-                f' <div class="ov">\n  <p class="meta"><span>Lemo-Opuscar</span><i></i><b>{E(self.t("hero_meta", n=self.n))}</b><span class="sep">·</span><span>{E(self.t("hero_meta2", c=self.c))}</span></p>\n'
+                f' <div class="ov">\n  <p class="meta"><span>Filmes em Código</span><i></i><b>{E(self.t("hero_meta", n=self.n))}</b><span class="sep">·</span><span>{E(self.t("hero_meta2", c=self.c))}</span></p>\n'
                 f'  <h1 id="h-top" class="hero-h">{self.t("hero_h1")}</h1>\n'
                 f'  <p class="lead">{re.sub(r"([；。])(?=.)", r"\1<br class=w>", E(self.t("hero_lead", n=self.n)), count=1)}</p>\n'
                 f'  <p class="cue" aria-hidden="true"><i></i>{E(self.t("cue"))}</p>\n </div>\n{self.toc()}</section>\n')
@@ -290,15 +290,15 @@ class Page:
     def finale(self, top='#top'):
         f = self.d['feature']
         x0, y0, x1, y1 = FINALE_SCREEN
-        return (f'<section class="stop finale" id="opuscar98" data-stop="{self.c + 1}" aria-labelledby="h-o98">\n'
+        return (f'<section class="stop finale" id="filmes98" data-stop="{self.c + 1}" aria-labelledby="h-o98">\n'
                 f' {self.picture("finale", self.t("finale_alt"))}\n'
-                f' <button class="screen" type="button" data-film="{C.film_url("opuscar98", self.R)}" data-box="{x0},{y0},{x1},{y1}" aria-label="{E(self.t("feat_watch"))}"></button>\n'
+                f' <button class="screen" type="button" data-film="{C.film_url("filmes98", self.R)}" data-box="{x0},{y0},{x1},{y1}" aria-label="{E(self.t("feat_watch"))}"></button>\n'
                 f' <div class="ov">\n  <p class="meta"><span>{E(self.t("feat_eyebrow"))}</span><i></i><span>{E(self.t("end"))}</span></p>\n'
-                f'  <h2 id="h-o98" class="o98">OPUSCAR 98<span class="sub">{E(self.t("feat_sub", dur=f["dur"]))}</span></h2>\n'
+                f'  <h2 id="h-o98" class="o98">FILMES 98<span class="sub">{E(self.t("feat_sub", dur=f["dur"]))}</span></h2>\n'
                 f'  <p class="desc">{E(self.t("feat_p"))}</p>\n'
-                f'  <p class="acts"><button class="btn primary play" type="button" data-film="{C.film_url("opuscar98", self.R)}">'
+                f'  <p class="acts"><button class="btn primary play" type="button" data-film="{C.film_url("filmes98", self.R)}">'
                 f'<svg viewBox="0 0 14 16" aria-hidden="true"><path d="M0 0l14 8-14 8z"/></svg>{E(self.t("feat_watch"))}<span class="t">{f["dur"]}</span></button>'
-                f'<a class="btn" href="{self.R}{"zh/" if self.zh else ""}opuscar98/">{E(self.t("feat_styles"))}</a></p>\n'
+                f'<a class="btn" href="{self.R}{"zh/" if self.zh else ""}filmes98/">{E(self.t("feat_styles"))}</a></p>\n'
                 f'  <footer class="end">\n{credits(self.t, self.zh, top)}  </footer>\n </div>\n</section>\n')
 
     def rail(self):
@@ -314,16 +314,16 @@ class Page:
                 f'<input id="q" type="search" autocomplete="off" spellcheck="false" placeholder="{E(self.t("search_label"))}" aria-label="{E(self.t("search_label"))}" '
                 f'role="combobox" aria-expanded="true" aria-controls="res" aria-autocomplete="list"><kbd>Esc</kbd></form>\n'
                 f' <ul id="res" role="listbox" aria-label="{E(self.t("search_label"))}"></ul>\n <p class="hint">{E(self.t("search_hint"))}</p>\n</dialog>\n'
-                f'<dialog class="room" id="room" aria-label="OPUSCAR 98">{self.room_player()}'
+                f'<dialog class="room" id="room" aria-label="FILMES 98">{self.room_player()}'
                 f'<button class="x" type="button" aria-label="{E(self.t("close"))}">×</button></dialog>\n')
 
     def room_player(self):
-        """OPUSCAR 98 in the screening room: pages.py's player markup, its chapters inline (the media are pages.py's)"""
+        """FILMES 98 in the screening room: pages.py's player markup, its chapters inline (the media are pages.py's)"""
         import pages as P
         d = P.Doc(self.zh, '', self.media)
         d.R = self.R
         ch = dict(spans=[s[:4] for s in P.o98_spans(self.zh)], majors=P.o98_majors())
-        return (d.player('opuscar98', 'OPUSCAR 98', chapters='ch-o98', download=P.G.FEATURE['full'], preload='none', below=True, sizes='92vw')
+        return (d.player('filmes98', 'FILMES 98', chapters='ch-o98', download=P.G.FEATURE['full'], preload='none', below=True, sizes='92vw')
                 + f'<script type="application/json" id="ch-o98">{json.dumps(ch, ensure_ascii=False, separators=(",", ":"))}</script>')
 
     def index(self):

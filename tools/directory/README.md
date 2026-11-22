@@ -1,15 +1,15 @@
-# Lemo-Opuscar
+# Filmes em Código
 
 **{STYLES} film styles, each with a short film made entirely in code.**<br>
 {STYLES} 种影片风格，每种都配一支完全用代码做出来的短片。
 
 Pick a style, bring your own story, and let Claude direct the film. Claude writes the treatment, draws every frame in code, writes an original score, mixes the sound and renders a finished MP4. No video model, no stock footage.
 
-This is the plugin directory edition (version {VERSION}): the guides, the {STYLES} style prompts and the rendering tools, without the demo films. **The films, the gallery and the newest styles live in the main repository: [github.com/lemomo-ai/lemo-opuscar](https://github.com/lemomo-ai/lemo-opuscar).** Watch every demo film on the [gallery](https://lemomo-ai.github.io/lemo-opuscar/).
+This is the plugin directory edition (version {VERSION}): the guides, the {STYLES} style prompts and the rendering tools, without the demo films. **The films, the gallery and the newest styles live in the main repository: [github.com/RafaelMarutaka/filmes-em-codigo](https://github.com/RafaelMarutaka/filmes-em-codigo).** Watch every demo film on the [gallery](https://rafaelmarutaka.github.io/filmes-em-codigo-videos/).
 
 ## Try it
 
-Install the plugin from the Claude plugin directory. (The full edition, with the demo sources, installs from the main repository instead: `claude plugin marketplace add lemomo-ai/lemo-opuscar`, then `claude plugin install lemo-opuscar@lemolab`. Use one or the other.)
+Install the plugin from the Claude plugin directory. (The full edition, with the demo sources, installs from the main repository instead: `claude plugin marketplace add RafaelMarutaka/filmes-em-codigo`, then `claude plugin install filmes-em-codigo@rafaelmarutaka`. Use one or the other.)
 
 Open Claude Code in a folder for your film, and ask:
 
@@ -27,7 +27,7 @@ Open Claude Code in a folder for your film, and ask:
 
 Name a style in English or Chinese, or describe your topic and let Claude suggest two or three. Claude asks you once, up front: anything about your topic it can't decide, whether you have your own voice, music or photos, and whether you want to see a storyboard first. Then it makes the film in a project folder where you started.
 
-To make a style your own, change a library style or start from a blank page: Claude plans it with you one question at a time (each with a recommended answer), shows you a style frame, makes a 15–30 second demo film, and keeps the style, with the film's source, in `~/lemo-my-styles/<name>/` (outside the plugin, so updates never touch it). After that, name your style like any other; start the skill without a request and your own styles are listed first.
+To make a style your own, change a library style or start from a blank page: Claude plans it with you one question at a time (each with a recommended answer), shows you a style frame, makes a 15–30 second demo film, and keeps the style, with the film's source, in `~/meus-estilos/<name>/` (outside the plugin, so updates never touch it). After that, name your style like any other; start the skill without a request and your own styles are listed first.
 
 ## Before you start
 
@@ -38,7 +38,7 @@ To make a style your own, change a library style or start from a blank page: Cla
 
 ## What it downloads
 
-The library ships inside the plugin. On first use it is copied to `~/.lemo-opuscar` (set `LEMO_OPUSCAR_HOME` for another folder), and packages install there, so they survive plugin updates. Nothing is installed system-wide. Claude downloads only what your film needs:
+The library ships inside the plugin. On first use it is copied to `~/.filmes-em-codigo` (set `FILMES_EM_CODIGO_HOME` for another folder), and packages install there, so they survive plugin updates. Nothing is installed system-wide. Claude downloads only what your film needs:
 
 | What | From | When | Size |
 |---|---|---|---|
@@ -46,7 +46,7 @@ The library ships inside the plugin. On first use it is copied to `~/.lemo-opusc
 | Headless Chromium for frame-by-frame rendering | Playwright's download servers (Microsoft) | first film | ~100–200 MB |
 | Python packages: numpy, scipy, soundfile, soxr, pillow | PyPI | first film | ~150 MB |
 | Voice tier: kokoro-onnx, edge-tts, faster-whisper | PyPI | only for a film with narration | ~200 MB |
-| Kokoro voice model (offline TTS) | this project's [GitHub Releases](https://github.com/lemomo-ai/lemo-opuscar/releases/tag/assets) | only for a film with narration | 354 MB |
+| Kokoro voice model (offline TTS) | this project's [GitHub Releases](https://github.com/RafaelMarutaka/filmes-em-codigo/releases/tag/assets) | only for a film with narration | 354 MB |
 | Whisper model for the speech check | Hugging Face (or the mirror you set in `HF_ENDPOINT`) | first narration check | ~145 MB (English), ~480 MB (Chinese) |
 | numba, for plucked strings | PyPI | only if the score uses them | ~140 MB |
 | Instrument sample libraries (VSCO 2 CE, VCSL, FreePats, Karoryfer, Salamander) | this project's GitHub Releases | only the libraries the score uses | 70–400 MB each |
@@ -65,6 +65,6 @@ The library ships inside the plugin. On first use it is copied to `~/.lemo-opusc
 
 ## Licence
 
-`LICENSE` says which licence applies to which file; the texts of the licences this edition uses are in `LICENSES/`, and all of them are in the [main repository](https://github.com/lemomo-ai/lemo-opuscar/tree/main/LICENSES). Code: MIT. Docs (the guides, each style's `STYLE.md` and `DEMO.md`, the skill's Markdown): CC BY-NC 4.0: share and adapt them for non-commercial purposes, and credit **Lemo-Opuscar by Lemomo (LemoLab)** with a link to the main repository and to the licence. On top of that licence, you and the people working with you on a film (staff, contractors, the client) get a worldwide, royalty-free, non-exclusive, irrevocable permission to read, follow, copy and adapt the docs to make your own films, commercial and client films included, and to include them, or versions you adapted, in the project files you deliver for that film; a style you change and keep as your own counts. Sharing them beyond those people and files, or selling them, isn't covered; any other commercial use of the docs needs a commercial licence: email [lemomo.studio@gmail.com](mailto:lemomo.studio@gmail.com). Films you make are yours, commercial films included; third-party material you use in them (for example samples under CC BY) keeps its own terms. Fonts in `core/fonts/` are OFL; the sample libraries and HDRIs keep their own licences (listed in `core/audio/INSTRUMENTS.md` and `core/assets/polyhaven/SOURCES.md`). You are responsible for the material you put in your films.
+`LICENSE` says which licence applies to which file; the texts of the licences this edition uses are in `LICENSES/`, and all of them are in the [main repository](https://github.com/RafaelMarutaka/filmes-em-codigo/tree/main/LICENSES). Code: MIT. Docs (the guides, each style's `STYLE.md` and `DEMO.md`, the skill's Markdown): CC BY-NC 4.0: share and adapt them for non-commercial purposes, and credit **Filmes em Código by Rafael Marutaka** with a link to the main repository and to the licence. On top of that licence, you and the people working with you on a film (staff, contractors, the client) get a worldwide, royalty-free, non-exclusive, irrevocable permission to read, follow, copy and adapt the docs to make your own films, commercial and client films included, and to include them, or versions you adapted, in the project files you deliver for that film; a style you change and keep as your own counts. Sharing them beyond those people and files, or selling them, isn't covered; any other commercial use of the docs needs a commercial licence: email [rafaelmarutaka.studio@gmail.com](mailto:rafaelmarutaka.studio@gmail.com). Films you make are yours, commercial films included; third-party material you use in them (for example samples under CC BY) keeps its own terms. Fonts in `core/fonts/` are OFL; the sample libraries and HDRIs keep their own licences (listed in `core/audio/INSTRUMENTS.md` and `core/assets/polyhaven/SOURCES.md`). You are responsible for the material you put in your films.
 
-Made by LemoLab · by Lemomo ([@lemomo_ai](https://x.com/lemomo_ai)). Problems or ideas: [open an issue](https://github.com/lemomo-ai/lemo-opuscar/issues) in the main repository.
+Made by Rafael Marutaka · by Rafael Marutaka ([@RafaelMarutaka](https://x.com/RafaelMarutaka)). Problems or ideas: [open an issue](https://github.com/RafaelMarutaka/filmes-em-codigo/issues) in the main repository.

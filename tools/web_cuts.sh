@@ -23,7 +23,7 @@ for f in styles/*/STYLE.md; do
   s=$(basename "$(dirname "$f")")
   [ -f "styles/$s/$s.mp4" ] && webcut "styles/$s/$s.mp4" "$s"
 done
-for f in .release/films/*.mp4; do      # feature films (not a style), e.g. opuscar98
+for f in .release/films/*.mp4; do      # feature films (not a style), e.g. filmes98
   [ -f "$f" ] || continue
   s=$(basename "$f" .mp4)
   [ -f "styles/$s/STYLE.md" ] || webcut "$f" "$s"

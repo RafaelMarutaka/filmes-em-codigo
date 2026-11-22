@@ -615,7 +615,7 @@ function titleTexture() {
   const dw = g.measureText('Double Exposure').width;
   g.font = `600 34px ${FONT_ZH}`; g.fillText('双重曝光', CRED.x + dw + 22, CRED.y0 + 63);
   g.fillRect(CRED.x, CRED.y0 + 96, 56, 2);
-  g.font = `400 32px ${FONT_EN}`; g.fillText('LemoLab × Claude Opus 5.5', CRED.x, CRED.y0 + 146);
+  g.font = `400 32px ${FONT_EN}`; g.fillText('Rafael Marutaka × Claude Opus 5.5', CRED.x, CRED.y0 + 146);
   const a1 = g1.getImageData(0, 0, 1920, 1080).data, a2 = g.getImageData(0, 0, 1920, 1080).data;
   const c = mk(1920, 1080), gc = c.getContext('2d'), id = gc.createImageData(1920, 1080);
   for (let i = 0; i < 1920 * 1080; i++) { id.data[i * 4] = a1[i * 4 + 3]; id.data[i * 4 + 1] = a2[i * 4 + 3]; id.data[i * 4 + 3] = 255; }
@@ -937,7 +937,7 @@ window.TEXTS = t => {
   if (t >= T_CRED + .7) {
     out.push({ id: 'film', text: 'Mountains and Seas', x0: 120 * SC, y0: 95 * SC, x1: 660 * SC, y1: 165 * SC });
     out.push({ id: 'style', text: 'Double Exposure 双重曝光', x0: 120 * SC, y0: 180 * SC, x1: 460 * SC, y1: 225 * SC });
-    out.push({ id: 'credit', text: 'LemoLab × Claude Opus 5.5', x0: 120 * SC, y0: 268 * SC, x1: 560 * SC, y1: 310 * SC });
+    out.push({ id: 'credit', text: 'Rafael Marutaka × Claude Opus 5.5', x0: 120 * SC, y0: 268 * SC, x1: 560 * SC, y1: 310 * SC });
   }
   return out;
 };

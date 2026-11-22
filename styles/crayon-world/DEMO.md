@@ -4,7 +4,7 @@ One example among many. Don't reuse its story, arc, shots, props or timings.
 
 Demo: *The Butterfly* (《蝴蝶》, 64.5 s) · `crayon-world.mp4` · source in [`demo/`](demo/)
 
-Style and demo by [2nd1st](https://github.com/2nd1st), contributed to Lemo-Opuscar in [pull request #17](https://github.com/lemomo-ai/lemo-opuscar/pull/17).
+Style and demo by [2nd1st](https://github.com/2nd1st), contributed to Filmes em Código in [pull request #17](https://github.com/RafaelMarutaka/filmes-em-codigo/pull/17).
 
 ## Story & structure
 
@@ -49,7 +49,7 @@ D major, 3/4, 78 BPM (one bar = 2.308 s). Take-off (bar 3), the cut (19), the bu
 
 ## End card
 
-No separate card: the film ends on the printed words, held over the music box running down. On the last bar line (bar 26, 60.0 s, with the final strummed chord) the sign-off `2nd1st × LemoLab × Claude Opus 5.5` is written in on the same blank paper, letter by letter over 1.4 s in the film's own crayon type (Patrick Hand, 32 px, indigo line colour), right-aligned on the paper between the roof and the tree at the right (`CREDIT`, `CR_AT` in `film.js`); it holds to the end, 4.5 s. 2nd1st made this style and its demo. The "LemoLab × Claude Opus 5.5" sign-off belongs to this library's demo only; a user's film carries no LemoLab credit and no copy of this card.
+No separate card: the film ends on the printed words, held over the music box running down. On the last bar line (bar 26, 60.0 s, with the final strummed chord) the sign-off `2nd1st × Rafael Marutaka × Claude Opus 5.5` is written in on the same blank paper, letter by letter over 1.4 s in the film's own crayon type (Patrick Hand, 32 px, indigo line colour), right-aligned on the paper between the roof and the tree at the right (`CREDIT`, `CR_AT` in `film.js`); it holds to the end, 4.5 s. 2nd1st made this style and its demo. The "Rafael Marutaka × Claude Opus 5.5" sign-off belongs to this library's demo only; a user's film carries no Rafael Marutaka credit and no copy of this card.
 
 ## Build notes
 

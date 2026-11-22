@@ -56,7 +56,7 @@ Voice: Kokoro `af_heart`, speed 0.78–0.8, ten lines (`demo/voice/lines.json`),
 
 ## End card
 
-Inside the globe, under "Closer than you think." (which moves up 46 px from 48.65 s): "Six Hands Away 隔着几只手", "Stick-figure Explainer 火柴人讲解", "LemoLab × Claude Opus 5.5" (30 px), arriving 48.8–49.4 s and fully visible until 52.0 s. The "LemoLab × Claude Opus 5.5" sign-off belongs to this library's demo only; a user's film carries no LemoLab credit and no copy of this card.
+Inside the globe, under "Closer than you think." (which moves up 46 px from 48.65 s): "Six Hands Away 隔着几只手", "Stick-figure Explainer 火柴人讲解", "Rafael Marutaka × Claude Opus 5.5" (30 px), arriving 48.8–49.4 s and fully visible until 52.0 s. The "Rafael Marutaka × Claude Opus 5.5" sign-off belongs to this library's demo only; a user's film carries no Rafael Marutaka credit and no copy of this card.
 
 ## Build notes
 

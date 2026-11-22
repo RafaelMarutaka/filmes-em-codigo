@@ -37,7 +37,7 @@ done
 for m in alarm_clock_01 potted_plant_04; do
   [ -f "$HERE/assets/$m/$m.gltf" ] || "$PY" -I -c 'import json, os, sys, urllib.request
 name, out = sys.argv[1], sys.argv[2]
-get = lambda u: urllib.request.urlopen(urllib.request.Request(u, headers={"User-Agent": "lemo-opuscar-build"})).read()
+get = lambda u: urllib.request.urlopen(urllib.request.Request(u, headers={"User-Agent": "filmes-em-codigo-build"})).read()
 g = json.loads(get(f"https://api.polyhaven.com/files/{name}"))["gltf"]["1k"]["gltf"]
 for rel, f in [(f"{name}.gltf", g)] + list(g["include"].items()):
     p = os.path.join(out, name, rel); os.makedirs(os.path.dirname(p), exist_ok=True)

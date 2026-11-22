@@ -81,7 +81,7 @@ kbd { font-family: var(--mono); font-variant-numeric: tabular-nums; font-size: m
         border-bottom: 1px solid transparent; transition: color .16s, border-color .16s; }
 .lang:lang(zh) { font-family: var(--sans); letter-spacing: .12em; }
 .lang:hover { color: var(--paper); border-color: var(--paper-3); }
-/* the site's links, on every page: OPUSCAR 98, the thank-you films, the repository and its stars (a menu on phones) */
+/* the site's links, on every page: FILMES 98, the thank-you films, the repository and its stars (a menu on phones) */
 .top .links { flex: none; display: flex; align-items: baseline; gap: calc(var(--u) * 20); white-space: nowrap; }
 .top .links a { font-family: var(--mono); font-variant-numeric: tabular-nums; font-size: max(12px, calc(var(--u) * 12)); letter-spacing: .08em; color: var(--paper-2); padding: calc(var(--u) * 4) 0;
   border-bottom: 1px solid transparent; transition: color .16s, border-color .16s; }
@@ -262,7 +262,7 @@ html.film .hero .toc { position: fixed; z-index: 11; right: var(--rx); top: calc
 html.film .hero .toc { animation: fadein 1.1s .35s var(--ease) both; }
 
 
-/* ---------- finale: OPUSCAR 98 under its projection */
+/* ---------- finale: FILMES 98 under its projection */
 .o98 { font-family: var(--serif); font-weight: 500; font-size: calc(var(--u) * 22); letter-spacing: .2em; line-height: 1.2; margin-top: calc(var(--u) * 12);
        display: flex; flex-wrap: wrap; align-items: baseline; column-gap: calc(var(--u) * 16); }
 .o98 .sub { font-family: var(--serif); font-style: italic; font-weight: 400; font-size: max(16px, calc(var(--u) * 16)); color: var(--paper-2); letter-spacing: .01em; }
@@ -278,7 +278,7 @@ html.film .hero .toc { animation: fadein 1.1s .35s var(--ease) both; }
 .btn .t { font-family: var(--mono); font-variant-numeric: tabular-nums; font-size: max(12px, calc(var(--u) * 12)); opacity: .6; }
 .foot { margin-top: calc(var(--u) * 20); display: flex; flex-wrap: wrap; gap: calc(var(--u) * 6) calc(var(--u) * 18); font-size: max(12px, calc(var(--u) * 12)); color: var(--paper-2); }
 .foot a { border-bottom: 1px solid var(--hair-2); } .foot a:hover { color: var(--paper); border-color: var(--paper-2); }
-/* the end of the bench: who made it, where it lives, under OPUSCAR 98's caption (the column's last lines; on the film its fit
+/* the end of the bench: who made it, where it lives, under FILMES 98's caption (the column's last lines; on the film its fit
    runs to the window's foot, since the ruler is on the left) */
 .end { margin-top: calc(var(--u) * 12); padding-top: calc(var(--u) * 8); border-top: 1px solid var(--hair); line-height: 1.45; }
 html.film .end .totop { display: none; }   /* on the film the ruler and the mark lead back */
@@ -448,7 +448,7 @@ html.stack .screen { position: absolute; }
   .stop .ov { padding: 22px 16px 46px; }
   .hero .ov { position: absolute; left: 0; right: 0; top: 0; padding: 86px 16px 70px; background: linear-gradient(180deg, rgba(12,10,9,.92) 0%, rgba(12,10,9,.62) 62%, rgba(12,10,9,0) 100%); }
   .hero .meta { white-space: normal; flex-wrap: wrap; row-gap: 4px; }
-  .finale .meta, .theatre .meta { flex-wrap: wrap; row-gap: 4px; }   /* "Feature presentation — End of the bench" (the finale, OPUSCAR 98's page) is wider than a 360 px phone */
+  .finale .meta, .theatre .meta { flex-wrap: wrap; row-gap: 4px; }   /* "Feature presentation — End of the bench" (the finale, FILMES 98's page) is wider than a 360 px phone */
   .lead br.w { display: none; }
   :lang(zh) #res .a em { display: none; }
   .meta { font-size: 12px; }

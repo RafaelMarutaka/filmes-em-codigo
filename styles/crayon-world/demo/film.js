@@ -264,7 +264,7 @@ const BAR = 3 * 60 / 78;   // the score is 3/4 at 78 BPM (tools/score.py): take-
 const WAKE = 3 * BAR, OVER = 32.5, LAND = 34.2;
 const CUT = 19 * BAR, UP = 20 * BAR, SAY = 23 * BAR;   // cut to his eyes; the butterfly takes off; his words
 const LINE = '等我哦。', LINE_EN = 'Wait for me.';
-const CREDIT = '2nd1st × LemoLab × Claude Opus 5.5';   // sign-off (library demo only): written in after the words, in the English face, held to the end
+const CREDIT = '2nd1st × Rafael Marutaka × Claude Opus 5.5';   // sign-off (library demo only): written in after the words, in the English face, held to the end
 // Her route: [time, position, look-at]. Waking and on the flower only the gaze moves (slow, few moves, holds longer than moves); the flight is one smooth curve
 const ST = START, SY = START[1];
 const FLY = [

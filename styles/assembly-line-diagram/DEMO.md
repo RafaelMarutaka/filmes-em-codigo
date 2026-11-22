@@ -81,7 +81,7 @@ Mix (`demo/tools/mix.py`): the voice is compressed and set about 10 dB over the 
 
 ## End card
 
-At 49.4 a machine nameplate (cream board, ink frame, four rivets, the same drawing as the title sign) drops onto the ground line at the right, on two ochre posts: THE DISASSEMBLY LINE 拆解流水线, a vermilion rule, "Assembly-Line Diagram · 流水线图解", and the sign-off `LemoLab × Claude Opus 5.5` on a small black label. The frame holds 3.0 s. The sign-off belongs to this library's demo only; a user's film carries no LemoLab credit and no copy of this card.
+At 49.4 a machine nameplate (cream board, ink frame, four rivets, the same drawing as the title sign) drops onto the ground line at the right, on two ochre posts: THE DISASSEMBLY LINE 拆解流水线, a vermilion rule, "Assembly-Line Diagram · 流水线图解", and the sign-off `Rafael Marutaka × Claude Opus 5.5` on a small black label. The frame holds 3.0 s. The sign-off belongs to this library's demo only; a user's film carries no Rafael Marutaka credit and no copy of this card.
 
 ## Build notes
 

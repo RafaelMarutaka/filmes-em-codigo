@@ -1,4 +1,4 @@
-/* The Workbench · OPUSCAR 98 (opuscar98/): the end of the bench. Uses assets/player.js (chapters, controls under the picture).
+/* The Workbench · FILMES 98 (filmes98/): the end of the bench. Uses assets/player.js (chapters, controls under the picture).
    The player sits on the projector's throw in the frame (rest). Playing grows it off the wall into the room while the lights go down
    (theatre). Scrolling into the book while it plays sends it to the corner (dock), with the film it is on, "loop this film" and ×;
    back at the top it is large again. A frame in the book plays that film: in the theatre when the top is on screen, in the corner

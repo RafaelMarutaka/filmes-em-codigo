@@ -211,8 +211,8 @@ def title_targets(rng):
     zh = grid_sample(text_mask([('你亮，我就亮', 138, TITLE_X, 262, 6)]), 3400, rng)
     en = grid_sample(text_mask([('SHINE BACK', 40, TITLE_X + 6, 372, 15)]), 800, rng)
     st = grid_sample(text_mask([('Firefly Pointillism · 萤火光点', 30, TITLE_X + 6, 446, 3)]), 800, rng)
-    cr = grid_sample(text_mask([('LemoLab × Claude Opus 5.5', 32, TITLE_X + 6, 494, 3)]), 800, rng)
-    sg = grid_sample(text_mask([('LemoLab × Claude Opus 5.5', 34, 232, 190, 3)]), 800, rng)
+    cr = grid_sample(text_mask([('Rafael Marutaka × Claude Opus 5.5', 32, TITLE_X + 6, 494, 3)]), 800, rng)
+    sg = grid_sample(text_mask([('Rafael Marutaka × Claude Opus 5.5', 34, 232, 190, 3)]), 800, rng)
     return zh, en, st, cr, sg
 
 

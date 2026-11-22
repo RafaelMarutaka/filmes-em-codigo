@@ -68,13 +68,13 @@ The wind model and what is approximated are in FACTS.md §7: Holland (1980) prof
 
 ## End card
 
-The chart's title block, printed bottom left of the final map from 48.4 s and fully in place from 48.6 s to 52.0 s: 摩羯过琼州 / *Typhoon Yagi over Qiongzhou*, 流场风线 / *Flow-field Wind Lines*, and "LemoLab × Claude Opus 5.5". The sign-off belongs to this library's demo only; a user's film carries no LemoLab credit and no copy of this card.
+The chart's title block, printed bottom left of the final map from 48.4 s and fully in place from 48.6 s to 52.0 s: 摩羯过琼州 / *Typhoon Yagi over Qiongzhou*, 流场风线 / *Flow-field Wind Lines*, and "Rafael Marutaka × Claude Opus 5.5". The sign-off belongs to this library's demo only; a user's film carries no Rafael Marutaka credit and no copy of this card.
 
 ## Build
 
 `sh styles/flow-field/demo/build.sh` (`WORKERS=3` for more render workers, `VOICE=1` to regenerate the narration).
 
-- Needs the voice tier and three sample libraries: `sh plugin/skills/lemo-opuscar/scripts/setup.sh deps voice`, `sh tools/fetch.sh instruments salamander`, `… vsco2ce`, `… vcsl`. WebGL2 for the printed ground.
+- Needs the voice tier and three sample libraries: `sh plugin/skills/filmes-em-codigo/scripts/setup.sh deps voice`, `sh tools/fetch.sh instruments salamander`, `… vsco2ce`, `… vcsl`. WebGL2 for the printed ground.
 - In a fresh clone `demo/tools/fetch_data.py` downloads what git does not carry: the ETOPO1 subsets through ERDDAP (~32 MB, `raw/dem/`), the Natural Earth dashed-line layer (`raw/ne/`) and the four OFL fonts (`fonts/src/`). `tools/prep_dem.py` then builds `raw/chart.json` (coastlines, contours, height grids), `tools/prep_inset.py` builds `raw/inset.json`, `tools/make_trackjs.py` builds `track.js` from `data/yagi_cma_track.csv`, `tools/make_scs.py` builds `scs.js`, `tools/subset.py` subsets the fonts.
 - Then: narration (`voice/lines.json` → Kokoro → `asr_check.py`, every line passes), `tools/timeline.py` (captions, the time map, `flow-field.srt`), events, picture, `mix.py`, `mux.sh`, readcheck, poster and the gallery style frame (t = 33.6, rendered with `?nocap=1`: no subtitles, no sign-off).
 - Code: `index.html` → `film.js` (time map, `TAU_KEYS`, `SHOTS`, flow clock, chart vectors, islands, frame), `field.js` (Mercator km, storm, wind, terrain), `wind.js` (streamline engine, `GRADES`), `camera.js`, `chartgl.js` (WebGL2 ground), `overlay.js` (printing on the plane, pinned text, `window.TEXTS`), `story.js` (everything printed or pinned, captions, end card, sound events), `timeline.js`, `track.js`, `scs.js`.

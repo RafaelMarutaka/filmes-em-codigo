@@ -8,7 +8,7 @@
 # What it makes, in <media>:
 #   films/<slug>/   per style (with a STYLE.md): poster (AVIF + WebP, 1280/1920), four stills (WebP 640/960/1280), the player's ruler
 #                   sprite (WebP, <= 150 KB), meta.json;  legacy/stills/<slug>-<i>.jpg: the old site's still addresses (the site copies legacy/ to its root)
-#   films/opuscar98/  poster and a sprite with one cell per chapter;  o98/<nn>-480|960.webp: its 98 frames (from styleboard/img/opuscar98/)
+#   films/filmes98/  poster and a sprite with one cell per chapter;  o98/<nn>-480|960.webp: its 98 frames (from styleboard/img/filmes98/)
 #   films/stars<n>/   the thank-you films: poster at 1920 cut from the 1080p master (site_config.PROMO), sprite
 #   thumb/<slug>-480|960.webp, clip/<slug>.mp4   the home page's cards: the poster, and 4 silent seconds from 2 s before frame_sec (hover)
 # Also in <media>, made elsewhere: the home page's long take (manifest.json, vid/, still/: rendered for the site, see
@@ -79,7 +79,7 @@ def jobs(data, book):
     for s in data['styles']:
         out.append(dict(id=s['slug'], kind='style', src=os.path.join(WEB, s['slug'] + '.mp4'), poster=os.path.join(ROOT, 'styles', s['slug'], 'poster.jpg'),
                         stills=True, step=float(max(1, math.ceil(s['dur'] / 60)))))   # about 60 cells or fewer: a second each up to a minute
-    out.append(dict(id='opuscar98', kind='feature', src=os.path.join(WEB, 'opuscar98.mp4'), poster=os.path.join(HERE, 'img', 'feature_opuscar98.jpg'),
+    out.append(dict(id='filmes98', kind='feature', src=os.path.join(WEB, 'filmes98.mp4'), poster=os.path.join(HERE, 'img', 'feature_filmes98.jpg'),
                     stills=False, step=0, times=book))
     for fid in ('stars6000', 'stars3000', 'stars2000', 'stars800', 'stars300'):
         out.append(dict(id=fid, kind='thanks', src=os.path.join(WEB, fid + '.mp4'), poster=os.path.join(HERE, 'img', 'thanks', fid + '.jpg'),
@@ -266,7 +266,7 @@ def make(j, force=False):
         x.save(os.path.join(d, f'poster-{w}.webp'), 'WEBP', quality=84, method=5)
         save_avif(x, os.path.join(d, f'poster-{w}.avif'))
     m['posters'] = widths
-    # (the old addresses posters/<slug>.jpg, img/feature_opuscar98.jpg, img/thanks/<id>.jpg are copied from git by the site build)
+    # (the old addresses posters/<slug>.jpg, img/feature_filmes98.jpg, img/thanks/<id>.jpg are copied from git by the site build)
 
     # stills (styles)
     if j['stills']: cut_stills(j, m, info['dur'], d)
@@ -300,14 +300,14 @@ def make(j, force=False):
 
 
 def o98_frames(book):
-    """OPUSCAR 98's 98 frames for the page, WebP 480/960, from styleboard/img/opuscar98/<nn>.jpg (in git; also their old address)"""
+    """FILMES 98's 98 frames for the page, WebP 480/960, from styleboard/img/filmes98/<nn>.jpg (in git; also their old address)"""
     d = os.path.join(MEDIA, 'o98'); os.makedirs(d, exist_ok=True)
     mp = os.path.join(d, 'meta.json')
     done = json.load(open(mp)) if os.path.exists(mp) else {}
     made = 0
     for f in book['films']:
         nn = f'{int(f["no"]):02d}'
-        src = os.path.join(HERE, 'img', 'opuscar98', nn + '.jpg')
+        src = os.path.join(HERE, 'img', 'filmes98', nn + '.jpg')
         fp = fingerprint(src, whole=True)
         if done.get(nn) == fp and os.path.exists(os.path.join(d, nn + '-480.webp')): continue
         im = Image.open(src).convert('RGB')
@@ -348,7 +348,7 @@ def make_all(data, book_times, book, force=False, only=None):
     n98 = o98_frames(book)
     nc = cards({'styles': [s for s in data['styles'] if not only or s['slug'] in only]}, force)
     print(f'  media: {len(made)} of {len(js)} films made ({", ".join(made[:8])}{"…" if len(made) > 8 else ""}), the rest up to date; '
-          f'{n98} OPUSCAR 98 frames, {nc} cards → {MEDIA}')
+          f'{n98} FILMES 98 frames, {nc} cards → {MEDIA}')
     return out
 
 
@@ -414,7 +414,7 @@ def library():
 def main():
     global WEB, MEDIA
     ap = argparse.ArgumentParser(description='the site media (see the top of styleboard/media.py)')
-    ap.add_argument('ids', nargs='*', help='only these films (slugs, opuscar98, stars<n>)')
+    ap.add_argument('ids', nargs='*', help='only these films (slugs, filmes98, stars<n>)')
     ap.add_argument('--films', metavar='DIR', help='the 720p cuts (default: site_config.WEB)')
     ap.add_argument('--media', metavar='DIR', help='where the media go (default: site_config.MEDIA)')
     ap.add_argument('--force', action='store_true', help='remake everything')

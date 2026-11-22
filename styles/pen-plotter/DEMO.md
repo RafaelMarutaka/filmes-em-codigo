@@ -45,7 +45,7 @@ Machine sounds come from the page's per-frame events: stepper whine pitched by p
 
 ## End card
 
-Dark warm ground; the lines are drawn like plotter strokes, left aligned at the lower left: **8848.86** in red, then 8,848.86 Metres, 笔绘仪, Pen Plotter, a dotted rule, LemoLab × Claude Opus 5.5. The "LemoLab × Claude Opus 5.5" sign-off belongs to this library's demo only; a user's film carries no LemoLab credit and no copy of this card.
+Dark warm ground; the lines are drawn like plotter strokes, left aligned at the lower left: **8848.86** in red, then 8,848.86 Metres, 笔绘仪, Pen Plotter, a dotted rule, Rafael Marutaka × Claude Opus 5.5. The "Rafael Marutaka × Claude Opus 5.5" sign-off belongs to this library's demo only; a user's film carries no Rafael Marutaka credit and no copy of this card.
 
 ## Build notes
 

@@ -21,7 +21,7 @@ canvas { display: block; }
 const W = 1920, H = 1080, DUR = 51;   // the last shot holds 1 s longer for the credit (title card) at the end
 // any stretch of the one timeline renders with ?from=A&to=B (e.g. video.mjs --q 'from=0&to=10'); the picture is never re-made for a cut
 const QS = new URLSearchParams(location.search), FROM = +(QS.get('from') || 0), TO = +(QS.get('to') || DUR);
-const CREDIT = 'LemoLab \u00D7 Claude Opus 5.5', STYLE_EN = 'Comic History Cartoon', STYLE_ZH = '搞笑历史卡通';
+const CREDIT = 'Rafael Marutaka \u00D7 Claude Opus 5.5', STYLE_EN = 'Comic History Cartoon', STYLE_ZH = '搞笑历史卡通';
 window.DUR = TO - FROM;
 const cv = document.getElementById('c'), MAIN = cv.getContext('2d');
 let ctx = MAIN;   // the context the scene functions draw into (a panel canvas while a panel renders)

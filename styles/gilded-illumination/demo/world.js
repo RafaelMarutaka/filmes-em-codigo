@@ -503,10 +503,10 @@ function drawPlaque(g, t, T0) {
     g.textAlign = 'left'; g.fillStyle = '#4a2c16'; g.font = '500 88px ZhSerif5'; g.fillText(l2a, x, y2);
     g.font = '500 80px ZhSerif5'; g.fillStyle = '#6a4226'; g.fillText('  ·  金箔彩绘  ', x + wa, y2);
     g.font = 'italic 82px FellI'; g.fillText('Gilded Illumination', x + wa + wb1, y2);
-    g.textAlign = 'center'; g.font = '74px Fell'; g.fillStyle = VERM_D; g.fillText('LemoLab × Claude Opus 5.5', cx, cy + 172);
+    g.textAlign = 'center'; g.font = '74px Fell'; g.fillStyle = VERM_D; g.fillText('Rafael Marutaka × Claude Opus 5.5', cx, cy + 172);
     g.restore();
     reg('style', '借来的光 · 金箔彩绘 Gilded Illumination', g, x, y2 - 80, x + tot, y2 + 18);
-    reg('credit', 'LemoLab × Claude Opus 5.5', g, cx - 470, cy + 112, cx + 470, cy + 190);
+    reg('credit', 'Rafael Marutaka × Claude Opus 5.5', g, cx - 470, cy + 112, cx + 470, cy + 190);
   }
 }
 

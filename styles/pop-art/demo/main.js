@@ -418,7 +418,7 @@ function shotMany(t) {
     // the end card: title, style, sign-off
     const cp = seg(t, SH.card, SH.card + .6);
     if (cp > 0) label(92, 74, [{ s: 'MANY BANANAS', size: 132, ink: T.red, lh: 1.02 }, { s: '不止一种香蕉', size: 56, font: 'NotoSC' },
-      { s: 'POP ART · 波普艺术', size: 38, font: 'Archivo, NotoSC', ink: T.blue }, { s: 'LemoLab × Claude Opus 5.5', size: 34, font: 'Archivo' }], cp, { rot: -.025, padX: 40, padY: 28, gap: 12, instant: true });
+      { s: 'POP ART · 波普艺术', size: 38, font: 'Archivo, NotoSC', ink: T.blue }, { s: 'Rafael Marutaka × Claude Opus 5.5', size: 34, font: 'Archivo' }], cp, { rot: -.025, padX: 40, padY: 28, gap: 12, instant: true });
   });
   present({ cell: 5.6 });
 }
@@ -440,7 +440,7 @@ pop.present = (fx) => {
   const t = window.__t ?? 0;
   screen(() => {
     if (!Q.has('nosubs')) subtitle(t);                 // ?nosubs=1: poster and gallery frames without the subtitle slip
-    if (SIGN10 && t >= 7.5) label(1868, 52, [{ s: 'LemoLab × Claude Opus 5.5', size: 30, font: 'Archivo' }, { s: 'POP ART · 波普艺术', size: 30, font: 'Archivo, NotoSC', ink: T.red }], seg(t, 7.5, 8.0), { align: 'right', padX: 24, padY: 14, gap: 6, shadow: 8, lw: 4 });
+    if (SIGN10 && t >= 7.5) label(1868, 52, [{ s: 'Rafael Marutaka × Claude Opus 5.5', size: 30, font: 'Archivo' }, { s: 'POP ART · 波普艺术', size: 30, font: 'Archivo, NotoSC', ink: T.red }], seg(t, 7.5, 8.0), { align: 'right', padX: 24, padY: 14, gap: 6, shadow: 8, lw: 4 });
   });
   _present(fx);
 };

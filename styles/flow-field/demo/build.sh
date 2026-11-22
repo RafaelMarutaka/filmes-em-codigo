@@ -5,7 +5,7 @@
 #   VOICE=1 sh demo/build.sh    regenerate the narration before the check
 #   WORKERS=3 sh demo/build.sh  more render workers (default 2)
 # Needs the voice tier (Kokoro model, faster-whisper), the Salamander piano and the VSCO 2 CE + VCSL sample libraries:
-#   sh plugin/skills/lemo-opuscar/scripts/setup.sh deps voice
+#   sh plugin/skills/filmes-em-codigo/scripts/setup.sh deps voice
 #   sh tools/fetch.sh instruments salamander; sh tools/fetch.sh instruments vsco2ce; sh tools/fetch.sh instruments vcsl
 # In a fresh clone the relief data (raw/), the coastline chart (raw/chart.json) and the fonts are not in git:
 # the first run downloads them (ETOPO1 through ERDDAP ~32 MB, Natural Earth, Google Fonts) and rebuilds the chart and the inset.

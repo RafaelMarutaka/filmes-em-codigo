@@ -24,7 +24,7 @@ and download the files directly from tile.loc.gov; many Library of Congress and 
 import argparse, json, os, re, subprocess, sys, time, urllib.parse, urllib.request
 from pathlib import Path
 
-UA = "lemo-opuscar/1.0 (https://github.com/lemomo-ai/lemo-opuscar)"
+UA = "filmes-em-codigo/1.0 (https://github.com/RafaelMarutaka/filmes-em-codigo)"
 LOG = Path("SOURCES.jsonl")
 
 

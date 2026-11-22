@@ -3,7 +3,7 @@
    swaps in the 2560 stop still when the camera is at rest, and floats that station's cards on the left.
    html.stack: the same sections, one under the other (phones, reduced motion, Save-Data). Rules: styleboard/DESIGN.md.
    Also: the old site's anchors land on their station (home.py's legacy map, from styleboard/anchors.json; an old ?use=<tag> is
-   dropped); the screening room plays OPUSCAR 98 in the site's player (assets/player.js).
+   dropped); the screening room plays FILMES 98 in the site's player (assets/player.js).
    Every style page (html.runon) runs this too: its film and sheet on top, then the take from its own station (data-from) to the end.
    It carries no bench of its own: the language's bench (data-bench, media/bench-<lang>.json, cached across pages) is fetched and
    put under the sheet first. Scroll positions there are offset by the sheet (BASE) and the take's start (U0), and a card opens its
@@ -51,7 +51,7 @@
 
   /* ---------------------------------------------------------------- language switch keeps the place and remembers the choice */
   const lang = $('.lang');
-  for (const a of $$('.lang-m')) a.addEventListener('click', () => store('opuscar-lang', a.dataset.lang));   // the phone's menu
+  for (const a of $$('.lang-m')) a.addEventListener('click', () => store('filmes-lang', a.dataset.lang));   // the phone's menu
 
   /* the phone's menu closes on a tap outside it, and with Escape */
   for (const d of $$('.top .menu')) {
@@ -59,7 +59,7 @@
     document.addEventListener('keydown', e => { if (e.key === 'Escape' && d.open) { d.open = false; d.querySelector('summary').focus(); } });
   }
   if (!RUNON) lang.addEventListener('click', () => {   // the other language opens at the same station
-    store('opuscar-lang', lang.dataset.lang);
+    store('filmes-lang', lang.dataset.lang);
     const n = current();
     lang.href = lang.getAttribute('href').split('#')[0] + (n > 0 ? '#' + STOPS[n].id : '');
   });
@@ -157,7 +157,7 @@
     });
   }
 
-  /* ---------------------------------------------------------------- the screening room (OPUSCAR 98) */
+  /* ---------------------------------------------------------------- the screening room (FILMES 98) */
   const room = $('#room'), rv = $('video', room);
   const RP = () => { const p = $('.player', room); return p && p.ocPlayer; };
   d.addEventListener('click', e => {
@@ -519,7 +519,7 @@
     if (tickN !== holdAt) { setTick(tickN); holdAt = tickN; }
     if (!st) {   // between stations: name the next one
       const nx = pins.findIndex(p => p > curF);
-      const txt = nx >= 0 ? `${esc(W.next)}<b>${pad2(nx + 1)}</b><em>${esc(W.cats[nx + 1][ZH ? 0 : 1])}</em>` : `${esc(W.end)}<b>·</b><em>OPUSCAR 98</em>`;
+      const txt = nx >= 0 ? `${esc(W.next)}<b>${pad2(nx + 1)}</b><em>${esc(W.cats[nx + 1][ZH ? 0 : 1])}</em>` : `${esc(W.end)}<b>·</b><em>FILMES 98</em>`;
       if (NEXT.dataset.t !== txt) { NEXT.innerHTML = txt; NEXT.dataset.t = txt; }
     }
     RAIL.classList.toggle('wait', !!eng && !rest && shownF < 0 && f > 0);

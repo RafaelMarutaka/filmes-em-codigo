@@ -21,7 +21,7 @@ body:
     attributes:
       label: How to reproduce · 复现步骤
       placeholder: |
-        1. sh plugin/skills/lemo-opuscar/scripts/setup.sh deps
+        1. sh plugin/skills/filmes-em-codigo/scripts/setup.sh deps
         2. ...
     validations:
       required: true

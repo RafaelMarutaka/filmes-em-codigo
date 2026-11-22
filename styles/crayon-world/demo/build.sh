@@ -15,7 +15,7 @@ PY="$LIB/.venv/bin/python"
 NAME=crayon-world
 FRAME=32.5                                           # over the fence into the garden, him watering the row: poster and gallery frame
 cd "$LIB"
-"$PY" -c 'import numba' 2>/dev/null || { echo "crayon-world: the demo needs the music tier (numba, for core/audio/pluck.py), which isn't installed. Run: sh plugin/skills/lemo-opuscar/scripts/setup.sh deps music" >&2; exit 1; }
+"$PY" -c 'import numba' 2>/dev/null || { echo "crayon-world: the demo needs the music tier (numba, for core/audio/pluck.py), which isn't installed. Run: sh plugin/skills/filmes-em-codigo/scripts/setup.sh deps music" >&2; exit 1; }
 
 # fonts (gitignored .woff2): Long Cang for the Chinese line, Patrick Hand for the English one
 for f in LongCang PatrickHand; do [ -f "$HERE/fonts/$f.woff2" ] || { "$PY" -I "$HERE/tools/fonts.py" "$HERE"; break; }; done

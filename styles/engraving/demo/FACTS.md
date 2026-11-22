@@ -20,4 +20,4 @@
 | 5 | voice 0:26.7 | "A lifetime of such work makes a twelfth of a teaspoon of honey." | [S4] "about 1/12th of a teaspoon of honey in its lifetime" | supported (an extension / industry estimate, not a measurement) |
 | 6 | plate, "NATURAL SIZE" beside the small specimen | the small bee is the specimen "at natural size" | plate convention: on the printed plate (about 20 cm wide, per the code comment in `film.js`) the specimen is drawn about 13 mm long, a typical worker length; on a screen its size depends on the display | unchecked: no primary source for worker body length was found (secondary sources give 10–15 mm). A plate convention, not a spoken claim |
 
-Not claims: the series line "Natural History Gallery · Insects of the Garden", "Pl. VII", the caption "See the living hive in Gallery 4", the signatures "Lemo del. / Opus sculp.", the colouring.
+Not claims: the series line "Natural History Gallery · Insects of the Garden", "Pl. VII", the caption "See the living hive in Gallery 4", the signatures "Filmes del. / Opus sculp.", the colouring.

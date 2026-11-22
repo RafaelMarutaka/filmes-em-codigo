@@ -4,7 +4,7 @@
 set -e
 cd "$(dirname "$0")/../../.."
 PY=.venv/bin/python; D=styles/risograph/demo
-$PY -c 'import numba' 2>/dev/null || { echo "risograph: the demo needs the music tier (numba, for music/score.py), which isn't installed. Run: sh plugin/skills/lemo-opuscar/scripts/setup.sh deps voice music" >&2; exit 1; }
+$PY -c 'import numba' 2>/dev/null || { echo "risograph: the demo needs the music tier (numba, for music/score.py), which isn't installed. Run: sh plugin/skills/filmes-em-codigo/scripts/setup.sh deps voice music" >&2; exit 1; }
 sh styles/risograph/demo/tools/fonts.sh   # fonts: not in git (CREDITS names them) → fonts/ (after the numba check: that comes first)
 $PY core/tts/tts.py $D/lines.json $D/voices                     # 1. Kokoro voice-over (am_adam)
 $PY core/tts/asr_check.py $D/lines.json $D/voices               # 2. whisper line-by-line check (should report mismatches: 0)

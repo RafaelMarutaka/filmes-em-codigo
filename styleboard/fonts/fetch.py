@@ -11,7 +11,7 @@ Their OFL texts sit next to this script.
 From Python: `sys.path.insert(0, 'styleboard/fonts'); from fetch import path; path('NotoSansSC')`.
 Used by styleboard/art/readme.mjs (the README's pictures) and by the site's font subsets (styleboard/home.py and pages.py: Source Serif 4,
 Source Sans 3, Noto Serif SC, Noto Sans SC).
-Cache: $OPUSCAR_FONT_CACHE, else ~/.cache/lemo-opuscar/fonts. All are SIL Open Font License 1.1.
+Cache: $FILMES_FONT_CACHE, else ~/.cache/filmes-em-codigo/fonts. All are SIL Open Font License 1.1.
 """
 import hashlib, os, sys, urllib.parse, urllib.request
 
@@ -25,7 +25,7 @@ FONTS = {   # name: (path in google/fonts, sha256)
     'SourceSans3': ('ofl/sourcesans3/SourceSans3[wght].ttf', '042fe2cc0b933e328410d7acbd0aa6a1873dca5aef81875f4bc214b08825c7b9'),   # the site's text and labels
     'SourceSans3Italic': ('ofl/sourcesans3/SourceSans3-Italic[wght].ttf', '39e3ab05ccd7cb94907c31005bb5bec1d5432f0b096a2b782976e217a540eb6c'),
 }
-CACHE = os.environ.get('OPUSCAR_FONT_CACHE') or os.path.join(os.path.expanduser('~'), '.cache', 'lemo-opuscar', 'fonts')
+CACHE = os.environ.get('FILMES_FONT_CACHE') or os.path.join(os.path.expanduser('~'), '.cache', 'filmes-em-codigo', 'fonts')
 
 
 def _sha(p):

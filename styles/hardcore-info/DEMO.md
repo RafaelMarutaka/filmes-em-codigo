@@ -50,7 +50,7 @@ Text in the demo: one question, one answer and one closing statement, all in the
 
 ## End card
 
-From 48.1 s an engineering title block is ruled below the closing line, cell by cell: TITLE — WHERE IS YOUR PHONE'S ANTENNA? 你手机的天线在哪; STYLE — LINE-ART CUTAWAY 线稿剖面图解; BY — LemoLab × Claude Opus 5.5. Complete at 49.44 s, held to 52 s. The "LemoLab × Claude Opus 5.5" sign-off belongs to this library's demo only; a user's film carries no LemoLab credit and no copy of this card.
+From 48.1 s an engineering title block is ruled below the closing line, cell by cell: TITLE — WHERE IS YOUR PHONE'S ANTENNA? 你手机的天线在哪; STYLE — LINE-ART CUTAWAY 线稿剖面图解; BY — Rafael Marutaka × Claude Opus 5.5. Complete at 49.44 s, held to 52 s. The "Rafael Marutaka × Claude Opus 5.5" sign-off belongs to this library's demo only; a user's film carries no Rafael Marutaka credit and no copy of this card.
 
 ## Build notes
 

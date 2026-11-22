@@ -1022,7 +1022,7 @@ function buildLabels() {
   EVX.push({ t: tEn, type: 'write', d: dEn, at: () => [300, 0] }, { t: tZh, type: 'write', d: dZh, at: () => [300, 0] }, { t: tZh + dZh, type: 'line', d: 0.3, at: () => [300, 0] });
   // end card, right side of the sky: the style's name, then the credit line — pencilled like the title
   const SE = textLayout('Colored-Pencil Science Illustration', 31, 401, { jit: 0.5 }), SZ = textLayout('彩铅科普插画', 31, 402, { jit: 0.5 });
-  const SG = textLayout('LemoLab × Claude Opus 5.5', 30, 403, { jit: 0.4 });
+  const SG = textLayout('Rafael Marutaka × Claude Opus 5.5', 30, 403, { jit: 0.4 });
   const tS = TL.sign, dS = 0.75, tSZ = tS + 0.8, dSZ = 0.4, tG = tSZ + 0.45, dG = 0.7;
   LAB.push({
     id: 'sign', t0: tS, t1: TL.end, draw(t) {
@@ -1032,7 +1032,7 @@ function buildLabels() {
       textDraw(SZ, xr - SZ.tot, y + 46, seg(t, tSZ, dSZ), 0.85);
       ik.save(); ik.globalAlpha = 0.55; pline(ik, [[xr - SE.tot * 0.55, y + 74], [xr, y + 72]], seg(t, tSZ + dSZ, 0.2), 1.6, 409); ik.restore();
       textDraw(SG, xr - SG.tot, y + 118, seg(t, tG, dG));
-      return { x0: xr - SE.tot, y0: y - 34, x1: xr, y1: y + 126, text: 'Colored-Pencil Science Illustration 彩铅科普插画 LemoLab × Claude Opus 5.5' };
+      return { x0: xr - SE.tot, y0: y - 34, x1: xr, y1: y + 126, text: 'Colored-Pencil Science Illustration 彩铅科普插画 Rafael Marutaka × Claude Opus 5.5' };
     },
   });
   EVX.push({ t: tS, type: 'write', d: dS, at: () => [1500, 0] }, { t: tSZ, type: 'write', d: dSZ, at: () => [1600, 0] }, { t: tG, type: 'write', d: dG, at: () => [1550, 0] });

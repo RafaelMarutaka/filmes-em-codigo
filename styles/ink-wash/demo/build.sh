@@ -5,7 +5,7 @@ set -e
 cd "$(dirname "$0")/../../.."
 D=styles/ink-wash/demo
 PY=.venv/bin/python
-$PY -c 'import numba' 2>/dev/null || { echo "ink-wash: the demo needs the music tier (numba, for core/audio/pluck.py), which isn't installed. Run: sh plugin/skills/lemo-opuscar/scripts/setup.sh deps voice music" >&2; exit 1; }
+$PY -c 'import numba' 2>/dev/null || { echo "ink-wash: the demo needs the music tier (numba, for core/audio/pluck.py), which isn't installed. Run: sh plugin/skills/filmes-em-codigo/scripts/setup.sh deps voice music" >&2; exit 1; }
 sh styles/ink-wash/demo/tools/fonts.sh   # fonts: not in git (CREDITS names them) → fonts/ (after the numba check: that comes first)
 echo "1/7 voice"; $PY core/tts/tts.py $D/lines.json $D/voices
 echo "2/7 whisper check"; $PY core/tts/asr_check.py $D/lines.json $D/voices

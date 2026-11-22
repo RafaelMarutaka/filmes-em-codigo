@@ -234,7 +234,7 @@ export function endCard(g, lt) {
   outlined(g, 'ASTRONAUT', 0, 130, { font: '150px Titan', lw: 22, fill: P.gold, shadow: P.mag, sd: [8, 14] });
   g.restore();
   g.save(); g.globalAlpha = clamp(seg(T, .3, .5)); outlined(g, 'Microgame Frenzy', 960, 650, { font: '64px Lilita', lw: 10, fill: P.cyan }); g.restore();
-  g.save(); g.globalAlpha = clamp(seg(T, .5, .7)); outlined(g, 'LemoLab × Claude Opus 5.5', 960, 760, { font: '52px Lilita', lw: 8, fill: P.white }); g.restore();
+  g.save(); g.globalAlpha = clamp(seg(T, .5, .7)); outlined(g, 'Rafael Marutaka × Claude Opus 5.5', 960, 760, { font: '52px Lilita', lw: 8, fill: P.white }); g.restore();
   // licence credits (fine print): on the card from its first frame, so they hold the whole 2.6 s
   g.save(); g.font = '500 22px Inter'; g.textAlign = 'center'; g.fillStyle = 'rgba(255,255,255,.82)';
   g.fillText('Piano: “Salamander Grand Piano V3” by Alexander Holm, CC BY 3.0', 960, 838);

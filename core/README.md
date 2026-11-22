@@ -6,7 +6,7 @@ Command reference for `core/` and `tools/`. How the pieces fit together is in [`
 
 | Command | What it does |
 |---|---|
-| `sh plugin/skills/lemo-opuscar/scripts/setup.sh` | find, clone or update the library; prints `LIB=<path>` |
+| `sh plugin/skills/filmes-em-codigo/scripts/setup.sh` | find, clone or update the library; prints `LIB=<path>` |
 | `… setup.sh deps` | core tier: npm packages, headless browser, `.venv` from `requirements.txt` |
 | `… setup.sh deps voice` | adds `requirements-voice.txt` (kokoro-onnx, edge-tts, faster-whisper) and the Kokoro model |
 | `… setup.sh deps music` | adds `requirements-music.txt` (numba, for `pluck.py`; `sampler.py` needs only the core) |
@@ -53,7 +53,7 @@ All four page tools take `--size WxH` (default `1920x1080`, even numbers) and `-
 | `.venv/bin/python core/tts/tts_zh.py lines.json out_dir [--voice zh-CN-XiaoxiaoNeural] [--rate +0%] [--pitch +0Hz]` | edge-tts (Microsoft), online; same outputs as `tts.py`. Per line: `voice`, `rate`, `pitch`, `say` (what is spoken when it differs from `text`). Caches in `out_dir/.cache/`. Voices: `.venv/bin/python -m edge_tts --list-voices` |
 | `.venv/bin/python core/tts/asr_check.py lines.json voices_dir [--lang en\|zh\|ja\|ko\|auto] [--threshold 0.92] [--model base]` | speech-to-text check of every `<id>.wav`; writes `words.json` (word timestamps). English must match word for word (0–999 count the same as their words); Chinese, Japanese, Korean compare by character similarity ≥ `--threshold`, each number by its value (十九 = 19, 一万九千 = 1.9万, 三点五 = 3.5, 百分之三十 = 30%); a number heard as a different number fails the line. An `asr` field in a line overrides the expected text (names, and in English decimals and times: write it as Whisper does) |
 | `core/audio/sfx.py` | procedural foley and mix helpers: filters, envelopes, `click`, `whoosh`, `thump`, `ding`…, `compress`, `limit`, `add(buf, sound, at, gain, pan)` |
-| `core/audio/sampler.py`, `core/audio/pluck.py` | sampled instruments and plucked-string modelling ([`audio/INSTRUMENTS.md`](audio/INSTRUMENTS.md)). The sample libraries a score needs are downloaded when it is rendered, all missing ones at once (`LEMO_FETCH=0`: only name the `fetch.sh instruments <lib>` commands). `.venv/bin/python core/audio/sampler.py --need <mix.py | names>` fetches them up front, before a long render (it also runs from a plain `python3`). `credits(names)` writes the CREDITS lines |
+| `core/audio/sampler.py`, `core/audio/pluck.py` | sampled instruments and plucked-string modelling ([`audio/INSTRUMENTS.md`](audio/INSTRUMENTS.md)). The sample libraries a score needs are downloaded when it is rendered, all missing ones at once (`FILMES_FETCH=0`: only name the `fetch.sh instruments <lib>` commands). `.venv/bin/python core/audio/sampler.py --need <mix.py | names>` fetches them up front, before a long render (it also runs from a plain `python3`). `credits(names)` writes the CREDITS lines |
 
 ## Picture helpers
 
@@ -83,12 +83,12 @@ The styles marked ✦ in the style list (`"needs": ["image-generation"]` in thei
 
 | Variable | Meaning |
 |---|---|
-| `LEMO_OPUSCAR_HOME` | where `setup.sh` keeps the library (default `~/lemo-opuscar`) |
+| `FILMES_EM_CODIGO_HOME` | where `setup.sh` keeps the library (default `~/filmes-em-codigo`) |
 | `PLAYWRIGHT_CHROME` | a Chrome / headless-shell executable instead of Playwright's |
-| `LEMO_ANGLE` | WebGL backend (default `metal` on macOS; `default` passes none). A virtualised adapter (most cloud VMs and CI runners) creates the demo's context and then drops it, so WebGL styles draw nothing: `LEMO_ANGLE=swiftshader` asks for software rendering up front and renders them, slowly |
+| `FILMES_ANGLE` | WebGL backend (default `metal` on macOS; `default` passes none). A virtualised adapter (most cloud VMs and CI runners) creates the demo's context and then drops it, so WebGL styles draw nothing: `FILMES_ANGLE=swiftshader` asks for software rendering up front and renders them, slowly |
 | `RENDER_SLOTS` | optional; limits concurrent full renders across processes |
-| `LEMO_FETCH=0` | `sampler.py` doesn't download missing sample libraries; it stops and names the `fetch.sh` commands |
-| `LEMO_COLOR=bt709` | `mux.sh` writes limited-range BT.709 instead of the default full-range output |
+| `FILMES_FETCH=0` | `sampler.py` doesn't download missing sample libraries; it stops and names the `fetch.sh` commands |
+| `FILMES_COLOR=bt709` | `mux.sh` writes limited-range BT.709 instead of the default full-range output |
 | `WHISPER_MODEL` | Whisper model name or local folder for `asr_check.py` (same as `--model`; default `base.en` for English, `small` for Chinese, `base` otherwise) |
 | `HF_ENDPOINT` | Hugging Face mirror for the Whisper download |
 

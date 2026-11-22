@@ -123,7 +123,7 @@
 :lang(zh) .pl-now span { font-family: var(--sans); font-style: normal; font-size: max(13px, calc(var(--pu) * 13)); letter-spacing: .04em; }
 
 /* ---------------------------------------------------------------- below: the controls under the picture (films with burned-in captions:
-   OPUSCAR 98's titles, the thank-you films' lines). The bar never covers the film, so it stays up; the loupe hangs under the ruler. */
+   FILMES 98's titles, the thank-you films' lines). The bar never covers the film, so it stays up; the loupe hangs under the ruler. */
 .player.below { aspect-ratio: auto; container-type: inline-size; overflow: visible; background: none; --bar: calc(var(--pu) * 44); }
 .player.below > video { aspect-ratio: var(--ar); height: auto; }
 .player.below .pl-box { position: relative; inset: auto; margin: 0; width: 100%; height: auto; aspect-ratio: var(--ar); background: #000; overflow: hidden; }

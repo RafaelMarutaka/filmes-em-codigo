@@ -1,4 +1,4 @@
-# Directing a Lemo-Opuscar film
+# Directing a Filmes em Código film
 
 The directing method behind every film in this library. Pair it with one `styles/<slug>/STYLE.md` (the style) and [`TECHNIQUE.md`](TECHNIQUE.md) (how to build).
 
@@ -120,7 +120,7 @@ Render 6–9 key shots with the real drawing code, tiled into one sheet (`core/r
 - Loudness about −14 LUFS; no black frames, no NaN frames; subtitles in sync and not covering key action.
 - Every row of the sound design table is actually in the mix.
 - Every map, globe or satellite view passes section 13, checked enlarged.
-- No LemoLab sign-off: `grep -rniE "lemo ?lab|opus 5\.5" <project folder>` finds nothing outside `LICENSE`, `CREDITS` and the library's path in `LIB=` lines, and you have watched the last seconds of the film (text drawn into an image can't be grepped).
+- No old sign-off: `grep -rniE "rafael marutaka|opus 5\.5" <project folder>` finds nothing outside `LICENSE`, `CREDITS` and the library's path in `LIB=` lines, and you have watched the last seconds of the film (text drawn into an image can't be grepped).
 
 **Deliver**, in the project folder (the complete list):
 

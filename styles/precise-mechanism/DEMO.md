@@ -51,7 +51,7 @@ Narration (Kokoro `bm_george`, speed 0.88), starts: 0.8, 3.7, 7.45, 11.6, 14.8, 
 
 ## End card
 
-From 47.75 s to 52.0 s a drawing's title block draws itself in the bottom-left corner (ink rules, mono field names): **Title** *Three systems keep the time* · **Style** *Color-Coded Mechanism* 分色机械图解 · **Drawn by** `LemoLab × Claude Opus 5.5`. The "LemoLab × Claude Opus 5.5" sign-off belongs to this library's demo only; a user's film carries no LemoLab credit and no copy of this card.
+From 47.75 s to 52.0 s a drawing's title block draws itself in the bottom-left corner (ink rules, mono field names): **Title** *Three systems keep the time* · **Style** *Color-Coded Mechanism* 分色机械图解 · **Drawn by** `Rafael Marutaka × Claude Opus 5.5`. The "Rafael Marutaka × Claude Opus 5.5" sign-off belongs to this library's demo only; a user's film carries no Rafael Marutaka credit and no copy of this card.
 
 ## Build notes
 

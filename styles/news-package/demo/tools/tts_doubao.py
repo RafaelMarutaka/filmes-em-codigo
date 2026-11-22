@@ -20,7 +20,7 @@ RESOURCE = 'seed-tts-2.0'          # 2.0 voices only: zh_*_uranus_bigtts
 
 
 def synth(key, text, speaker, rate, path):
-    body = json.dumps({'user': {'uid': 'lemo-opuscar'}, 'req_params': {'text': text, 'speaker': speaker,
+    body = json.dumps({'user': {'uid': 'filmes-em-codigo'}, 'req_params': {'text': text, 'speaker': speaker,
             'audio_params': {'format': 'mp3', 'sample_rate': 24000, 'speech_rate': rate}}}).encode()
     req = urllib.request.Request(URL, data=body, method='POST', headers={
         'Content-Type': 'application/json', 'X-Api-Key': key, 'X-Api-Resource-Id': RESOURCE, 'X-Api-Request-Id': str(uuid.uuid4())})

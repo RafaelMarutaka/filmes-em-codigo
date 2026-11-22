@@ -4,7 +4,7 @@
 set -e
 cd "$(dirname "$0")/../../.."
 PY=.venv/bin/python; D=styles/ascii-crt/demo; S=styles/ascii-crt
-$PY -c 'import numba' 2>/dev/null || { echo "ascii-crt: the demo needs the music tier (numba, for music/score.py), which isn't installed. Run: sh plugin/skills/lemo-opuscar/scripts/setup.sh deps voice music" >&2; exit 1; }
+$PY -c 'import numba' 2>/dev/null || { echo "ascii-crt: the demo needs the music tier (numba, for music/score.py), which isn't installed. Run: sh plugin/skills/filmes-em-codigo/scripts/setup.sh deps voice music" >&2; exit 1; }
 sh styles/ascii-crt/demo/tools/fonts.sh   # fonts: not in git (CREDITS names them) → fonts/ (after the numba check: that comes first)
 $PY core/tts/tts.py $D/lines.json $D/voices_raw                  # 1. Kokoro voice (am_echo, speed 0.8)
 $PY $D/voice_fx.py                                               # 2. AI voice treatment: light ring modulation + comb resonance + band-pass → voices/

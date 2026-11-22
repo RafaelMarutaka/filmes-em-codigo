@@ -4,7 +4,7 @@
 set -e
 cd "$(dirname "$0")/../../.."
 PY=.venv/bin/python; D=styles/papercut-red/demo; O=styles/papercut-red
-$PY -c 'import numba' 2>/dev/null || { echo "papercut-red: the demo needs the music tier (numba, for core/audio/pluck.py), which isn't installed. Run: sh plugin/skills/lemo-opuscar/scripts/setup.sh deps voice music" >&2; exit 1; }
+$PY -c 'import numba' 2>/dev/null || { echo "papercut-red: the demo needs the music tier (numba, for core/audio/pluck.py), which isn't installed. Run: sh plugin/skills/filmes-em-codigo/scripts/setup.sh deps voice music" >&2; exit 1; }
 sh styles/papercut-red/demo/tools/fonts.sh   # fonts: not in git (CREDITS names them) → fonts/ (after the numba check: that comes first)
 $PY core/tts/tts.py $D/lines.json $D/voices                     # 1. Kokoro voice-over (af_sarah 0.9)
 $PY core/tts/asr_check.py $D/lines.json $D/voices               # 2. whisper line-by-line check (the asr field registers Nian→Nyan/Nion as homophones)

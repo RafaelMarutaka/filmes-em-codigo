@@ -311,7 +311,7 @@ export async function build(QS) {
   rampDecal.visible = false;
   // end card: printed on the board (the empty board in front of the histogram, lower right), part of the lab bench like all other type.
   // Its position is found by casting the last shot's screen rectangle onto the board; the type is pre-stretched vertically (1 / perspective squash) so it reads at normal proportions from the camera.
-  const STYLE_EN = 'Blob Simulation', STYLE_ZH = '小人模拟实验', SIGN = 'LemoLab \u00D7 Claude Opus 5.5';
+  const STYLE_EN = 'Blob Simulation', STYLE_ZH = '小人模拟实验', SIGN = 'Rafael Marutaka \u00D7 Claude Opus 5.5';
   const creditDecal = (() => {
     applyCam(cam(CUE.still));
     const rc = new THREE.Raycaster(), pl = new THREE.Plane(V(0, 1, 0), 0), hit = (px, py) => { rc.setFromCamera(new THREE.Vector2(px / W * 2 - 1, -(py / H * 2 - 1)), camera); const p = V(0, 0, 0); rc.ray.intersectPlane(pl, p); return p; };
@@ -628,7 +628,7 @@ export async function build(QS) {
   }
   window.TEXTS = t => {
     REC = []; render(t); const out = REC; REC = null;
-    if (t >= CUE.card1) out.push({ id: 'endcard', text: 'Is faster better? 跑得快，就更好吗？ BLOB SIMULATION · 小人模拟实验 LemoLab × Claude Opus 5.5', x0: 1180, y0: 812, x1: 1800, y1: 1036 });
+    if (t >= CUE.card1) out.push({ id: 'endcard', text: 'Is faster better? 跑得快，就更好吗？ BLOB SIMULATION · 小人模拟实验 Rafael Marutaka × Claude Opus 5.5', x0: 1180, y0: 812, x1: 1800, y1: 1036 });
     return out;
   };
   return { render, dur: DUR };

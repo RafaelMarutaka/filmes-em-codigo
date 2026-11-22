@@ -343,7 +343,7 @@ function bowlState(t) {
 
 // ---------------------------------------------------------------- street furniture
 function rect(ctx, x0, y0, x1, y1) { ctx.fillRect(x0, y0, x1 - x0, y1 - y0); }
-const CARD = [['夜宵', 2.0, 0.36, '900 # NotoSC'], ['MIDNIGHT SNACK', 1.71, 0.2, '700 # Barlow'], ['霓虹灯管  NEON TUBES', 1.44, 0.15, '700 # NotoSC'], ['LemoLab × Claude Opus 5.5', 1.16, 0.18, '700 # Barlow']];
+const CARD = [['夜宵', 2.0, 0.36, '900 # NotoSC'], ['MIDNIGHT SNACK', 1.71, 0.2, '700 # Barlow'], ['霓虹灯管  NEON TUBES', 1.44, 0.15, '700 # NotoSC'], ['Rafael Marutaka × Claude Opus 5.5', 1.16, 0.18, '700 # Barlow']];
 const CARD_X = 5.25;
 function drawFacade(c, t) {
   const tf = tfStreet(c, 0); if (!tf) return;

@@ -2,12 +2,12 @@
 # python3 styleboard/build.py --site <dir> --films <dir> --media <dir> runs:
 #   index.html          the Workbench: the long take along the bench, one station per category (home.py)
 #   styles/<slug>/      one per style: the film on the first screen, its label in the dark, the sheet, back at the bench
-#   opuscar98/          the feature: the end of the bench (the projector's frame), the film on the projection, the 98 styles book
+#   filmes98/          the feature: the end of the bench (the projector's frame), the film on the projection, the 98 styles book
 #   thanks/             the thank-you films;   404.html: not on the bench (search), both languages in one page
-#   sitemap.xml, llms.txt, opuscar98/styles.json, media/search.json, fonts/ (subsets made for these pages)
+#   sitemap.xml, llms.txt, filmes98/styles.json, media/search.json, fonts/ (subsets made for these pages)
 # It never makes media: they come from --media (media.py makes them; tools/site_media.sh packs them), and a film without its media
 # stops the build. The old site's addresses keep working: posters/<slug>.jpg, stills/<slug>-<i>.jpg, img/… (styleboard/img/,
-# docs/social.jpg), films/<id>.mp4, assets/favicon.svg, opuscar98/styles.json; its anchors land via styleboard/anchors.json.
+# docs/social.jpg), films/<id>.mp4, assets/favicon.svg, filmes98/styles.json; its anchors land via styleboard/anchors.json.
 # Settings a fork changes: styleboard/site_config.py. Rules: styleboard/DESIGN.md.
 import html, json, os, re, shutil, sys
 sys.dont_write_bytecode = True
@@ -27,7 +27,7 @@ DATA, CAT, ORDER = None, {}, []                                            # use
 # there opens its film in place (app.js). The bench is the same for every page of a language, so it is one file per language,
 # media/bench-<lang>.json (BENCH: its address with a content hash), fetched once and cached, not carried by 99 pages.
 BENCH = {}
-BOOK_PATH = os.path.join(HERE, 'opuscar98_styles.json')
+BOOK_PATH = os.path.join(HERE, 'filmes98_styles.json')
 BOOK = json.load(open(BOOK_PATH, encoding='utf-8'))
 FILMS_URL = C.FILMS_URL                                                   # 1080p, on the "films" release
 BLOB = f'{C.REPO_URL}/blob/main'
@@ -47,7 +47,7 @@ def use(data):
 
 # ---------------------------------------------------------------- words (English, 中文); the rest come from build.T and gallery.UI
 T = {
-    'title': ('{name} · a film style for Claude Code · Lemo-Opuscar', '{name} · Claude Code 影片风格 · Lemo-Opuscar'),
+    'title': ('{name} · a film style for Claude Code · Filmes em Código', '{name} · Claude Code 影片风格 · Filmes em Código'),
     'desc': ('{about} Demo film: {film} ({dur}), made entirely in code by Claude Opus 5.5.', '{about} Demo 片《{film}》（{dur}），由 Claude Opus 5.5 完全用代码做成。'),
     'skip': ('Skip to content', '跳到正文'),
     'to_bench': ('Station {nn} / {c} · {cat}: back to the bench', '工位 {nn} / {c} · {cat}：回到工作台'),
@@ -75,7 +75,7 @@ T = {
     'f_lic_3p': ('third-party material: see CREDITS', '第三方素材：见 CREDITS'),   # links to the demo's CREDITS
     'docs': ('Documents', '文档'),
     'home': ('The Workbench', '电影工坊'), 'thanks': ('Thank-you films', '感谢片'),   # the 404 page's buttons
-    # OPUSCAR 98
+    # FILMES 98
     'o_end': ('End of the bench', '台子尽头'),
     'o_leave': ('Leave the screening', '离开放映'),
     'o_n': ('{n} films', '{n} 部'),
@@ -89,7 +89,7 @@ T = {
     't_newest': ('Newest', '最新'),
     't_n': ('{n} films', '{n} 支'),
     # 404
-    'nf_title': ('Not on the bench · Lemo-Opuscar', '台上没有这一页 · Lemo-Opuscar'),
+    'nf_title': ('Not on the bench · Filmes em Código', '台上没有这一页 · Filmes em Código'),
     'nf_h1': ('This page isn’t on the bench.', '台上没有这一页。'),
     'nf_p': ('The address may have changed when the site was rebuilt. Search the {n} styles, or walk the bench from the start.',
              '网站改版时，地址可能变了。搜一下 {n} 种风格，或者从工作台的开头走一遍。'),
@@ -116,11 +116,11 @@ def short_heading(h):
     h = re.split(r'\s+[—–-]\s+|:\s', h)[0]
     return re.sub(r'[*`]', '', h).strip()
 
-# OPUSCAR 98 outside the 98 films: (start, (English, 中文), the frame for the ruler's thumbnail)
+# FILMES 98 outside the 98 films: (start, (English, 中文), the frame for the ruler's thumbnail)
 O98_EXTRA = [(0.0, ('Prologue · 98 Years of Best Picture', '序幕 · 98 年最佳影片'), 4.5),
              (298.75, ('Coda · from fire to Claude Opus 5.5', '尾声 · 从火到 Claude Opus 5.5'), 341.0),
              (360.0, ('Dedication · to the great art of cinema', '献词 · 致电影这门伟大的艺术'), 371.0),
-             (381.0, ('Curtain · OPUSCAR 98', '谢幕 · OPUSCAR 98'), 386.0)]
+             (381.0, ('Curtain · FILMES 98', '谢幕 · FILMES 98'), 386.0)]
 O98_KIND_ZH = {'B&W': '黑白', 'Sepia': '棕褐', 'B&W screen': '黑白屏幕'}
 
 ICON = {
@@ -180,7 +180,7 @@ def search_index():
 
 # ---------------------------------------------------------------- pages
 class Doc(B.Page):
-    """a page under the home page, in one language: path is its folder ('styles/impasto/', 'opuscar98/'; '' for the site root's 404)"""
+    """a page under the home page, in one language: path is its folder ('styles/impasto/', 'filmes98/'; '' for the site root's 404)"""
     def __init__(self, zh, path, media):
         super().__init__(DATA, zh, media)
         self.path = path
@@ -210,7 +210,7 @@ class Doc(B.Page):
         twin = json.dumps(self.twin())
         # a README link ends in #gh-dark-mode-only or #gh-light-mode-only (GitHub shows a picture by its theme): dropped first, so #s01 etc. still work
         return ("if(/#gh-(dark|light)-mode-only$/.test(location.hash))history.replaceState(null,'',location.href.replace(/#gh-(dark|light)-mode-only$/,''));"
-                + "(function(){var s;try{s=localStorage.getItem('opuscar-lang')}catch(e){}"
+                + "(function(){var s;try{s=localStorage.getItem('filmes-lang')}catch(e){}"
                 + (f"if(s==='en'){{location.replace({twin}+location.search+location.hash);return}}" if self.zh else
                    "var l=(navigator.languages&&navigator.languages[0])||navigator.language||'';"
                    f"if(s==='zh'||(!s&&/^zh/i.test(l))){{location.replace({twin}+location.search+location.hash);return}}")
@@ -223,11 +223,11 @@ class Doc(B.Page):
             tags += [f'<link rel="canonical" href="{self.url()}">',
                      f'<link rel="alternate" hreflang="en" href="{self.url(False)}"><link rel="alternate" hreflang="zh-CN" href="{self.url(True)}">'
                      f'<link rel="alternate" hreflang="x-default" href="{self.url(False)}">',
-                     '<meta property="og:type" content="website"><meta property="og:site_name" content="Lemo-Opuscar">',
+                     '<meta property="og:type" content="website"><meta property="og:site_name" content="Filmes em Código">',
                      f'<meta property="og:locale" content="{"zh_CN" if self.zh else "en_US"}"><meta property="og:locale:alternate" content="{"en_US" if self.zh else "zh_CN"}">',
                      f'<meta property="og:url" content="{self.url()}"><meta property="og:title" content="{E(title)}">',
                      f'<meta property="og:description" content="{E(desc)}"><meta property="og:image" content="{image}">',
-                     '<meta name="twitter:card" content="summary_large_image"><meta name="twitter:site" content="@lemomo_ai">',
+                     '<meta name="twitter:card" content="summary_large_image"><meta name="twitter:site" content="@RafaelMarutaka">',
                      f'<meta name="twitter:title" content="{E(title)}"><meta name="twitter:description" content="{E(desc)}"><meta name="twitter:image" content="{image}">']
         else:
             tags.append('<meta name="robots" content="noindex">')
@@ -248,8 +248,8 @@ class Doc(B.Page):
     def top(self):
         lang = (f'<a class="lang" href="{self.twin()}" hreflang="{"en" if self.zh else "zh-CN"}" lang="{"en" if self.zh else "zh-CN"}" '
                 f'data-lang="{"en" if self.zh else "zh"}">{self.w("lang_other")}</a>')
-        here = {'opuscar98/': 'o98', 'thanks/': 'thanks'}.get(self.path, '')
-        return (f'<header class="top">\n <a class="mark" href="{self.home()}" aria-label="Lemo-Opuscar · {E(self.w("house"))}">OPUSCAR<small>{E(self.w("house"))}</small></a>\n <i class="rule"></i>\n'
+        here = {'filmes98/': 'o98', 'thanks/': 'thanks'}.get(self.path, '')
+        return (f'<header class="top">\n <a class="mark" href="{self.home()}" aria-label="Filmes em Código · {E(self.w("house"))}">FILMES<small>{E(self.w("house"))}</small></a>\n <i class="rule"></i>\n'
                 + B.nav(self.w, self.home(), lang, here) +
                 f' <div class="tr"><button class="search" type="button" aria-haspopup="dialog" aria-controls="find" aria-keyshortcuts="/">{ICON["search"]}'
                 f'<span>{E(self.w("search_ph", n=self.n))}</span><kbd>/</kbd></button>\n'
@@ -291,7 +291,7 @@ class Doc(B.Page):
 
     def repo_ld(self):
         n = len(DATA['styles'])
-        return {'@type': 'SoftwareSourceCode', '@id': G.REPO_URL, 'name': 'Lemo-Opuscar', 'url': G.REPO_URL, 'codeRepository': G.REPO_URL,
+        return {'@type': 'SoftwareSourceCode', '@id': G.REPO_URL, 'name': 'Filmes em Código', 'url': G.REPO_URL, 'codeRepository': G.REPO_URL,
                 'description': f'{n} film styles, each a style prompt plus a demo film made entirely in code, packaged as a Claude Code skill.',
                 'license': f'{BLOB}/LICENSE', 'author': {'@id': G.AUTHOR['@id']},   # LICENSE: code MIT, docs CC BY-NC 4.0, films CC BY 4.0
                 'keywords': ['Claude Code skill', 'Claude Opus 5.5', 'film styles', 'no video model', 'motion graphics', 'creative coding']}
@@ -438,7 +438,7 @@ class StylePage(Doc):
 class O98Page(Doc):
     """the feature at the end of the bench: the projector's frame, the film on its projection (then large, then in the corner), the 98 styles"""
     def __init__(self, zh, media):
-        super().__init__(zh, 'opuscar98/', media)
+        super().__init__(zh, 'filmes98/', media)
 
     def render(self):
         zh, R, t = self.zh, self.R, self.w
@@ -446,8 +446,8 @@ class O98Page(Doc):
         L = lambda en, cn: cn if zh else en
         chs = {c['id']: c for c in BOOK['chapters']}
         films = BOOK['films']
-        poster_abs = B.LIVE + 'img/feature_opuscar98.jpg'
-        ld = [{'@type': 'VideoObject', '@id': self.url(), 'url': self.url(), 'name': 'OPUSCAR 98 · 98 Years of Best Picture', 'description': t('o_desc'),
+        poster_abs = B.LIVE + 'img/feature_filmes98.jpg'
+        ld = [{'@type': 'VideoObject', '@id': self.url(), 'url': self.url(), 'name': 'FILMES 98 · 98 Years of Best Picture', 'description': t('o_desc'),
                'thumbnailUrl': poster_abs, 'uploadDate': F['date'], 'duration': 'PT{}M{}S'.format(*F['dur'].split(':')), 'contentUrl': F['full'],
                'embedUrl': self.url(), 'inLanguage': 'zh-CN' if zh else 'en', 'creator': {'@id': G.AUTHOR['@id']}, 'isBasedOn': {'@id': G.REPO_URL}},
               self.repo_ld(), G.AUTHOR]
@@ -464,17 +464,17 @@ class O98Page(Doc):
             f'  <div class="proj" style="{pos}">\n'
             f'   <div class="dockbar"><a class="dnow" href="#styles"></a><button type="button" class="dloop" aria-pressed="false">{E(t("o_loop"))}</button>'
             f'<button type="button" class="dclose" aria-label="{E(t("o_close"))}">×</button></div>\n   '
-            + self.player('opuscar98', 'OPUSCAR 98', chapters='ch-o98', download=F['full'], preload='none', below=True, sizes='(min-width: 1024px) 84vw, 100vw')
+            + self.player('filmes98', 'FILMES 98', chapters='ch-o98', download=F['full'], preload='none', below=True, sizes='(min-width: 1024px) 84vw, 100vw')
             + f'\n   <button type="button" class="leave" aria-label="{E(t("o_leave"))}">×</button>\n  </div>\n'
             f'  <div class="ov">\n   <p class="meta"><span>{E(t("feat_eyebrow"))}</span><i></i><span>{E(t("o_end"))}</span></p>\n'
-            f'   <h1 id="o-h" class="o98">OPUSCAR 98<span class="sub">{E(t("feat_sub", dur=F["dur"]))}</span></h1>\n'
+            f'   <h1 id="o-h" class="o98">FILMES 98<span class="sub">{E(t("feat_sub", dur=F["dur"]))}</span></h1>\n'
             f'   <p class="desc">{E(t("feat_p"))}</p>\n'
             f'   <p class="acts"><button class="btn primary" type="button" data-watch>{ICON["play"]}{E(t("feat_watch"))}<span class="t">{F["dur"]}</span></button>'
             f'<a class="btn" href="#styles">{E(t("o_98"))}</a><a class="btn" href="{F["full"]}">{E(t("download"))}</a></p>\n  </div>\n </div>\n</section>\n')
 
         # ---- credits, as the end titles list them
         credits = [(t('o_run'), F['dur'], t('o_run_v')), (t('o_with'), t('o_with_v'), t('o_with_s')), (t('o_model'), t('o_model_v'), t('o_model_s')),
-                   (t('o_by'), 'Lemomo · LemoLab', '<a href="https://x.com/lemomo_ai" rel="noopener">@lemomo_ai</a> · <a href="https://github.com/lemomo-ai" rel="noopener">github.com/lemomo-ai</a>')]
+                   (t('o_by'), 'Rafael Marutaka · Rafael Marutaka', '<a href="https://x.com/RafaelMarutaka" rel="noopener">@RafaelMarutaka</a> · <a href="https://github.com/RafaelMarutaka" rel="noopener">github.com/RafaelMarutaka</a>')]
         out.append('<div class="sheet">\n<dl class="credits">' + ''.join(
             f'<div><dt>{E(a)}</dt><dd><b>{E(b)}</b><span>{c if c.startswith("<a") else E(c)}</span></dd></div>' for a, b, c in credits) + '</dl>\n')
 
@@ -501,7 +501,7 @@ class O98Page(Doc):
             q = ' '.join([f['title'], f['zh'], f['year'], f'no.{no}', k.lower(), f['style_en'], f['style_zh'], *f['blend_en'], *f['blend_zh'], *f['refs']]).lower()
             shots = ''.join(f'<li><p class="cam"><b>{E(t("o_shot", n=f"{i:02d}"))}</b><span>{sh["sec"]:.1f}s</span></p><p>{E(L(sh["en"], sh["zh"]))}</p></li>' for i, sh in enumerate(f['shots'], 1))   # numbered: the cam names are working names
             head = t('o_style_lbl') + ' · '.join(x for x in (style, k, tone_t) if x)
-            alt = f'No.{no} {f["title"]} ({f["year"]}) in OPUSCAR 98, {f["style_en"]}'
+            alt = f'No.{no} {f["title"]} ({f["year"]}) in FILMES 98, {f["style_en"]}'
             sub = f'<span class="en" lang="en">{E(f["title"])}</span>' if zh else ''
             arts.append(
                 f'<article class="film" id="no-{no}" data-ch="{f["chapter"]}" data-k="{k}" data-t0="{f["t0"]}" data-dur="{f["dur"]}" data-words="{E(q)}" data-label="No.{no} · {E(title)}">\n'
@@ -530,7 +530,7 @@ class O98Page(Doc):
             f'  <div class="decades" role="group" aria-label="{E(t("o_decade"))}"><button type="button" class="all" data-ch="all" aria-pressed="true">{E(t("o_all"))}</button>'
             f'<ol>{decs}</ol></div>\n </div>\n'
             f' <div class="films">\n' + '\n'.join(arts) + f'\n <p class="none98" id="none98" hidden>{E(t("o_none"))}</p>\n </div>\n'
-            f' <p class="json">{E(t("o_json"))} <a href="{self.R}opuscar98/styles.json">styles.json</a></p>\n</section>\n')
+            f' <p class="json">{E(t("o_json"))} <a href="{self.R}filmes98/styles.json">styles.json</a></p>\n</section>\n')
         out.append(f'<section class="made" aria-labelledby="made-h">\n <header class="rowh"><span class="n">02</span><h2 id="made-h">{E(t("o_made_h"))}</h2><i></i></header>\n'
                    f' <p class="lede">{E(t("o_made_1"))}</p>\n <p class="lede">{E(t("o_made_2", n=len(DATA["styles"])))}</p>\n'
                    f' <p class="acts"><a class="btn" href="{self.home()}">{E(t("browse", n=len(DATA["styles"])))}</a></p>\n</section>\n' + self.credits() + '</div>\n')
@@ -581,9 +581,9 @@ class NotFound(Doc):
 
     def nav404(self, both):
         gh = f'<a class="gh" href="{G.REPO_URL}" rel="noopener">GitHub{f"<span>★ {B.STARS}</span>" if B.STARS else ""}</a>'
-        links = f'<a href="opuscar98/" data-zh="zh/opuscar98/">OPUSCAR 98</a><a href="thanks/" data-zh="zh/thanks/">{both("nav_thanks")}</a>{gh}'
+        links = f'<a href="filmes98/" data-zh="zh/filmes98/">FILMES 98</a><a href="thanks/" data-zh="zh/thanks/">{both("nav_thanks")}</a>{gh}'
         lang = '<a class="lang-m" href="zh/" data-zh="./"><span lang="en">中文</span><span lang="zh-CN">EN</span></a>'
-        return (f' <nav class="links" aria-label="Lemo-Opuscar">{links}</nav>\n'
+        return (f' <nav class="links" aria-label="Filmes em Código">{links}</nav>\n'
                 f' <details class="menu"><summary aria-label="Menu · 菜单"><svg viewBox="0 0 18 18" aria-hidden="true"><path d="M2 5h14M2 9h14M2 13h14"/></svg></summary>'
                 f'<div class="mp">{links}{lang}</div></details>\n')
 
@@ -599,12 +599,12 @@ class NotFound(Doc):
         moved = ("var m=p.indexOf(r+'films/')===0&&/^([\\w-]+)\\.mp4$/.exec(p.slice(r.length+6));"
                  "if(m&&" + json.dumps(styles, separators=(',', ':')) + ".indexOf(m[1])>=0){location.replace(" + json.dumps(C.FILMS_BASE) + "+m[0]);return}"
                  if styles else '')
-        boot = ("(function(){var d=document,r=" + json.dumps(base) + ",p=location.pathname,s;" + moved + "try{s=localStorage.getItem('opuscar-lang')}catch(e){}"
+        boot = ("(function(){var d=document,r=" + json.dumps(base) + ",p=location.pathname,s;" + moved + "try{s=localStorage.getItem('filmes-lang')}catch(e){}"
                 "var l=(navigator.languages&&navigator.languages[0])||navigator.language||'',z=p.indexOf(r+'zh/')===0||p.indexOf('/zh/')===0||(s?s==='zh':/^zh/i.test(l));"
                 "d.documentElement.lang=z?'zh-CN':'en';if(z)d.title=" + json.dumps(self.zhp.w('nf_title'), ensure_ascii=False) + ";d.documentElement.classList.add('js')})();")
         both = lambda k, **kw: f'<span lang="en">{E(en.w(k, **kw))}</span><span lang="zh-CN">{E(zh.sc(zh.w(k, **kw)))}</span>'
-        out = [self.head('Not on the bench · Lemo-Opuscar', en.w('nf_p', n=self.n), '', noindex=True, boot=boot, cls='page nf').replace('<head>\n', f'<head>\n<base href="{base}">\n', 1)]
-        out.append('<body class="notfound">\n<header class="top">\n <a class="mark" href="./" aria-label="Lemo-Opuscar">OPUSCAR<small>' + both('house') + '</small></a>\n <i class="rule"></i>\n'
+        out = [self.head('Not on the bench · Filmes em Código', en.w('nf_p', n=self.n), '', noindex=True, boot=boot, cls='page nf').replace('<head>\n', f'<head>\n<base href="{base}">\n', 1)]
+        out.append('<body class="notfound">\n<header class="top">\n <a class="mark" href="./" aria-label="Filmes em Código">FILMES<small>' + both('house') + '</small></a>\n <i class="rule"></i>\n'
                    + self.nav404(both) +
                    f' <div class="tr"><button class="search" type="button" aria-haspopup="dialog" aria-controls="find">{ICON["search"]}<span>' + both('search_ph', n=self.n) + '</span><kbd>/</kbd></button>'
                    '<a class="lang" href="zh/" data-zh="./"><span lang="en">中文</span><span lang="zh-CN">EN</span></a></div>\n</header>\n<main id="main">\n'
@@ -612,7 +612,7 @@ class NotFound(Doc):
                    f'  <p class="meta"><b>404</b><i></i>' + both('house') + '</p>\n'
                    f'  <h1>' + both('nf_h1') + '</h1>\n  <p class="desc">' + both('nf_p', n=self.n) + '</p>\n'
                    f'  <p class="acts"><button class="btn primary" type="button" data-find>{ICON["search"]}' + both('nf_search', n=self.n) + '<kbd>/</kbd></button>'
-                   f'<a class="btn" href="./" data-zh="zh/">' + both('home') + '</a><a class="btn" href="opuscar98/" data-zh="zh/opuscar98/">OPUSCAR 98</a>'
+                   f'<a class="btn" href="./" data-zh="zh/">' + both('home') + '</a><a class="btn" href="filmes98/" data-zh="zh/filmes98/">FILMES 98</a>'
                    f'<a class="btn" href="thanks/" data-zh="zh/thanks/">' + both('thanks') + '</a></p>\n </div>\n</section>\n</main>\n')
         # search in either language: page.js takes #pg-zh on a Chinese page
         self.R = ''; zh.R = ''
@@ -645,7 +645,7 @@ def bench_file(zh, media):
     hp = B.Page(DATA, zh, media)
     hp.R = '../' * (3 if zh else 2)                       # every style page sits at [zh/]styles/<slug>/
     stops = '<div class="stop gone" data-stop="0" hidden></div>\n' + ''.join(hp.station(c) for c in DATA['categories']) + hp.finale(top='#film')
-    room = (f'<dialog class="room" id="room" aria-label="OPUSCAR 98">{hp.room_player()}'
+    room = (f'<dialog class="room" id="room" aria-label="FILMES 98">{hp.room_player()}'
             f'<button class="x" type="button" aria-label="{E(hp.t("close"))}">×</button></dialog>\n')
     after = ('<div class="reel" aria-hidden="true"><canvas id="seq"></canvas></div><div class="grain" aria-hidden="true"></div>'
              '<div class="scrim" aria-hidden="true"></div><div class="veil" aria-hidden="true"></div>\n'
@@ -671,7 +671,7 @@ def sans_sc(out):
         if os.path.relpath(d, out).split(os.sep)[0] in ('films', 'media', 'fonts', 'img', 'assets', 'posters', 'stills'): continue
         for f in fs:
             if f.endswith('.html'): chars |= set(CJK.findall(open(os.path.join(d, f), encoding='utf-8').read()))
-    for f in ('media/search.json', 'opuscar98/styles.json'):
+    for f in ('media/search.json', 'filmes98/styles.json'):
         p = os.path.join(out, f)
         if os.path.exists(p): chars |= set(CJK.findall(open(p, encoding='utf-8').read()))
     dst = os.path.join(out, 'fonts', 'noto-sans-sc.woff2')
@@ -681,7 +681,7 @@ def sans_sc(out):
 
 # ---------------------------------------------------------------- sitemap, llms.txt
 def sitemap():
-    paths = ['', *(f'styles/{s}/' for s in ORDER), 'opuscar98/', 'thanks/']
+    paths = ['', *(f'styles/{s}/' for s in ORDER), 'filmes98/', 'thanks/']
     rows = []
     for p in paths:
         alts = ''.join(f'<xhtml:link rel="alternate" hreflang="{h}" href="{B.LIVE}{pre}{p}"/>' for h, pre in (('en', ''), ('zh-CN', 'zh/'), ('x-default', '')))
@@ -693,19 +693,19 @@ def sitemap():
 
 def llms():
     n = len(DATA['styles'])
-    out = ['# Lemo-Opuscar', '',
+    out = ['# Filmes em Código', '',
            f'> {n} film styles for Claude Code. Each style is a reusable style prompt (STYLE.md) plus a short demo film made entirely in code '
            'by Claude Opus 5.5, with no video model. Install it as a Claude Code skill, pick a style, bring your own topic, and your agent directs the film.', '',
-           f'Official repository: {G.REPO_URL} (by Lemomo, https://x.com/lemomo_ai). Forks are copies; this is the upstream.', '',
+           f'Official repository: {G.REPO_URL} (by Rafael Marutaka, https://x.com/RafaelMarutaka). Forks are copies; this is the upstream.', '',
            '## Start here', '',
            f'- [README]({BLOB}/README.md): what it is, how to install the skill, the style grid',
            f'- [README in Chinese]({BLOB}/README.zh-CN.md): the same in Simplified Chinese',
            f'- [Agent instructions]({BLOB}/AGENTS.md): how an agent directs a film in one of the styles',
            f'- [The Workbench]({B.LIVE}): every style on a long workbench, one station per category, with its demo film; in Chinese at {B.LIVE}zh/',
-           f'- [OPUSCAR 98]({B.LIVE}opuscar98/): 98 Years of Best Picture ({G.FEATURE["dur"]}), the feature film made with these tools',
+           f'- [FILMES 98]({B.LIVE}filmes98/): 98 Years of Best Picture ({G.FEATURE["dur"]}), the feature film made with these tools',
            f'- [Thank-you films]({B.LIVE}thanks/): films made at 300, 800, 2,000, 3,000 and 6,000 stars',
-           f'- [OPUSCAR 98, all 98 styles]({B.LIVE}opuscar98/#styles): per film the style, a reusable style prompt, and the shots and direction '
-           f'(as JSON: {B.LIVE}opuscar98/styles.json)', '']
+           f'- [FILMES 98, all 98 styles]({B.LIVE}filmes98/#styles): per film the style, a reusable style prompt, and the shots and direction '
+           f'(as JSON: {B.LIVE}filmes98/styles.json)', '']
     for c in DATA['categories']:
         out += [f'## {c["en"]}', '']
         out += [f'- [{CAT[s]["en"]} · {CAT[s]["cn"]}]({BLOB}/styles/{s}/STYLE.md): {CAT[s]["line"]} (page: {B.LIVE}styles/{s}/)' for s in c['styles']]
@@ -739,7 +739,7 @@ def stars():
     """the repository's stars for the top bar, read once per build from the GitHub API (with GITHUB_TOKEN or GH_TOKEN when set, as in
     CI): "6.1k". Nothing when it can't be read: the bar then says "GitHub" without a number."""
     import urllib.request
-    req = urllib.request.Request(f'https://api.github.com/repos/{C.REPO}', headers={'Accept': 'application/vnd.github+json', 'User-Agent': 'lemo-opuscar-site'})
+    req = urllib.request.Request(f'https://api.github.com/repos/{C.REPO}', headers={'Accept': 'application/vnd.github+json', 'User-Agent': 'filmes-em-codigo-site'})
     tok = os.environ.get('GITHUB_TOKEN') or os.environ.get('GH_TOKEN')
     if tok: req.add_header('Authorization', f'Bearer {tok}')
     try:
@@ -791,7 +791,7 @@ def build_site(out, styles, categories, films=None, media=None):
     import sitedata
     OUT = out
     media = os.path.abspath(media or C.MEDIA)
-    if not os.path.isdir(media): raise SystemExit(f'pages.py: no media folder {media} (--media DIR, or OPUSCAR_SITE_MEDIA)')
+    if not os.path.isdir(media): raise SystemExit(f'pages.py: no media folder {media} (--media DIR, or FILMES_SITE_MEDIA)')
     use(sitedata.site_data(styles, categories))
     meta = media_meta(media)
     fixed = M.real_durs(DATA)   # the lengths the pages print are the films' own
@@ -800,17 +800,17 @@ def build_site(out, styles, categories, films=None, media=None):
     # media: <media>/legacy/ at the site's root (old addresses), the rest under media/; the measuring files stay behind
     n = mirror(media, os.path.join(out, 'media'), skip={'legacy', 'labels.json', 'label-rects.json', 'checks.json', 'search.json', 'thumb/cards.json', 'o98/meta.json'})
     n += mirror(os.path.join(media, 'legacy'), out) if os.path.isdir(os.path.join(media, 'legacy')) else 0
-    # from git: the scripts and styles, the old site's pictures (img/<slug>_<n>.jpg, OPUSCAR 98's frames, the thank-you posters),
+    # from git: the scripts and styles, the old site's pictures (img/<slug>_<n>.jpg, FILMES 98's frames, the thank-you posters),
     # the posters at their old address (also the share cards), GitHub's social preview as the home page's share card
     shutil.copytree(os.path.join(HERE, 'assets'), os.path.join(out, 'assets'), dirs_exist_ok=True)
     shutil.copytree(os.path.join(HERE, 'img'), os.path.join(out, 'img'), dirs_exist_ok=True)
     os.makedirs(os.path.join(out, 'posters'), exist_ok=True)
     for slug in ORDER: shutil.copyfile(os.path.join(ROOT, 'styles', slug, 'poster.jpg'), os.path.join(out, 'posters', slug + '.jpg'))
     shutil.copyfile(os.path.join(ROOT, 'docs', 'social.jpg'), os.path.join(out, 'img', 'social.jpg'))
-    os.makedirs(os.path.join(out, 'opuscar98'), exist_ok=True)
-    shutil.copyfile(BOOK_PATH, os.path.join(out, 'opuscar98', 'styles.json'))      # all 98 prompts as data (the old site's address)
+    os.makedirs(os.path.join(out, 'filmes98'), exist_ok=True)
+    shutil.copyfile(BOOK_PATH, os.path.join(out, 'filmes98', 'styles.json'))      # all 98 prompts as data (the old site's address)
     # the 720p films the site serves itself at films/<id>.mp4 (pages.yml downloads them there; locally they are linked). The style films
-    # load from the films repository unless OPUSCAR_FILMS_BASE brings them inside (site_config.py)
+    # load from the films repository unless FILMES_FILMS_BASE brings them inside (site_config.py)
     if films:
         for j in M.jobs(DATA, []):
             if not C.in_site(j['id']): continue
@@ -844,4 +844,4 @@ def build_site(out, styles, categories, films=None, media=None):
     sitemap(); llms()
     nc, nb = sans_sc(out)
     print(f'  fonts/noto-sans-sc.woff2      {nb / 1024:6.1f} KB ({nc} Chinese characters, the running text of every page)')
-    print(f'  {len(html_out) + 2} pages ({total / 1024:.0f} KB of HTML besides the home page), {n} media files placed; sitemap.xml, llms.txt, opuscar98/styles.json')
+    print(f'  {len(html_out) + 2} pages ({total / 1024:.0f} KB of HTML besides the home page), {n} media files placed; sitemap.xml, llms.txt, filmes98/styles.json')

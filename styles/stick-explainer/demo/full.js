@@ -551,7 +551,7 @@ function hudS5(T) {
   };
   pair('Six Hands Away', '隔着几只手', 676, { size: 30, w: 600, col: C.ink, track: -.5 }, 48.8);
   pair('Stick-figure Explainer', '火柴人讲解', 722, { size: 26, w: 500, col: C.mute }, 48.9);
-  pair('LemoLab × Claude Opus 5.5', '', 772, { size: 30, w: 600, col: C.ink, track: .5 }, 49.0);
+  pair('Rafael Marutaka × Claude Opus 5.5', '', 772, { size: 30, w: 600, col: C.ink, track: .5 }, 49.0);
 }
 
 // subtitles: bottom-left, one Chinese line and one English line, no box (the paper is clean); never over the subject

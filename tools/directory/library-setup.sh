@@ -1,5 +1,5 @@
 #!/bin/sh
-# Lemo-Opuscar library (plugin directory edition): check the tools and install packages. Run from anywhere.
+# Filmes em Código library (plugin directory edition): check the tools and install packages. Run from anywhere.
 #   sh tools/setup.sh                       report what is missing and which package tiers are installed → LIB=<path>
 #   sh tools/setup.sh deps [voice] [music]  install packages: core = Node packages, headless browser, Python core tier;
 #                                           voice = TTS and speech check (+ the English voice model); music = pluck.py (numba)
@@ -12,8 +12,8 @@ LIB=$(cd "$(dirname "$0")/.." && pwd -P)
 sig() { cat "$@" 2>/dev/null | cksum | cut -d' ' -f1; }
 pysig() { echo "$(sig "$1")-$("$LIB/.venv/bin/python" -V 2>&1 | cut -d. -f1,2)"; }
 req() { [ "$1" = core ] && echo "$LIB/requirements.txt" || echo "$LIB/requirements-$1.txt"; }
-node_ok() { [ "$(cat "$LIB/node_modules/.lemo-ok" 2>/dev/null)" = "$(sig "$LIB/package.json" "$LIB/package-lock.json")" ]; }
-py_ok() { [ "$(cat "$LIB/.venv/.lemo-$1" 2>/dev/null)" = "$(pysig "$(req "$1")")" ]; }
+node_ok() { [ "$(cat "$LIB/node_modules/.filmes-ok" 2>/dev/null)" = "$(sig "$LIB/package.json" "$LIB/package-lock.json")" ]; }
+py_ok() { [ "$(cat "$LIB/.venv/.filmes-$1" 2>/dev/null)" = "$(pysig "$(req "$1")")" ]; }
 # a Python 3.11+ for the venv when uv is absent; kokoro-onnx (voice tier) needs < 3.14, so those come first
 find_py() {
   for c in python3.12 python3.13 python3.11 python3 python; do
@@ -32,7 +32,7 @@ win_shim() {
 # One deps run per library at a time (#23): two sessions sharing a library would otherwise half-install, or remove,
 # each other's packages. A lock folder holds the run's pid; a lock whose run is gone is taken over.
 lock_deps() {
-  lock=$LIB/.lemo-deps.lock; n=0
+  lock=$LIB/.filmes-deps.lock; n=0
   until mkdir "$lock" 2>/dev/null; do
     p=$(cat "$lock/pid" 2>/dev/null || true)
     if [ -n "$p" ] && ! kill -0 "$p" 2>/dev/null; then rm -rf "$lock"; continue; fi
@@ -54,7 +54,7 @@ case "$1" in
       cp package-lock.json .package-lock.orig
       npm install --no-audit --no-fund --loglevel=error
       mv .package-lock.orig package-lock.json   # keep the shipped lock file, so the checksum stays the same
-      sig package.json package-lock.json > node_modules/.lemo-ok
+      sig package.json package-lock.json > node_modules/.filmes-ok
     fi
     node node_modules/playwright-core/cli.js install chromium-headless-shell   # the renderer's browser (a no-op when present)
     # a venv whose Python is gone (after a Python upgrade) can't be repaired in place: make it again
@@ -71,7 +71,7 @@ case "$1" in
       py_ok "$t" && continue
       if command -v uv >/dev/null; then uv pip install --quiet --python "$upy" -r "$(req "$t")"
       else .venv/bin/python -m pip install --quiet --disable-pip-version-check -r "$(req "$t")"; fi
-      pysig "$(req "$t")" > ".venv/.lemo-$t"
+      pysig "$(req "$t")" > ".venv/.filmes-$t"
     done
     case " $tiers " in *" voice "*) [ -f core/tts/kokoro-v1.0.onnx ] && [ -f core/tts/voices-v1.0.bin ] || sh tools/fetch.sh voice ;; esac
     ;;
@@ -89,7 +89,7 @@ command -v uv >/dev/null || find_py >/dev/null || miss="$miss python3.11+(or uv)
 [ -n "$miss" ] && echo "! missing:$miss"
 # packages never installed, or installed from a package.json or requirements file that has changed since (a marker is there)
 if ! { node_ok && py_ok core; }; then
-  if [ -f "$LIB/node_modules/.lemo-ok" ] || [ -f "$LIB/.venv/.lemo-core" ]; then
+  if [ -f "$LIB/node_modules/.filmes-ok" ] || [ -f "$LIB/.venv/.filmes-core" ]; then
     echo "! packages changed: run 'sh tools/setup.sh deps' to update them before the next render"
   else echo "! packages not installed yet: run 'sh tools/setup.sh deps' (a few minutes) before the first render"; fi
 fi

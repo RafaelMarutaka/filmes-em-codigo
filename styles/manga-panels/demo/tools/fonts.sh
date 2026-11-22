@@ -9,7 +9,7 @@ font() {
   curl -fsS -o "$HERE/fonts/$2" "$url"
 }
 q() { python3 -c "import urllib.parse,sys;print(urllib.parse.quote(sys.argv[1]))" "$1"; }
-ZH='街角光在跑人群一秒就变了举起来别眨眼下一格是现对焦零点二把风停我手里每都决定性瞬间三十你留这页第口袋相机新品黑白漫画面分音乐合成生图代码与均为虚构牌产，。、：《》（）…·×+/0123456789.KOMANEsLemoLabClaudeOpusSCdxnumpy '
+ZH='街角光在跑人群一秒就变了举起来别眨眼下一格是现对焦零点二把风停我手里每都决定性瞬间三十你留这页第口袋相机新品黑白漫画面分音乐合成生图代码与均为虚构牌产，。、：《》（）…·×+/0123456789.KOMANEsRafael MarutakaClaudeOpusSCdxnumpy '
 JP='カシャッザワバチキギンラタシースョロジサピドクパニコKOMAONE!！'
 font "family=Noto+Sans+SC:wght@900&text=$(q "$ZH")" sanssc900.woff2
 font "family=Noto+Serif+SC:wght@900&text=$(q "$ZH")" serifsc900.woff2

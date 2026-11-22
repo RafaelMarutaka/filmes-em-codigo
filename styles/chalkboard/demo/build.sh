@@ -18,7 +18,7 @@ NAME=chalkboard
 FPS=30
 FRAME=42.5                                           # the verdict on the board, between voice lines: poster and gallery frame
 cd "$LIB"
-"$PY" -c 'import numba' 2>/dev/null || { echo "chalkboard: the demo needs the music tier (numba, for core/audio/pluck.py), which isn't installed. Run: sh plugin/skills/lemo-opuscar/scripts/setup.sh deps voice music" >&2; exit 1; }
+"$PY" -c 'import numba' 2>/dev/null || { echo "chalkboard: the demo needs the music tier (numba, for core/audio/pluck.py), which isn't installed. Run: sh plugin/skills/filmes-em-codigo/scripts/setup.sh deps voice music" >&2; exit 1; }
 
 # fonts (gitignored): single-line EMS fonts for the English chalk; LXGW WenKai as the source of the subtitle subset
 EMS=https://gitlab.com/oskay/svg-fonts/-/raw/master/fonts/EMS

@@ -68,7 +68,7 @@ Paper `#FAF9F5`; black `#1B1C20`; red `#E23B2E`; blue `#2456D6`; peel back `#E2E
 
 ## End card
 
-Written in the empty bottom-right corner of sheet ③ with the black marker, 47.62–48.35 s, held to 52.0 s (3.65 s whole): a short rule, *How far can you see?*, 你能看多远？, *Marker on Paper 马克笔白纸速写*, and **LemoLab × Claude Opus 5.5** (Kalam Bold 34 px). The "LemoLab × Claude Opus 5.5" sign-off belongs to this library's demo only; a user's film carries no LemoLab credit and no copy of this card.
+Written in the empty bottom-right corner of sheet ③ with the black marker, 47.62–48.35 s, held to 52.0 s (3.65 s whole): a short rule, *How far can you see?*, 你能看多远？, *Marker on Paper 马克笔白纸速写*, and **Rafael Marutaka × Claude Opus 5.5** (Kalam Bold 34 px). The "Rafael Marutaka × Claude Opus 5.5" sign-off belongs to this library's demo only; a user's film carries no Rafael Marutaka credit and no copy of this card.
 
 ## Build notes
 

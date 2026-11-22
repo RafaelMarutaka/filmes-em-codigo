@@ -289,7 +289,7 @@ export function makeHud(cv, W, H) {
     T2('end2', 'A Building on a Winter Night', x, y + 62 * S, 32, { font: 'Inter', a });
     T2('end3', '热成像', x, y + 130 * S, 28, { font: 'SC', a, color: 'rgba(255,255,255,.88)' });
     T2('end4', 'Thermal Camera', x, y + 164 * S, 22, { font: 'Inter', a, color: 'rgba(255,255,255,.85)' });
-    T2('end5', 'LemoLab × Claude Opus 5.5', x, y + 226 * S, 26, { font: 'Inter', a, color: 'rgba(255,255,255,.95)' });
+    T2('end5', 'Rafael Marutaka × Claude Opus 5.5', x, y + 226 * S, 26, { font: 'Inter', a, color: 'rgba(255,255,255,.95)' });
   }
   return { draw, texts: () => TX.map(o => ({ ...o })) };
 }

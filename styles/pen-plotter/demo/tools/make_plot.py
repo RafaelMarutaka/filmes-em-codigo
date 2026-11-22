@@ -410,7 +410,7 @@ for lev in LEVELS:
 END = []
 for eid, st, x, y, em, kw in [('end_title', '8848.86', 150, 470, 210, {}), ('end_en', '8,848.86 Metres', 156, 566, 62, {}),
                                ('end_cn', '笔绘仪', 156, 700, 58, {'cjk': 'sansmed'}), ('end_style', 'Pen Plotter', 156, 772, 52, {}),
-                               ('end_sign', 'LemoLab × Claude Opus 5.5', 156, 890, 44, {})]:
+                               ('end_sign', 'Rafael Marutaka × Claude Opus 5.5', 156, 890, 44, {})]:
     L = T.layout(st, x, y, em, **kw)
     END.append({'id': eid, 'text': st, 'bbox': [round(v, 1) for v in L['bbox']], 'strokes': [R2(q) for q in L['strokes']]})
 

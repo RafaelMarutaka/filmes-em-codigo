@@ -4,7 +4,7 @@
 set -e
 cd "$(dirname "$0")/../../.."
 PY=.venv/bin/python; D=styles/dataviz/demo; S=styles/dataviz
-$PY -c 'import numba' 2>/dev/null || { echo "dataviz: the demo needs the music tier (numba, for core/audio/pluck.py), which isn't installed. Run: sh plugin/skills/lemo-opuscar/scripts/setup.sh deps voice music" >&2; exit 1; }
+$PY -c 'import numba' 2>/dev/null || { echo "dataviz: the demo needs the music tier (numba, for core/audio/pluck.py), which isn't installed. Run: sh plugin/skills/filmes-em-codigo/scripts/setup.sh deps voice music" >&2; exit 1; }
 sh styles/dataviz/demo/tools/fonts.sh   # fonts: not in git (CREDITS names them) → fonts/ (after the numba check: that comes first)
 $PY $D/tools/extract_data.py                                          # 0. GISTEMP CSV → data/jja.json (JJA column) + facts used in the narration
 $PY core/tts/tts.py $D/lines.json $D/voices                           # 1. Kokoro voice-over (af_alloy, speed 0.92)

@@ -68,7 +68,7 @@ D minor strings throughout (cello, double bass, viola, violins), one harmonic co
 
 ## End card
 
-On the night sky over the shore in register: the vertical Chinese title 山海 on the right; top left the English title *Mountains and Seas* (58 px italic), the style name (Double Exposure 30 px, 双重曝光 34 px), a thin rule, and `LemoLab × Claude Opus 5.5` (32 px). All develop from blur to sharp like a print and take the grade, vignette and grain; the credit is fully sharp for 3.8 s. The "LemoLab × Claude Opus 5.5" sign-off belongs to this library's demo only; a user's film carries no LemoLab credit and no copy of this card.
+On the night sky over the shore in register: the vertical Chinese title 山海 on the right; top left the English title *Mountains and Seas* (58 px italic), the style name (Double Exposure 30 px, 双重曝光 34 px), a thin rule, and `Rafael Marutaka × Claude Opus 5.5` (32 px). All develop from blur to sharp like a print and take the grade, vignette and grain; the credit is fully sharp for 3.8 s. The "Rafael Marutaka × Claude Opus 5.5" sign-off belongs to this library's demo only; a user's film carries no Rafael Marutaka credit and no copy of this card.
 
 ## Build notes
 

@@ -63,11 +63,11 @@ Narration: Kokoro `af_bella`, speed 0.86, 13 lines in 20 phrases with 0.3 s brea
 
 ## End card
 
-A 26 × 14 merged range in the sheet: "The Hidden Column" typed in 76 px, "藏起来的那一列", a rule of nine coloured cells, and at the right "Spreadsheet Film · 表格动画" and "LemoLab × Claude Opus 5.5". It opens at 47.75 s, is typed from 48.6 s and holds to 52.0 s. The sign-off belongs to this library's demo only; a user's film carries no LemoLab credit and no copy of this card.
+A 26 × 14 merged range in the sheet: "The Hidden Column" typed in 76 px, "藏起来的那一列", a rule of nine coloured cells, and at the right "Spreadsheet Film · 表格动画" and "Rafael Marutaka × Claude Opus 5.5". It opens at 47.75 s, is typed from 48.6 s and holds to 52.0 s. The sign-off belongs to this library's demo only; a user's film carries no Rafael Marutaka credit and no copy of this card.
 
 ## Build notes
 
-- A fresh clone first needs the core and voice tiers (`sh plugin/skills/lemo-opuscar/scripts/setup.sh deps voice`) and three sample libraries: `sh tools/fetch.sh instruments freepats`, `… vcsl`, `… salamander`. Set `LIB` to another library folder to borrow its environment.
+- A fresh clone first needs the core and voice tiers (`sh plugin/skills/filmes-em-codigo/scripts/setup.sh deps voice`) and three sample libraries: `sh tools/fetch.sh instruments freepats`, `… vcsl`, `… salamander`. Set `LIB` to another library folder to borrow its environment.
 - `sh demo/build.sh`: fonts (downloaded from google/fonts and subset by `tools/fonts.py` if missing), voice (Kokoro, only when the WAVs are missing) and the speech-to-text check, `timeline.py` (line starts → `tl.js`, `timeline.json`, `../spreadsheet.srt`), events, picture (`--workers 2`, about 30–40 s on Apple silicon), `mix.py`, master, readcheck, poster and style frame. `sh demo/build.sh cut 20 30` renders any slice of the same timeline.
 - `index.html` reads `?from=&to=` (a slice of the timeline) and `?nosub=1` (no subtitle note, for the poster).
 - `window.TEXTS` reports the texts the viewer is meant to read (merged cells, the comment, the end card); cell values, the shell and the subtitle note are left out. Four pieces are shorter than the reading rule on their first appearance: 78 % (0.4 s before the camera follows the selection to B), 83 % (1.1 s), the patient comment (3.2 s of 4.6 s) and the end card's style line (3.2 s of 3.5 s). The two results return in shots 3–4 and 12 for several seconds.

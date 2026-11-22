@@ -35,18 +35,18 @@ OLD_ANCHORS = {
     'information-keynote': 'data-maps', 'cartoon-anime': 'cartoons', 'games': 'games', 'cinema-eras': 'film-tape', 'materials-3d': '3d-miniature',
     '剪辑与纪实': 'edit-documentary', '实证影像': 'instruments-evidence', '手绘与绘画': 'painting-illustration', '东方传统': 'traditional-crafts',
     '印刷与版画': 'print-printmaking', '图形与排版': 'graphic-type', '信息与发布': 'data-maps', '卡通与动画': 'cartoons', '游戏': 'games',
-    '电影与时代': 'film-tape', '材质与 3D': '3d-miniature', '材质与3D': '3d-miniature', 'all': 'styles', 'feature': 'opuscar98',
+    '电影与时代': 'film-tape', '材质与 3D': '3d-miniature', '材质与3D': '3d-miniature', 'all': 'styles', 'feature': 'filmes98',
 }
 
 # What search engines and AI answer engines read: JSON-LD naming the upstream repo and its author (the addresses: site_config.py).
-AUTHOR = {'@type': 'Person', '@id': 'https://github.com/lemomo-ai', 'name': 'Lemomo', 'url': 'https://github.com/lemomo-ai',
-          'sameAs': ['https://x.com/lemomo_ai', 'https://github.com/lemomo-ai']}
+AUTHOR = {'@type': 'Person', '@id': 'https://github.com/RafaelMarutaka', 'name': 'Rafael Marutaka', 'url': 'https://github.com/RafaelMarutaka',
+          'sameAs': ['https://x.com/RafaelMarutaka', 'https://github.com/RafaelMarutaka']}
 # the install commands, as README.md gives them
-INSTALL_PLUGIN = ['claude plugin marketplace add lemomo-ai/lemo-opuscar', 'claude plugin install lemo-opuscar@lemolab']
-INSTALL_CLONE = ['git clone https://github.com/lemomo-ai/lemo-opuscar.git', 'cd lemo-opuscar', 'claude']
+INSTALL_PLUGIN = ['claude plugin marketplace add RafaelMarutaka/filmes-em-codigo', 'claude plugin install filmes-em-codigo@rafaelmarutaka']
+INSTALL_CLONE = ['git clone https://github.com/RafaelMarutaka/filmes-em-codigo.git', 'cd filmes-em-codigo', 'claude']
 # The feature film: its sources are not in the library; the 720p cut is on the "web" release (the pages play it from
 # site_config.film_url, inside the site), 1080p on "films".
-FEATURE = dict(poster='img/feature_opuscar98.jpg', dur='6:31', full=f'{FILMS_URL}/opuscar98.mp4', date='2026-09-29')
+FEATURE = dict(poster='img/feature_filmes98.jpg', dur='6:31', full=f'{FILMS_URL}/filmes98.mp4', date='2026-09-29')
 # Thank-you films (made at 300, 800, 2,000, 3,000 and 6,000 stars): 720p on the "web" release as stars<n>.mp4, 1080p on the "thanks" release,
 # posters in img/thanks/. (id, length, date, (title, 标题), (description, 说明))
 THANKS_REL = THANKS_URL
@@ -93,8 +93,8 @@ UI = {
                '一个 Clawd 走过 98 部最佳影片，每一部都换成贴合那部电影的画风。每一帧、每个音符、每一刀剪辑，都是 Claude Opus 5.5 写代码做出来的。'),
     'feat_watch': ('Watch the film', '看这支片'), 'feat_styles': ('All 98 styles and prompts', '98 种风格和提示词'), 'watch': ('Watch', '播放'),
     'foot_sign': ('Every frame on this page was rendered by the project’s own code.', '页面上的每一帧，都是本项目的代码自己渲染的。'),
-    'foot_repo': ('Source on GitHub', 'GitHub 源码'), 'foot_made': ('Made by LemoLab × Claude Opus 5.5', 'LemoLab × Claude Opus 5.5 出品'),
-    'foot_official': ('Official repo: {repo} · by Lemomo', '官方仓库：{repo} · 作者 Lemomo'),
+    'foot_repo': ('Source on GitHub', 'GitHub 源码'), 'foot_made': ('Made by Rafael Marutaka × Claude Opus 5.5', 'Rafael Marutaka × Claude Opus 5.5 出品'),
+    'foot_official': ('Official repo: {repo} · by Rafael Marutaka', '官方仓库：{repo} · 作者 Rafael Marutaka'),
     # style page
     'crumb_all': ('All styles', '全部风格'),
     'make_btn': ('Make a film in this style', '用这个风格做片'), 'download': ('Download 1080p', '下载 1080p'),
@@ -108,11 +108,11 @@ UI = {
     'l_style': ('STYLE.md: the style guide', 'STYLE.md：风格说明（英文）'), 'l_demo': ('DEMO.md: how the demo was made', 'DEMO.md：这支 demo 怎么做的（英文）'),
     'l_dl': ('Download the 1080p film', '下载 1080p 影片'),
     'prev': ('Previous nominee', '上一个'), 'next': ('Next nominee', '下一个'),
-    # OPUSCAR 98
-    'o_title': ('OPUSCAR 98 · 98 Years of Best Picture, made in code by Claude Opus 5.5', 'OPUSCAR 98 · 98 年最佳影片，Claude Opus 5.5 用代码做成'),
-    'o_desc': ('OPUSCAR 98: one Clawd walks through all 98 Best Picture winners (1927 – 2025), each redrawn in a style that fits the film. '
+    # FILMES 98
+    'o_title': ('FILMES 98 · 98 Years of Best Picture, made in code by Claude Opus 5.5', 'FILMES 98 · 98 年最佳影片，Claude Opus 5.5 用代码做成'),
+    'o_desc': ('FILMES 98: one Clawd walks through all 98 Best Picture winners (1927 – 2025), each redrawn in a style that fits the film. '
                'Every frame, note and cut was written in code by Claude Opus 5.5, with no video model.',
-               'OPUSCAR 98：一个 Clawd 走过全部 98 部最佳影片（1927 – 2025），每一部都换成贴合那部电影的画风。每一帧、每个音符、每一刀剪辑都由 Claude Opus 5.5 写代码做成，没用视频模型。'),
+               'FILMES 98：一个 Clawd 走过全部 98 部最佳影片（1927 – 2025），每一部都换成贴合那部电影的画风。每一帧、每个音符、每一刀剪辑都由 Claude Opus 5.5 写代码做成，没用视频模型。'),
     'o_away': ('Playing in the corner. Scroll back here to watch it large.', '正在右下角播放，滚回这里看大画面。'),
     'o_loop': ('Loop this film', '循环本段'), 'o_close': ('Close the player', '关闭播放器'),
     'o_run': ('Running time', '片长'), 'o_run_v': ('98 films, 1927 – 2025', '98 部影片，1927 – 2025'),
@@ -121,7 +121,7 @@ UI = {
     'o_model': ('Video model', '视频模型'), 'o_model_v': ('None', '没有'), 'o_model_s': ('No video generation model was used', '没有用视频生成模型'),
     'o_by': ('By', '作者'),
     'o_book_h': ('The 98 styles', '98 种风格'),
-    'o_book_p': ('Every film in OPUSCAR 98 got its own style. Here is each one: what the style is, a prompt to reuse it on your own topic, and how the shots were directed. '
+    'o_book_p': ('Every film in FILMES 98 got its own style. Here is each one: what the style is, a prompt to reuse it on your own topic, and how the shots were directed. '
                  'Click a frame to play that film: it loops in a small player that stays in the corner while you keep reading.',
                  '98 部影片，每部一种定制画风。这里逐部公开：风格是什么、拿去拍你自己题材的提示词、镜头怎么设计和编排。点截图就播放那一部：它在右下角的小播放器里循环，你可以边看边往下翻。'),
     'o_all': ('All films', '全部'), 'o_all_k': ('All', '全部'), 'o_decade': ('Decade', '年代'), 'o_kind': ('2D or 3D', '2D 或 3D'),
@@ -133,27 +133,22 @@ UI = {
     'o_made_h': ('How it was made', '怎么做的'),
     'o_made_1': ('No video model drew this film. Claude Opus 5.5, working in Claude Code, wrote each set, the character animation, the camera moves, the edit and the score as code, and the code rendered them to video.',
                  '这部片没有用视频模型生成。Claude Opus 5.5 在 Claude Code 里把每个布景、角色动画、运镜、剪辑和配乐都写成代码，再由代码渲染成视频。'),
-    'o_made_2': ('The same approach is packaged as Lemo-Opuscar: {n} film styles, each a style prompt plus a demo film, installable as a Claude Code skill so your agent can direct a film about your own topic.',
-                 '同样的做法整理成了 Lemo-Opuscar：{n} 种影片风格，每种是一份风格提示词加一支样片，可以装成 Claude Code skill，让你的 agent 给你自己的题材导一支片。'),
+    'o_made_2': ('The same approach is packaged as Filmes em Código: {n} film styles, each a style prompt plus a demo film, installable as a Claude Code skill so your agent can direct a film about your own topic.',
+                 '同样的做法整理成了 Filmes em Código：{n} 种影片风格，每种是一份风格提示词加一支样片，可以装成 Claude Code skill，让你的 agent 给你自己的题材导一支片。'),
     'o_kind_2D': ('Drawn flat, in layers', '平面绘制，分层'), 'o_kind_2.5D': ('3D models rendered into flat 2D layers', '3D 模型渲染进 2D 平面图层'),
     'o_kind_3D': ('A real 3D scene and camera', '真 3D 场景和机位'),
     # thank-you films
-    't_title': ('Thank you for every star · Lemo-Opuscar', '谢谢每一颗星 · Lemo-Opuscar'),
-    't_desc': ('Lemo-Opuscar thank-you films at 300, 800, 2,000, 3,000 and 6,000 GitHub stars, each made entirely in code by Claude Opus 5.5, with no video model.',
-               'Lemo-Opuscar 在 300、800、2000、3000、6000 颗 GitHub 星时做的感谢片，每支都由 Claude Opus 5.5 完全用代码做成，没用视频模型。'),
+    't_title': ('Thank you for every star · Filmes em Código', '谢谢每一颗星 · Filmes em Código'),
+    't_desc': ('Filmes em Código thank-you films at 300, 800, 2,000, 3,000 and 6,000 GitHub stars, each made entirely in code by Claude Opus 5.5, with no video model.',
+               'Filmes em Código 在 300、800、2000、3000、6000 颗 GitHub 星时做的感谢片，每支都由 Claude Opus 5.5 完全用代码做成，没用视频模型。'),
     't_eyebrow': ('Thank you', '谢谢'), 't_h1': ('For every star', '谢谢每一颗星'),
     't_lead': ('At each milestone we made a thank-you film, in code like everything else here: no video model, every frame, note and cut written by Claude Opus 5.5.',
                '每到一个里程碑，我们做一支感谢片。和这里的所有片子一样全部用代码做成：没有视频模型，每一帧、每个音符、每一刀剪辑都由 Claude Opus 5.5 写出来。'),
     't_end': ('Thank you for watching, and for starring.', '谢谢观看，也谢谢你点的星。'),
-    'foot_more': ('More from LemoLab', 'LemoLab 的其他项目'),
+    'foot_more': ('More from Rafael Marutaka', 'Rafael Marutaka 的其他项目'),
     'o_98': ('The 98 styles', '98 种风格'),
     'say_topic': ('Your topic', '你的题目'),
 }
 
-# "More from LemoLab", word for word from README.md / README.zh-CN.md (names, links and lines); change them there first.
-MORE = [(('lemo-wake', 'lemo-wake'), 'https://github.com/lemomo-ai/lemo-wake',
-         ('One picture in, a seamless loop of about five seconds out.', '一张图进去，一段约 5 秒、无缝循环的动图出来。')),
-        (('lemo-mod', 'lemo-mod'), 'https://github.com/lemomo-ai/lemo-mod',
-         ('Re-skin Claude Code with 21 styles, in the terminal and the desktop app.', '给 Claude Code 换上 21 套风格，终端和桌面 App 都能用。')),
-        (('Stampy', '小章 Stampy'), 'https://github.com/lemomo-ai/lemo-stampy',
-         ('A tiny Mac menu bar stamp that marks your copies “For XX use only”.', 'Mac 菜单栏小工具，在预览里点一下，给复印件盖上「仅供××使用」。'))]
+# "More from Rafael Marutaka", word for word from README.md / README.zh-CN.md (names, links and lines); change them there first.
+MORE = []

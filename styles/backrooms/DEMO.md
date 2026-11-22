@@ -86,7 +86,7 @@ There is no score. The sound design as built for the demo:
 
 ## End card
 
-Black, bitmap-font title, style name, `LemoLab × Claude Opus 5.5`. This sign-off belongs to this library's demo only; a user's film carries no LemoLab credit and no copy of this card.
+Black, bitmap-font title, style name, `Rafael Marutaka × Claude Opus 5.5`. This sign-off belongs to this library's demo only; a user's film carries no Rafael Marutaka credit and no copy of this card.
 
 ## Build notes
 

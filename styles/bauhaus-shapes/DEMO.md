@@ -40,7 +40,7 @@ Palette Klein (paper #F8F7F3, protagonist #0E9F7A, field #2138C8, pivot #F4E04D,
 
 ## End card
 
-From 48.2 s to the end (52.0 s), in the right column under the small COMPOUND INTEREST signature: a yellow square drops, `BAUHAUS SHAPES 包豪斯几何` and `LemoLab × Claude Opus 5.5` rise from their slots like every other label in the film.
+From 48.2 s to the end (52.0 s), in the right column under the small COMPOUND INTEREST signature: a yellow square drops, `BAUHAUS SHAPES 包豪斯几何` and `Rafael Marutaka × Claude Opus 5.5` rise from their slots like every other label in the film.
 
 ## Build
 

@@ -4,7 +4,7 @@
 set -e
 cd "$(dirname "$0")/../../.."
 PY=.venv/bin/python; D=styles/microgame/demo; O=styles/microgame
-$PY -c 'import numba' 2>/dev/null || { echo "microgame: the demo needs the music tier (numba, for core/audio/pluck.py), which isn't installed. Run: sh plugin/skills/lemo-opuscar/scripts/setup.sh deps voice music" >&2; exit 1; }
+$PY -c 'import numba' 2>/dev/null || { echo "microgame: the demo needs the music tier (numba, for core/audio/pluck.py), which isn't installed. Run: sh plugin/skills/filmes-em-codigo/scripts/setup.sh deps voice music" >&2; exit 1; }
 sh styles/microgame/demo/tools/fonts.sh   # fonts: not in git (CREDITS names them) → fonts/ (after the numba check: that comes first)
 node $D/tools/dump_timeline.mjs                                   # 1. tempo grid → timeline.json (shared by score / mix / self-checks)
 $PY core/tts/tts.py $D/lines.json $D/voices                       # 2. Kokoro voices (am_fenrir / af_bella)

@@ -289,7 +289,7 @@ sheet({
     E(47.86, 47.98, 'write', ZH('你能看多远？', cx0 + 2, 944, { size: 34 }));
     const st = T('Marker on Paper', cx0, 992, { size: 30, weight: 400 });
     E(47.98, 48.15, 'write', [st, ZH('马克笔白纸速写', cx0 + st.T.w + 16, 992, { size: 34 })]);
-    E(48.15, 48.35, 'write', T('LemoLab × Claude Opus 5.5', cx0, 1040, { size: 34 }));
+    E(48.15, 48.35, 'write', T('Rafael Marutaka × Claude Opus 5.5', cx0, 1040, { size: 34 }));
   },
   cam() {
     return [

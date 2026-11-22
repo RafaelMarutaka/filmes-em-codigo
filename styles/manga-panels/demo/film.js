@@ -683,7 +683,7 @@ function S_end(t) {
       if (t > to + .06) { X.fillStyle = INK; X.fillRect(bx + 46, by + 186, (bw - 92) * eo(seg(t, to + .06, to + .3)), 2); }
       text(t, '黑白漫画分格', bx + 44, by + 268, 46, to + .08, { noPop: true, id: 'col3' });
       text(t, 'Manga Panels', bx + 342, by + 266, 40, to + .1, { f: 'Barlow', w: 800, noPop: true, ls: 2, id: 'col4' });
-      text(t, 'LemoLab × Claude Opus 5.5', bx + 46, by + 350, 42, to + .12, { f: 'Barlow', w: 800, noPop: true, ls: 1, id: 'col5' });
+      text(t, 'Rafael Marutaka × Claude Opus 5.5', bx + 46, by + 350, 42, to + .12, { f: 'Barlow', w: 800, noPop: true, ls: 1, id: 'col5' });
       text(t, c.credit_cn, bx + 46, by + 438, 24, to + .14, { noPop: true, id: 'col6' });
       text(t, c.credit_en, bx + 46, by + 478, 24, to + .16, { f: 'Barlow', w: 600, noPop: true, id: 'col7' });
       text(t, c.fiction, bx + 46, by + 548, 24, to + .18, { f: 'Barlow', w: 600, noPop: true, id: 'col8' });

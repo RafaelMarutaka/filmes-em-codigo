@@ -192,7 +192,7 @@ def bake_strips():
     # end-card credits: style name (English + Chinese) and the sign-off, all cut paper slips
     strip('sig_style_en', 'Vintage Engraving Collage', FELLSC, 36, NEWS, INK, 451, padx=16, pady=6)
     strip('sig_style_zh', '复古版画拼贴', ZH7, 34, MUSTARD, INK, 452, padx=14, pady=6)
-    strip('sig_line', 'LemoLab × Claude Opus 5.5', CPB, 34, INK * 1.05, CARD, 453, padx=16, pady=8, mono=True)
+    strip('sig_line', 'Rafael Marutaka × Claude Opus 5.5', CPB, 34, INK * 1.05, CARD, 453, padx=16, pady=8, mono=True)
     M['_ransom'] = dict(airmail=ransom('ra', 'AIR MAIL', 120, 3), price=ransom('rp', '$15,000', 130, 5))
 
 

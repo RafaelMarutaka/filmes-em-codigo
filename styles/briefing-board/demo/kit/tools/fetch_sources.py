@@ -14,7 +14,7 @@ import hashlib, json, os, sys, urllib.request, time
 
 HERE = os.path.dirname(os.path.abspath(__file__)); DEMO = os.path.dirname(os.path.dirname(HERE))
 SRC = os.path.join(DEMO, 'sources', 'candidates')
-UA = 'LemoOpuscar-demo-fetch/1.0 (https://github.com/lemomo-ai/lemo-opuscar; library demo rebuild)'
+UA = 'FilmesEmCodigo-demo-fetch/1.0 (https://github.com/RafaelMarutaka/filmes-em-codigo; library demo rebuild)'
 
 def sha256(p):
     h = hashlib.sha256()

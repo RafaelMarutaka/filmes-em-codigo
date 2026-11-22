@@ -611,7 +611,7 @@ function footer(g, cm, t) {
     g.save(); g.globalAlpha = ck; g.fillStyle = PAL.ink;
     let p = c.T(150, 760); g.font = `500 ${175 * c.z}px ${FONT.num}`; g.fillText('Instruction Manual Art', p[0], p[1]); note(g, 'style-en', 'Instruction Manual Art', p[0], p[1]);
     const w1 = g.measureText('Instruction Manual Art').width; g.font = `500 ${175 * c.z}px ${FONT.zh}`; g.fillText('说明书插画', p[0] + w1 + 60 * c.z, p[1]); note(g, 'style-zh', '说明书插画', p[0] + w1 + 60 * c.z, p[1]);
-    p = c.T(150, 1010); g.font = `600 ${165 * c.z}px ${FONT.num}`; g.fillText('LemoLab × Claude Opus 5.5', p[0], p[1]); note(g, 'signoff', 'LemoLab × Claude Opus 5.5', p[0], p[1]);
+    p = c.T(150, 1010); g.font = `600 ${165 * c.z}px ${FONT.num}`; g.fillText('Rafael Marutaka × Claude Opus 5.5', p[0], p[1]); note(g, 'signoff', 'Rafael Marutaka × Claude Opus 5.5', p[0], p[1]);
     g.restore();
   }
 }

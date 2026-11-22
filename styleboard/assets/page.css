@@ -1,4 +1,4 @@
-/* The Workbench · the pages under the bench: the style pages (each runs on into the bench), OPUSCAR 98, the thank-you films, 404.
+/* The Workbench · the pages under the bench: the style pages (each runs on into the bench), FILMES 98, the thank-you films, 404.
    Loaded after app.css (colours, fonts, top bar, cards, search, rail) and player.css. Rules: styleboard/DESIGN.md §10.
    The first screen keeps the home page's frame: everything is laid out on the 1280 x 720 picture (--u), centred, and the words
    share one left edge (--gx) with the label on the film. The reading part below keeps that edge; its type is in px. */
@@ -14,7 +14,7 @@ html.page body { overflow-x: hidden; }
 html.page .top { position: absolute; left: var(--lx); right: var(--rx); top: calc(var(--u) * 30); transition: opacity .6s var(--ease); }
 html.page.dim .top { opacity: 0; pointer-events: none; }
 html.page.dim.ctl .top { opacity: 1; pointer-events: auto; }
-html.page.dim body.feature .top, html.page.dim.ctl body.feature .top { opacity: 0; pointer-events: none; }   /* OPUSCAR 98's theatre: its own × leads out */
+html.page.dim body.feature .top, html.page.dim.ctl body.feature .top { opacity: 0; pointer-events: none; }   /* FILMES 98's theatre: its own × leads out */
 
 /* ================================================================ the first screen: the film, its label in the dark */
 /* as tall as the screen less a peek of what follows, but never taller than the film at full width (no bands above and below it) */
@@ -195,7 +195,7 @@ html.stack.runon main > .stop.station:first-of-type { margin-top: 0; }
 :lang(zh) .th h1 { font-family: var(--serif-sc); font-weight: 600; letter-spacing: .08em; }
 .pair { margin-top: calc(var(--u) * 6); display: grid; grid-template-columns: 1fr 1fr; gap: calc(var(--u) * 28); }
 
-/* ================================================================ OPUSCAR 98: the end of the bench
+/* ================================================================ FILMES 98: the end of the bench
    The frame is the projector's (frames/finale.png), fitted to the screen; the player sits on its throw (rest), grows off the wall into
    the room as the lights go down (theatre), and goes to the corner when the book is read (dock). Positions are in % of the frame. */
 .theatre { position: relative; height: min(100vh, 56.25vw); height: min(100svh, 56.25vw); min-height: 440px; background: var(--ink); container-type: size; }
@@ -385,7 +385,7 @@ article.film .refs { margin-top: calc(var(--u) * 8); font-family: var(--mono); f
 .thank .desc { margin-top: calc(var(--u) * 10); max-width: 44em; font-size: clamp(16px, calc(var(--u) * 16.5), 21px); line-height: 1.7; color: var(--paper-2); }
 :lang(zh) .thank .desc { letter-spacing: .04em; line-height: 1.8; }
 .thanks .pair { margin-top: calc(var(--u) * 56); gap: calc(var(--u) * 24) calc(var(--u) * 32); }
-/* the home page's last lines, at the end of the thank-you films and of OPUSCAR 98 */
+/* the home page's last lines, at the end of the thank-you films and of FILMES 98 */
 .page-end { margin-top: calc(var(--u) * 96); padding: calc(var(--u) * 20) 0 calc(var(--u) * 56); }
 .page-end .foot { font-size: 13px; }
 .thanks p.end { margin: calc(var(--u) * 72) 0 0; font-family: var(--serif); font-style: italic; font-size: clamp(20px, calc(var(--u) * 24), 40px); color: var(--paper-2); }

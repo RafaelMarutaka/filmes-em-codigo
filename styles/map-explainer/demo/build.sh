@@ -6,7 +6,7 @@
 #   VOICE=1 sh demo/build.sh    regenerate the narration before the check
 #   WORKERS=3 sh demo/build.sh  more render workers (default 2)
 # Needs the voice tier (Kokoro model, faster-whisper) and the VSCO 2 CE + VCSL sample libraries:
-#   sh plugin/skills/lemo-opuscar/scripts/setup.sh deps voice; sh tools/fetch.sh instruments vsco2ce; sh tools/fetch.sh instruments vcsl
+#   sh plugin/skills/filmes-em-codigo/scripts/setup.sh deps voice; sh tools/fetch.sh instruments vsco2ce; sh tools/fetch.sh instruments vcsl
 # In a fresh clone the map data (raw/, assets/*.bin|jpg|png) and the fonts are not in git: the first run downloads them.
 set -e
 HERE=$(cd "$(dirname "$0")" && pwd)                  # .../styles/map-explainer/demo

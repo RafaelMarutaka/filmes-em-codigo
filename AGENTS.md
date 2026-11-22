@@ -1,4 +1,4 @@
-# Lemo-Opuscar: instructions for agents
+# Filmes em Código: instructions for agents
 
 This repository is a library of film styles. Each style has a `styles/<slug>/STYLE.md` (what the style is) and one demo film made entirely in code (`DEMO.md` and `demo/`). People pick a style and ask for a film about **their own** topic. Your job is to direct and produce that film.
 
@@ -10,14 +10,14 @@ This repository is a library of film styles. Each style has a `styles/<slug>/STY
 | Directing: story, sound, rhythm, camera, maps, checks, delivery | [`DIRECTOR.md`](DIRECTOR.md) |
 | Building: install, pages, voice, music, mix | [`TECHNIQUE.md`](TECHNIQUE.md) |
 | Tool commands and flags | [`core/README.md`](core/README.md) |
-| The user wants to change a style and keep it as their own, or make their own style from a blank page, or names a style in `~/lemo-my-styles/` | [`MY-STYLES.md`](MY-STYLES.md) |
+| The user wants to change a style and keep it as their own, or make their own style from a blank page, or names a style in `~/meus-estilos/` | [`MY-STYLES.md`](MY-STYLES.md) |
 | Adding a style to the library (owner only) | [`MAINTAINING.md`](MAINTAINING.md) |
 
-**Films outside `styles/` are the user's: no LemoLab credit, no watermark.**
+**Films outside `styles/` are the user's: no Rafael Marutaka credit, no watermark.**
 
 ## Start
 
-- **Their own styles first.** If `~/lemo-my-styles/README.md` exists, read it: it lists every style the user has saved, wherever it's kept, and their own styles ([`MY-STYLES.md`](MY-STYLES.md)) count like library styles. When they name a style, look there first, then in the library.
+- **Their own styles first.** If `~/meus-estilos/README.md` exists, read it: it lists every style the user has saved, wherever it's kept, and their own styles ([`MY-STYLES.md`](MY-STYLES.md)) count like library styles. When they name a style, look there first, then in the library.
 - **Their language.** Talk to them in the language they write in. When they started the skill without writing anything, your first question is always the language, even when their settings, memory or earlier messages suggest one: the `AskUserQuestion` tool, a question of its own headed "Language 语言" with two options, 中文 and English (the tool adds Other, where they type any other language). Use it from then on, and as the film's default language.
 - **No request yet** (they only started the skill, or said hello): offer the ways in with one question, using the `AskUserQuestion` tool, in their language, with the first as the recommended one:
   1. a film in a library style (**Finding the style**);
@@ -43,7 +43,7 @@ If the user hasn't picked a style:
 - Suggest two or three that fit their topic.
 - If they have their own styles, list those first, under "My styles" (in their language).
 - Show them the full list below in the chat, in the user's language only: English names (and English category names) for someone writing in English, Chinese names for someone writing in Chinese. Don't drop, merge or rename anything.
-- Link the gallery, where every style has its demo film: https://lemomo-ai.github.io/lemo-opuscar/
+- Link the gallery, where every style has its demo film: https://rafaelmarutaka.github.io/filmes-em-codigo-videos/
 - Then ask them to type the name. The list goes in your own message (a command's output isn't shown to them), and the question is plain text, not `AskUserQuestion`: its few options would hide the rest of the list.
 
 <!-- style-list:start -->
@@ -75,7 +75,7 @@ All 99 styles · 全部风格:
    - whether they have material of their own: a voice recording or a preferred voice, music, photos, logos, fonts, and for a style built from real material, their own data or scans;
    - the film's language, if it isn't obvious (default: the language they write in or chose, for voice and subtitles);
    - whether they want to review a storyboard first (default: no);
-   - anything missing on their machine: before you ask, run `sh plugin/skills/lemo-opuscar/scripts/setup.sh` from the library root (no arguments: it takes seconds and lists every missing system tool at once) and include what it reports. Start `… setup.sh deps` (core only) in the background, if it isn't already running: it takes a few minutes the first time. Add the voice and music tiers later, only if the film needs them (TECHNIQUE.md §1);
+   - anything missing on their machine: before you ask, run `sh plugin/skills/filmes-em-codigo/scripts/setup.sh` from the library root (no arguments: it takes seconds and lists every missing system tool at once) and include what it reports. Start `… setup.sh deps` (core only) in the background, if it isn't already running: it takes a few minutes the first time. Add the voice and music tiers later, only if the film needs them (TECHNIQUE.md §1);
    - for a style marked ✦, how they will make the images, but only when the image check below fails.
 
    **A style marked ✦ draws with an image generator** (its `style.json` says `"needs": ["image-generation"]`). Run `python3 core/image/gen_image.py --check` from the library root before you write the questions, next to `setup.sh`. If it fails, put its reason and the question in the same message: what will they make the images with instead (another image API or app, or their own drawings; you give them the prompts and the file names)? With no image generator at all, tell them plainly that a film in this style can't start, and offer two or three other styles that fit their topic. Never draw the characters in code as a stand-in.

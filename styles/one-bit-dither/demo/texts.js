@@ -32,6 +32,6 @@ export const NEWS_SIDE = [
   'THE QUIET BOWL', 'Most of the year the', 'great bowl listens to', 'the stars. This week it', 'listened to the Moon.',
 ];
 export const PHOTO_EDGE = 'LUNA 9 · RECEIVED BY FACSIMILE · 4 FEB 1966';
-export const END = 'LemoLab × Claude Opus 5.5';
+export const END = 'Rafael Marutaka × Claude Opus 5.5';
 export const END_TITLE = { en: "The Moon's Fax", cn: '月亮的传真' };
 export const END_STYLE = { en: '1-bit Dither', cn: '1-bit 点阵' };

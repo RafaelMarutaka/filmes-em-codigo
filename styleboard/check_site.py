@@ -11,7 +11,7 @@
 #    is in that repository's list, styleboard/films_repo.json, made for that same address (no network needed; pages.yml asks the
 #    repository itself in a later step), and where this machine has the 720p cut (site_config.WEB), the list has it at the same
 #    size (else the repository is behind: sh tools/films_repo.sh). Every style the catalog says has a film has its page and plays it. The media bundle is unpacked: the long take's manifest and segments, the
-#    stations' stills, the cards' thumbnails and clips, OPUSCAR 98's frames.
+#    stations' stills, the cards' thumbnails and clips, FILMES 98's frames.
 # 5. The text colours in assets/app.css meet WCAG AA (4.5:1) on the page's grounds.
 # 6. No published text file names a path on the machine that built it.
 # 7. Every style page runs on into the bench: it names its station and slug and the language's bench file (data-from, data-slug,
@@ -137,7 +137,7 @@ for lang, pre in (('en', ''), ('zh', 'zh/')):
     try: b = json.load(open(os.path.join(SITE, f), encoding='utf-8'))
     except (OSError, ValueError) as e: bad.append(f'{f} (the {lang} bench): {e}'); continue
     sc = Scan(); sc.feed(b.get('stops', '') + b.get('after', ''))
-    need = {f's{n:02d}' for n in range(1, 16)} | {'opuscar98', 'room'}
+    need = {f's{n:02d}' for n in range(1, 16)} | {'filmes98', 'room'}
     if not need <= sc.ids: bad.append(f'{f}: missing {", ".join(sorted(need - sc.ids))}')
     for c in ('nav.rail', 'div.track', 'canvas', 'div.reel'):
         if c not in sc.classes and not (c == 'canvas' and 'seq' in sc.ids): bad.append(f'{f}: no {c}')

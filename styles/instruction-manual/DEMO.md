@@ -106,7 +106,7 @@ Foley follows the materials: carton landing, lid, wood knocks, pencil, paper sli
 
 ## End card
 
-Printed on the page's footer, in ink, to the right of step 10: *Step Ten* 第十步 (title, 46.5 s), then *Instruction Manual Art* 说明书插画 and `LemoLab × Claude Opus 5.5` (47.3 s), held 3.3 s during the final settle. The "LemoLab × Claude Opus 5.5" sign-off belongs to this library's demo only; a user's film carries no LemoLab credit and no copy of this card.
+Printed on the page's footer, in ink, to the right of step 10: *Step Ten* 第十步 (title, 46.5 s), then *Instruction Manual Art* 说明书插画 and `Rafael Marutaka × Claude Opus 5.5` (47.3 s), held 3.3 s during the final settle. The "Rafael Marutaka × Claude Opus 5.5" sign-off belongs to this library's demo only; a user's film carries no Rafael Marutaka credit and no copy of this card.
 
 ## Build notes
 

@@ -7,4 +7,4 @@ hexgrad under Apache 2.0. The ONNX release credits Taylor Chu for the optimised 
 The pack includes the [Apache 2.0 text](LICENSE-Apache-2.0.txt).
 
 The separately installed kokoro-onnx runtime is MIT-licensed. The model and voice files are third-party
-assets under Apache 2.0; no Lemo-Opuscar licence, including a commercial licence, covers them.
+assets under Apache 2.0; no Filmes em Código licence, including a commercial licence, covers them.

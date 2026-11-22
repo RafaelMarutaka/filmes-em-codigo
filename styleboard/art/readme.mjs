@@ -1,9 +1,9 @@
 // The README's pictures, in the Workbench look of the site (a long oak bench in a night studio, one lamp per station):
-//   docs/readme/cover-<lang>.webp               the cover: 4 s of the long take's opening (OPUSCAR in wood type), seamless loop
+//   docs/readme/cover-<lang>.webp               the cover: 4 s of the long take's opening (FILMES in wood type), seamless loop
 //   docs/readme/station-<NN>-<lang>-<theme>.webp one header per category: its station on the bench, number and name in the dark
 //   docs/readme/cards/<slug>-poster.webp         one card per style, in two pictures: its poster (one for both languages and themes)
 //   docs/readme/cards/<slug>-<lang>-<theme>.webp   and its caption under it; the README links both to the style's page
-//   docs/readme/opuscar98-<lang>-<theme>.webp   OPUSCAR 98: the projector at the end of the bench
+//   docs/readme/filmes98-<lang>-<theme>.webp   FILMES 98: the projector at the end of the bench
 //   docs/readme/thanks/<id>-poster.webp, thanks/<id>-<lang>-<theme>.webp  the thank-you films, as cards (poster and caption)
 //   docs/readme/end-<lang>-<theme>.webp          the end plate: the bench's lamps still on, a star asked for (linked to the stargazers)
 //   docs/cover.jpg, docs/social.jpg              the cover as a still, and GitHub's social preview
@@ -27,7 +27,7 @@
 // also deletes pictures nothing makes any more.
 // Sources: posters (styles/<slug>/poster.jpg) and thank-you posters (styleboard/img/thanks/) are in the repository. The
 // station stills, the frames of the long take (its opening; the end plate's) and the projector frame are not: they are rendered for the site and
-// will live on the site media release (not made yet). Until then pass the folder with --media or OPUSCAR_MEDIA (default:
+// will live on the site media release (not made yet). Until then pass the folder with --media or FILMES_MEDIA (default:
 // .release/site-source, which git ignores; a symlink does). Without them, pictures that need no redrawing are kept;
 // one that does stops the run and names the file it needs.
 // Sizes are CSS px as GitHub shows a README: the column is 838 px wide at any window of 1280 px or more, 570 px at 1012 px,
@@ -44,12 +44,12 @@ import { fileURLToPath, pathToFileURL } from 'node:url';
 const HERE = path.dirname(fileURLToPath(import.meta.url)), ROOT = path.resolve(HERE, '../..');
 const DOCS = path.join(ROOT, 'docs');
 const arg = (k, d) => { const i = process.argv.indexOf(k); return i > 0 ? process.argv[i + 1] : d; };
-const MEDIA = path.resolve(arg('--media', process.env.OPUSCAR_MEDIA || path.join(ROOT, '.release/site-source')));
+const MEDIA = path.resolve(arg('--media', process.env.FILMES_MEDIA || path.join(ROOT, '.release/site-source')));
 const FORCE = process.argv.includes('--force');
 const LAYOUT = JSON.parse(fs.readFileSync(path.join(HERE, 'readme.json'), 'utf8'));
 const RD = path.relative(DOCS, path.join(ROOT, LAYOUT.dir));   // "readme"
 const url = p => pathToFileURL(p).href;
-const SITE = 'https://lemomo-ai.github.io/lemo-opuscar/';
+const SITE = 'https://rafaelmarutaka.github.io/filmes-em-codigo-videos/';
 
 // ---------- layout ----------
 const W = 838;          // README column, desktop
@@ -57,7 +57,7 @@ const S = 2;            // headers, covers: 2×
 const CS = 1.5;         // cards: 1.5× (captions stay sharp; a third of the weight of 2×)
 const HEAD_H = 279;     // station header: 3 : 1
 const COVER = { w: 838, h: 419, frames: 80, ms: 50, travel: 32, cropY: 80, q: 58 };   // 2 : 1, 4 s, frames 0–32 of the long take
-const O98_H = 381;      // OPUSCAR 98 plate: 2.2 : 1
+const O98_H = 381;      // FILMES 98 plate: 2.2 : 1
 const END_H = 320;      // end plate: 2.6 : 1
 const END = { frame: 95, zoom: 1, dx: 0.1, y: 0.3 };   // the long take's frame with the lamps still on above the empty bench, and how it sits
 const GAP = 18;         // between style cards
@@ -144,7 +144,7 @@ function todo(rel, k, src = []) {
     stat.kept++; if (src.length && !here) stat.keptWithoutMedia++; return null;
   }
   if (!here) throw new Error(`${rel} has to be redrawn but its source is missing: ${src.filter(f => !fs.existsSync(f)).map(f => path.relative(MEDIA, f)).join(', ')}` +
-    ` (in ${MEDIA}; pass the folder with --media or OPUSCAR_MEDIA)`);
+    ` (in ${MEDIA}; pass the folder with --media or FILMES_MEDIA)`);
   return m ? { k, m } : { k };
 }
 const record = (rel, e) => { manifest[rel] = e; stat.drawn++; };
@@ -307,7 +307,7 @@ async function cards(cats) {
   }
 }
 
-// ---------- OPUSCAR 98 (the projector at the end of the bench) and the thank-you cards ----------
+// ---------- FILMES 98 (the projector at the end of the bench) and the thank-you cards ----------
 function o98HTML(lang, theme) {
   const fin = media('frames/clean/finale.png'), ih = W * 9 / 16, top = -(ih - O98_H) * 0.12;
   const meta = lang === 'zh' ? `<span>特别放映</span><i></i><span>${G.feature.dur.replace(':', ' 分 ')} 秒</span>` : `<span>Feature presentation</span><i></i><span>${G.feature.dur}</span>`;
@@ -325,7 +325,7 @@ function o98HTML(lang, theme) {
 }
 async function films() {
   for (const lang of ['en', 'zh']) for (const theme of ['light', 'dark']) {
-    const { still, html } = o98HTML(lang, theme), rel = `${RD}/opuscar98-${lang}-${theme}.webp`;
+    const { still, html } = o98HTML(lang, theme), rel = `${RD}/filmes98-${lang}-${theme}.webp`;
     const e = todo(rel, key('o98', norm(html), S, Q.o98), [still]);
     if (e) {
       const { p, close } = await page(html, W, O98_H);
@@ -346,7 +346,7 @@ function endHTML(lang, theme) {
   const t = THEME[theme], still = media(`long/frames/f_${String(END.frame).padStart(4, '0')}.png`);
   const iw = W * END.zoom, ih = iw * 9 / 16, top = -(ih - END_H) * END.y, left = -(iw - W) + END.dx * W;
   const zh = lang === 'zh';
-  const meta = zh ? `<span>工作台到头了</span><i></i><span>LemoLab</span>` : `<span>End of the bench</span><i></i><span>LemoLab</span>`;
+  const meta = zh ? `<span>工作台到头了</span><i></i><span>Rafael Marutaka</span>` : `<span>End of the bench</span><i></i><span>Rafael Marutaka</span>`;
   const title = zh ? `<div class="h sc">哪支片子打动了你，<br>就点一颗星。</div>` : `<div class="h serif">If a film here was worth it,<br>leave a star.</div>`;
   const cta = zh ? `<div class="cta"><b>★</b><span class="sc">去 GitHub 点星</span></div>` : `<div class="cta"><b>★</b><span class="serif it">Star it on GitHub</span></div>`;
   const ticks = Array.from({ length: NC }, (_, i) => `<b style="left:${(i / NC * 100).toFixed(3)}%"></b>`).join('');
@@ -400,7 +400,7 @@ function mastHTML(lang, w, h, k = 1) {
   .sc.wb{font-size:${12.5 * k}px;letter-spacing:.3em}
   .ln{flex:1;height:1px;background:rgba(239,231,218,.26)}
   .r{font-size:${10 * k}px;color:rgba(239,231,218,.62)}</style>
-  <div style="position:relative;width:${w}px;height:${h}px" id="m"><div class="m"><span class="mk">OPUSCAR</span>${sub}<i class="ln"></i><span class="mono r">${right}</span></div></div>`;
+  <div style="position:relative;width:${w}px;height:${h}px" id="m"><div class="m"><span class="mk">FILMES</span>${sub}<i class="ln"></i><span class="mono r">${right}</span></div></div>`;
 }
 async function overlay(html, w, h, sel, file) {
   const { p, close } = await page(html, w, h);
@@ -457,9 +457,9 @@ function heroHTML(w, h, social) {
     h1 em{font-style:italic;color:#efe7da}
     .u{margin-top:30px;font-size:15px;color:rgba(239,231,218,.62);text-transform:none;letter-spacing:.04em}
   </style><div class="s" id="a"><img src="${url(hero)}"><div class="sc2"></div>
-    <div class="t"><div class="meta mono"><span>Lemo-Opuscar</span><i></i><span>${NS} film styles · ${NC} stations</span></div>
+    <div class="t"><div class="meta mono"><span>Filmes em Código</span><i></i><span>${NS} film styles · ${NC} stations</span></div>
       <h1>Pick a style.<br>Bring your story.<br><em>Your agent makes the film.</em></h1>
-      <div class="u mono">github.com/lemomo-ai/lemo-opuscar</div></div></div>` };
+      <div class="u mono">github.com/RafaelMarutaka/filmes-em-codigo</div></div></div>` };
 }
 async function art() {
   for (const [name, w, h, scale, social, limit] of [['cover', 1200, 600, 2, false, 500e3], ['social', 1280, 640, 1, true, 300e3]]) {

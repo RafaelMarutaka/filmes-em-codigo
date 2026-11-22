@@ -106,7 +106,7 @@ export function makeOverlay(canvas) {
     // licence credit (fine print)
     txt('end_lic', '3DBAG by 3DGI and the 3D geoinformation research group,', X, Y + 206, 'mono', 17, 'rgba(225,230,236,.72)', a, { pass: true });
     txt('end_lic2', 'TU Delft, CC BY 4.0', X, Y + 229, 'mono', 17, 'rgba(225,230,236,.72)', a, { pass: true });
-    txt('end_sign', 'LemoLab × Claude Opus 5.5', X, Y + 280, 'num4', 26, '#ffffff', a);
+    txt('end_sign', 'Rafael Marutaka × Claude Opus 5.5', X, Y + 280, 'num4', 26, '#ffffff', a);
   }
 
   return { g, begin, txt, width, env, scrims, readout, pin, rangeLine, subtitle, endCard, texts: () => TX };

@@ -1,15 +1,15 @@
 {
-  "name": "lemolab",
+  "name": "rafaelmarutaka",
   "owner": {
-    "name": "Lemomo",
-    "url": "https://github.com/lemomo-ai"
+    "name": "Rafael Marutaka",
+    "url": "https://github.com/RafaelMarutaka"
   },
   "metadata": {
-    "description": "LemoLab skills: film styles for coding agents."
+    "description": "Rafael Marutaka skills: film styles for coding agents."
   },
   "plugins": [
     {
-      "name": "lemo-opuscar",
+      "name": "filmes-em-codigo",
       "source": "./plugin",
       "description": "Make a film in one of the library's code-rendered styles: your agent directs, draws, scores and mixes it."
     }

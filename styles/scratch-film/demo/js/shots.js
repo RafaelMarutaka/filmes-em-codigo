@@ -464,8 +464,8 @@ function endCard(t, dn){
   b = cutText(zh, x + 6, 676, a2, dn, { tipR: 32 }); if (b) out.push(Object.assign(b, { id: 'title-zh', text: '夜里往上游' }));
   const st = txtImg('Scratch Film · 胶片直刻', JOST, 30, '#d9c9a2');
   b = cutText(st, x + 8, 758, a3, dn, { tipR: 24 }); if (b) out.push(Object.assign(b, { id: 'style', text: 'Scratch Film · 胶片直刻' }));
-  const cr = txtImg('LemoLab × Claude Opus 5.5', JOST, 34, CREAM);
+  const cr = txtImg('Rafael Marutaka × Claude Opus 5.5', JOST, 34, CREAM);
   b = cutText(cr, x + 8, 812, a4, dn, { tipR: 28 });
-  if (b){ out.push(Object.assign(b, { id: 'credit', text: 'LemoLab × Claude Opus 5.5' })); if (a4 > .3) dye([[x + 16, 866], [x + 16 + (cr.width - 16) * a4, 868]], { w: 6, col: RED, n: 3, a: .75 }); }
+  if (b){ out.push(Object.assign(b, { id: 'credit', text: 'Rafael Marutaka × Claude Opus 5.5' })); if (a4 > .3) dye([[x + 16, 866], [x + 16 + (cr.width - 16) * a4, 868]], { w: 6, col: RED, n: 3, a: .75 }); }
   return out;
 }

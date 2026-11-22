@@ -1,5 +1,5 @@
 /* The Workbench projector: one component for every film on the site.
-   - a style page: one film;  - OPUSCAR 98: 98 chapters on the ruler;  - the thank-you films: several players on one page.
+   - a style page: one film;  - FILMES 98: 98 chapters on the ruler;  - the thank-you films: several players on one page.
    Markup (written by styleboard/pages.py; without JS the browser's own controls stay):
      <div class="player" data-player data-dur="39.67" data-fps="24" data-title="The Colour of Rain"
           data-sprite="…/sprite.webp" data-grid="10,176,99,40,1"     columns, cell w, cell h, cells, seconds per cell (0 = one cell per chapter)
@@ -11,7 +11,7 @@
        <div class="pl-slot">…</div>                                    optional: page layers drawn on the picture, under the controls
      </div>
    Keys (for the player in use: focused, last touched, or the one on screen): Space/K play-pause, ← → 5 s, [ ] previous/next chapter,
-   , . one frame (paused), 0–9 jump to 0–90 %, M mute, F full screen. Volume is remembered (localStorage, opuscar-player).
+   , . one frame (paused), 0–9 jump to 0–90 %, M mute, F full screen. Volume is remembered (localStorage, filmes-player).
    Events on the player element: oc:state {state: idle|playing|paused|ended}, oc:idle {idle}, oc:chapter {i}. API: window.OCPlayer;
    a player: play() pause() toggle() seek(t, play) setLoop(a, b) / setLoop(null) chapterAt(t) fullscreen().
    Rules: styleboard/DESIGN.md §5 "Player". */
@@ -29,7 +29,7 @@
     of: ' of ', prev: 'Previous chapter', next: 'Next chapter', playT: 'Play {t}'
   };
   const reduce = matchMedia('(prefers-reduced-motion: reduce)');
-  const KEY = 'opuscar-player';
+  const KEY = 'filmes-player';
   const prefs = () => { try { return JSON.parse(localStorage.getItem(KEY) || '{}') || {}; } catch (e) { return {}; } };
   const keep = o => { try { localStorage.setItem(KEY, JSON.stringify(o)); } catch (e) { } };
   const clamp = (x, a, b) => Math.max(a, Math.min(b, x));
@@ -90,7 +90,7 @@
       const poster = r.querySelector('.pl-poster'), slot = r.querySelector('.pl-slot');
       box.append(v); if (poster) box.append(poster); if (slot) box.append(slot);
       box.append(el('div', 'pl-shade'));
-      if (this.ch && r.dataset.now === '1') box.append(this.now = el('p', 'pl-now'));   // off for OPUSCAR 98: the film titles its own chapters
+      if (this.ch && r.dataset.now === '1') box.append(this.now = el('p', 'pl-now'));   // off for FILMES 98: the film titles its own chapters
       if (r.dataset.bigplay !== '0') {
         this.big = el('button', 'pl-big', I.big); this.big.type = 'button';
         this.big.setAttribute('aria-label', this.title ? W.playT.replace('{t}', this.title) : W.play);
@@ -269,7 +269,7 @@
       else sys();
     }
 
-    // chapters (OPUSCAR 98): which one a time falls in, and stepping between them
+    // chapters (FILMES 98): which one a time falls in, and stepping between them
     chapterAt(t) {
       const s = this.ch && this.ch.spans; if (!s) return -1;
       let lo = 0, hi = s.length - 1;

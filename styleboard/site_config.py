@@ -8,10 +8,10 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 ROOT = os.path.normpath(os.path.join(HERE, '..'))
 
 # ---------------------------------------------------------------- a fork or a new name changes these
-REPO = 'lemomo-ai/lemo-opuscar'
+REPO = 'RafaelMarutaka/filmes-em-codigo'
 REPO_URL = f'https://github.com/{REPO}'
-SITE_URL = 'https://lemomo-ai.github.io/lemo-opuscar/'      # canonical links, hreflang, share cards, sitemap, JSON-LD
-BASE_PATH = urlparse(SITE_URL).path                          # '/lemo-opuscar/': 404.html's <base> (Pages serves it at any depth), serve.py's prefix
+SITE_URL = 'https://rafaelmarutaka.github.io/filmes-em-codigo-videos/'      # canonical links, hreflang, share cards, sitemap, JSON-LD
+BASE_PATH = urlparse(SITE_URL).path                          # '/filmes-em-codigo/': 404.html's <base> (Pages serves it at any depth), serve.py's prefix
 FILMS_URL = f'{REPO_URL}/releases/download/films'            # full quality, for "1080p ↓"
 THANKS_URL = f'{REPO_URL}/releases/download/thanks'          # the thank-you films at full quality
 MEDIA_RELEASE = 'site-media'                                 # the release holding site-media.tar (tools/site_media.sh --upload)
@@ -19,29 +19,29 @@ MEDIA_RELEASE = 'site-media'                                 # the release holdi
 # Where the pages load the 720p films from. The styles' demo films (one per style in styleboard/catalog.json) are too many for one Pages site
 # (GitHub documents 1 GB per site), so they have a Pages site of their own: the films repository, which tools/films_repo.sh fills
 # from the "web" cuts and which lists what it holds in styleboard/films_repo.json (check_site.py checks the pages against that list).
-# OPUSCAR 98, the thank-you films and the rest of the "web" release stay inside the site, at SITE_FILMS (pages.yml downloads them).
+# FILMES 98, the thank-you films and the rest of the "web" release stay inside the site, at SITE_FILMS (pages.yml downloads them).
 # A base is a path inside the site ending in / or an absolute URL ending in /. To preview locally with the style films inside the
-# site too:  OPUSCAR_FILMS_BASE=films/ python3 styleboard/build.py --site _site --films .release/web
-FILMS_REPO = 'lemomo-ai/lemo-opuscar-films'
-FILMS_REPO_URL = 'https://lemomo-ai.github.io/lemo-opuscar-films/'                    # the films repository's Pages site
-FILMS_BASE = os.environ.get('OPUSCAR_FILMS_BASE') or FILMS_REPO_URL                    # the style films
+# site too:  FILMES_FILMS_BASE=films/ python3 styleboard/build.py --site _site --films .release/web
+FILMS_REPO = 'RafaelMarutaka/filmes-em-codigo-videos'
+FILMS_REPO_URL = 'https://rafaelmarutaka.github.io/filmes-em-codigo-videos/'                    # the films repository's Pages site
+FILMS_BASE = os.environ.get('FILMES_FILMS_BASE') or FILMS_REPO_URL                    # the style films
 SITE_FILMS = 'films/'                                                                  # every other film
 FILMS_LIST = os.path.join(HERE, 'films_repo.json')                                      # what the films repository holds
 
 # ---------------------------------------------------------------- this machine (each has an environment variable)
-WEB = os.environ.get('OPUSCAR_WEB') or os.path.join(ROOT, '.release', 'web')     # the 720p cuts (tools/web_cuts.sh)
+WEB = os.environ.get('FILMES_WEB') or os.path.join(ROOT, '.release', 'web')     # the 720p cuts (tools/web_cuts.sh)
 # The site's media (posters, stills, sprites, the long take; tools/site_media.sh packs them): until the site-media release
 # exists, a folder on this machine (.release/ is ignored by git; a symlink does).
-MEDIA = os.environ.get('OPUSCAR_SITE_MEDIA') or os.path.join(ROOT, '.release', 'site-media')
+MEDIA = os.environ.get('FILMES_SITE_MEDIA') or os.path.join(ROOT, '.release', 'site-media')
 # the thank-you films' 1080p masters (promo/<id>/<id>.mp4, not in git): media.py cuts their posters at 1920 from them
-PROMO = os.environ.get('OPUSCAR_PROMO') or os.path.join(ROOT, 'promo')
+PROMO = os.environ.get('FILMES_PROMO') or os.path.join(ROOT, 'promo')
 
 
 _STYLES = None
 
 
 def is_style(fid):
-    """a style's demo film (a slug in styleboard/catalog.json, as tools/films_repo.sh counts them), as opposed to OPUSCAR 98, a
+    """a style's demo film (a slug in styleboard/catalog.json, as tools/films_repo.sh counts them), as opposed to FILMES 98, a
     thank-you film or another film of the project"""
     global _STYLES
     if _STYLES is None: _STYLES = {s['slug'] for s in json.load(open(os.path.join(HERE, 'catalog.json'), encoding='utf-8'))}

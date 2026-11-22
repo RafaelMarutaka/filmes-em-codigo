@@ -16,7 +16,7 @@ Needs the GitHub CLI (`gh auth login`) for upload and verify. Usually run throug
 import glob, hashlib, json, os, re, shutil, subprocess, sys, tarfile, tempfile
 
 ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
-REPO = 'lemomo-ai/lemo-opuscar'
+REPO = 'RafaelMarutaka/filmes-em-codigo'
 OUT = os.path.join(ROOT, '.release')
 MANIFEST = os.path.join(ROOT, 'tools', 'assets.json')
 MAX_MB = 5
@@ -33,7 +33,7 @@ PACKS = {
 # tools/assets.json keeps downloading the old file, which stays on the release.
 FILES = {'voice': 'voice-2.tar'}
 STYLE_FIELDS = ('slug', 'en', 'cn', 'category_en', 'category_cn', 'film', 'line', 'line_cn', 'frame_sec')
-SIGN_OFF = re.compile(r'(?i:lemolab)|Opus 5\.5|Sign-off')
+SIGN_OFF = re.compile(r'(?i:rafaelmarutaka)|Opus 5\.5|Sign-off')
 # a home folder may be `Alice Smith` (up to three words, none ending in a dot, so a sentence isn't swallowed); /root/ counts when a path follows it
 LOCAL_PATH = re.compile(rb'/Users/[A-Za-z0-9_](?:[A-Za-z0-9_.-]*[A-Za-z0-9_-])?(?: [A-Za-z0-9_](?:[A-Za-z0-9_.-]*[A-Za-z0-9_-])?){0,2}/|/priv' rb'ate/tmp/|/home/[A-Za-z0-9_][A-Za-z0-9_.-]*/|(?<![A-Za-z0-9_.~-])/ro' rb'ot/[A-Za-z0-9_.~-]|/Volum' rb'es/|[A-Z]:\\Users\\')
 SECRET = re.compile(rb'(sk-ant-[A-Za-z0-9_-]{20,}|sk-proj-[A-Za-z0-9_-]{20,}|sk-[A-Za-z0-9]{32,}|AIza[0-9A-Za-z_-]{30,}|gh[opsur]_[A-Za-z0-9]{30,}|github_pat_[A-Za-z0-9_]{30,}|hf_[A-Za-z0-9]{30,}|xox[bp]-[A-Za-z0-9-]{10,}|AKIA[0-9A-Z]{16}|-----BEGIN [A-Z ]*PRIV' rb'ATE KEY-----)')
@@ -48,7 +48,7 @@ def git(*a):
     if os.path.isdir(os.path.join(ROOT, '.git')):
         cmd = ['git', '-C', ROOT]
     else:
-        gd = os.path.join(tempfile.gettempdir(), 'lemo-opuscar-probe.git')
+        gd = os.path.join(tempfile.gettempdir(), 'filmes-em-codigo-probe.git')
         if not os.path.isdir(gd): subprocess.run(['git', 'init', '-q', '--bare', gd], check=True)
         cmd = ['git', f'--git-dir={gd}', f'--work-tree={ROOT}']
     return subprocess.run(cmd + list(a), cwd=ROOT, capture_output=True, text=True, check=True).stdout.split('\0')
@@ -174,10 +174,10 @@ WILD_TOKEN = re.compile(r'''(?<![^\s'"`(),;:=|])[^\s'"`(),;:=|]*?\.(?:jpe?g|png|
 PLACEHOLDER = re.compile(r'\$\{[^}]*\}|\{[^}]*\}|<[^>]*>|%0?\d*d|\[[^\]]*\]|\*+|\?')    # alt_*, alt_<n>, alt_{n}, alt_${n}, alt_%03d, alt_[0-9]
 # internal process wording that belongs in local notes, not in the library (add words here)
 PROCESS_WORDS = ('PRODUCTION_LOG', '返修', '定稿版', '定稿片', '审片', '用户说', '用户选', r'v[0-9] 的意见', '(?i:reviewer note)',
-                 'LemoOpuscarTrial', r'lemomo\.studio')
+                 'FilmesEmCodigoTrial', r'rafaelmarutaka\.studio')
 PROCESS = re.compile('|'.join(PROCESS_WORDS))
 PROCESS_EXEMPT = re.compile(r'(?:^|/)\.gitignore$|^MAINTAINING\.md$|^tools/release\.py$')   # files that state the rules
-CONTACT = re.compile(r'\blemomo\.studio@gmail\.com\b')   # the business address the READMEs and LICENSE publish on purpose
+CONTACT = re.compile(r'\brafaelmarutaka\.studio@gmail\.com\b')   # the business address the READMEs and LICENSE publish on purpose
 CONTACT_OK = re.compile(r'^(?:README(?:\.zh-CN)?\.md|LICENSE|tools/directory/README\.md)$')
 
 

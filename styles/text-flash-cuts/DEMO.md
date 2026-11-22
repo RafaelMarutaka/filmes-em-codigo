@@ -94,7 +94,7 @@ Beat / action table (seconds):
 
 ## Title card
 
-Black, left-aligned, held 5.0 s: "身后" (Noto Serif SC 900, 300 px) with a small red clip mark, "BEHIND YOU", the line "有些问题，回头才有答案。" / "Some answers wait behind you.", a thin rule, "文字闪切 Text Flash Cuts", "LemoLab × Claude Opus 5.5", "Samples: Versilian Studios (CC0)". A red bar descends on the right with her small white silhouette beneath it. The "LemoLab × Claude Opus 5.5" sign-off belongs to this library's demo only; a user's film carries no LemoLab credit and no copy of this card.
+Black, left-aligned, held 5.0 s: "身后" (Noto Serif SC 900, 300 px) with a small red clip mark, "BEHIND YOU", the line "有些问题，回头才有答案。" / "Some answers wait behind you.", a thin rule, "文字闪切 Text Flash Cuts", "Rafael Marutaka × Claude Opus 5.5", "Samples: Versilian Studios (CC0)". A red bar descends on the right with her small white silhouette beneath it. The "Rafael Marutaka × Claude Opus 5.5" sign-off belongs to this library's demo only; a user's film carries no Rafael Marutaka credit and no copy of this card.
 
 ## Build notes
 

@@ -1116,8 +1116,8 @@ function credit(t, t0, full) {
   const kl = seg(t, t0 + (full ? 0.3 : 0), t0 + (full ? 0.6 : 0.3));
   g2.strokeStyle = rgba(C.echo, 0.7 * kl); g2.lineWidth = 1; g2.beginPath(); g2.moveTo(X + 2, y - 36); g2.lineTo(X + 2 + 56 * eo(kl), y - 36); g2.stroke();
   const ks = seg(t, t0 + (full ? 0.4 : 0.1), t0 + (full ? 0.8 : 0.6));
-  const ws = scanWrite('LemoLab × Claude Opus 5.5', X + 2, y, `300 28px ${SANS}`, 1.4, C.hi, 0.97 * a, ks, 22);
-  if (ks >= 1) pushText('cr-sign', 'LemoLab × Claude Opus 5.5', X, y - 24, X + 2 + ws, y + 8);
+  const ws = scanWrite('Rafael Marutaka × Claude Opus 5.5', X + 2, y, `300 28px ${SANS}`, 1.4, C.hi, 0.97 * a, ks, 22);
+  if (ks >= 1) pushText('cr-sign', 'Rafael Marutaka × Claude Opus 5.5', X, y - 24, X + 2 + ws, y + 8);
 }
 
 // ================= world state =================

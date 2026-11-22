@@ -908,7 +908,7 @@ function buildAll() {
     const meow = el('g', {}, g);
     txt(meow, '喵', { x: 0, y: 0, 'font-size': 64, 'font-family': F.cute, fill: C.pink, 'text-anchor': 'middle', stroke: C.navy, 'stroke-width': 8, 'paint-order': 'stroke' });
     // end credit line
-    const credit = txt(g, 'LemoLab × Claude Opus 5.5', { x: 960, y: 1040, 'font-size': 30, 'font-family': F.mono, 'font-weight': 800, fill: C.navy, 'text-anchor': 'middle', 'letter-spacing': 3 });
+    const credit = txt(g, 'Rafael Marutaka × Claude Opus 5.5', { x: 960, y: 1040, 'font-size': 30, 'font-family': F.mono, 'font-weight': 800, fill: C.navy, 'text-anchor': 'middle', 'letter-spacing': 3 });
     return (t) => {
       op(credit, seg(t, 27.6, 27.9)); tf(credit, 0, 12 * (1 - E.out(seg(t, 27.6, 27.9))));
       tf(folder, 960, lerp(1400, 720, E.back(seg(t, 26.0, 26.45))), 1, -2);
