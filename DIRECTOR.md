@@ -10,7 +10,7 @@ You are the director, not a tech demo. A film is judged in this order: **sound, 
 
 The user gives a style and a topic, sometimes more (length, language, voice, must-have shots, brand rules). Everything else is your decision. Ask once, in a single message (AGENTS.md, Workflow), then no more questions. Defaults:
 
-- Length **30–60 s**; shorter and tight beats padded. Beyond two or three minutes multiplies time and token cost: tell the user.
+- Length: **no limit**. The user's length if they give one; otherwise as long as the content needs for every beat to read without rushing (40 s or 3 min are both fine). Never cut a beat or speed up the voice or the animation to fit a time. A long render takes longer: say so in one line and carry on.
 - 1920×1080 at 24 fps by default; an output frame rate set in the style's `STYLE.md` (30 or 60 fps, for example) wins, and is what you pass to `--fps` and `mux.sh`; other sizes (vertical 1080×1920, for example) with `--size WxH` on the render tools.
 - Voice and subtitles in the language the user writes in. Subtitles burned in and exported as `.srt`.
 - **The language on screen is the film's, not the demo's.** Many `STYLE.md` files set a Chinese line above an English line (subtitles, titles, labels): those are the two languages of our demos. A film in one language sets that line alone, in the upper line's place and size. A film in two keeps the stack, its main language on top. For another script, choose an openly licensed face of the same kind (weight, serif or sans, written or printed). The rest of the style's type stays: sizes, placement, how the text arrives.
@@ -114,7 +114,7 @@ Render 6–9 key shots with the real drawing code, tiled into one sheet (`core/r
 ## 11. Before you deliver
 
 - Run the review loop (TECHNIQUE.md §8): contact sheets, 0.2 s strips of key actions, one full-speed viewing with sound.
-- **One fix round.** Fix everything the review and the checks below find in one round, then check once more. Small fixes that second check turns up (a level, a frame) belong to the same round; anything bigger, tell the user in one line when you deliver. The user's notes after delivery are new rounds: change only what they ask.
+- **Fix until clean.** Fix everything the review and the checks below find, render again and run every check again on the new file, as many rounds as it takes until nothing fails. Look at frames of the final mp4 (one every 1–2 s, and at each key word of the voice): parts passing through each other, things vanishing without a reason, a step that doesn't make sense on its own, subtitles out of sync. The user's notes after delivery are new rounds: change only what they ask.
 - **Not the demo again.** After the treatment, read `DEMO.md` and compare: structure, opening, signature shot, camera path, score shape, ending. At least four of the six must differ; rethink the ones that match. Before delivery, put your contact sheet next to the demo poster (`styles/<slug>/poster.jpg`) as a last check.
 - Voice: every line transcribes back correctly (speech-to-text check). For Chinese, one misheard character in a short line is normal: listen, and if it is right, let the check expect what the model heard (TECHNIQUE.md §4).
 - Loudness about −14 LUFS; no black frames, no NaN frames; subtitles in sync and not covering key action.
